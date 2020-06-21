@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+from oauth2_provider.contrib.rest_framework import TokenHasReadWriteScope
 from rest_framework import authentication, permissions
 from rest_framework import generics
 
@@ -19,6 +20,7 @@ class AdminListUsers(generics.ListCreateAPIView):
 
 
 class UserList(generics.ListAPIView):
+    permission_classes = [permissions.IsAuthenticated]
     queryset = User.objects.all()
     serializer_class = UserSerializer
 

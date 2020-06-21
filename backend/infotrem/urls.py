@@ -13,8 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
 
 from infotrem import setup
 from infotrem.views import login, media, users, files
@@ -22,7 +24,10 @@ from infotrem.views import login, media, users, files
 admin.autodiscover()
 
 urlpatterns = [
-    path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
+    #https://jpadilla.github.io/django-rest-framework-jwt/
+    url(r'^api-token-auth/', obtain_jwt_token),
+    url(r'^api-token-refresh/', refresh_jwt_token),
+
     path('admin/', admin.site.urls),
     path('setup-db', setup.run_from_request, name='setup-db'),
     path('login', login.PerformLogin.as_view(), name='login'),

@@ -6,6 +6,7 @@ Django
 django-filter
 django-oauth-toolkit
 djangorestframework
+djangorestframework-jwt
 gunicorn
 jsonfield
 markdown
