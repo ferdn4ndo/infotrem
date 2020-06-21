@@ -1,0 +1,97 @@
+aar_wheel_arrangement,actual_owner,adhesion_factor,brake_system,manufacturer,cooling_fluid_capacity,cylinders_size,delivered_date,first_service_year,first_unit_year,fuel_capacity,fuel_type,gauge,generator,height,horsepower_total,horsepower_traction,length,lubrificant_oil_capacity,minimum_radius,model,motor_builder,motor_capacity,motor_primary,motor_type,multiple_traction_units,nickname,operated_railroads,operation_locations,original_railroads,prime_mover_type,rpm_limit,sand_capacity,serial_number,sigo_numeric_range,status,total_units,traction_effort,traction_motors,trucks_type,url,velocity_max,velocity_min,weight,weight_adherent,weight_per_axle,wheel_diameter,wheelbase,width
+B-B,,,24RL,ALCO,,"230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)",,,1948,4540 L,,Larga,GE 564 C1,4503.0,,,15697.0,,,,ALCO,,,,,Biriba,,,,DIESEL_ELECTRIC,,,,,,,,GE 752 E1,,,104.0,,108200.0,108200.0,27050.0,1016.0,8280.0,2330.0
+A1A-A1A,,,,ALCO,,,,,1953,,,Larga,,,,,,,,,ALCO,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+B-B,,,,ALCO,,"230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)",,,1952,,,Larga,GE GT-581,4.0,,,18.0,,,,ALCO,,,ALCO 244,,Canadenses e Rabo Quente,,,,DIESEL_ELECTRIC,,,,,,,23,,,,105.0,,109.96,109.96,27.49,1016.0,2.0,
+A1A-A1A,,,,ALCO,,,,,1946,,,Larga,,,,,,,,,ALCO,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+A1A-A1A,,,,ALCO,,,,,,3028 L,,Larga,,,,,,,,,ALCO,,,V-12,,,,,,DIESEL_ELECTRIC,,,,6551-6562,,,,,,,105.0,,,,,,,
+C-C,,,,ALCO,,,,,1958,,,Métrica,,,900,,,,,,ALCO,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,C-C,,,,62000.0,,,,,
+C-C,,,6SL,Baldwin-Whitcomb,,"323,85 mm (12 3/4 in) x 393,70 mm (15 1/2 in)",,,1952,,,,Westinghouse 471 BZ,,1650,,17.0,,,,Baldwin-Whitcomb,,,Turbo - Alimentado,,"Baldwin, Papo Amarelo",,,,DIESEL_ELECTRIC,1,,,,,,,6x Westinghouse AS616: 563A AS616E: 370 DEZ,AS616: Trimount Type Normal AS616E: Trimount Type & Floating Bolster,,65.0,,,,,1067.0,,2.0
+1-B+B-1,,,,Baldwin-Westinghouse,,,,,1921,,,Larga,,3834.0,1800,,16129.000000000002,,,,,,,,,,,,,ELECTRIC,,,,6311 - 6313,,,,,,,105.0,,128000.0,93440.0,21300.0,1600.0,,
+C+C,,,,Baldwin-Westinghouse,,,,,1921,,,Larga,,3834.0,1350,,15291.0,,,,,,,,,Cristaleira,,,,ELECTRIC,,,,6411 - 6418,,,,,,,65.0,,106000.0,,17700.0,1016.0,,
+1-B-B-1,,,,English-Electric,,,,,1938,,,Métrica,,3730.0,450,,,,,,English-Electric,,,Aspirado,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,75.5,,54500.0,38500.0,10000.0,,,2670.0
+A1A-A1A,,0.25,,English-Electric,,"254,0 mm (10 in) x 304,8 mm (12 in)",,,1954,2160 L,,Métrica,,3.0,,,15.0,,,,English-Electric,,,"8 cilindros em linha, superalimentado, 4 tempos",,,,,,DIESEL_ELECTRIC,850,,,701-713,,,,,Chapas rebitadas,,100.0,,72.768,49.455,,940.0,1.0,2.0
+C-C,,,,English-Electric,,,,,1949,,,Larga,,4.0,3000,,20.0,,,,,,,,,Pimentinha,,,,ELECTRIC,1,,,,,,,EE-514-A,,,100.0,,127.17,,21.195,1219.0,10.0,2.0
+C-C,,,,EMAC,,,,,1980,,,Métrica,,,2200,,,,,,Bombardier,,,,,MX,,,,DIESEL_ELECTRIC,,,,6101-6174,,,,,C-C,,,,,,,,,
+B-B,,0.25,6SL,EMD,,"215,9 mm (8 1/2 in) x 254,0mm (10 in)",,,1953,4540 L,,Métrica,D15-E,3.0,,,13.0,,,,EMD,9.290cc³ x 12,,Combustão interna,,,,,,DIESEL_ELECTRIC,800,0.34,,4091 a 4099,,,14,D19,Flexcoil,,97.0,16.0,68.0,68.0,17.0,1016.0,2.0,2.0
+B+B-B+B,,,,EMD,,,,,,12000 L - 15000 L,,,,4753.0,,,20980.0,,,,EMD,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,6 × General Motors D31,,,,,,,,,,3127.0
+B+B-B+B,,,,EMD,,,,,,12000 L - 15000 L,,,,4753.0,,,20980.0,,,,EMD,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,6 × General Motors D31,,,,,,,,,,3127.0
+D-D,,0.25,,EMD,,"230,2 mm (9 1/16 in) x 254,0 mm (10 in)",,,1970,10333 L,,Métrica,AR-10B3,4.0,3900,,22.0,,,,EMD,10.560cc³ x 20,,20 cilindros em “V”,,,,,,DIESEL_ELECTRIC,900,,,,,,,D-29,Flexcoil D,,84.9,19.8,162.0,162.0,20.25,1016.0,,3.0
+Brasil: B-B; A1A-A1A Austrália: C-C,,,6SL/26L,EMD,,"215,9 mm (8 1/2 in) x 254,0 mm (10 in)",,,,,,,D12F / D32F,3.0,1425,,14.0,,,,EMD,,,12 cilindros em V Aspirado,,EMD: General Motors  GMDD: Canadenses,,,,DIESEL_ELECTRIC,,0.34,,B-B RFFSA: (90)4101 a (90)4269  A1A RFFSA: (90)4281 a (90)4290Fepasa ex-CMEF: (91)3651 a(91)3680Fepasa ex-CPEF: (91)7051 a (91)7068,,,,Bitola 1.000mm: D19 e D29  Modernizadas: D31  Bitola 1.600mm: D47B,"Brasil: Flexi-coil B (L-136), Flexi-coil A1A  Mundo: Flexi-coil C, Bloomberg",,,18.0,,,,1016.0,,
+C-C,,,,EMD,,,,,1963,4800 L,,Métrica,,,1950,,,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,GM - D29,,,100.0,,,,16.8,,,
+C-C,,0.25,26L,MACOSA,681,"230,2 mm (9 1/16 in) x 254,0 mm (10 in)",,,1970,4000 L,,Métrica,D32T,3.0,1650,,15.0,,,,EMD,10.560cc³ x 12,,12 cilindros em V  Aspirado,,Gauxas,,,,DIESEL_ELECTRIC,900,0.34,,4451-4474,,,21,D29 ou D31,Flexicoil C,,97.0,14.0,92.0,92.0,15.333,1016.0,,2.0
+B-B,,0.25,26L,MACOSA,681,"230,2 mm (9 1/16 in) x 254,0 mm (10 in)",,,1971,4000 L,,Métrica,D32T,3.0,1650,,15.0,,,,EMD,10.560cc³ x 12,,12 cilindros em V Aspirado,,Macosas,,,,DIESEL_ELECTRIC,900,0.34,,4301-4429,,,15,D29 ou D31,Flexicoil B,,97.0,21.7,73.0,73.0,18.25,1016.0,2.0,2.0
+C-C,,0.25,26L/28-LAV-1,EMD,,"230,2 mm (9 1/16 in) x 254,0 mm (10 in)",,,1974,,,Métrica,D32T,3.0,2200,,17.0,,,,EMD,10.560cc³ x 16,,16 cilindros em V  Aspirado,,,,,,DIESEL_ELECTRIC,900,0.34,,"4501-4535  MP: 4507, 4509, 4511, 4515, 4516, 4521, 4524, 4525, 4529, 4531",,,,D29  MP: D31,Flexicoil GC,,,,,,,1016.0,,2.0
+B-B; A1A-A1A,,,6SL,EMD,,"215,9 mm (8 1/2 in) x 254,0 mm (10 in)",,,,,,Métrica,D12F,3.0,950,,14.0,,,,EMD,9.287cc³ x 8,,8 cilindros em V Aspirado,,,,,,DIESEL_ELECTRIC,835,0.34,,,,,,D19 e D29,"Flexi-coil B (L-136), Flexi-coil A1A",,100.0,18.0,,,,1016.0,,
+B-B,,0.25,26LA,EMD,,"215,9 mm (8 1/2 in) x 254,0mm (10 in)",,,1960,1893 L,,Métrica,D25-E,3.0,950,,11.0,,,,EMD,9.290cc³ x 8,,Combustão interna,,,,,,DIESEL_ELECTRIC,835,0.34,,Série 4000 a 4050 ( RFFSA ) e 3600 a 3650 ( Fepasa ),,,15,D-29,Flexicoil,,100.0,16.0,62.0,62.0,15.5,1016.0,2.0,2.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B-B,,,,EMD,,,,,1954,,,Métrica,,4420.0,,,17120.0,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,GM - D31,,,,,112944.0,,,,,3124.0
+C-C,,,,EMD,,,,,1974,6000 L,,Métrica,,3.0,,,16.0,,,,EMD,,,8V - Turbo,,,,,,DIESEL_ELECTRIC,900,0.34,,,,,20,,SCAW - GLC,,100.0,19.0,82.72,,13.72,915.0,9.0,2.0
+C-C,,,,Villares,,,,,1982,7000 L,,Métrica,,3.0,,,17.0,,,,EMD,,,Turbo Diesel / 12V,,Villares,,,,DIESEL_ELECTRIC,900,0.51,,4601 a 4652,,,23,,HTC,,105.0,20.0,108.0,,18.0,1016.0,9.0,2.0
+C-C,,,,Villares,,,,,1986,7000 L,,Métrica,,3.0,,,17.0,,,,EMD,,,12V - Turbo,,,,,,DIESEL_ELECTRIC,900,0.51,,4653 a 4662,,,28,,HTC,,80.0,18.3,120.0,,20.0,1016.0,9.0,2.0
+C-C,,0.25,26L,Villares,,"230,2 mm (9 1/16 in) x 254,0 mm (10 in)",,,1972,7360 L / 9462 L / 10870 L,,Métrica,AR-10-F,4.0,,,20.0,,,,EMD,10.560cc³ x 16,,"2 tempos,  16 cilindros em V(45º)  Turbo Alimentado",,GT  GT26,,,,DIESEL_ELECTRIC,900,0.34,,,,,,901 a 934: D29  935 a 940: D31,Flexcoil C,,,20.0,,,,1016.0,,3.0
+C-C,,,,EMD,1045,,,,1974,6100 L,,Métrica,,3.0,,,19.0,,,,EMD,,,V16 - Turbo,,,,,,DIESEL_ELECTRIC,900,0.34,,,,,27,,SCAW - GLC,,100.0,19.0,,,18.583,915.0,9.0,2.0
+C-C,,,,EMD,,,,,1961,,,Larga,D22,4.0,,,16.0,,,,EMD,,,16 cilindros em V,,"Cinquentinha, GMinhas, Cascudinhas.",,,,DIESEL_ELECTRIC,935,,,5101-5145 (1 baixa),,,,D47,,,104.0,,163.01,163.01,27.168,1016.0,2.0,3.0
+C-C,,,,EMD,,,,,1978,,,Larga,,,,,,,,,EMD,,,16V,,,,,,DIESEL_ELECTRIC,900,,,,,,,,,,,,,,,,,
+C-C,,,,EMD,,"230,2 mm (9 1/16 in) x 254,0 mm (10 in)",,,1967,,,Larga,D32,4.0,,,17.0,,,,EMD,,,16 cilindros em 45º V (V16),,,,,,DIESEL_ELECTRIC,,,,5101-5144,,,,D77,,,96.8,,163.01,163.01,,,2.0,3.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C-C,,,,EMD,,,,,1972,12000 L - 15000 L,,,,4750.0,,,20980.0,,,,EMD,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,6 × D77/78 DC,,,,,,,,,,3130.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C-C,,,,EMD,,,,,1992,,,,,,,,,,,,EMD,,,V16 V12 para o SD70ACe-T4,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B-B,,,,EMD,,,,,1954,,,,,,1350,,,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,GM - D77,,,100.0,,112000.0,,28000.0,,,
+1-C+C-1,,,,GE,,,,,1928,,,Larga,,,2500,,18.0,,,,,,,,,Quadradona,,,,ELECTRIC,,,,,,,,,914 mm,,,,133.0,,,1138.0,,
+1-C+C-1,,,14EL,GE,,,,,1943,,,Métrica,GE 5GMG-136B1 / YX32A,3.0,,,18.0,,,,,,,,,Loba e Westinghouse (para as desse fabricante),,,,ELECTRIC,,0.66,,,,,,G.E.:5 GE 734A1 Westinghouse: 374A,Barras Soldadas,,,,130.0,108.0,,1118.0,,2.0
+B-B,,,,GE,,,,,1952,,,,GE 5GT-558,,670,,,,,,Cummins,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,GE 5GE 763,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2-B+B-2,,,,GE,,,,,1921,,,Larga,,,,,16.0,,,,,,,,,Quadradinha,,,,ELECTRIC,,,,6301 a 6304,,,,,,,,,107.0,,,1067.0,,
+2-C+C-2,,,,GE,,,,,1940,,,Larga,,4343.0,3870,,23101.0,,,,GE,,,,,V8 ou Escandalosa,,,,ELECTRIC,,,,,,,,,Barras soldadas,,,20.0,,,,,,3010.0
+2-D+D-2,,,,GE,,,,,,,,,,3230.0,,,27080.0,,,,GE,,,GE750 (8),,"Little Joe (Milwaukee), 800s (South Shore) e Russa (CPEF)",,,,ELECTRIC,,,,,,,,,,,109.0,,247500.0,,,,,4390.0
+C-C,,0.25,6SL,GE,,,,,1953,5300 L,,Métrica,,3962.0,1750,,15951.0,,,,ALCO,,,12 cilindros em V,,Híbridas,,,,DIESEL_ELECTRIC,,,,2487-2499,,,,GE-561,,,96.0,,97000.0,,16200.0,914.4,,2718.0
+B,,0.25,AS-2,GE,64,"125,0 mm x 150,0 mm",,,1946,284 L,,Métrica,GT-1503-X1,3.0,,,5.0,,,,Cummins,,,,,Bitruca / Bitruquinha,,,,DIESEL_ELECTRIC,1850,,,0505-0510 (RFFSA),,,6,GE 733 - FI,,,32.0,,23.1,,11.55,838.2,1.0,2.0
+B-B,,,,GE,,,,,1947,,,Métrica,,,380,,,,,,Cummins,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+"B-B (1,6m) ou C-C (1,0m)",,,,GE,,,,,1947,,,,,,600,,,,,,Cooper-Bessemer,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+B-B,,,,GE,,,,,1956,,,Larga,,,,,,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+C-C,,,,GE,,,,,2008,,,Métrica,,4.0,4500,,22.0,,,,GE,,,Combustão interna,,,,,,DIESEL_ELECTRIC,,,,,,,,,Hi-AD C-C (corrente alternada),,113.0,,198.0,,33.0,,,3.0
+B+B,,,,GE,,,,,1921,,,Larga,,,,,11.0,,,,,,,,,Quadradinha,,,,ELECTRIC,,,,6401 a 6408,,,,,,,,,88.9,,,1066.0,,
+B-B,,,,GE,,,,,1924,,,Larga,,,662,,,,,,,,,,,Baratinha 1.ª série Baratona 2.ª série,,,,ELECTRIC,,,,6501-6518,,,,,,,,,55.5,,,1016.0,,
+,,,F-4,GE,,,,,1964,,,Métrica,,4254.0,,,13942.0,,,,GE,,,,,Mini-Saia,,,,ELECTRIC,,,,912100,,,,,fundidos,,90.0,,72800.0,72800.0,18200.0,1118.0,6501.0,3047.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C-C/B-B+B-B,,,,GE,,,,,1981,,,Métrica,,,3500,,,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,ELETROFAN EF570,,,80.0,,180.0,,22.5,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B-B+B-B,,,,GE,,,,,1995,,,Métrica,,,4000,,,,,,GE,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+B+B-B+B,,,,GE,,,,,1997,,,Métrica,,,4000,,,,,,GE,,,,,,,,,DIESEL_ELECTRIC,,,,EFVM: 1113-1311 a partir de 2009: VLI: 6020-6191 e 8667-8684 ALL: 8300-8315 Brado: 9577-9579,,,,,,,,,,,,,,
+C-C,,,,GE,,,,,1964,,,Métrica,2x GMG136,4388.0,5250,,18.0,,,,GE,,,,,"Vandeca, Vanderleia",,,,ELECTRIC,,,,6351-6360,,,22,6x G.E. 729,,,134.0,,144.0,144.0,24.0,1.0,2.0,2997.0
+C-C,,,26L,GE,,,,,1962,,,Métrica,,4.0,,,15.0,,,,,,,,,Charutão ou Carioquinha,,,,ELECTRIC,859,,,2151-2156 / 9080-9085,,,,G.E. 729,,,117.0,,123.0,123.0,20.5,1168.4,2.0,3.0
+C-C,,,,GE,,"228,6 mm x 266,7 mm",,,1999,,,Métrica,,,2400,,18.0,,,,GE,,,Combustão interna,,,,,,DIESEL_ELECTRIC,1000,,,,,,36,,,,,,117.6,,19.6,,,
+C-C,,,,GE,,,,,1976,13900 L - 15000 L,,,,4.0,3350,,20.0,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,GM - EMD D-31,,,113.0,,172.0,,28.66,,,3.0
+C-C,,,,GE,,,,,1984,,,,,,,,,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C-C,,,,GE,,,,,1977,,,Larga,,4.0,3600,,20.0,,,,GE,,,7 FDL,,Raiovack,,,,DIESEL_ELECTRIC,,,,3801-3809 e 3860-3885,,,,,,,,,180.0,,30.0,,,3.0
+C-C,,,,GE,,,,,1989,,,Larga,,4686.0,4000,,21539.0,,,,GE,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,112.0,,177600.0,,29600.0,,,3137.0
+C-C,,,,GE,,,,,1998,18900 L,,Larga,5GMG-197,4.0,4500,,22.0,,,,,,,,,"Dash9, Dash Nine",,,,DIESEL_ELECTRIC,,,,"Série 800 EFC, Série 9000 ALL",,,,5GE – 752,HiAd,,,,193.0,193.0,32.5,1.0,,3.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B+B-B+B,,,,GE,,,,,2015,14400 L,,Métrica,,,4300,,24700.0,,,,GE,,,Combustão interna,,,,,,DIESEL_ELECTRIC,,,,,,,,,AC (corrente alternada),,113.0,,196.0,,,,,
+C-C,,,,GE,,,,,2009,,,Larga,,,6000,,,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+B-B,,,,GE,,,,,1998,,,Métrica,,,1000,,,,,,Cummins,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+B-B,,,,GE,,,,,1998,,,Larga,,,600,,,,,,Cummins,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B-B,,,6SL,GE,,,,,1957,,,,5GT-581-C3,3.0,1320,,14.0,,,,Cooper-Bessemer,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,5GE-761-A3,,,,,,,,914.4,2.0,2.0
+C-C,,,6SL,GE,,,,,1956,,,,5GT-581-C3,3.0,1320,,14.0,,,,Cooper-Bessemer,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,5GE-761-A3,,,,,70000.0,,,914.4,2.0,2.0
+B-B,,,6SL,GE,,,,,1959,3028 L,,Métrica,5GT-581-C3,3664.0,1420,,15144.0,,,,Cooper-Bessemer,,,V,,,,,,DIESEL_ELECTRIC,,,,2401-2445,,,,5GE-761-A3,,,97.0,,70000.0,17500.0,17500.0,914.4,,2743.0
+C-CA1A-A1A1-C-C-1,,,6-SL-AV-1,GE,,,,,1958,3407 L,,Métrica,,,1980,,,,,,Cooper-Bessemer,,,12 cilindros em V,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,,,92500.0,,15400.0,,,
+C-C,,0.25,28L-AV-1,GE,851,"228,6 mm x 266,7 mm",,,1968,6000 L,,,,3.0,2150,,15.0,,,,GE,,,Combustão interna,,"Namibiana, Cachorrona",,,,DIESEL_ELECTRIC,1000,0.51,,,,,22,5GE761 A6,AAR,,120.0,20.0,94.494,94.494,15.75,914.4,,2.0
+C-C,,0.25,26L,GE,,,,,1985,6770 L,,Métrica,,,2408,,17983.0,,,,GE,,,12 cilindros em V,,,,,,DIESEL_ELECTRIC,,,,2801-2810,,,,5GE-761-A20,,,,,120000.0,,20000.0,914.4,,2795.0
+C-C,,0.25,26L,GE,,"230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)",,,1972,15000 L,,Métrica,GT596 CC,4.0,2475,,20.0,,,,GE,,,Combustão interna,,,,,,DIESEL_ELECTRIC,1050,,,,,,38,752B,,,103.0,,,,,1016.0,,3.0
+C-C,,0.25,26L,GE,,"230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)",,,1981,7500 L,,Métrica,,3.0,2850,,16.0,,,,GE,,,Combustão interna,,,,,,DIESEL_ELECTRIC,1050,,,,,,24,761A17,,,103.0,20.0,120.0,120.0,20.0,914.4,,3.0
+B+B-B+B,,,,GE,,,,,1963,,,,,,5000,,,,,,GE,,,2 motores GE FDL-16,,Baby Hueys,,,,DIESEL_ELECTRIC,,,,,,,,,"""B""",,,,,,,,,
+B-B,,0.25,6SL,GE,,"158,8 mm (6 1/4 in) x 203,2 mm (8 in)",,,1961,1514 L,,,GE 5GMG-146E1,3.0,600,,11.0,,,,Caterpillar,,,Combustão interna,,,,,,DIESEL_ELECTRIC,1300,0.34,,Série 2000 (2001-2088)  e 3000 (3001-3020),,,9,5GE – 761 A1,,,64.0,20.0,49.895,49.895,12.47,914.4,2.0,2.0
+B-B,,,,GE,,"158,8 mm (6 1/4 in) x 203,2 mm (8 in)",,,1961,1514 L,,Larga,GT601,3.0,700,,11.0,,,,Caterpillar,,,,,Caterpillar,,,,DIESEL_ELECTRIC,,,,,,,15,7G1A5,,,64.0,,53.1,53.1,18.835,914.4,2.0,2.0
+B-B,,,6SL,GE,,,,,1960,1514 L,,Métrica,5GT-601-A1,3658.0,900,,11380.0,,,,Caterpillar,,,V Superalimentado,,,,,,DIESEL_ELECTRIC,,,,2131-2190,,,,5GE-761-A1,,,96.0,,54500.0,,13625.0,914.4,,2743.0
+B-B (Brasil) ou C-C (Chile),,,,GE,,,,,1957,,,,,,1060,,,,,,Cooper-Bessemer,,,,,,,,,DIESEL_ELECTRIC,,,,RFFSA 2197 a 2199,,,,,,,,,,,,,,
+B-B,,,,GE,,,,,1961,,,Larga,5GT-601,,1050,,,,,,Caterpillar,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,5GE 752,,,,,,,,1.0,,
+B-B,,0.25,6SL,EMD,,"215,9 mm (8 1/2 in) x 254,0mm (10 in)",,,1953,4540 L,,Métrica,D15-E,3.0,,,13.0,,,,EMD,9.290cc³ x 12,,Combustão interna,,,,,,DIESEL_ELECTRIC,800,0.34,,4091 a 4099,,,14,D19,Flexcoil,,97.0,16.0,68.0,68.0,17.0,1016.0,2.0,2.0
+B-B,,,,EMD,,,,,1956,1590 L,,,,,,,,,,,,,,,,,,,,DIESEL_ELECTRIC,,,,,,,,,,,64.0,,54400.0,,13600.0,,,
+B-B,,,,LEW,620,175 mm x 180 mm,,,1967,2900 L,,Métrica,GBG 0609-150A,3900.0,1050,,14660.0,,,,SACM,,,12 cilindros em “V”,,Alemãzinha,,,,DIESEL_ELECTRIC,1500,,,7761 a 7796,,,,GMFB 0609-41,Apoio Elástico,,,,74000.0,,18500.0,1050.0,7700.0,3000.0
+B-B,,,,LEW,620,175 mm x 180 mm,,,1968,2900 L,,Métrica,GBG 0909-150A,3900.0,1050,,14500.0,,,,SACM,,,12 cilindros em “V”,,Alemãzinha,,,,DIESEL_ELECTRIC,1500,,,3701 a 3730,,,,GMFB 0609-41,Soldado,,,,70000.0,,17500.0,1050.0,7700.0,3000.0
+B-B,,,,LEW,720,175 mm x 180 mm,,,1968,2900 L,,Métrica,GBG 0609-150A,3900.0,1400,,14500.0,,,,SACM,,,16 cilindros em “V”,,Alemãzinha,,,,DIESEL_ELECTRIC,1500,,,3751 a 3767,,,,GMFB 0609-41,Soldado,,,,70000.0,,17500.0,1050.0,7700.0,3000.0
+1-D-1,,,,Winterthur,,,,,1929,,,Larga,,,,,16192.0,,,,,,,,,,,,,ELECTRIC,,,,,,,,,,,105.0,,123400.0,,,1600.0,,

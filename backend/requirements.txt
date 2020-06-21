@@ -1,0 +1,17 @@
+beautifulsoup4
+boto3
+coreapi
+cryptography
+Django
+django-filter
+django-oauth-toolkit
+djangorestframework
+gunicorn
+jsonfield
+markdown
+pillow
+Pygments
+python-magic
+rawkit
+requests
+stegano

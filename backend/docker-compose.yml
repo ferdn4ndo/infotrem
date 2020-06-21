@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  django:
+    container_name: infotrem-api
+    build: .
+    env_file:
+      - .env
+    command: "python manage.py runserver 0.0.0.0:9905"
+    volumes:
+      - ./:/code/
+    ports:
+      - "9905:9905"
+    expose:
+      - 9905
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
