@@ -4,11 +4,11 @@ __pycache__/
 *$py.class
 
 # Data files
-data/
+data/*
 !data/.gitkeep
 
 # Log files
-logs/
+logs/*
 !logs/.gitkeep
 
 # Environments
