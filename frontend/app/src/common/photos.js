@@ -1,0 +1,28 @@
+export const PHOTOS_LIST = [
+  "img/backgrounds/1.jpg",
+  "img/backgrounds/2.jpg",
+  "img/backgrounds/3.jpg",
+  "img/backgrounds/4.jpg",
+  "img/backgrounds/5.jpg",
+  "img/backgrounds/6.jpg",
+  "img/backgrounds/7.jpg",
+  "img/backgrounds/8.jpg",
+  "img/backgrounds/9.jpg",
+  "img/backgrounds/10.jpg",
+  "img/backgrounds/11.jpg",
+  "img/backgrounds/12.jpg",
+  "img/backgrounds/13.jpg",
+  "img/backgrounds/14.jpg",
+  "img/backgrounds/15.jpg",
+  "img/backgrounds/16.jpg",
+  "img/backgrounds/17.jpg",
+  "img/backgrounds/18.jpg",
+  "img/backgrounds/19.jpg",
+  "img/backgrounds/20.jpg",
+  "img/backgrounds/21.jpg",
+  "img/backgrounds/22.jpg",
+  "img/backgrounds/23.jpg",
+  "img/backgrounds/24.jpg",
+  "img/backgrounds/25.jpg"
+];
+export default PHOTOS_LIST;

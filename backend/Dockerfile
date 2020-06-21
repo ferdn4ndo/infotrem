@@ -42,7 +42,7 @@ RUN set -ex \
     && apk del .build-deps \
     && rm -rf /tmp/requirements.txt
 
-EXPOSE 8000
+EXPOSE 9905
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:9905"]
 

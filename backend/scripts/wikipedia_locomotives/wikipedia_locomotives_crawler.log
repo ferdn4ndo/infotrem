@@ -1,0 +1,492 @@
+2020-04-23 01:45:54,771 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_FA-1
+2020-04-23 01:45:55,518 [MainThread  ] [WARNI]  Unknown motor capacity value: 12
+2020-04-23 01:45:55,519 [MainThread  ] [WARNI]  Unable to parse integer value '19260 kg a 17,7 km/h' with unit 'kgf'
+2020-04-23 01:45:55,520 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_PA-2
+2020-04-23 01:45:56,061 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RS-3
+2020-04-23 01:45:56,738 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RSC-1
+2020-04-23 01:45:57,253 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RSC-3
+2020-04-23 01:45:57,902 [MainThread  ] [WARNI]  Unknown horsepower value: 1600 (hp)
+2020-04-23 01:45:57,903 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RSD-8
+2020-04-23 01:45:58,407 [MainThread  ] [WARNI]  Unknown fuel capacity: 500 litros/ 2000 litros (905-abpf campinas)
+2020-04-23 01:45:58,407 [MainThread  ] [WARNI]  Unable to parse float value '96 km h' with unit 'km/h'
+2020-04-23 01:45:58,408 [MainThread  ] [WARNI]  Unable to parse float value '16 km h' with unit 'km/h'
+2020-04-23 01:45:58,408 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Baldwin_AS616E
+2020-04-23 01:45:59,072 [MainThread  ] [WARNI]  Unknown fuel capacity: as616: 4.914 l as616e: 7.201l
+2020-04-23 01:45:59,073 [MainThread  ] [WARNI]  Unknown meters dimension: as616: 78m
+2020-04-23 01:45:59,074 [MainThread  ] [WARNI]  Unable to parse millimeters value 'AS616: 4.325 mm AS616E: 4.032 mm'
+2020-04-23 01:45:59,074 [MainThread  ] [WARNI]  Unable to parse millimeters value 'Internos: AS616: 2.223 mm AS616E: 1.805 mm Externos: AS616: 1.740 mm AS616E: 2.009 mm'
+2020-04-23 01:45:59,075 [MainThread  ] [WARNI]  Unknown motor capacity value: 32.429 cm³
+2020-04-23 01:45:59,076 [MainThread  ] [WARNI]  Unable to parse integer value 'AS616: 32.950 kgf AS616E: 17.014 kgf' with unit 'kgf'
+2020-04-23 01:45:59,076 [MainThread  ] [WARNI]  Unable to parse weight value 'AS616: 147.500 kg AS616E: 100.000 kg'
+2020-04-23 01:45:59,077 [MainThread  ] [WARNI]  Unable to parse weight value 'AS616: 147.500 kg AS616E: 100.000 kg'
+2020-04-23 01:45:59,077 [MainThread  ] [WARNI]  Unable to parse weight value 'AS616: 24.583 kg AS616E: 16.666 kg'
+2020-04-23 01:45:59,078 [MainThread  ] [WARNI]  Unknown gauge: AS616: 1.600 mm AS616E: 1.000 mm
+2020-04-23 01:45:59,079 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_1-B%2BB-1
+2020-04-23 01:45:59,653 [MainThread  ] [WARNI]  Unable to parse integer value '23.133 kg' with unit 'kgf'
+2020-04-23 01:45:59,654 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_C%2BC
+2020-04-23 01:46:00,159 [MainThread  ] [WARNI]  Unable to parse integer value '26.534 kg' with unit 'kgf'
+2020-04-23 01:46:00,160 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EE_VFFLB
+2020-04-23 01:46:00,663 [MainThread  ] [WARNI]  Unable to parse millimeters value '10,0 m entre batedores'
+2020-04-23 01:46:00,664 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros em linha (2 válvulas por cilindro)
+2020-04-23 01:46:00,664 [MainThread  ] [WARNI]  Unable to parse integer value '630-680 RPM' with unit 'RPM'
+2020-04-23 01:46:00,665 [MainThread  ] [WARNI]  Unable to parse integer value '8626 kg' with unit 'kgf'
+2020-04-23 01:46:00,665 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EE_RFN
+2020-04-23 01:46:01,303 [MainThread  ] [WARNI]  Unknown horsepower value: 1.000hp rebaixado para 875 hp
+2020-04-23 01:46:01,304 [MainThread  ] [WARNI]  Unable to parse weight value '~12.200 kg (motorizados) ~11.600 kg(outros)'
+2020-04-23 01:46:01,304 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EE_EFSJ
+2020-04-23 01:46:01,861 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMAQ_MX620
+2020-04-23 01:46:02,487 [MainThread  ] [WARNI]  Unable to parse weight value '96/120 tons'
+2020-04-23 01:46:02,488 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_B12
+2020-04-23 01:46:03,155 [MainThread  ] [WARNI]  Unknown horsepower value: 1.325 hp ( 1125hp )
+2020-04-23 01:46:03,156 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_BB40-2
+2020-04-23 01:46:03,786 [MainThread  ] [WARNI]  Unknown cylinders size: V16
+2020-04-23 01:46:03,787 [MainThread  ] [WARNI]  Unknown horsepower value: 3.000 hp (2.240 kw)
+2020-04-23 01:46:03,788 [MainThread  ] [WARNI]  Unable to parse float value '65 mph (105 km/h)' with unit 'km/h'
+2020-04-23 01:46:03,788 [MainThread  ] [WARNI]  Unable to parse weight value '170 toneladas'
+2020-04-23 01:46:03,789 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_BB45-2
+2020-04-23 01:46:04,434 [MainThread  ] [WARNI]  Unknown cylinders size: V16
+2020-04-23 01:46:04,435 [MainThread  ] [WARNI]  Unknown horsepower value: 3.000 hp (2.240 kw)
+2020-04-23 01:46:04,436 [MainThread  ] [WARNI]  Unable to parse float value '65 mph (105 km/h)' with unit 'km/h'
+2020-04-23 01:46:04,436 [MainThread  ] [WARNI]  Unable to parse weight value '170 toneladas'
+2020-04-23 01:46:04,437 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_DDM45
+2020-04-23 01:46:05,144 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido e Dinâmico
+2020-04-23 01:46:05,145 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G12
+2020-04-23 01:46:05,824 [MainThread  ] [WARNI]  Unknown fuel capacity: bitola 1000mm b-b:2.840la1a: l bitola 1.600mm: 3.200 l
+2020-04-23 01:46:05,825 [MainThread  ] [WARNI]  Unable to parse millimeters value '2.820mmBitola 1.600mm: 3.050mm (cilindros de freio)'
+2020-04-23 01:46:05,825 [MainThread  ] [WARNI]  Unable to parse millimeters value 'B-B: 2.420mmA1A: 1.600mm'
+2020-04-23 01:46:05,826 [MainThread  ] [WARNI]  Unknown motor capacity value: 9.287cc³ x 12 = 111.444cm^3
+2020-04-23 01:46:05,826 [MainThread  ] [WARNI]  Unable to parse integer value '835Modernizadas com 645:900' with unit 'RPM'
+2020-04-23 01:46:05,827 [MainThread  ] [WARNI]  Unable to parse integer value 'Bitola 1000mm B-B:15.180 kgfA1A: kgf Bitola 1.600mm: 18.160 kgf' with unit 'kgf'
+2020-04-23 01:46:05,828 [MainThread  ] [WARNI]  Unable to parse float value 'Bitola 1.000mm:100 km/h  Bitola 1.600mm: 121km/h, Adotado: 90km/h' with unit 'km/h'
+2020-04-23 01:46:05,828 [MainThread  ] [WARNI]  Unable to parse weight value 'Bitola 1.000mm: 74.900kg Bitola 1.600mm: 80.000 kg'
+2020-04-23 01:46:05,829 [MainThread  ] [WARNI]  Unable to parse weight value 'Bitola 1.000mm B-B: 74.900kgA1A: kg Bitola 1.600mm: 80.000 kg'
+2020-04-23 01:46:05,829 [MainThread  ] [WARNI]  Unable to parse weight value 'Bitola 1.000mm B-B: 18.190kgA1A: kg Bitola 1.600mm: 20.000 kg'
+2020-04-23 01:46:05,830 [MainThread  ] [WARNI]  Unknown gauge: 1.000 mm 1.600mm
+2020-04-23 01:46:05,831 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G16
+2020-04-23 01:46:06,481 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G22CU
+2020-04-23 01:46:07,167 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.689mm  2.019mm'
+2020-04-23 01:46:07,168 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G22U
+2020-04-23 01:46:07,904 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G26CU
+2020-04-23 01:46:08,657 [MainThread  ] [WARNI]  Unknown fuel capacity: 6.070l  mp: 6.600l
+2020-04-23 01:46:08,658 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.689mm  2.020 mm'
+2020-04-23 01:46:08,659 [MainThread  ] [WARNI]  Unable to parse float value '97,2km/h  MP: 70,0km/h' with unit 'km/h'
+2020-04-23 01:46:08,660 [MainThread  ] [WARNI]  Unable to parse float value '19,3km/h  MP: 12,5km/h' with unit 'km/h'
+2020-04-23 01:46:08,661 [MainThread  ] [WARNI]  Unable to parse weight value '96.000kg  MP: 105.000kg'
+2020-04-23 01:46:08,662 [MainThread  ] [WARNI]  Unable to parse weight value '96.000kg  MP: 105.000kg'
+2020-04-23 01:46:08,663 [MainThread  ] [WARNI]  Unable to parse weight value '16.000kg  MP: 17.500kg'
+2020-04-23 01:46:08,664 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G8
+2020-04-23 01:46:09,364 [MainThread  ] [WARNI]  Unknown fuel capacity: bitola 1000mm b-b:2.840la1a: l
+2020-04-23 01:46:09,365 [MainThread  ] [WARNI]  Unable to parse millimeters value '2.820mmBitola 1.600mm: 3.050mm (cilindros de freio)'
+2020-04-23 01:46:09,365 [MainThread  ] [WARNI]  Unable to parse millimeters value 'B-B: 2.420mmA1A: 1.600mm'
+2020-04-23 01:46:09,366 [MainThread  ] [WARNI]  Unable to parse integer value 'B-B:kgfA1A: kgf' with unit 'kgf'
+2020-04-23 01:46:09,366 [MainThread  ] [WARNI]  Unable to parse weight value '~70.000kg'
+2020-04-23 01:46:09,367 [MainThread  ] [WARNI]  Unable to parse weight value 'B-B: kg'
+2020-04-23 01:46:09,368 [MainThread  ] [WARNI]  Unable to parse weight value 'B-B: kg A1A: kg'
+2020-04-23 01:46:09,368 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GL8
+2020-04-23 01:46:10,058 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GP18
+2020-04-23 01:46:10,705 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GP9
+2020-04-23 01:46:11,362 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT18MC
+2020-04-23 01:46:11,996 [MainThread  ] [WARNI]  Unknown horsepower value: 1.555 hp (1,17mw)
+2020-04-23 01:46:11,997 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT22CUM-1
+2020-04-23 01:46:12,490 [MainThread  ] [WARNI]  Unknown brake system: Eletro-Pneumático / Eletrônico
+2020-04-23 01:46:12,492 [MainThread  ] [WARNI]  Unknown horsepower value: 2.450 hp (1,84mw)
+2020-04-23 01:46:12,492 [MainThread  ] [WARNI]  Unable to liters value '~900 l'
+2020-04-23 01:46:12,493 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT22CUM-2
+2020-04-23 01:46:13,168 [MainThread  ] [WARNI]  Unknown horsepower value: 2.475 hp (1,86mw)
+2020-04-23 01:46:13,169 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT26CUM
+2020-04-23 01:46:13,826 [MainThread  ] [WARNI]  Unknown meters dimension: 901 a 934: 58,8 m  alterado para 72,0m  935 a 940: 72,0 m
+2020-04-23 01:46:13,827 [MainThread  ] [WARNI]  Unknown horsepower value: 901 a 934: 2.700 hp  935 a 940: 3.000hp
+2020-04-23 01:46:13,828 [MainThread  ] [WARNI]  Unknown horsepower value: 901 a 934: 3.000 hp  935 a 940: 3.300hp
+2020-04-23 01:46:13,828 [MainThread  ] [WARNI]  Unable to parse integer value '901 a 934: 30.150kgf  935 a 940: 34.500kgf' with unit 'kgf'
+2020-04-23 01:46:13,829 [MainThread  ] [WARNI]  Unable to parse float value '901 a 934: 88,5 km/h  935 a 940: 97,0 km/h' with unit 'km/h'
+2020-04-23 01:46:13,829 [MainThread  ] [WARNI]  Unable to parse weight value '901 a 934: 120.600kg  935 a 940: 138.000 kg'
+2020-04-23 01:46:13,829 [MainThread  ] [WARNI]  Unable to parse weight value '901 a 934: 120.600 kg  935 a 940: 138.000kg'
+2020-04-23 01:46:13,830 [MainThread  ] [WARNI]  Unable to parse weight value '901 a 934: 20.100 kg  935 a 940: 23.000kg'
+2020-04-23 01:46:13,830 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT26MC
+2020-04-23 01:46:14,486 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD18
+2020-04-23 01:46:15,118 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD38-2
+2020-04-23 01:46:15,625 [MainThread  ] [WARNI]  Unknown horsepower value: 2.200hp (1,65mw)
+2020-04-23 01:46:15,626 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD38M
+2020-04-23 01:46:16,136 [MainThread  ] [WARNI]  Unknown fuel capacity: 3.200 galões
+2020-04-23 01:46:16,137 [MainThread  ] [WARNI]  Unknown horsepower value: 2.000hp (1,5mw)
+2020-04-23 01:46:16,138 [MainThread  ] [WARNI]  Unable to parse integer value '37,235 kg' with unit 'kgf'
+2020-04-23 01:46:16,138 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD40
+2020-04-23 01:46:16,811 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD40-2
+2020-04-23 01:46:17,446 [MainThread  ] [WARNI]  Unknown cylinders size: V16
+2020-04-23 01:46:17,447 [MainThread  ] [WARNI]  Unknown horsepower value: 3.000 hp (2.240 kw)
+2020-04-23 01:46:17,447 [MainThread  ] [WARNI]  Unable to parse float value '65 mph (105 km/h)' with unit 'km/h'
+2020-04-23 01:46:17,448 [MainThread  ] [WARNI]  Unable to parse weight value '167 toneladas'
+2020-04-23 01:46:17,448 [MainThread  ] [WARNI]  Unable to parse weight value '27 833 kg'
+2020-04-23 01:46:17,450 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD60M
+2020-04-23 01:46:18,092 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD70
+2020-04-23 01:46:18,736 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD70M
+2020-04-23 01:46:19,260 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SW
+2020-04-23 01:46:19,937 [MainThread  ] [WARNI]  Unknown gauge: 1435 mm
+2020-04-23 01:46:19,938 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(CPEF)
+2020-04-23 01:46:20,597 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(EFS)
+2020-04-23 01:46:21,099 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.981/2.438mm'
+2020-04-23 01:46:21,100 [MainThread  ] [WARNI]  Unable to parse integer value 'GE:12.900kgf (contínuo) 15.750kgf (unihorário) Westinghouse:11.100kgf (contínuo) 13.500kgf (unihorário)' with unit 'kgf'
+2020-04-23 01:46:21,101 [MainThread  ] [WARNI]  Unable to parse float value '90 km/h 48 km/h em regime contínuo' with unit 'km/h'
+2020-04-23 01:46:21,102 [MainThread  ] [WARNI]  Unable to parse weight value 'Aderente:18.000kg Guia:11.000kg'
+2020-04-23 01:46:21,103 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_100T
+2020-04-23 01:46:21,603 [MainThread  ] [WARNI]  Unknown gauge: 1,000 a 1,676 m
+2020-04-23 01:46:21,604 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_15T
+2020-04-23 01:46:22,114 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_2-B%2BB-2
+2020-04-23 01:46:22,684 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_2-C%2BC-2
+2020-04-23 01:46:23,378 [MainThread  ] [WARNI]  Unable to parse float value '145 km/h (164 km/h recorde nacional sobre trilhos)' with unit 'km/h'
+2020-04-23 01:46:23,378 [MainThread  ] [WARNI]  Unable to parse weight value '165,1 kg(Peso total) - 165.074 kgAderente: 122.445 kg'
+2020-04-23 01:46:23,379 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_2-D%2BD-2
+2020-04-23 01:46:24,095 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido
+2020-04-23 01:46:24,096 [MainThread  ] [WARNI]  Unknown horsepower value: 4,12 mw
+2020-04-23 01:46:24,097 [MainThread  ] [WARNI]  Unable to parse integer value '337 kN' with unit 'kgf'
+2020-04-23 01:46:24,098 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_244
+2020-04-23 01:46:24,759 [MainThread  ] [WARNI]  Unable to parse integer value '24.250 kg' with unit 'kgf'
+2020-04-23 01:46:24,761 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_25T
+2020-04-23 01:46:25,487 [MainThread  ] [WARNI]  Unknown horsepower value: 160 hp  165 hp
+2020-04-23 01:46:25,488 [MainThread  ] [WARNI]  Unknown motor capacity value: 6(original)
+2020-04-23 01:46:25,489 [MainThread  ] [WARNI]  Unable to parse float value '308 kg' with unit 'm³'
+2020-04-23 01:46:25,490 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_47T
+2020-04-23 01:46:26,016 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_70T
+2020-04-23 01:46:26,523 [MainThread  ] [WARNI]  Unknown gauge: 1,000 e 1,600 m (Brasil)
+2020-04-23 01:46:26,525 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_88T
+2020-04-23 01:46:27,063 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_AC44i
+2020-04-23 01:46:27,730 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B%2BB_(CPEF)
+2020-04-23 01:46:28,290 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B-B_(CPEF_-_Baratinha)
+2020-04-23 01:46:28,828 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B-B_(EFS)
+2020-04-23 01:46:29,430 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B36-7
+2020-04-23 01:46:29,917 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB33
+2020-04-23 01:46:30,565 [MainThread  ] [WARNI]  Unknown fuel capacity: 13.900 litros
+2020-04-23 01:46:30,566 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB40-8M
+2020-04-23 01:46:31,247 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB40-9M
+2020-04-23 01:46:31,749 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB40-9WM
+2020-04-23 01:46:32,403 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C-C_(CPEF)
+2020-04-23 01:46:33,051 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C-C_(RFFSA)
+2020-04-23 01:46:33,628 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C22-7i
+2020-04-23 01:46:34,146 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C30-7
+2020-04-23 01:46:34,790 [MainThread  ] [WARNI]  Unknown gauge: 1000, 1435, 1600 mm
+2020-04-23 01:46:34,791 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C32-8
+2020-04-23 01:46:35,427 [MainThread  ] [WARNI]  Unknown horsepower value: 3,200hp hp (2.38 mw)
+2020-04-23 01:46:35,427 [MainThread  ] [WARNI]  Unknown gauge: 1,435 mm
+2020-04-23 01:46:35,428 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C36-7
+2020-04-23 01:46:36,126 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C36ME
+2020-04-23 01:46:36,776 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C40-8
+2020-04-23 01:46:37,276 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C44-9WM
+2020-04-23 01:46:37,947 [MainThread  ] [WARNI]  Unable to parse float value '74 mph - 119 km/h' with unit 'km/h'
+2020-04-23 01:46:37,949 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C44-EMi
+2020-04-23 01:46:38,690 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_ES43BBi
+2020-04-23 01:46:39,263 [MainThread  ] [WARNI]  Unable to parse float value '950 litros' with unit 'm³'
+2020-04-23 01:46:39,264 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_ES58ACi
+2020-04-23 01:46:39,795 [MainThread  ] [WARNI]  Unknown motor capacity value: 16 cilindros
+2020-04-23 01:46:39,796 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_SL100
+2020-04-23 01:46:40,309 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_SL65T
+2020-04-23 01:46:40,852 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U10B
+2020-04-23 01:46:41,511 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U12B
+2020-04-23 01:46:42,224 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros
+2020-04-23 01:46:42,225 [MainThread  ] [WARNI]  Unknown gauge: 1,000 m e 1,067 m
+2020-04-23 01:46:42,242 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U12C
+2020-04-23 01:46:42,932 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros
+2020-04-23 01:46:42,933 [MainThread  ] [WARNI]  Unknown gauge: 0,914 m, 1,000 m, 1,067 m, 1,435 m e 1,600 m
+2020-04-23 01:46:42,934 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U13B
+2020-04-23 01:46:43,593 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros
+2020-04-23 01:46:43,594 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U18C
+2020-04-23 01:46:44,319 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U20C
+2020-04-23 01:46:45,007 [MainThread  ] [WARNI]  Unknown generator: corrente continua
+2020-04-23 01:46:45,008 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.594 e 1.911'
+2020-04-23 01:46:45,009 [MainThread  ] [WARNI]  Unknown gauge: 1000 mm e 1600 mm (Brasil)
+2020-04-23 01:46:45,009 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U22C
+2020-04-23 01:46:45,664 [MainThread  ] [WARNI]  Unable to parse integer value '30.000 kg' with unit 'kgf'
+2020-04-23 01:46:45,665 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U23C
+2020-04-23 01:46:46,327 [MainThread  ] [WARNI]  Unknown meters dimension: 83.2 m
+2020-04-23 01:46:46,328 [MainThread  ] [WARNI]  Unable to parse millimeters value '2.019 mm  2.121 mm'
+2020-04-23 01:46:46,329 [MainThread  ] [WARNI]  Unable to parse weight value '180.000 kg  165.000 kg (Cachoeirinhas)'
+2020-04-23 01:46:46,329 [MainThread  ] [WARNI]  Unable to parse weight value '180.000 kg  165.000 kg (Cachoeirinhas)'
+2020-04-23 01:46:46,330 [MainThread  ] [WARNI]  Unable to parse weight value '30.000 kg  27.500 kg (Cachoeirinhas)'
+2020-04-23 01:46:46,331 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U26C
+2020-04-23 01:46:46,981 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U50
+2020-04-23 01:46:47,633 [MainThread  ] [WARNI]  Unknown gauge: 1,435 m
+2020-04-23 01:46:47,634 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U5B
+2020-04-23 01:46:48,306 [MainThread  ] [WARNI]  Unknown gauge: 1000 e 1600 mm
+2020-04-23 01:46:48,307 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U6B
+2020-04-23 01:46:48,981 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U8B
+2020-04-23 01:46:49,622 [MainThread  ] [WARNI]  Unknown motor capacity value: 12 cilindros
+2020-04-23 01:46:49,623 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U9B
+2020-04-23 01:46:50,275 [MainThread  ] [WARNI]  Unknown gauge: 1,000m e 1,600m
+2020-04-23 01:46:50,276 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_UM10B
+2020-04-23 01:46:51,889 [MainThread  ] [WARNI]  Unable to parse weight value '100 a 127 t'
+2020-04-23 01:46:51,890 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GMD_B12
+2020-04-23 01:46:52,826 [MainThread  ] [WARNI]  Unknown horsepower value: 1.325 hp ( 1125hp )
+2020-04-23 01:46:52,827 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GMD_GMDH-1
+2020-04-23 01:46:53,628 [MainThread  ] [WARNI]  Unknown horsepower value: 660 hp (vfrgs) e 875 hp
+2020-04-23 01:46:53,629 [MainThread  ] [WARNI]  Unknown gauge: 1000, 1435 e 1676 mm
+2020-04-23 01:46:53,630 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/LEW_DE_I_PA
+2020-04-23 01:46:54,272 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido
+2020-04-23 01:46:54,272 [MainThread  ] [WARNI]  Unknown motor capacity value: 12
+2020-04-23 01:46:54,273 [MainThread  ] [WARNI]  Unable to parse float value '334 l' with unit 'm³'
+2020-04-23 01:46:54,275 [MainThread  ] [WARNI]  Unable to parse integer value '9300 kgf a 20 km/h' with unit 'kgf'
+2020-04-23 01:46:54,276 [MainThread  ] [WARNI]  Unable to parse float value '90 km' with unit 'km/h'
+2020-04-23 01:46:54,277 [MainThread  ] [WARNI]  Unable to parse float value '14 km' with unit 'km/h'
+2020-04-23 01:46:54,278 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/LEW_DE_II_S
+2020-04-23 01:46:55,000 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido e dinâmico
+2020-04-23 01:46:55,001 [MainThread  ] [WARNI]  Unknown motor capacity value: 12
+2020-04-23 01:46:55,003 [MainThread  ] [WARNI]  Unable to parse float value '334 l' with unit 'm³'
+2020-04-23 01:46:55,004 [MainThread  ] [WARNI]  Unable to parse integer value '9300 kgf a 20 km/h' with unit 'kgf'
+2020-04-23 01:46:55,005 [MainThread  ] [WARNI]  Unable to parse float value '90 km' with unit 'km/h'
+2020-04-23 01:46:55,005 [MainThread  ] [WARNI]  Unable to parse float value '14 km' with unit 'km/h'
+2020-04-23 01:46:55,006 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/LEW_DE_III_M
+2020-04-23 01:46:55,504 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido e dinâmico
+2020-04-23 01:46:55,505 [MainThread  ] [WARNI]  Unknown motor capacity value: 16
+2020-04-23 01:46:55,506 [MainThread  ] [WARNI]  Unable to parse float value '334 l' with unit 'm³'
+2020-04-23 01:46:55,506 [MainThread  ] [WARNI]  Unable to parse integer value '12700 kgf a 20 km/h' with unit 'kgf'
+2020-04-23 01:46:55,507 [MainThread  ] [WARNI]  Unable to parse float value '100 km' with unit 'km/h'
+2020-04-23 01:46:55,507 [MainThread  ] [WARNI]  Unable to parse float value '20,6 km' with unit 'km/h'
+2020-04-23 01:46:55,508 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Winterthur-BBC_1-D-1
+2020-04-23 01:46:56,062 [MainThread  ] [WARNI]  Unable to parse integer value '12700 kg' with unit 'kgf'
+2020-04-23 01:46:56,062 [MainThread  ] [INFO ]  Parsed 96 locomotives
+2020-04-23 01:46:56,070 [MainThread  ] [INFO ]  Exported CSV results to wikipedia_locomotives_crawler_output.csv
+2020-04-23 01:46:56,080 [MainThread  ] [INFO ]  Exported JSON results to wikipedia_locomotives_crawler_output.json
+2020-04-23 21:42:07,027 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_FA-1
+2020-04-23 21:42:07,987 [MainThread  ] [WARNI]  Unknown motor capacity value: 12
+2020-04-23 21:42:07,988 [MainThread  ] [WARNI]  Unable to parse integer value '19260 kg a 17,7 km/h' with unit 'kgf'
+2020-04-23 21:42:07,989 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_PA-2
+2020-04-23 21:42:08,637 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RS-3
+2020-04-23 21:42:09,453 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RSC-1
+2020-04-23 21:42:10,028 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RSC-3
+2020-04-23 21:42:10,817 [MainThread  ] [WARNI]  Unknown horsepower value: 1600 (hp)
+2020-04-23 21:42:10,818 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/ALCO_RSD-8
+2020-04-23 21:42:11,354 [MainThread  ] [WARNI]  Unknown fuel capacity: 500 litros/ 2000 litros (905-abpf campinas)
+2020-04-23 21:42:11,355 [MainThread  ] [WARNI]  Unable to parse float value '96 km h' with unit 'km/h'
+2020-04-23 21:42:11,355 [MainThread  ] [WARNI]  Unable to parse float value '16 km h' with unit 'km/h'
+2020-04-23 21:42:11,356 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Baldwin_AS616E
+2020-04-23 21:42:12,002 [MainThread  ] [WARNI]  Unknown fuel capacity: as616: 4.914 l as616e: 7.201l
+2020-04-23 21:42:12,003 [MainThread  ] [WARNI]  Unknown meters dimension: as616: 78m
+2020-04-23 21:42:12,004 [MainThread  ] [WARNI]  Unable to parse millimeters value 'AS616: 4.325 mm AS616E: 4.032 mm'
+2020-04-23 21:42:12,005 [MainThread  ] [WARNI]  Unable to parse millimeters value 'Internos: AS616: 2.223 mm AS616E: 1.805 mm Externos: AS616: 1.740 mm AS616E: 2.009 mm'
+2020-04-23 21:42:12,006 [MainThread  ] [WARNI]  Unknown motor capacity value: 32.429 cm³
+2020-04-23 21:42:12,006 [MainThread  ] [WARNI]  Unable to parse integer value 'AS616: 32.950 kgf AS616E: 17.014 kgf' with unit 'kgf'
+2020-04-23 21:42:12,007 [MainThread  ] [WARNI]  Unable to parse weight value 'AS616: 147.500 kg AS616E: 100.000 kg'
+2020-04-23 21:42:12,008 [MainThread  ] [WARNI]  Unable to parse weight value 'AS616: 147.500 kg AS616E: 100.000 kg'
+2020-04-23 21:42:12,008 [MainThread  ] [WARNI]  Unable to parse weight value 'AS616: 24.583 kg AS616E: 16.666 kg'
+2020-04-23 21:42:12,009 [MainThread  ] [WARNI]  Unknown gauge: AS616: 1.600 mm AS616E: 1.000 mm
+2020-04-23 21:42:12,010 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_1-B%2BB-1
+2020-04-23 21:42:12,632 [MainThread  ] [WARNI]  Unable to parse integer value '23.133 kg' with unit 'kgf'
+2020-04-23 21:42:12,633 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_C%2BC
+2020-04-23 21:42:13,166 [MainThread  ] [WARNI]  Unable to parse integer value '26.534 kg' with unit 'kgf'
+2020-04-23 21:42:13,167 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EE_VFFLB
+2020-04-23 21:42:13,739 [MainThread  ] [WARNI]  Unable to parse millimeters value '10,0 m entre batedores'
+2020-04-23 21:42:13,740 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros em linha (2 válvulas por cilindro)
+2020-04-23 21:42:13,741 [MainThread  ] [WARNI]  Unable to parse integer value '630-680 RPM' with unit 'RPM'
+2020-04-23 21:42:13,741 [MainThread  ] [WARNI]  Unable to parse integer value '8626 kg' with unit 'kgf'
+2020-04-23 21:42:13,742 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EE_RFN
+2020-04-23 21:42:14,974 [MainThread  ] [WARNI]  Unknown horsepower value: 1.000hp rebaixado para 875 hp
+2020-04-23 21:42:14,976 [MainThread  ] [WARNI]  Unable to parse weight value '~12.200 kg (motorizados) ~11.600 kg(outros)'
+2020-04-23 21:42:14,978 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EE_EFSJ
+2020-04-23 21:42:15,681 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMAQ_MX620
+2020-04-23 21:42:16,914 [MainThread  ] [WARNI]  Unable to parse weight value '96/120 tons'
+2020-04-23 21:42:16,916 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_B12
+2020-04-23 21:42:19,385 [MainThread  ] [WARNI]  Unknown horsepower value: 1.325 hp ( 1125hp )
+2020-04-23 21:42:19,386 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_BB40-2
+2020-04-23 21:42:20,489 [MainThread  ] [WARNI]  Unknown cylinders size: V16
+2020-04-23 21:42:20,490 [MainThread  ] [WARNI]  Unknown horsepower value: 3.000 hp (2.240 kw)
+2020-04-23 21:42:20,491 [MainThread  ] [WARNI]  Unable to parse float value '65 mph (105 km/h)' with unit 'km/h'
+2020-04-23 21:42:20,492 [MainThread  ] [WARNI]  Unable to parse weight value '170 toneladas'
+2020-04-23 21:42:20,493 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_BB45-2
+2020-04-23 21:42:22,571 [MainThread  ] [WARNI]  Unknown cylinders size: V16
+2020-04-23 21:42:22,572 [MainThread  ] [WARNI]  Unknown horsepower value: 3.000 hp (2.240 kw)
+2020-04-23 21:42:22,573 [MainThread  ] [WARNI]  Unable to parse float value '65 mph (105 km/h)' with unit 'km/h'
+2020-04-23 21:42:22,574 [MainThread  ] [WARNI]  Unable to parse weight value '170 toneladas'
+2020-04-23 21:42:22,575 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_DDM45
+2020-04-23 21:42:23,352 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido e Dinâmico
+2020-04-23 21:42:23,354 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G12
+2020-04-23 21:42:24,432 [MainThread  ] [WARNI]  Unknown fuel capacity: bitola 1000mm b-b:2.840la1a: l bitola 1.600mm: 3.200 l
+2020-04-23 21:42:24,434 [MainThread  ] [WARNI]  Unable to parse millimeters value '2.820mmBitola 1.600mm: 3.050mm (cilindros de freio)'
+2020-04-23 21:42:24,436 [MainThread  ] [WARNI]  Unable to parse millimeters value 'B-B: 2.420mmA1A: 1.600mm'
+2020-04-23 21:42:24,438 [MainThread  ] [WARNI]  Unknown motor capacity value: 9.287cc³ x 12 = 111.444cm^3
+2020-04-23 21:42:24,438 [MainThread  ] [WARNI]  Unable to parse integer value '835Modernizadas com 645:900' with unit 'RPM'
+2020-04-23 21:42:24,439 [MainThread  ] [WARNI]  Unable to parse integer value 'Bitola 1000mm B-B:15.180 kgfA1A: kgf Bitola 1.600mm: 18.160 kgf' with unit 'kgf'
+2020-04-23 21:42:24,444 [MainThread  ] [WARNI]  Unable to parse float value 'Bitola 1.000mm:100 km/h  Bitola 1.600mm: 121km/h, Adotado: 90km/h' with unit 'km/h'
+2020-04-23 21:42:24,445 [MainThread  ] [WARNI]  Unable to parse weight value 'Bitola 1.000mm: 74.900kg Bitola 1.600mm: 80.000 kg'
+2020-04-23 21:42:24,446 [MainThread  ] [WARNI]  Unable to parse weight value 'Bitola 1.000mm B-B: 74.900kgA1A: kg Bitola 1.600mm: 80.000 kg'
+2020-04-23 21:42:24,446 [MainThread  ] [WARNI]  Unable to parse weight value 'Bitola 1.000mm B-B: 18.190kgA1A: kg Bitola 1.600mm: 20.000 kg'
+2020-04-23 21:42:24,448 [MainThread  ] [WARNI]  Unknown gauge: 1.000 mm 1.600mm
+2020-04-23 21:42:24,449 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G16
+2020-04-23 21:42:25,413 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G22CU
+2020-04-23 21:42:26,180 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.689mm  2.019mm'
+2020-04-23 21:42:26,181 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G22U
+2020-04-23 21:42:27,002 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G26CU
+2020-04-23 21:42:27,790 [MainThread  ] [WARNI]  Unknown fuel capacity: 6.070l  mp: 6.600l
+2020-04-23 21:42:27,791 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.689mm  2.020 mm'
+2020-04-23 21:42:27,792 [MainThread  ] [WARNI]  Unable to parse float value '97,2km/h  MP: 70,0km/h' with unit 'km/h'
+2020-04-23 21:42:27,792 [MainThread  ] [WARNI]  Unable to parse float value '19,3km/h  MP: 12,5km/h' with unit 'km/h'
+2020-04-23 21:42:27,793 [MainThread  ] [WARNI]  Unable to parse weight value '96.000kg  MP: 105.000kg'
+2020-04-23 21:42:27,794 [MainThread  ] [WARNI]  Unable to parse weight value '96.000kg  MP: 105.000kg'
+2020-04-23 21:42:27,795 [MainThread  ] [WARNI]  Unable to parse weight value '16.000kg  MP: 17.500kg'
+2020-04-23 21:42:27,796 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_G8
+2020-04-23 21:42:28,570 [MainThread  ] [WARNI]  Unknown fuel capacity: bitola 1000mm b-b:2.840la1a: l
+2020-04-23 21:42:28,571 [MainThread  ] [WARNI]  Unable to parse millimeters value '2.820mmBitola 1.600mm: 3.050mm (cilindros de freio)'
+2020-04-23 21:42:28,572 [MainThread  ] [WARNI]  Unable to parse millimeters value 'B-B: 2.420mmA1A: 1.600mm'
+2020-04-23 21:42:28,572 [MainThread  ] [WARNI]  Unable to parse integer value 'B-B:kgfA1A: kgf' with unit 'kgf'
+2020-04-23 21:42:28,573 [MainThread  ] [WARNI]  Unable to parse weight value '~70.000kg'
+2020-04-23 21:42:28,574 [MainThread  ] [WARNI]  Unable to parse weight value 'B-B: kg'
+2020-04-23 21:42:28,574 [MainThread  ] [WARNI]  Unable to parse weight value 'B-B: kg A1A: kg'
+2020-04-23 21:42:28,575 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GL8
+2020-04-23 21:42:29,508 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GP18
+2020-04-23 21:42:30,105 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GP9
+2020-04-23 21:42:30,944 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT18MC
+2020-04-23 21:42:31,649 [MainThread  ] [WARNI]  Unknown horsepower value: 1.555 hp (1,17mw)
+2020-04-23 21:42:31,650 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT22CUM-1
+2020-04-23 21:42:32,276 [MainThread  ] [WARNI]  Unknown brake system: Eletro-Pneumático / Eletrônico
+2020-04-23 21:42:32,277 [MainThread  ] [WARNI]  Unknown horsepower value: 2.450 hp (1,84mw)
+2020-04-23 21:42:32,278 [MainThread  ] [WARNI]  Unable to liters value '~900 l'
+2020-04-23 21:42:32,278 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT22CUM-2
+2020-04-23 21:42:33,048 [MainThread  ] [WARNI]  Unknown horsepower value: 2.475 hp (1,86mw)
+2020-04-23 21:42:33,049 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT26CUM
+2020-04-23 21:42:33,825 [MainThread  ] [WARNI]  Unknown meters dimension: 901 a 934: 58,8 m  alterado para 72,0m  935 a 940: 72,0 m
+2020-04-23 21:42:33,826 [MainThread  ] [WARNI]  Unknown horsepower value: 901 a 934: 2.700 hp  935 a 940: 3.000hp
+2020-04-23 21:42:33,827 [MainThread  ] [WARNI]  Unknown horsepower value: 901 a 934: 3.000 hp  935 a 940: 3.300hp
+2020-04-23 21:42:33,829 [MainThread  ] [WARNI]  Unable to parse integer value '901 a 934: 30.150kgf  935 a 940: 34.500kgf' with unit 'kgf'
+2020-04-23 21:42:33,830 [MainThread  ] [WARNI]  Unable to parse float value '901 a 934: 88,5 km/h  935 a 940: 97,0 km/h' with unit 'km/h'
+2020-04-23 21:42:33,832 [MainThread  ] [WARNI]  Unable to parse weight value '901 a 934: 120.600kg  935 a 940: 138.000 kg'
+2020-04-23 21:42:33,832 [MainThread  ] [WARNI]  Unable to parse weight value '901 a 934: 120.600 kg  935 a 940: 138.000kg'
+2020-04-23 21:42:33,833 [MainThread  ] [WARNI]  Unable to parse weight value '901 a 934: 20.100 kg  935 a 940: 23.000kg'
+2020-04-23 21:42:33,834 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_GT26MC
+2020-04-23 21:42:34,648 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD18
+2020-04-23 21:42:35,464 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD38-2
+2020-04-23 21:42:35,990 [MainThread  ] [WARNI]  Unknown horsepower value: 2.200hp (1,65mw)
+2020-04-23 21:42:35,991 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD38M
+2020-04-23 21:42:36,495 [MainThread  ] [WARNI]  Unknown fuel capacity: 3.200 galões
+2020-04-23 21:42:36,496 [MainThread  ] [WARNI]  Unknown horsepower value: 2.000hp (1,5mw)
+2020-04-23 21:42:36,498 [MainThread  ] [WARNI]  Unable to parse integer value '37,235 kg' with unit 'kgf'
+2020-04-23 21:42:36,499 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD40
+2020-04-23 21:42:37,141 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD40-2
+2020-04-23 21:42:37,987 [MainThread  ] [WARNI]  Unknown cylinders size: V16
+2020-04-23 21:42:37,988 [MainThread  ] [WARNI]  Unknown horsepower value: 3.000 hp (2.240 kw)
+2020-04-23 21:42:37,989 [MainThread  ] [WARNI]  Unable to parse float value '65 mph (105 km/h)' with unit 'km/h'
+2020-04-23 21:42:37,989 [MainThread  ] [WARNI]  Unable to parse weight value '167 toneladas'
+2020-04-23 21:42:37,990 [MainThread  ] [WARNI]  Unable to parse weight value '27 833 kg'
+2020-04-23 21:42:37,990 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD60M
+2020-04-23 21:42:38,701 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD70
+2020-04-23 21:42:39,546 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SD70M
+2020-04-23 21:42:40,155 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/EMD_SW
+2020-04-23 21:42:41,004 [MainThread  ] [WARNI]  Unknown gauge: 1435 mm
+2020-04-23 21:42:41,005 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(CPEF)
+2020-04-23 21:42:41,833 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(EFS)
+2020-04-23 21:42:42,390 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.981/2.438mm'
+2020-04-23 21:42:42,392 [MainThread  ] [WARNI]  Unable to parse integer value 'GE:12.900kgf (contínuo) 15.750kgf (unihorário) Westinghouse:11.100kgf (contínuo) 13.500kgf (unihorário)' with unit 'kgf'
+2020-04-23 21:42:42,394 [MainThread  ] [WARNI]  Unable to parse float value '90 km/h 48 km/h em regime contínuo' with unit 'km/h'
+2020-04-23 21:42:42,394 [MainThread  ] [WARNI]  Unable to parse weight value 'Aderente:18.000kg Guia:11.000kg'
+2020-04-23 21:42:42,395 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_100T
+2020-04-23 21:42:43,035 [MainThread  ] [WARNI]  Unknown gauge: 1,000 a 1,676 m
+2020-04-23 21:42:43,037 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_15T
+2020-04-23 21:42:43,617 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_2-B%2BB-2
+2020-04-23 21:42:44,281 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_2-C%2BC-2
+2020-04-23 21:42:45,088 [MainThread  ] [WARNI]  Unable to parse float value '145 km/h (164 km/h recorde nacional sobre trilhos)' with unit 'km/h'
+2020-04-23 21:42:45,089 [MainThread  ] [WARNI]  Unable to parse weight value '165,1 kg(Peso total) - 165.074 kgAderente: 122.445 kg'
+2020-04-23 21:42:45,089 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_2-D%2BD-2
+2020-04-23 21:42:45,914 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido
+2020-04-23 21:42:45,916 [MainThread  ] [WARNI]  Unknown horsepower value: 4,12 mw
+2020-04-23 21:42:45,917 [MainThread  ] [WARNI]  Unable to parse integer value '337 kN' with unit 'kgf'
+2020-04-23 21:42:45,918 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_244
+2020-04-23 21:42:46,740 [MainThread  ] [WARNI]  Unable to parse integer value '24.250 kg' with unit 'kgf'
+2020-04-23 21:42:46,741 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_25T
+2020-04-23 21:42:47,599 [MainThread  ] [WARNI]  Unknown horsepower value: 160 hp  165 hp
+2020-04-23 21:42:47,600 [MainThread  ] [WARNI]  Unknown motor capacity value: 6(original)
+2020-04-23 21:42:47,601 [MainThread  ] [WARNI]  Unable to parse float value '308 kg' with unit 'm³'
+2020-04-23 21:42:47,603 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_47T
+2020-04-23 21:42:48,167 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_70T
+2020-04-23 21:42:48,785 [MainThread  ] [WARNI]  Unknown gauge: 1,000 e 1,600 m (Brasil)
+2020-04-23 21:42:48,787 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_88T
+2020-04-23 21:42:49,409 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_AC44i
+2020-04-23 21:42:50,295 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B%2BB_(CPEF)
+2020-04-23 21:42:50,879 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B-B_(CPEF_-_Baratinha)
+2020-04-23 21:42:51,467 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B-B_(EFS)
+2020-04-23 21:42:52,180 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_B36-7
+2020-04-23 21:42:52,792 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB33
+2020-04-23 21:42:53,630 [MainThread  ] [WARNI]  Unknown fuel capacity: 13.900 litros
+2020-04-23 21:42:53,631 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB40-8M
+2020-04-23 21:42:54,413 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB40-9M
+2020-04-23 21:42:55,174 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_BB40-9WM
+2020-04-23 21:42:55,991 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C-C_(CPEF)
+2020-04-23 21:42:56,627 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C-C_(RFFSA)
+2020-04-23 21:42:57,315 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C22-7i
+2020-04-23 21:42:57,947 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C30-7
+2020-04-23 21:42:58,673 [MainThread  ] [WARNI]  Unknown gauge: 1000, 1435, 1600 mm
+2020-04-23 21:42:58,674 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C32-8
+2020-04-23 21:42:59,485 [MainThread  ] [WARNI]  Unknown horsepower value: 3,200hp hp (2.38 mw)
+2020-04-23 21:42:59,486 [MainThread  ] [WARNI]  Unknown gauge: 1,435 mm
+2020-04-23 21:42:59,487 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C36-7
+2020-04-23 21:43:00,344 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C36ME
+2020-04-23 21:43:01,137 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C40-8
+2020-04-23 21:43:01,737 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C44-9WM
+2020-04-23 21:43:02,496 [MainThread  ] [WARNI]  Unable to parse float value '74 mph - 119 km/h' with unit 'km/h'
+2020-04-23 21:43:02,498 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_C44-EMi
+2020-04-23 21:43:03,213 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_ES43BBi
+2020-04-23 21:43:04,085 [MainThread  ] [WARNI]  Unable to parse float value '950 litros' with unit 'm³'
+2020-04-23 21:43:04,087 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_ES58ACi
+2020-04-23 21:43:04,727 [MainThread  ] [WARNI]  Unknown motor capacity value: 16 cilindros
+2020-04-23 21:43:04,728 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_SL100
+2020-04-23 21:43:05,388 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_SL65T
+2020-04-23 21:43:06,066 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U10B
+2020-04-23 21:43:06,900 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U12B
+2020-04-23 21:43:07,722 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros
+2020-04-23 21:43:07,723 [MainThread  ] [WARNI]  Unknown gauge: 1,000 m e 1,067 m
+2020-04-23 21:43:07,726 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U12C
+2020-04-23 21:43:08,530 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros
+2020-04-23 21:43:08,531 [MainThread  ] [WARNI]  Unknown gauge: 0,914 m, 1,000 m, 1,067 m, 1,435 m e 1,600 m
+2020-04-23 21:43:08,532 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U13B
+2020-04-23 21:43:09,294 [MainThread  ] [WARNI]  Unknown motor capacity value: 8 cilindros
+2020-04-23 21:43:09,295 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U18C
+2020-04-23 21:43:10,198 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U20C
+2020-04-23 21:43:10,941 [MainThread  ] [WARNI]  Unknown generator: corrente continua
+2020-04-23 21:43:10,942 [MainThread  ] [WARNI]  Unable to parse millimeters value '1.594 e 1.911'
+2020-04-23 21:43:10,943 [MainThread  ] [WARNI]  Unknown gauge: 1000 mm e 1600 mm (Brasil)
+2020-04-23 21:43:10,944 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U22C
+2020-04-23 21:43:11,817 [MainThread  ] [WARNI]  Unable to parse integer value '30.000 kg' with unit 'kgf'
+2020-04-23 21:43:11,818 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U23C
+2020-04-23 21:43:12,594 [MainThread  ] [WARNI]  Unknown meters dimension: 83.2 m
+2020-04-23 21:43:12,595 [MainThread  ] [WARNI]  Unable to parse millimeters value '2.019 mm  2.121 mm'
+2020-04-23 21:43:12,596 [MainThread  ] [WARNI]  Unable to parse weight value '180.000 kg  165.000 kg (Cachoeirinhas)'
+2020-04-23 21:43:12,597 [MainThread  ] [WARNI]  Unable to parse weight value '180.000 kg  165.000 kg (Cachoeirinhas)'
+2020-04-23 21:43:12,601 [MainThread  ] [WARNI]  Unable to parse weight value '30.000 kg  27.500 kg (Cachoeirinhas)'
+2020-04-23 21:43:12,605 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U26C
+2020-04-23 21:43:13,401 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U50
+2020-04-23 21:43:14,293 [MainThread  ] [WARNI]  Unknown gauge: 1,435 m
+2020-04-23 21:43:14,294 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U5B
+2020-04-23 21:43:15,133 [MainThread  ] [WARNI]  Unknown gauge: 1000 e 1600 mm
+2020-04-23 21:43:15,134 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U6B
+2020-04-23 21:43:15,978 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U8B
+2020-04-23 21:43:16,858 [MainThread  ] [WARNI]  Unknown motor capacity value: 12 cilindros
+2020-04-23 21:43:16,860 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_U9B
+2020-04-23 21:43:17,480 [MainThread  ] [WARNI]  Unknown gauge: 1,000m e 1,600m
+2020-04-23 21:43:17,481 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GE_UM10B
+2020-04-23 21:43:18,300 [MainThread  ] [WARNI]  Unable to parse weight value '100 a 127 t'
+2020-04-23 21:43:18,301 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GMD_B12
+2020-04-23 21:43:19,022 [MainThread  ] [WARNI]  Unknown horsepower value: 1.325 hp ( 1125hp )
+2020-04-23 21:43:19,023 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/GMD_GMDH-1
+2020-04-23 21:43:20,035 [MainThread  ] [WARNI]  Unknown horsepower value: 660 hp (vfrgs) e 875 hp
+2020-04-23 21:43:20,036 [MainThread  ] [WARNI]  Unknown gauge: 1000, 1435 e 1676 mm
+2020-04-23 21:43:20,040 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/LEW_DE_I_PA
+2020-04-23 21:43:20,658 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido
+2020-04-23 21:43:20,659 [MainThread  ] [WARNI]  Unknown motor capacity value: 12
+2020-04-23 21:43:20,659 [MainThread  ] [WARNI]  Unable to parse float value '334 l' with unit 'm³'
+2020-04-23 21:43:20,660 [MainThread  ] [WARNI]  Unable to parse integer value '9300 kgf a 20 km/h' with unit 'kgf'
+2020-04-23 21:43:20,660 [MainThread  ] [WARNI]  Unable to parse float value '90 km' with unit 'km/h'
+2020-04-23 21:43:20,662 [MainThread  ] [WARNI]  Unable to parse float value '14 km' with unit 'km/h'
+2020-04-23 21:43:20,665 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/LEW_DE_II_S
+2020-04-23 21:43:21,487 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido e dinâmico
+2020-04-23 21:43:21,488 [MainThread  ] [WARNI]  Unknown motor capacity value: 12
+2020-04-23 21:43:21,489 [MainThread  ] [WARNI]  Unable to parse float value '334 l' with unit 'm³'
+2020-04-23 21:43:21,489 [MainThread  ] [WARNI]  Unable to parse integer value '9300 kgf a 20 km/h' with unit 'kgf'
+2020-04-23 21:43:21,490 [MainThread  ] [WARNI]  Unable to parse float value '90 km' with unit 'km/h'
+2020-04-23 21:43:21,490 [MainThread  ] [WARNI]  Unable to parse float value '14 km' with unit 'km/h'
+2020-04-23 21:43:21,491 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/LEW_DE_III_M
+2020-04-23 21:43:22,113 [MainThread  ] [WARNI]  Unknown brake system: Ar comprimido e dinâmico
+2020-04-23 21:43:22,114 [MainThread  ] [WARNI]  Unknown motor capacity value: 16
+2020-04-23 21:43:22,114 [MainThread  ] [WARNI]  Unable to parse float value '334 l' with unit 'm³'
+2020-04-23 21:43:22,115 [MainThread  ] [WARNI]  Unable to parse integer value '12700 kgf a 20 km/h' with unit 'kgf'
+2020-04-23 21:43:22,116 [MainThread  ] [WARNI]  Unable to parse float value '100 km' with unit 'km/h'
+2020-04-23 21:43:22,116 [MainThread  ] [WARNI]  Unable to parse float value '20,6 km' with unit 'km/h'
+2020-04-23 21:43:22,117 [MainThread  ] [INFO ]  Parsing URL https://pt.wikipedia.org/wiki/Winterthur-BBC_1-D-1
+2020-04-23 21:43:22,703 [MainThread  ] [WARNI]  Unable to parse integer value '12700 kg' with unit 'kgf'
+2020-04-23 21:43:22,705 [MainThread  ] [INFO ]  Parsed 96 locomotives
+2020-04-23 21:43:22,715 [MainThread  ] [INFO ]  Exported CSV results to wikipedia_locomotives_crawler_output.csv
+2020-04-23 21:43:22,732 [MainThread  ] [INFO ]  Exported JSON results to wikipedia_locomotives_crawler_output.json

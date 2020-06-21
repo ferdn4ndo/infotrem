@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  infotrem-django:
+    container_name: infotrem-api
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/code/
+    ports:
+      - "9905:9905"
+    expose:
+      - 9905
+
+  infotrem-node:
+    container_name: infotrem-web
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    env_file:
+      - ./frontend/.env
+    volumes:
+      - ./frontend/app:/code/app
+    ports:
+      - "9906:9906"
+    expose:
+      - 9906
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
