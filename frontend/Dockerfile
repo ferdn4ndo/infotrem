@@ -7,5 +7,5 @@ ENV PATH /code/node_modules/.bin:$PATH
 
 WORKDIR /code/app/
 
-EXPOSE 9903
+EXPOSE 9906
 CMD ["/bin/sh", "entrypoint.sh"]
