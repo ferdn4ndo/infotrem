@@ -1,9 +1,9 @@
 from django.contrib.auth.models import User
-from oauth2_provider.contrib.rest_framework import TokenHasReadWriteScope
-from rest_framework import authentication, permissions
 from rest_framework import generics
+from rest_framework.permissions import IsAdminUser, IsAuthenticated
 
 from infotrem.serializers.user import UserSerializer
+from infotrem.services.policy import IsModeratorUser
 
 
 class AdminListUsers(generics.ListCreateAPIView):
@@ -13,19 +13,19 @@ class AdminListUsers(generics.ListCreateAPIView):
     * Requires token authentication.
     * Only admin users are able to access this view.
     """
-    authentication_classes = [authentication.TokenAuthentication]
-    permission_classes = [permissions.IsAdminUser]
+    permission_classes = [IsAdminUser]
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
 
 class UserList(generics.ListAPIView):
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [IsModeratorUser]
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
 
 class UserDetail(generics.RetrieveAPIView):
+    permission_classes = [IsAuthenticated]
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
