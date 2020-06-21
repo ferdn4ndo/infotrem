@@ -48,11 +48,11 @@ def index(request):
 
 @method_decorator(csrf_exempt, name='dispatch')
 class UploadMedia(APIView):
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
+    # authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
 
-    throttle_classes = [UserRateThrottle]
+    # throttle_classes = [UserRateThrottle]
     authentication_classes = [authentication.TokenAuthentication]
 
     def post(self, request):

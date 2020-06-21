@@ -5,8 +5,8 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 from infotrem.models.information import Information
-from infotrem.models.location import TrackGaugeConfiguration
 from infotrem.models.railroad import Manufacturer, RailroadCompany
+from infotrem.models.track_gauge import TrackGauge
 
 
 class RollingStockSigoRegional(models.Model):
@@ -55,7 +55,7 @@ class RollingStock(models.Model):
 
     rolling_stock_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     type = models.CharField(max_length=100, choices=RollingStockType.choices)
-    gauge = models.ForeignKey(to=TrackGaugeConfiguration, on_delete=models.PROTECT, null=True)
+    gauge = models.ForeignKey(to=TrackGauge, on_delete=models.PROTECT, null=True)
     is_sigo = models.BooleanField(verbose_name="If the rolling stock item is in SIGO standard", default=True)
     sigo_number = models.IntegerField(
         blank=False,

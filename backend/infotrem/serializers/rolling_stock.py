@@ -3,18 +3,18 @@ from typing import Optional
 
 from rest_framework import serializers
 
-from infotrem.models.location import TrackGaugeConfiguration
 from infotrem.models.rolling_stock_freight_car import RollingStockFreightCar
 from infotrem.models.rolling_stock_locomotive import RollingStockLocomotive
 from infotrem.models.rolling_stock_non_revenue_car import RollingStockNonRevenueCar
 from infotrem.models.rolling_stock_passenger_car import RollingStockPassengerCar
 from infotrem.models.rolling_stock import RollingStockSigoRegional, RollingStock
-from infotrem.serializers.location import TrackGaugeConfigurationSerializer
+from infotrem.models.track_gauge import TrackGauge
 from infotrem.serializers.railroad import RailroadCompanySerializer, ManufacturerSerializer
 from infotrem.serializers.rolling_stock_freight_car import RollingStockFreightCarSerializer
 from infotrem.serializers.rolling_stock_locomotive import RollingStockLocomotiveSerializer
 from infotrem.serializers.rolling_stock_non_revenue_car import RollingStockNonRevenueCarSerializer
 from infotrem.serializers.rolling_stock_passenger_car import RollingStockPassengerCarSerializer
+from infotrem.serializers.track_gauge import TrackGaugeSerializer
 from infotrem.services.strings import break_string_into_words
 
 
@@ -29,7 +29,7 @@ class RollingStockSigoRegionalSerializer(serializers.ModelSerializer):
 
 class RollingStockSerializer(serializers.ModelSerializer):
     """Serializer for the RollingStock model"""
-    gauge = TrackGaugeConfigurationSerializer()
+    gauge = TrackGaugeSerializer()
     regional = RollingStockSigoRegionalSerializer()
     manufacturer = ManufacturerSerializer()
 
@@ -59,7 +59,7 @@ class RollingStockSerializer(serializers.ModelSerializer):
             return None
 
     @staticmethod
-    def parse_gauge_from_freight_car(name: str) -> Optional[TrackGaugeConfiguration]:
+    def parse_gauge_from_freight_car(name: str) -> Optional[TrackGauge]:
         name_parts = break_string_into_words(name)
 
         for part in name_parts:

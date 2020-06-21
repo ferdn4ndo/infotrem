@@ -3,13 +3,13 @@ from typing import Optional, Tuple
 
 from rest_framework import serializers
 
-from infotrem.models.location import TrackGaugeConfiguration
 from infotrem.models.rolling_stock_freight_car import \
     RollingStockFreightCarCategory, \
     RollingStockFreightCarGrossWeightType, \
     RollingStockFreightCarType,\
     RollingStockFreightCar
 from infotrem.models.rolling_stock import RollingStock
+from infotrem.models.track_gauge import TrackGauge
 from infotrem.services.strings import break_string_into_words
 
 
@@ -48,7 +48,7 @@ class RollingStockFreightCarSerializer(serializers.ModelSerializer):
         excludes = ['rolling_stock']
 
     @staticmethod
-    def parse_gauge_from_name(name: str) -> Optional[TrackGaugeConfiguration]:
+    def parse_gauge_from_name(name: str) -> Optional[TrackGauge]:
         name_parts = break_string_into_words(name)
 
         for part in name_parts:

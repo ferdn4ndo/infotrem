@@ -1,7 +1,7 @@
 from django.db import models
 
-from infotrem.models.location import TrackGaugeConfiguration
 from infotrem.models.rolling_stock import RollingStock
+from infotrem.models.track_gauge import TrackGauge
 
 
 class RollingStockFreightCarCategory(models.Model):
@@ -20,7 +20,7 @@ class RollingStockFreightCarGrossWeightType(models.Model):
 
     letter = models.CharField(max_length=1, primary_key=True, unique=True, db_index=True, blank=False, null=False)
     max_gross_tons = models.FloatField(verbose_name="Max gross weight of the type")
-    gauge = models.ForeignKey(to=TrackGaugeConfiguration, on_delete=models.PROTECT)
+    gauge = models.ForeignKey(to=TrackGauge, on_delete=models.PROTECT)
 
 
 class RollingStockFreightCarType(models.Model):
