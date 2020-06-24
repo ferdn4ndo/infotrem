@@ -4,20 +4,29 @@ Web application for railroads related media and information
 
 ## Setup
 
-Enter the docker container using ```docker exec -it infotrem-api sh```
+Copy the environment file template to the real env
 
-Then run the following commands:
+``
+cp backend/.env.template backend/.env
+cp frontend/.env.template frontend/.env
+``
+
+Edit both files to your data.
+
+Start the container (make sure that the `ngnix-proxy` container is running)
+```
+docker-compose up --build -d
+```
+
+And run the setup
+
+ ```
+ docker exec -it infotrem-api sh "/code/setup.sh"
+```
+
+It should be available at the URL:
 
 ```
-python manage.py makemigrations
-
-python manage.py migrate
-
-python manage.py createsuperuser
-```
-
-And then access the URL:
-
-```
-http://localhost:8000/setup-db
+http://api.infotrem.lan/
+http://infotrem.lan/
 ```

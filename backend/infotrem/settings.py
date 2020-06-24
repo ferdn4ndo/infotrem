@@ -26,6 +26,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     os.environ['VIRTUAL_HOST'],
+    'localhost',
 ]
 
 # Application definition
