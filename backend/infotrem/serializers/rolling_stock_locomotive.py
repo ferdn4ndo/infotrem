@@ -52,19 +52,47 @@ class RollingStockLocomotiveSerializer(serializers.ModelSerializer):
         if model is None:
             return None
 
-        rolling_stock = RollingStockLocomotive(
+        rolling_stock_loco = RollingStockLocomotive.objects.get_or_create(
             rolling_stock=rolling_stock,
             model=model,
-            horsepower_total=model.horsepower_total if model is not None else None,
-            horsepower_available=model.horsepower_available if model is not None else None,
-            first_operation_year=None,
-            aar_wheel_arrangement=model.aar_wheel_arrangement if model is not None else None,
-            whyte_wheel_arrangement=model.whyte_wheel_arrangement if model is not None else None,
-            tank_total_liters=model.tank_total_liters if model is not None else None,
-            primary_motor=model.primary_motor if model is not None else None,
-            traction_motor=model.traction_motor if model is not None else None,
-            serial_number=None,
-        )
-        rolling_stock.save()
+        )[0]
 
-        return rolling_stock
+        rolling_stock_loco.adhesion_factor = model.adhesion_factor if model is not None else None
+        rolling_stock_loco.allow_multiple_units = model.allow_multiple_units if model is not None else None
+        rolling_stock_loco.brake_system = model.brake_system if model is not None else None
+        rolling_stock_loco.cooling_fluid_capacity = model.cooling_fluid_capacity if model is not None else None
+        rolling_stock_loco.cylinders_size = model.cylinders_size if model is not None else None
+        rolling_stock_loco.build_year = None
+        rolling_stock_loco.fuel_capacity = model.fuel_capacity if model is not None else None
+        rolling_stock_loco.generator = model.generator if model is not None else None
+        rolling_stock_loco.height = model.height if model is not None else None
+        rolling_stock_loco.horsepower_available = model.horsepower_available if model is not None else None
+        rolling_stock_loco.horsepower_total = model.horsepower_total if model is not None else None
+        rolling_stock_loco.length = model.length if model is not None else None
+        rolling_stock_loco.lubricant_oil_capacity = model.lubricant_oil_capacity if model is not None else None
+        rolling_stock_loco.minimum_track_radius = model.minimum_track_radius if model is not None else None
+        rolling_stock_loco.motor_builder = model.motor_builder if model is not None else None
+        rolling_stock_loco.motor_capacity = model.motor_capacity if model is not None else None
+        rolling_stock_loco.motor_type = model.motor_type if model is not None else None
+        rolling_stock_loco.nickname = model.nickname if model is not None else None
+        rolling_stock_loco.primary_motor = model.primary_motor if model is not None else None
+        rolling_stock_loco.rpm_limit = model.rpm_limit if model is not None else None
+        rolling_stock_loco.sand_capacity = model.sand_capacity if model is not None else None
+        rolling_stock_loco.serial_number = None
+        rolling_stock_loco.traction_effort = model.traction_effort if model is not None else None
+        rolling_stock_loco.traction_motor = model.traction_motor if model is not None else None
+        rolling_stock_loco.truck_type = model.truck_type if model is not None else None
+        rolling_stock_loco.velocity_max = model.velocity_max if model is not None else None
+        rolling_stock_loco.velocity_min = model.velocity_min if model is not None else None
+        rolling_stock_loco.weight = model.weight if model is not None else None
+        rolling_stock_loco.weight_adherent = model.weight_adherent if model is not None else None
+        rolling_stock_loco.weight_per_axle = model.weight_per_axle if model is not None else None
+        rolling_stock_loco.wheel_arrangement_aar = model.wheel_arrangement_aar if model is not None else None
+        rolling_stock_loco.wheel_arrangement_whyte = model.wheel_arrangement_whyte if model is not None else None
+        rolling_stock_loco.wheel_diameter = model.wheel_diameter if model is not None else None
+        rolling_stock_loco.wheelbase = model.wheelbase if model is not None else None
+        rolling_stock_loco.width = model.width if model is not None else None
+
+        rolling_stock_loco.save()
+
+        return rolling_stock_loco

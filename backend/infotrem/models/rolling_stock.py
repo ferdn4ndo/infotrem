@@ -1,7 +1,9 @@
 import uuid
 
+from django.contrib.auth.models import User
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
+from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
 
 from infotrem.models.information import Information
@@ -53,7 +55,7 @@ class RollingStock(models.Model):
         TRANSFORMED = 'TRANSFORMED', _("Transformed")
         UNKNOWN = 'UNKNOWN', _("Unknown")
 
-    rolling_stock_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     type = models.CharField(max_length=100, choices=RollingStockType.choices)
     gauge = models.ForeignKey(to=TrackGauge, on_delete=models.PROTECT, null=True)
     is_sigo = models.BooleanField(verbose_name="If the rolling stock item is in SIGO standard", default=True)
@@ -71,7 +73,10 @@ class RollingStock(models.Model):
     manufacturer = models.ForeignKey(to=Manufacturer, on_delete=models.SET_NULL, null=True)
     transformed_into = models.ForeignKey('self', null=True, verbose_name='Transformed Into', on_delete=models.SET_NULL)
     state = models.CharField(max_length=100, choices=RollingStockState.choices, default=RollingStockState.UNKNOWN)
-
+    created_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="creator+")
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
+    updated_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="editor+")
+    updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)
 
     def __str__(self):
         return self.sigo_number if self.is_sigo and self.sigo_number is not None else self.painted_identifier
@@ -112,5 +117,6 @@ class RollingStockInformation(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     rolling_stock = models.ForeignKey(to=RollingStock, on_delete=models.CASCADE)
     information = models.ForeignKey(to=Information, on_delete=models.CASCADE)

@@ -27,19 +27,22 @@ RUN set -ex \
        zlib-dev \
        py-pip \
        jpeg-dev \
+       postgresql-dev \
     && apk add --no-cache \
        gettext \
        build-base \
        libffi-dev \
        libmagic \
        openssl-dev \
+       postgresql-libs \
+       postgresql-client \
     && apk add --no-cache \
         --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
         --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
        gdal \
     && python -m pip install -U --force-reinstall pip \
     && pip install --no-cache-dir -r /code/requirements.txt \
-    && apk del .build-deps \
+    && apk --purge del .build-deps \
     && rm -rf /tmp/requirements.txt
 
 EXPOSE 9905

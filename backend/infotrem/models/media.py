@@ -4,7 +4,7 @@ from typing import Union
 from django.contrib.auth.models import User
 from django.core.files.uploadedfile import TemporaryUploadedFile, InMemoryUploadedFile
 from django.db import models
-from django.utils.datetime_safe import datetime
+from django.utils import timezone
 
 from infotrem.errors import InvalidArgumentClass, InvalidFileMimeType, UnreachableURL
 from infotrem.models.location import Location
@@ -36,7 +36,7 @@ class MediaItem(models.Model):
         REJECTED_TEMP = 'Media was temporary rejected, with a possible re-review'
         REJECTED_PERM = 'Media was permanently rejected'
 
-    media_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=255, null=True)
     description = models.TextField(max_length=65535, null=True)
     file_raw = models.ForeignKey(to=StorageFile, on_delete=models.CASCADE)
@@ -50,7 +50,7 @@ class MediaItem(models.Model):
     original_url = models.TextField(max_length=255, null=True, verbose_name="Original URL, if downloaded")
     references = models.TextField(max_length=1024, null=True)
     created_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="creator+")
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
     updated_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="editor+")
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)
 
@@ -138,7 +138,7 @@ class ImageMediaItem(models.Model):
     class Meta:
         app_label = 'infotrem'
 
-    media_item = models.OneToOneField(to=MediaItem, on_delete=models.CASCADE, primary_key=True)
+    media_item = models.OneToOneField(to=MediaItem, on_delete=models.CASCADE, primary_key=True, editable=False)
     focal_length = models.FloatField(null=True, verbose_name="Focal length of the lenses in millimeters")
     aperture = models.CharField(max_length=255, null=True)
     flash_fired = models.BooleanField(null=True)
@@ -169,7 +169,7 @@ class ImageMediaItemSize(models.Model):
         SIZE_THUMB_MEDIUM = 'Medium Thumbnail (480×320 px)'  # WQVGA
         SIZE_THUMB_SMALL = 'Small Thumbnail (240x160 px)'  # HQVGA
 
-    media_item = models.OneToOneField(to=MediaItem, on_delete=models.CASCADE, primary_key=True)
+    media_item = models.OneToOneField(to=MediaItem, on_delete=models.CASCADE, primary_key=True, editable=False)
     file_raw = models.ForeignKey(to=StorageFile, on_delete=models.CASCADE)
     size_tag = models.CharField(max_length=10, choices=SizeTag.choices, null=True)
     raw_height = models.PositiveIntegerField(verbose_name="Height of the sized media item", null=True)
@@ -186,12 +186,12 @@ class MediaItemReview(models.Model):
         APPROVED = "Approved with no changes needed"
         REJECTED = "Reject without possibility of updating the image"
 
-    review_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     media_item = models.ForeignKey(to=MediaItem, on_delete=models.CASCADE)
     moderator = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True)
     decision = models.CharField(max_length=10, choices=ReviewDecision.choices, null=True)
     comment = models.CharField(max_length=1024, null=True)
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)
     updated_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="editor+")
 
@@ -201,11 +201,12 @@ class MediaItemRollingStock(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     media_item = models.ForeignKey(to=MediaItem, on_delete=models.CASCADE)
     rolling_stock = models.ForeignKey(to=RollingStock, on_delete=models.CASCADE)
     paint_scheme = models.ForeignKey(to=RailroadPaintScheme, on_delete=models.SET_NULL, null=True)
     created_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="creator+")
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)
 
 
@@ -214,9 +215,10 @@ class MediaItemLike(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     item = models.ForeignKey(to=MediaItem, on_delete=models.CASCADE, editable=False)
     created_by = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name="creator+")
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
 
 
 class MediaItemFavorite(models.Model):
@@ -224,9 +226,10 @@ class MediaItemFavorite(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     item = models.ForeignKey(to=MediaItem, on_delete=models.CASCADE, editable=False)
     created_by = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name="creator+")
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
 
 
 class MediaItemComment(models.Model):
@@ -234,11 +237,12 @@ class MediaItemComment(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     item = models.ForeignKey(to=MediaItem, on_delete=models.CASCADE, editable=False)
     replies_to = models.ForeignKey('self', null=True, verbose_name='Replies to', on_delete=models.CASCADE)
     text = models.TextField(max_length=1024)
     created_by = models.ForeignKey(to=User, on_delete=models.CASCADE)
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)
 
 
@@ -247,10 +251,11 @@ class MediaAlbum(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=255)
     description = models.TextField(max_length=65535)
     created_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True)
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)
 
 
@@ -259,10 +264,11 @@ class MediaAlbumItem(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     album = models.ForeignKey(to=MediaAlbum, on_delete=models.CASCADE, editable=False)
     item = models.ForeignKey(to=MediaItem, on_delete=models.CASCADE, editable=False)
     created_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="creator+")
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)
 
 
@@ -271,9 +277,10 @@ class MediaAlbumLike(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     album = models.ForeignKey(to=MediaAlbum, on_delete=models.CASCADE, editable=False)
     created_by = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name="creator+")
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
 
 
 class MediaAlbumFavorite(models.Model):
@@ -281,6 +288,7 @@ class MediaAlbumFavorite(models.Model):
     class Meta:
         app_label = 'infotrem'
 
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     album = models.ForeignKey(to=MediaAlbum, on_delete=models.CASCADE, editable=False)
     created_by = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name="creator+")
-    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=datetime.utcnow, editable=False)
+    created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)

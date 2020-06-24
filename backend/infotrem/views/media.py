@@ -20,6 +20,7 @@ from infotrem.models.storage import StorageFile
 from infotrem.serializers.media import MediaItemRollingStockSerializer, MediaItemSerializer, \
     MediaItemRollingStockFromNameSerializer
 from infotrem.services.file import get_random_file_temp_path, save_from_memory
+from infotrem.services.policy import DefaultUserThrottle
 
 
 def index(request):
@@ -50,9 +51,7 @@ def index(request):
 class UploadMedia(APIView):
     # authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
-
-
-    # throttle_classes = [UserRateThrottle]
+    # throttle_classes = [DefaultUserThrottle]
     authentication_classes = [authentication.TokenAuthentication]
 
     def post(self, request):
@@ -75,12 +74,14 @@ class MediaItemListView(generics.ListAPIView):
     queryset = MediaItem.objects.all()
     serializer_class = MediaItemSerializer
     authentication_classes = [authentication.TokenAuthentication]
+    # throttle_classes = [DefaultUserThrottle]
 
 
 class MediaItemRollingStockView(generics.ListCreateAPIView):
     queryset = MediaItemRollingStock.objects.all()
     serializer_class = MediaItemRollingStockFromNameSerializer
     authentication_classes = [authentication.TokenAuthentication]
+    # throttle_classes = [DefaultUserThrottle]
 
     def get_media_item(self, media_uuid):
         try:

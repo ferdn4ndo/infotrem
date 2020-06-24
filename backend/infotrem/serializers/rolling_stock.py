@@ -7,8 +7,9 @@ from infotrem.models.rolling_stock_freight_car import RollingStockFreightCar
 from infotrem.models.rolling_stock_locomotive import RollingStockLocomotive
 from infotrem.models.rolling_stock_non_revenue_car import RollingStockNonRevenueCar
 from infotrem.models.rolling_stock_passenger_car import RollingStockPassengerCar
-from infotrem.models.rolling_stock import RollingStockSigoRegional, RollingStock
+from infotrem.models.rolling_stock import RollingStockSigoRegional, RollingStock, RollingStockInformation
 from infotrem.models.track_gauge import TrackGauge
+from infotrem.serializers.information import InformationSerializer
 from infotrem.serializers.railroad import RailroadCompanySerializer, ManufacturerSerializer
 from infotrem.serializers.rolling_stock_freight_car import RollingStockFreightCarSerializer
 from infotrem.serializers.rolling_stock_locomotive import RollingStockLocomotiveSerializer
@@ -53,7 +54,7 @@ class RollingStockSerializer(serializers.ModelSerializer):
         try:
             model = types_map[instance.type][0]
             serializer = types_map[instance.type][1]
-            rolling_stock = model.objects.get(pk=instance.rolling_stock_id)
+            rolling_stock = model.objects.get(pk=instance.id)
             return serializer(rolling_stock).data
         except RollingStock.DoesNotExist:
             return None
@@ -77,9 +78,9 @@ class RollingStockSerializer(serializers.ModelSerializer):
 
         for part in name_parts:
             if re.match(r"^\d{6}-\d[A-Z]?$", part):
-                sigo_number = int(str(re.match(r"", part)[0])[:6])
+                sigo_number = int(str(re.match(r"^\d{6}-\d[A-Z]?$", part)[0])[:6])
             if re.match(r"^\d{6}$", part):
-                sigo_number = int(str(re.match(r"", part)[0]))
+                sigo_number = int(str(re.match(r"^\d{6}$", part)[0]))
 
         return sigo_number
 
@@ -89,7 +90,7 @@ class RollingStockSerializer(serializers.ModelSerializer):
 
         for part in name_parts:
             if re.match(r"^\d{4:6}-\d[A-Z]?$", part):
-                regional_letter = str(re.match(r"", part)[0])[-1:]
+                regional_letter = str(re.match(r"^\d{4:6}-\d[A-Z]?$", part)[0])[-1:]
                 regional = RollingStockSigoRegional.objects.find(letter=regional_letter)
                 if len(regional) > 0:
                     return regional[0]
@@ -136,3 +137,23 @@ class RollingStockSerializer(serializers.ModelSerializer):
         instance_dict = super(RollingStockSerializer, self).to_representation(instance)
         instance_dict['metadata'] = self.read_metadata(instance)
         return instance_dict
+
+
+class RollingStockInformationSerializer(serializers.ModelSerializer):
+    """Serializer for the RollingStock model"""
+    rolling_stock = RollingStockSerializer()
+    information = InformationSerializer()
+
+    class Meta:
+        model = RollingStockInformation
+        fields = '__all__'
+
+    @staticmethod
+    def check_if_info_exists(rolling_stock: RollingStock, info_text: str):
+        infos = RollingStockInformation.objects.filter(rolling_stock=rolling_stock)
+
+        if not len(infos):
+            return False
+
+        texts = infos.values_list('information__content', flat=True)
+        return info_text in texts

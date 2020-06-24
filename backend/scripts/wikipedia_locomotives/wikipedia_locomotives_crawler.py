@@ -784,7 +784,6 @@ if __name__ == '__main__':
         'https://pt.wikipedia.org/wiki/GE_U8B',
         'https://pt.wikipedia.org/wiki/GE_U9B',
         'https://pt.wikipedia.org/wiki/GE_UM10B',
-        'https://pt.wikipedia.org/wiki/GMD_B12',
         'https://pt.wikipedia.org/wiki/GMD_GMDH-1',
         'https://pt.wikipedia.org/wiki/LEW_DE_I_PA',
         'https://pt.wikipedia.org/wiki/LEW_DE_II_S',

@@ -12,6 +12,7 @@ jsonfield
 markdown
 pillow
 Pygments
+psycopg2
 python-magic
 rawkit
 requests

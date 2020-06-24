@@ -18,8 +18,10 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
 
-from infotrem import setup
-from infotrem.views import login, media, users, files
+#from infotrem import setup
+from infotrem.views import login, media, users, files, information
+
+from infotrem.routers import information_router
 
 admin.autodiscover()
 
@@ -29,7 +31,7 @@ urlpatterns = [
     url(r'^api-token-refresh/', refresh_jwt_token),
 
     path('admin/', admin.site.urls),
-    path('setup-db', setup.run_from_request, name='setup-db'),
+    #path('setup-db', setup.run_from_request, name='setup-db'),
     path('login', login.PerformLogin.as_view(), name='login'),
     path('media/upload/', media.UploadMedia.as_view(), name='media.upload'),
     path('storage/files', files.ListUploadedFiles.as_view(), name='storage.files'),
@@ -38,4 +40,8 @@ urlpatterns = [
     path('admin-users/', users.AdminListUsers.as_view(), name='users'),
     path('users/', users.UserList.as_view()),
     path('users/<int:pk>/', users.UserDetail.as_view()),
+
+    url(r'^information/', include(information_router.router.urls)),
 ]
+
+

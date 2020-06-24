@@ -16,7 +16,7 @@ from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
 from infotrem.errors import MissingLocalTempFile
-from infotrem.services.amazon import get_s3_client, upload_from_temp, download_to_temp
+from infotrem.services.amazon import upload_from_temp, download_to_temp
 from infotrem.services.file import get_mime_type, generate_file_hash
 from infotrem.services.web import download_url
 
@@ -41,7 +41,7 @@ class StorageFile(models.Model):
         STORAGE_S3 = 'AMAZON_S3', _('Amazon S3')
         STORAGE_LOCAL = 'LOCAL', _('Local')
 
-    file_uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     signature_key = models.CharField(max_length=64, default=generate_random_signature_key)
     file_type = models.CharField(max_length=10, choices=FileType.choices, null=True)
     file_size = models.PositiveIntegerField(verbose_name="File size in bytes")
@@ -80,7 +80,7 @@ class StorageFile(models.Model):
         ToDo
         :return:
         """
-        text = '#INFOTREM#{}#{}#{}#'.format(self.file_uuid, self.created_by.username, time.time())
+        text = '#INFOTREM#{}#{}#{}#'.format(self.id, self.created_by.username, time.time())
         fernet_cryptor = Fernet(self.signature_key)
         return fernet_cryptor.encrypt(bytes(text))
 
@@ -93,7 +93,7 @@ class StorageFile(models.Model):
         if not os.path.isdir(temp_dir):
             os.mkdir(temp_dir)
 
-        return os.path.join(temp_dir, str(self.file_uuid))
+        return os.path.join(temp_dir, str(self.id))
 
     def get_storage_file_path(self):
         """
@@ -102,7 +102,7 @@ class StorageFile(models.Model):
         """
         if self.storage_file_path is not None:
             return self.storage_file_path
-        return "{}/{}".format(os.environ['AWS_S3_FOLDER'], str(self.file_uuid))
+        return "{}/{}".format(os.environ['AWS_S3_FOLDER'], str(self.id))
 
     def pull_to_temp(self):
         """

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ramal de Harmonia (LUS-LHA)</name>
+    <Style id="icon-1195-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1195-fac-flag.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1195-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1195-fac-flag.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1195">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1195-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1195-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1271-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1271-poi-housing-development.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1271-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1271-poi-housing-development.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1271">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1271-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1271-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1271-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1271-poi-housing-development.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1271-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1271-poi-housing-development.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1271-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1271-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1271-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1305-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1305-poi-railway.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1305-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1305-poi-railway.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1305">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1305-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1305-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-2938-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>4.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Fim da Linha - LHA</name>
+      <description>Final do ramal de harmonia</description>
+      <styleUrl>#icon-1305</styleUrl>
+      <Point>
+        <coordinates>
+          -50.6018364,-24.3102212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LHA</name>
+      <description>Harmonia</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.5792093,-24.3028781,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LOL</name>
+      <description>Olarias</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.4412258,-24.2292964,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LPB</name>
+      <description>Barro Preto</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.2984411,-24.1693079,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LVT</name>
+      <description>Ventania</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.2412939,-24.2516013,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LMT</name>
+      <description>Romário Martins</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.1354486,-24.2918089,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LCD</name>
+      <description>Castellar de Carvalho</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.0066221,-24.3060119,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LMU</name>
+      <description>Raul de Mesquita</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -49.8794961,-24.3884514,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LPE</name>
+      <description>Pedreira</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -49.8554581,-24.4210155,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação Espalha-Brasas?</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.873724,-24.468303,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LPY</name>
+      <description>Piraí do Sul</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -49.945913,-24.5276521,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação Tijuco Preto</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.9648654,-24.6152139,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LCX</name>
+      <description>Caxambu</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.0044602,-24.6873813,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação Iapó</name>
+      <description>Localização aproximada</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -49.9918699,-24.7334429,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LCA</name>
+      <description>Castro</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.000335,-24.7909813,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LTC</name>
+      <description>Tronco - Localização aproximada</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.0362444,-24.8688338,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação Carambei</name>
+      <description>Estação Carambei</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.0824213,-24.9270342,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LBQ</name>
+      <description>Boqueirão</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.1115716,-24.9652064,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação Pitangui</name>
+      <description>Localização aproximada</description>
+      <styleUrl>#icon-1271</styleUrl>
+      <Point>
+        <coordinates>
+          -50.1229656,-25.0174892,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RETORNO IAPO</name>
+      <description>Retorno necessário para chegar até a estação de Iapó</description>
+      <styleUrl>#icon-1195</styleUrl>
+      <Point>
+        <coordinates>
+          -49.9812859,-24.7055361,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ENTRADA IAPO</name>
+      <description>Entrada para a estrada de Iapó</description>
+      <styleUrl>#icon-1195</styleUrl>
+      <Point>
+        <coordinates>
+          -49.9856955,-24.7206037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CRUZAMENTO ESTRADA CASTELLAR</name>
+      <description>Cruzamento para estrada de Castellar de Carvalho. Seguir adiante beirando a linha</description>
+      <styleUrl>#icon-1195</styleUrl>
+      <Point>
+        <coordinates>
+          -50.0257409,-24.2968107,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CAMINHO LCD</name>
+      <styleUrl>#line-000000-2938-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -50.0257409,-24.2968107,0
+          -50.0248718,-24.2968058,0
+          -50.023241,-24.2977445,0
+          -50.0202799,-24.2989962,0
+          -50.0195074,-24.2995829,0
+          -50.0189495,-24.300326,0
+          -50.0180054,-24.3032595,0
+          -50.0178337,-24.3042764,0
+          -50.0177479,-24.304863,0
+          -50.0183916,-24.3065448,0
+          -50.0183916,-24.3076008,0
+          -50.018177,-24.3081875,0
+          -50.018177,-24.3087742,0
+          -50.0178766,-24.309087,0
+          -50.0164175,-24.3095564,0
+          -50.0159025,-24.309791,0
+          -50.0150013,-24.3092044,0
+          -50.0144005,-24.3085004,0
+          -50.012126,-24.3039635,0
+          -50.0113964,-24.3032203,0
+          -50.0108385,-24.3025163,0
+          -50.010581,-24.3015385,0
+          -50.0101519,-24.3017341,0
+          -50.0089073,-24.3034941,0
+          -50.0083494,-24.3045502,0
+          -50.0067616,-24.3063102,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

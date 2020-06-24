@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ramal de Pinhalzinho</name>
+    <Style id="icon-1271-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1271-poi-housing-development.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1271-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1271-poi-housing-development.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1271-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1271-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1271-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1305-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1305-poi-railway.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1305-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1305-poi-railway.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1305-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1305-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1305-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Estação LMK (Maracanã)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.9263647,-24.889668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LST (Santa Quitéria)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.7083819,-24.7055312,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LFO (Francisco Simas)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.500398,-24.5548034,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação LLZ (Pinhalzinho)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.2505985,-24.3987598,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação ZOA (Serrinha)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -49.0558165,-24.3250382,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação ZXZ (Itaboa)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.9736766,-24.2840686,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação Lajeado</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.9057603,-24.4032396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação ZZA (Apiaí)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.8474786,-24.5020082,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fim da Linha - ZZA</name>
+      <styleUrl>#icon-1305-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.857789,-24.5199166,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação ZOK (Itaoca)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.9677542,-24.1662392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação ZNW (Nova Itapeva)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.9152902,-23.994202,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estação ZIX (Itapeva)</name>
+      <styleUrl>#icon-1271-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -48.8905925,-23.9657347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

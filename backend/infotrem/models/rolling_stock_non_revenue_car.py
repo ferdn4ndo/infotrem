@@ -1,3 +1,5 @@
+import uuid
+
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
@@ -16,7 +18,7 @@ class RollingStockNonRevenueCarType(models.Model):
         VEGETATION = 'VEGETATION', _('Vegetation Equipment')
         OTHER = 'OTHER', _('Other Equipment')
 
-    letters = models.CharField(max_length=2, primary_key=True, unique=True, db_index=True, blank=False, null=False)
+    letters = models.CharField(max_length=5, primary_key=True, unique=True, db_index=True, blank=False, null=False)
     description = models.CharField(max_length=100)
     category = models.CharField(max_length=100, choices=RollingStockNonRevenueCarCategory.choices, null=True)
 
