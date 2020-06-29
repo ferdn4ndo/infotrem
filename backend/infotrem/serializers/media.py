@@ -3,7 +3,7 @@ from rest_framework import serializers
 from infotrem.models.media import ImageMediaItem, MediaItem, MediaItemRollingStock
 from infotrem.models.rolling_stock import RollingStock
 from infotrem.models.storage import StorageFile
-from infotrem.serializers.railroad import RailroadPaintSchemeSerializer
+from infotrem.serializers.railroad_company_serializer import RailroadCompanyPaintSchemeSerializer
 from infotrem.serializers.rolling_stock import RollingStockSerializer
 from infotrem.serializers.storage import StorageFileSerializer
 from infotrem.serializers.user import UserSerializer
@@ -54,7 +54,7 @@ class MediaItemSerializer(serializers.ModelSerializer):
 class MediaItemRollingStockSerializer(serializers.ModelSerializer):
     media_item = MediaItemSerializer()
     rolling_stock = RollingStockSerializer()
-    paint_scheme = RailroadPaintSchemeSerializer(required=False)
+    paint_scheme = RailroadCompanyPaintSchemeSerializer(required=False)
     created_by = UserSerializer()
 
     class Meta:

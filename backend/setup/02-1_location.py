@@ -4,9 +4,9 @@ from typing import List
 def batch_create_route_location(route_name: str, sub_route_name: str, locations: List, sub_route_year: int = None):
     from django.contrib.auth.models import User
 
-    from infotrem.models.location import Location, LocationTrackGauge
-    from infotrem.models.track_gauge import TrackGauge
-    from infotrem.models.railroad import RailroadRouteSectionLocation, RailroadRouteSectionLocationKilometer, \
+    from infotrem.models.location_model import Location, LocationTrackGauge
+    from infotrem.models.track_gauge_model import TrackGauge
+    from infotrem.models.railroad_route_model import RailroadRouteSectionLocation, RailroadRouteSectionLocationKilometer, \
         RailroadRouteSection, RailroadRoute
 
     railroad_route = RailroadRoute.objects.get_or_create(name=route_name)[0]

@@ -6,9 +6,10 @@ from django.db import models
 from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
 
-from infotrem.models.information import Information
-from infotrem.models.railroad import Manufacturer, RailroadCompany
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.information_model import Information
+from infotrem.models.manufacturer_model import Manufacturer
+from infotrem.models.railroad_route_model import RailroadCompany
+from infotrem.models.track_gauge_model import TrackGauge
 
 
 class RollingStockSigoRegional(models.Model):

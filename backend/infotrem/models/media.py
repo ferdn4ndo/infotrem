@@ -7,8 +7,8 @@ from django.db import models
 from django.utils import timezone
 
 from infotrem.errors import InvalidArgumentClass, InvalidFileMimeType, UnreachableURL
-from infotrem.models.location import Location
-from infotrem.models.railroad import RailroadPaintScheme
+from infotrem.models.location_model import Location
+from infotrem.models.railroad_company_model import RailroadCompanyPaintScheme
 from infotrem.models.rolling_stock import RollingStock
 from infotrem.models.storage import StorageFile
 from infotrem.services.file import save_from_memory, check_if_media
@@ -204,7 +204,7 @@ class MediaItemRollingStock(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     media_item = models.ForeignKey(to=MediaItem, on_delete=models.CASCADE)
     rolling_stock = models.ForeignKey(to=RollingStock, on_delete=models.CASCADE)
-    paint_scheme = models.ForeignKey(to=RailroadPaintScheme, on_delete=models.SET_NULL, null=True)
+    paint_scheme = models.ForeignKey(to=RailroadCompanyPaintScheme, on_delete=models.SET_NULL, null=True)
     created_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="creator+")
     created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)

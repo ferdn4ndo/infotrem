@@ -2,7 +2,7 @@ import logging
 
 from infotrem.models.rolling_stock_freight_car import RollingStockFreightCarCategory, \
     RollingStockFreightCarGrossWeightType
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.track_gauge_model import TrackGauge
 
 
 # Fright cars categories

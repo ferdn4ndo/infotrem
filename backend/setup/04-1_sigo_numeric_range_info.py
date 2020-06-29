@@ -7,7 +7,7 @@ import os
 def add_sigo_numeric_range_info(list_of_numeric_ranges):
     from django.contrib.auth.models import User
 
-    from infotrem.models.information import Information
+    from infotrem.models.information_model import Information
     from infotrem.models.rolling_stock import RollingStockSigoSeriesInformation
 
     user = User.objects.get(username=os.environ['SYSTEM_USER_NAME'])

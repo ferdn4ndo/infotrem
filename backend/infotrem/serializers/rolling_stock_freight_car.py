@@ -9,7 +9,7 @@ from infotrem.models.rolling_stock_freight_car import \
     RollingStockFreightCarType,\
     RollingStockFreightCar
 from infotrem.models.rolling_stock import RollingStock
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.track_gauge_model import TrackGauge
 from infotrem.services.strings import break_string_into_words
 
 

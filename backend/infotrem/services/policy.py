@@ -35,6 +35,17 @@ class IsCreatorOrReadOnly(permissions.BasePermission):
         return obj.created_by == request.user
 
 
+class IsModeratorOrReadOnly(permissions.BasePermission):
+    """
+    Object-level permission to only allow creators of an object to edit it.
+    Assumes the model instance has an `created_by` attribute.
+    """
+    def has_object_permission(self, request, view, obj):
+        if request.method in permissions.SAFE_METHODS:
+            return True
+        return bool(request.user and request.user.groups.filter(name='moderators').exists())
+
+
 class IsCreatorOrModerator(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
         is_moderator = bool(request.user and request.user.groups.filter(name='moderators').exists())
@@ -44,11 +55,8 @@ class IsCreatorOrModerator(permissions.BasePermission):
 
 class IsCreatorOrModeratorOrReadOnly(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
-        # Read permissions are allowed to any request,
-        # so we'll always allow GET, HEAD or OPTIONS requests.
         if request.method in permissions.SAFE_METHODS:
             return True
-
         is_moderator = bool(request.user and request.user.groups.filter(name='moderators').exists())
         is_creator = obj.created_by == request.user
         return is_moderator or is_creator

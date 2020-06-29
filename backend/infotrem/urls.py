@@ -18,10 +18,10 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
 
-#from infotrem import setup
-from infotrem.views import login, media, users, files, information
+from infotrem.views import login, media, users, files
 
-from infotrem.routers import information_router
+from infotrem.routers import information_router, location_router, manufacturer_router, railroad_company_router, \
+    railroad_route_router
 
 admin.autodiscover()
 
@@ -42,6 +42,10 @@ urlpatterns = [
     path('users/<int:pk>/', users.UserDetail.as_view()),
 
     url(r'^information/', include(information_router.router.urls)),
+    url(r'^locations/', include(location_router.router.urls)),
+    url(r'^manufacturers/', include(manufacturer_router.router.urls)),
+    url(r'^railroad-company/', include(railroad_company_router.router.urls)),
+    url(r'^railroad-route/', include(railroad_route_router.router.urls)),
 ]
 
 

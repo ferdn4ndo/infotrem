@@ -2,9 +2,9 @@ import uuid
 
 from django.db import models
 
-from infotrem.models.railroad import Manufacturer
+from infotrem.models.manufacturer_model import Manufacturer
 from infotrem.models.rolling_stock import RollingStock
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.track_gauge_model import TrackGauge
 
 
 class RollingStockLocomotiveModel(models.Model):

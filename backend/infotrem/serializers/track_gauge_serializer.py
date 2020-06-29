@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.track_gauge_model import TrackGauge
 
 
 class TrackGaugeSerializer(serializers.ModelSerializer):

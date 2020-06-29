@@ -5,8 +5,8 @@ from django.db import models
 from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
 
-from infotrem.models.information import Information
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.information_model import Information
+from infotrem.models.track_gauge_model import TrackGauge
 
 
 class Location(models.Model):
@@ -50,7 +50,7 @@ class LocationTrackGauge(models.Model):
         app_label = 'infotrem'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    location = models.ForeignKey(to=Location, on_delete=models.CASCADE)
+    location = models.ForeignKey(to=Location, related_name='gauges', on_delete=models.CASCADE)
     track_gauge = models.ForeignKey(to=TrackGauge, on_delete=models.PROTECT)
 
 
@@ -60,5 +60,5 @@ class LocationInformation(models.Model):
         app_label = 'infotrem'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    location = models.ForeignKey(to=Location, on_delete=models.CASCADE)
+    location = models.ForeignKey(to=Location, related_name='information',  on_delete=models.CASCADE)
     information = models.ForeignKey(to=Information, on_delete=models.CASCADE)

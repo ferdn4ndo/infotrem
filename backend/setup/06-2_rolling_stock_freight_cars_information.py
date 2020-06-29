@@ -6,9 +6,9 @@ from infotrem.models.rolling_stock import RollingStock
 
 
 def add_information(author: User, item_type, name: str, information_text: str, references: str):
-    from infotrem.models.information import Information
+    from infotrem.models.information_model import Information
     from infotrem.models.rolling_stock import RollingStockInformation
-    from infotrem.serializers.information import InformationSerializer
+    from infotrem.serializers.information_serializer import InformationSerializer
     from infotrem.serializers.rolling_stock import RollingStockSerializer, RollingStockInformationSerializer
     from django.contrib.auth.models import User
 

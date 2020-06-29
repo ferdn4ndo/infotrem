@@ -1,4 +1,4 @@
-from infotrem.models.railroad import RailroadCompany, RailroadRoute
+from infotrem.models.railroad_route_model import RailroadCompany, RailroadRoute
 
 # RailroadCompany
 RailroadCompany.objects.get_or_create(name="Ferrovias Paulistas S/A", abbrev="FEPASA")

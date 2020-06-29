@@ -6,7 +6,7 @@ Must run only after railroad_company is populated.
 
 # RollingStockSigoRegional
 def add_rolling_stock_sigo_regional_list(list_of_items):
-    from infotrem.models.railroad import RailroadCompany
+    from infotrem.models.railroad_route_model import RailroadCompany
     from infotrem.models.rolling_stock import RollingStockSigoRegional
 
     for item in list_of_items:

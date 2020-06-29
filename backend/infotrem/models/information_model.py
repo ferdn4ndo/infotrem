@@ -8,6 +8,7 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class Information(models.Model):
+
     class InformationStatus(models.TextChoices):
         DISCUSSION = 'DISCUSSION', _('Discussion')
         ANALYSIS = 'ANALYSIS', _('Under Analysis')
@@ -48,19 +49,25 @@ class InformationEffect(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     information = models.ForeignKey(to=Information, related_name='effects', on_delete=models.CASCADE)
     field_name = models.TextField(max_length=255)
-    old_value = models.TextField(max_length=1024)
+    old_value = models.TextField(max_length=1024, null=True)
     new_value = models.TextField(max_length=1024)
 
 
 class InformationVote(models.Model):
 
+    BLANK_VOTE_VALUE = 0
+    POSITIVE_VOTE_VALUE = 1
+    NEGATIVE_VOTE_VALUE = -1
+
     class Meta:
         app_label = 'infotrem'
+        constraints = [
+            models.UniqueConstraint(fields=['information', 'voter'], name='only one vote per user on each information')
+        ]
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    information = models.ForeignKey(to=Information, related_name='votes', on_delete=models.CASCADE)
+    information = models.ForeignKey(to=Information, related_name='votes', on_delete=models.CASCADE, editable=False)
     value = models.SmallIntegerField(default=0, verbose_name="Vote value ")
-    created_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="creator+")
+    voter = models.ForeignKey(to=User, null=True, related_name="creator+", on_delete=models.CASCADE, editable=False)
     created_at = models.DateTimeField(verbose_name="Record creation timestamp", default=timezone.now, editable=False)
-    updated_by = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True, related_name="editor+")
     updated_at = models.DateTimeField(verbose_name="Record last update timestamp", null=True)

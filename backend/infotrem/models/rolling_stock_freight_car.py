@@ -3,7 +3,7 @@ import uuid
 from django.db import models
 
 from infotrem.models.rolling_stock import RollingStock
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.track_gauge_model import TrackGauge
 
 
 class RollingStockFreightCarCategory(models.Model):

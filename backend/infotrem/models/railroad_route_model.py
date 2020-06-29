@@ -2,50 +2,9 @@ import uuid
 
 from django.db import models
 
-from infotrem.models.information import Information
-from infotrem.models.location import Location
-
-
-class RailroadCompany(models.Model):
-
-    class Meta:
-        app_label = 'infotrem'
-
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    abbrev = models.TextField(max_length=10)
-    name = models.TextField(max_length=255)
-
-
-class RailroadCompanyInformation(models.Model):
-
-    class Meta:
-        app_label = 'infotrem'
-
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    location = models.ForeignKey(to=RailroadCompany, on_delete=models.CASCADE)
-    information = models.ForeignKey(to=Information, on_delete=models.CASCADE)
-
-
-class RailroadPaintScheme(models.Model):
-
-    class Meta:
-        app_label = 'infotrem'
-
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    name = models.CharField(max_length=255)
-    railroad = models.ForeignKey(to=RailroadCompany, on_delete=models.PROTECT)
-    start_date = models.DateField(verbose_name="Approx. date when the paint scheme has started", null=True)
-    end_date = models.DateField(verbose_name="Approx. date when the paint scheme has ended", null=True)
-
-
-class RailroadPaintSchemeInformation(models.Model):
-
-    class Meta:
-        app_label = 'infotrem'
-
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    location = models.ForeignKey(to=RailroadPaintScheme, on_delete=models.CASCADE)
-    information = models.ForeignKey(to=Information, on_delete=models.CASCADE)
+from infotrem.models.information_model import Information
+from infotrem.models.location_model import Location
+from infotrem.models.railroad_company_model import RailroadCompany
 
 
 class RailroadRoute(models.Model):
@@ -56,6 +15,16 @@ class RailroadRoute(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=255)
     builder_railroad = models.ForeignKey(to=RailroadCompany, on_delete=models.SET_NULL, null=True)
+
+
+class RailroadRouteInformation(models.Model):
+
+    class Meta:
+        app_label = 'infotrem'
+
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    railroad_route = models.ForeignKey(to=RailroadRoute, related_name='route_information', on_delete=models.CASCADE)
+    information = models.ForeignKey(to=Information, on_delete=models.CASCADE)
 
 
 class RailroadRouteSection(models.Model):
@@ -70,13 +39,13 @@ class RailroadRouteSection(models.Model):
     build_year = models.PositiveIntegerField(null=True)
 
 
-class RailroadRouteInformation(models.Model):
+class RailroadRouteSectionInformation(models.Model):
 
     class Meta:
         app_label = 'infotrem'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    location = models.ForeignKey(to=RailroadRoute, on_delete=models.CASCADE)
+    railroad_route_section = models.ForeignKey(to=RailroadRoute, on_delete=models.CASCADE)
     information = models.ForeignKey(to=Information, on_delete=models.CASCADE)
 
 
@@ -86,9 +55,9 @@ class RailroadRouteSectionLocation(models.Model):
         app_label = 'infotrem'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    railroad_route = models.ForeignKey(to=RailroadRoute, on_delete=models.CASCADE)
-    railroad_route_section = models.ForeignKey(to=RailroadRouteSection, on_delete=models.CASCADE)
-    location = models.ForeignKey(to=Location, on_delete=models.CASCADE)
+    railroad_route = models.ForeignKey(to=RailroadRoute, related_name='route_locations', on_delete=models.CASCADE)
+    railroad_route_section = models.ForeignKey(to=RailroadRouteSection, related_name='section_locations', on_delete=models.CASCADE)
+    location = models.ForeignKey(to=Location, related_name='route_sections', on_delete=models.CASCADE)
     location_route_order = models.IntegerField(verbose_name="Ordering number inside the route, from origin to destiny")
 
     def save(self, *args, **kwargs):
@@ -105,7 +74,7 @@ class RailroadRouteSectionLocationKilometer(models.Model):
         app_label = 'infotrem'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    railroad_route_section_location = models.ForeignKey(to=RailroadRouteSectionLocation, on_delete=models.CASCADE)
+    railroad_route_section_location = models.ForeignKey(to=RailroadRouteSectionLocation, related_name='kilometers', on_delete=models.CASCADE)
     kilometer = models.FloatField(verbose_name="Kilometer of the location inside the route")
     kilometer_year = models.PositiveIntegerField(null=True, verbose_name="Year of the recorded kilometer")
     elevation = models.FloatField(null=True, verbose_name="Elevation (in meters) of the location kilometer")
@@ -118,8 +87,8 @@ class RailroadRouteSectionPath(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     railroad_route = models.ForeignKey(to=RailroadRoute, on_delete=models.CASCADE)
-    name = models.CharField(max_length=255)
     railroad_route_section = models.ForeignKey(to=RailroadRouteSection, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
 
 
 class RailroadRouteSectionPathPoint(models.Model):
@@ -128,27 +97,7 @@ class RailroadRouteSectionPathPoint(models.Model):
         app_label = 'infotrem'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    railroad_route_section_path = models.ForeignKey(to=RailroadRouteSectionPath, on_delete=models.CASCADE)
+    railroad_route_section_path = models.ForeignKey(to=RailroadRouteSectionPath, related_name='points', on_delete=models.CASCADE)
     latitude = models.DecimalField(max_digits=9, decimal_places=6, null=True)
     longitude = models.DecimalField(max_digits=9, decimal_places=6, null=True)
     elevation = models.FloatField(null=True, verbose_name="Elevation (in meters) of the location")
-
-
-class Manufacturer(models.Model):
-
-    class Meta:
-        app_label = 'infotrem'
-
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    short_name = models.CharField(max_length=20)
-    full_name = models.CharField(max_length=255)
-
-
-class ManufacturerInformation(models.Model):
-
-    class Meta:
-        app_label = 'infotrem'
-
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    manufacturer = models.ForeignKey(to=Manufacturer, on_delete=models.CASCADE)
-    information = models.ForeignKey(to=Information, on_delete=models.CASCADE)

@@ -1,4 +1,4 @@
-from infotrem.models.track_gauge import TrackGauge
+from infotrem.models.track_gauge_model import TrackGauge
 
 
 TrackGauge.objects.get_or_create(tag='NARROW', name='Métrica', size=1.00)
