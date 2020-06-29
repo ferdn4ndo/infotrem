@@ -6,10 +6,10 @@ Web application for railroads related media and information
 
 Copy the environment file template to the real env
 
-``
+```
 cp backend/.env.template backend/.env
 cp frontend/.env.template frontend/.env
-``
+```
 
 Edit both files to your data.
 

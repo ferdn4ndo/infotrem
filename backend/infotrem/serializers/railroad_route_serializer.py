@@ -215,6 +215,21 @@ class RailroadRouteSectionPathSerializer(serializers.ModelSerializer):
         return instance
 
 
+class RailroadRouteSectionSmallSerializer(serializers.ModelSerializer):
+    railroad_route = RailroadRouteSerializer()
+    builder_railroad = RailroadCompanySerializer()
+
+    class Meta:
+        model = RailroadRouteSection
+        fields = [
+            'id',
+            'railroad_route',
+            'name',
+            'builder_railroad',
+            'build_year',
+        ]
+
+
 class RailroadRouteSectionSerializer(serializers.ModelSerializer):
     railroad_route = RailroadRouteSerializer()
     builder_railroad = RailroadCompanySerializer()

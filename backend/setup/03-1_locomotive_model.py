@@ -1,6 +1,7 @@
 from typing import List
 
 
+
 def create_locomotives(parsed_list: List):
     from typing import Optional
 
@@ -14,7 +15,7 @@ def create_locomotives(parsed_list: List):
         return map_dict[prime_mover] if prime_mover in map_dict else None
 
     for loco in parsed_list:
-        from infotrem.models.railroad_route_model import Manufacturer
+        from infotrem.models.manufacturer_model import Manufacturer
         from infotrem.models.rolling_stock_locomotive import RollingStockLocomotiveModel
         from infotrem.models.track_gauge_model import TrackGauge
 

@@ -1,4 +1,4 @@
-from infotrem.models.railroad_route_model import Manufacturer
+from infotrem.models.manufacturer_model import Manufacturer
 
 
 Manufacturer.objects.get_or_create(short_name='GE', full_name='General Electric')

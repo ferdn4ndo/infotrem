@@ -1,7 +1,7 @@
 import os
 
 from infotrem.models.location_model import TrackGauge
-from infotrem.models.railroad_route_model import Manufacturer
+from infotrem.models.manufacturer_model import Manufacturer
 
 
 def create_locomotive(model_name: str, sigo_number: int, **metadata):

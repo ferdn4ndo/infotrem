@@ -6,7 +6,9 @@ from infotrem.models.railroad_route_model import RailroadRouteSection, RailroadR
     RailroadRouteSectionLocationKilometer, RailroadRoute
 from infotrem.models.track_gauge_model import TrackGauge
 from infotrem.serializers.information_serializer import InformationSerializer
-from infotrem.serializers.railroad_route_serializer import RailroadRouteSectionLocationSerializer
+from infotrem.serializers.railroad_route_serializer import RailroadRouteSectionLocationSerializer, \
+    RailroadRouteSerializer, RailroadRouteSectionSerializer, RailroadRouteSectionLocationKilometerSerializer, \
+    RailroadRouteSectionSmallSerializer
 from infotrem.serializers.track_gauge_serializer import TrackGaugeSerializer
 
 
@@ -56,12 +58,26 @@ class LocationTrackGaugeSerializer(serializers.ModelSerializer):
         return instance
 
 
+class LocationRailroadRouteSectionSerializer(serializers.ModelSerializer):
+    railroad_route = RailroadRouteSerializer()
+    railroad_route_section = RailroadRouteSectionSmallSerializer()
+    kilometers = RailroadRouteSectionLocationKilometerSerializer(many=True)
+
+    class Meta:
+        model = RailroadRouteSectionLocation
+        fields = [
+            'id',
+            'railroad_route',
+            'railroad_route_section',
+            'location_route_order',
+            'kilometers',
+        ]
 
 
 class LocationSerializer(serializers.ModelSerializer):
     information = LocationInformationSerializer(many=True)
     gauges = LocationTrackGaugeSerializer(many=True)
-    route_sections = RailroadRouteSectionLocationSerializer(many=True)
+    route_sections = LocationRailroadRouteSectionSerializer(many=True, read_only=True)
 
     class Meta:
         model = Location
