@@ -1,0 +1,22 @@
+1 - Estação em Funcionamento
+2 - Estação Fechada
+3 - Posto de Licenciamento Aberto
+4 - Parada/Estribo
+5 - Desvio Particular
+6 - Instalação Industrial
+7 - Terminal Particular
+8 - Posto de Ramal Particular
+9 - Posto de Licenciamento Fechado
+
+1 - 1,00M (Métrica)
+2 - 1,60M (Larga)
+3 - 1,00M & 1,60M (Mista)
+4 - 1,435M (Standart)
+5 - 1,00M & 1,435M (Mista)
+6 - 0,76M (Bitolinha)
+7 - 1,00M & 0,76M (Mista)
+
+1 - Diesel-elétrica
+2 - Elétrica
+3 - Vapor
+4 - Hidráulica

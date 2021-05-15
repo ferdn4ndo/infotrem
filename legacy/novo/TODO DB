@@ -1,0 +1,15 @@
+TODO DB
+
+quando não completar informação toda de um item, perguntar se o sistema deve gerar uma pergunta automática
+quando chamar foto/vídeo no DB, chamar nome do usuario criador e do autor, comparar e pegar o necessário
+pegar data da foto por EXIF no upload
+sistema de pontuação para foto / vídeo via visualizações, favoritos e schedule
+no include, fazer verificação para horário e - se for dia novo, executa as tarefas diarias uma vez (verifica atraves de arquivo nulo com data no nome)
+sistema de emoticons via função para interpretação do texto nas descrições
+sistema de travas com login
+
+tblPedidoModificação -> Pedidos de inserção/alteração no sistema para usuários comuns pedirem a moderadores
+tblItensVenda -> Itens para venda
+
+1u = 8,33% [12] 	2u = 16,67% [6] 	3u = 25% [4] 	4u = 33,33% [3] 	5u = 41,67% [2,4] 	6u = 50% [2]
+7u = 58,33% [1,7] 	8u = 66,67% [1,5]	9u = 75% [1,3]	10u = 83,33% [1,2]	11u = 91,67% [1,1] 	12u = 100% [1]	

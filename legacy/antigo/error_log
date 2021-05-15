@@ -1,0 +1,175 @@
+[07-Sep-2020 05:44:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[07-Sep-2020 05:44:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[07-Sep-2020 05:44:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[07-Sep-2020 05:44:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[07-Sep-2020 05:44:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[07-Sep-2020 05:44:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[07-Sep-2020 05:44:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:11:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:12:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[14-Nov-2020 01:12:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
+[08-Mar-2021 10:59:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php:18
+Stack trace:
+#0 /home1/cscco923/public_html/infotrem.com.br/antigo/centro.php(9): include()
+#1 {main}
+  thrown in /home1/cscco923/public_html/infotrem.com.br/antigo/includeslocalhost.php on line 18
