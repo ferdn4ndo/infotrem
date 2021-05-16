@@ -1,0 +1,96 @@
+Estações trensurb (rs)
+
+//Icone da estaÃ§Ã£o
+	var estacaoIcon = new GIcon();
+	estacaoIcon.image = "imagens/status_img_marker.png";
+	estacaoIcon.iconSize = new GSize(25, 25);
+	estacaoIcon.shadow = null;
+	estacaoIcon.iconAnchor = new GPoint(12.5, 12.5); 
+	
+	//Mercado
+	var mercado = createMarker(new google.maps.LatLng(-30.02623,-51.22882), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=121', 'Mercado');
+	map.addOverlay(mercado);
+	
+	//RodoviÃ¡ria
+	var rodoviaria = createMarker(new google.maps.LatLng(-30.022426,-51.219345), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=122', 'RodoviÃ¡ria');
+	map.addOverlay(rodoviaria);
+			
+	//SÃ£o Pedro
+	var saopedro = createMarker(new google.maps.LatLng(-30.006178,-51.209432), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=123', 'SÃ£o Pedro');
+	map.addOverlay(saopedro);		
+	
+	//Farrapos/IPA
+	var farraposipa = createMarker(new google.maps.LatLng(-29.997388,-51.197459), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=124', 'Farrapos');
+	map.addOverlay(farraposipa);	
+	
+	//Aeroporto
+	var aeroporto = createMarker(new google.maps.LatLng(-29.987734,-51.183318), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=125', 'Aeroporto');
+	map.addOverlay(aeroporto);
+	
+	//Anchieta
+	var anchieta = createMarker(new google.maps.LatLng(-29.976303,-51.179037), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=126', 'Anchieta');
+	map.addOverlay(anchieta);
+	
+	//NiterÃ³i/UniRitter
+	var niteroiuniritter = createMarker(new google.maps.LatLng(-29.954395,-51.176355), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=127', 'NiterÃ³i');
+	map.addOverlay(niteroiuniritter);
+	
+	//FÃ¡tima
+	var fatima = createMarker(new google.maps.LatLng(-29.938815,-51.177267), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=128', 'FÃ¡tima');
+	map.addOverlay(fatima);		
+	
+	//Canoas/LaSalle
+	var canoslasalle = createMarker(new google.maps.LatLng(-29.918331,-51.181644), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=129', 'Canoas');
+	map.addOverlay(canoslasalle);	
+			
+	//Mathias Velho
+	var mathiasvelho = createMarker(new google.maps.LatLng(-29.903581,-51.178619), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=130', 'Mathias Velho');
+	map.addOverlay(mathiasvelho);
+			
+	//SÃ£o LuÃ­s/Ulbra
+	var saoluisulbra = createMarker(new google.maps.LatLng(-29.8875,-51.179187), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=131', 'SÃ£o LuÃ­s');
+	map.addOverlay(saoluisulbra);
+	
+	//PetrobrÃ¡s
+	var petrobras = createMarker(new google.maps.LatLng(-29.876681,-51.180561), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=132', 'PetrobrÃ¡s');
+	map.addOverlay(petrobras);
+			
+	//Esteio
+	var esteio = createMarker(new google.maps.LatLng(-29.851895,-51.179198), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=133', 'Esteio');
+	map.addOverlay(esteio);
+	
+	//Luiz Pasteur
+	var luizpasteur = createMarker(new google.maps.LatLng(-29.832761,-51.165551), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=134', 'Luiz Pasteur');
+	map.addOverlay(luizpasteur);
+	
+	//Sapucaia
+	var sapucaia = createMarker(new google.maps.LatLng(-29.823137,-51.148814), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=135', 'Sapucaia');
+	map.addOverlay(sapucaia);		
+	
+	//Unisinos
+	var unisinos = createMarker(new google.maps.LatLng(-29.786904,-51.140403), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=136', 'Unisinos');
+	map.addOverlay(unisinos);
+			
+	//SÃ£o Leopoldo
+	var saoleopoldo = createMarker(new google.maps.LatLng(-29.768959,-51.140821), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=137', 'SÃ£o Leopoldo');
+	map.addOverlay(saoleopoldo);
+		
+	//Rio dos Sinos
+	var riodossinos = createMarker(new google.maps.LatLng(-29.747686,-51.14507), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=3349', 'Rio dos Sinos');
+	map.addOverlay(riodossinos);
+	
+	//Santo Afonso
+	var santoafonso = createMarker(new google.maps.LatLng(-29.730226,-51.140373), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=3350', 'Santo Afonso');
+	map.addOverlay(santoafonso);
+
+	//Industrial
+	var industrial = createMarker(new google.maps.LatLng(-29.716142,-51.135111), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=3988', 'Industrial/Tintas Killing');
+	map.addOverlay(industrial);
+	
+	//Fenac
+	var fenac = createMarker(new google.maps.LatLng(-29.700922,-51.135126), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=3989', 'Fenac');
+	map.addOverlay(fenac);
+
+	//Novo Hamburgo
+	var novohamburgo = createMarker(new google.maps.LatLng(-29.686531,-51.132865), estacaoIcon, 'http://www.trensurb.gov.br/paginas/paginas_estacoes.php?codigo_sitemap=3990', 'Novo Hamburgo');
+	map.addOverlay(novohamburgo);
