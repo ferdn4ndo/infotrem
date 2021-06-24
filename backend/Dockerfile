@@ -21,31 +21,32 @@ ENV LIBRARY_PATH=/lib:/usr/lib
 
 # Install packages before requirements (both run and build ones)
 RUN set -ex \
-    && apk add --no-cache --virtual .build-deps \
-       gcc \
-       musl-dev \
-       zlib-dev \
-       py-pip \
-       jpeg-dev \
-       postgresql-dev \
-    && apk add --no-cache \
-       gettext \
-       build-base \
-       libffi-dev \
-       libmagic \
-       openssl-dev \
-       postgresql-libs \
-       postgresql-client \
-    && apk add --no-cache \
-        --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
-        --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
-       gdal \
-    && python -m pip install -U --force-reinstall pip \
-    && pip install --no-cache-dir -r /code/requirements.txt \
-    && apk --purge del .build-deps \
-    && rm -rf /tmp/requirements.txt
+  && apk add --no-cache --virtual .build-deps \
+     gcc \
+     musl-dev \
+     zlib-dev \
+     py-pip \
+     jpeg-dev \
+     postgresql-dev \
+  && apk add --no-cache \
+     bash \
+     curl \
+     jq \
+     gettext \
+     build-base \
+     libffi-dev \
+     libmagic \
+     openssl-dev \
+     postgresql-libs \
+     postgresql-client \
+     util-linux \
+  && apk add --no-cache \
+      --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
+      --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
+      gdal \
+  && python -m pip install -U --force-reinstall pip \
+  && pip install --no-cache-dir -r /code/requirements.txt \
+  && apk --purge del .build-deps \
+  && rm -rf /tmp/requirements.txt
 
-EXPOSE 9905
-
-CMD ["python", "manage.py", "runserver", "0.0.0.0:9905"]
-
+CMD ["/bin/sh", "entrypoint.sh"]

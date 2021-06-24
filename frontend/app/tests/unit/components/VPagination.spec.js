@@ -6,8 +6,8 @@ const createWrapper = ({ currentPage = 1 }) => {
   return mount(VPagination, {
     propsData: {
       pages: [1, 2, 3, 4],
-      currentPage
-    }
+      currentPage,
+    },
   });
 };
 

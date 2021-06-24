@@ -1,0 +1,15 @@
+
+- model: "api.PassengerCarMaterial"
+  pk: ""
+  fields:
+    letter: ""
+    name: ""
+
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='A', name="Alumínio")
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='C', name="Aço carbono")
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='D', name="Aço carbono e Madeira")
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='E', name="Aço carbono e Inoxidável")
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='I', name="Aço Inoxidável")
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='L', name="Aço carbono e Alumínio")
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='M', name="Madeira")
+RollingStockPassengerCarMaterial.objects.get_or_create(letter='Q', name="Qualquer / outros")

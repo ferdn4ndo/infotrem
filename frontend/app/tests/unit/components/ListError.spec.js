@@ -5,8 +5,8 @@ import ListErrors from "../../../src/components/ListErrors.vue";
 const createWrapper = ({ errors }) => {
   return mount(ListErrors, {
     propsData: {
-      errors
-    }
+      errors,
+    },
   });
 };
 
@@ -17,7 +17,7 @@ describe("ListErrors", () => {
     errors = {
       title: ["Title Error"],
       body: ["can't be blank"],
-      description: ["can't be blank"]
+      description: ["can't be blank"],
     };
   });
 

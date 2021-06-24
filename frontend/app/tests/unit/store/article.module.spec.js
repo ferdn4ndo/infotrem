@@ -5,13 +5,13 @@ import {
   COMMENT_CREATE,
   COMMENT_DESTROY,
   FAVORITE_ADD,
-  FAVORITE_REMOVE
+  FAVORITE_REMOVE,
 } from "../../../src/store/actions.type";
 
 jest.mock("vue", () => {
   return {
     axios: {
-      get: jest.fn().mockImplementation(async articleSlug => {
+      get: jest.fn().mockImplementation(async (articleSlug) => {
         if (articleSlug.includes("8371b051-cffc-4ff0-887c-2c477615a28e")) {
           return {
             data: {
@@ -22,9 +22,9 @@ jest.mock("vue", () => {
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed cursus nisl. Morbi pulvinar nisl urna, tincidunt mattis tortor sollicitudin eget. Nulla viverra justo quis.",
                 body:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum efficitur justo, nec aliquam quam rutrum in. Pellentesque vulputate augue quis vulputate finibus. Phasellus auctor semper sapien sit amet interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas placerat auctor metus. Integer blandit lacinia volutpat.",
-                tagList: ["lorem", "ipsum", "javascript", "vue"]
-              }
-            }
+                tagList: ["lorem", "ipsum", "javascript", "vue"],
+              },
+            },
           };
         }
         if (articleSlug.includes("f986b3d6-95c2-4c4f-a6b9-fbbf79d8cb0c")) {
@@ -40,8 +40,8 @@ jest.mock("vue", () => {
                     username: "dccf649a-5e7b-4040-b8c3-ecf74598eba2",
                     bio: null,
                     image: "https://via.placeholder.com/350x150",
-                    following: false
-                  }
+                    following: false,
+                  },
                 },
                 {
                   id: 2,
@@ -53,16 +53,16 @@ jest.mock("vue", () => {
                     username: "8568a50a-9656-4d55-a023-632029513a2d",
                     bio: null,
                     image: "https://via.placeholder.com/350x150",
-                    following: false
-                  }
-                }
-              ]
-            }
+                    following: false,
+                  },
+                },
+              ],
+            },
           };
         }
         throw new Error("Article not existing");
       }),
-      post: jest.fn().mockImplementation(async articleSlug => {
+      post: jest.fn().mockImplementation(async (articleSlug) => {
         if (articleSlug.includes("582e1e46-6b8b-4f4d-8848-f07b57e015a0")) {
           return null;
         }
@@ -76,14 +76,14 @@ jest.mock("vue", () => {
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed cursus nisl. Morbi pulvinar nisl urna, tincidunt mattis tortor sollicitudin eget. Nulla viverra justo quis.",
                 body:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum efficitur justo, nec aliquam quam rutrum in. Pellentesque vulputate augue quis vulputate finibus. Phasellus auctor semper sapien sit amet interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas placerat auctor metus. Integer blandit lacinia volutpat.",
-                tagList: ["lorem", "ipsum", "javascript", "vue"]
-              }
-            }
+                tagList: ["lorem", "ipsum", "javascript", "vue"],
+              },
+            },
           };
         }
         throw new Error("Article not existing");
       }),
-      delete: jest.fn().mockImplementation(async articleSlug => {
+      delete: jest.fn().mockImplementation(async (articleSlug) => {
         if (articleSlug.includes("657a6075-d269-4aec-83fa-b14f579a3e78")) {
           return null;
         }
@@ -97,14 +97,14 @@ jest.mock("vue", () => {
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed cursus nisl. Morbi pulvinar nisl urna, tincidunt mattis tortor sollicitudin eget. Nulla viverra justo quis.",
                 body:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum efficitur justo, nec aliquam quam rutrum in. Pellentesque vulputate augue quis vulputate finibus. Phasellus auctor semper sapien sit amet interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas placerat auctor metus. Integer blandit lacinia volutpat.",
-                tagList: ["lorem", "ipsum", "javascript", "vue"]
-              }
-            }
+                tagList: ["lorem", "ipsum", "javascript", "vue"],
+              },
+            },
           };
         }
         throw new Error("Article not existing");
-      })
-    }
+      }),
+    },
   };
 });
 
@@ -120,7 +120,7 @@ describe("Vuex Article Module", () => {
         "Yer flummoxed. Fair t' middlin, this is. Off f'r a sup down t'pub, to'neet. Ee bye ecky thump!",
       body:
         "Tha's better bi careful, lass - yer on a Scarborough warning! Tha meks a better door than a winder. Do I 'eckers like, You're in luck m'boy! Am proper knackered, aye I am that is I say.",
-      tagList: ["aye", "ipsum", "javascript", "vue"]
+      tagList: ["aye", "ipsum", "javascript", "vue"],
     };
     await actions[FETCH_ARTICLE](context, articleSlug, prevArticle);
     expect(commitFunction.mock.calls[0][0]).toBe("setArticle");
@@ -167,7 +167,7 @@ describe("Vuex Article Module", () => {
     const context = { dispatch: dispatchFunction };
     const payload = {
       slug: "582e1e46-6b8b-4f4d-8848-f07b57e015a0",
-      comment: "Lorem Ipsum"
+      comment: "Lorem Ipsum",
     };
     await actions[COMMENT_CREATE](context, payload);
     expect(dispatchFunction).toHaveBeenLastCalledWith(
@@ -181,7 +181,7 @@ describe("Vuex Article Module", () => {
     const context = { dispatch: dispatchFunction };
     const payload = {
       slug: "657a6075-d269-4aec-83fa-b14f579a3e78",
-      commentId: 1
+      commentId: 1,
     };
     await actions[COMMENT_DESTROY](context, payload);
     expect(dispatchFunction).toHaveBeenLastCalledWith(
@@ -203,7 +203,7 @@ describe("Vuex Article Module", () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed cursus nisl. Morbi pulvinar nisl urna, tincidunt mattis tortor sollicitudin eget. Nulla viverra justo quis.",
       body:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum efficitur justo, nec aliquam quam rutrum in. Pellentesque vulputate augue quis vulputate finibus. Phasellus auctor semper sapien sit amet interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas placerat auctor metus. Integer blandit lacinia volutpat.",
-      tagList: ["lorem", "ipsum", "javascript", "vue"]
+      tagList: ["lorem", "ipsum", "javascript", "vue"],
     });
   });
 
@@ -220,7 +220,7 @@ describe("Vuex Article Module", () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed cursus nisl. Morbi pulvinar nisl urna, tincidunt mattis tortor sollicitudin eget. Nulla viverra justo quis.",
       body:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum efficitur justo, nec aliquam quam rutrum in. Pellentesque vulputate augue quis vulputate finibus. Phasellus auctor semper sapien sit amet interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas placerat auctor metus. Integer blandit lacinia volutpat.",
-      tagList: ["lorem", "ipsum", "javascript", "vue"]
+      tagList: ["lorem", "ipsum", "javascript", "vue"],
     });
   });
 
@@ -237,7 +237,7 @@ describe("Vuex Article Module", () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed cursus nisl. Morbi pulvinar nisl urna, tincidunt mattis tortor sollicitudin eget. Nulla viverra justo quis.",
       body:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum efficitur justo, nec aliquam quam rutrum in. Pellentesque vulputate augue quis vulputate finibus. Phasellus auctor semper sapien sit amet interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas placerat auctor metus. Integer blandit lacinia volutpat.",
-      tagList: ["lorem", "ipsum", "javascript", "vue"]
+      tagList: ["lorem", "ipsum", "javascript", "vue"],
     });
   });
 
@@ -254,7 +254,7 @@ describe("Vuex Article Module", () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed cursus nisl. Morbi pulvinar nisl urna, tincidunt mattis tortor sollicitudin eget. Nulla viverra justo quis.",
       body:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum efficitur justo, nec aliquam quam rutrum in. Pellentesque vulputate augue quis vulputate finibus. Phasellus auctor semper sapien sit amet interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas placerat auctor metus. Integer blandit lacinia volutpat.",
-      tagList: ["lorem", "ipsum", "javascript", "vue"]
+      tagList: ["lorem", "ipsum", "javascript", "vue"],
     });
   });
 });

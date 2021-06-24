@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="pt-BR">
+    <head>
+        <title>Contato recebido via website</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .Email-Container {
+                box-sizing: border-box;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .Email-Header {
+                text-align: center;
+                width: 100%;
+            }
+
+            .Email-Image {
+                display: inline-block;
+                width: 107px;
+                height: 32px;
+            }
+
+            .Email-Text {
+                font-size: 12px;
+            }
+
+            .Email-Subject {
+                margin: 0 0 10px 0;
+                padding: 0;
+                font-size: 16px;
+                font-weight: bold;
+                color: #1d84a7;
+            }
+
+            .Email-Border {
+                box-sizing: border-box;
+                padding: 10px;
+                border: 1px solid #1d84a7;
+            }
+
+            .Email-Footer {
+                font-size: 10px;
+                color: #8c8c8c;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="Email-Container">
+            <div class="Email-Header">
+                <img src="https://cscconsultoria.fconstantino.me/img/logo_novo.png" alt="InfoTrem Logo" class="Email-Image"/>
+            </div>
+
+            <h1 class="Email-Subject">Contato recebido via website</h1>
+
+            <p class="Email-Text">A seguinte mensagem foi recebida via formulário de contato do website:</p>
+
+            <p class="Email-Text"><b>Tipo:</b>&nbsp;{{ TYPE }}</p>
+
+            <p class="Email-Text"><b>Nome:</b>&nbsp;{{ NAME }}</p>
+
+            <p class="Email-Text"><b>E-mail para contato:</b>&nbsp;{{ CONTACT_EMAIL }}</p>
+
+            <p class="Email-Text"><b>Telefone para contato:</b>&nbsp;{{ CONTACT_PHONE }}</p>
+
+            <p class="Email-Text"><b>Mensagem:</b></p>
+
+            <p class="Email-Text Email-Border">{{ MESSAGE }}</p>
+
+            <small class="Email-Footer">Mensagem enviada em {{ SENT_DATE }}</small>
+        </div>
+    </body>
+</html>

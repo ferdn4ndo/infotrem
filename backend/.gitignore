@@ -11,6 +11,6 @@ temp/*
 logs/*
 !logs/.gitkeep
 
-# Environments
-.env
-venv/
+# Static files
+static/
+!static/.gitkeep

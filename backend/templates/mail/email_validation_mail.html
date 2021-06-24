@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="pt-BR">
+    <head>
+        <title>Confirmação de e-mail</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .Email-Container {
+                box-sizing: border-box;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .Email-Header {
+                text-align: center;
+                width: 100%;
+            }
+
+            .Email-Image {
+                display: inline-block;
+                width: 107px;
+                height: 32px;
+            }
+
+            .Email-Text {
+                font-size: 14px;
+            }
+
+            .Email-Subject {
+                margin: 0 0 10px 0;
+                padding: 0;
+                font-size: 20px;
+                font-weight: bold;
+                color: #1d84a7;
+            }
+
+            .Email-ButtonWrapper {
+                text-align: center;
+                margin: 20px;
+            }
+
+            a.Email-Button {
+                box-sizing: border-box;
+                width: 300px;
+                margin: 10px auto;
+                padding: 10px;
+                font-size: 18px;
+                font-weight: bold;
+                color: #FCF5EB;
+                background-color: #0094CE;
+                border: 1px solid #007FAF;
+                text-decoration: none;
+                cursor: pointer;
+                text-align: center;
+            }
+
+            a.Email-Button:hover {
+                background-color: #0AA3E5;
+                text-decoration: none;
+            }
+
+            a.Email-Button:active {
+                background-color: #0283B6;
+                text-decoration: none;
+            }
+
+            .Email-Signature {
+                color: #172A40;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="Email-Container">
+            <div class="Email-Header">
+                <img src="https://cscconsultoria.fconstantino.me/img/logo_novo.png" alt="CSC Logo" class="Email-Image"/>
+            </div>
+
+            <h1 class="Email-Subject">Olá <b>{{ NAME }}</b>,</h1>
+
+            <p class="Email-Text">Agradecemos por registrar-se no InfoTrem!</p>
+
+            <p class="Email-Text">Antes de poder enviar suas fotos e vídeos, você precisa validar seu e-mail. Para isso, clique no botão abaixo.</p>
+
+            <div class="Email-ButtonWrapper">
+                <a class="Email-Button" href="{{ VALIDATION_URL }}" title="Validar meu e-mail" target="_blank">Validar meu e-mail</a>
+            </div>
+
+            <p class="Email-Text">Se você não se cadastrou em nosso site e acredita que isto possa ser um engano, por favor contate-nos o quanto antes através <a href="http://www.infotrem.com.br/contato" title="Entre em contato por aqui">deste link</a>.
+
+            <p class="Email-Text">Atenciosamente,<br><span class="Email-Signature">Equipe InfoTrem</span></p>
+        </div>
+    </body>
+</html>

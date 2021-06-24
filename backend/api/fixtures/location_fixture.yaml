@@ -1,0 +1,2107 @@
+- model: "api.Location"
+  pk: "a2309f30-9a56-40ea-b405-32068def8e09"
+  fields:
+    abbrev: "LRT"
+    name: "Itararé"
+    type: "STATION"
+    status: "TRANSFORMED"
+    center_latitude: -24.118618
+    center_longitude: -49.338353
+    elevation: 715
+    city: "8bd3e32e-373a-4432-86f2-4145877ddb9c"
+    build_year: 1908
+    is_verified: true
+
+- model: "api.Location"
+  pk: "449e1cbf-47c3-49e5-93a8-642a18c73d3e"
+  fields:
+    abbrev: "LIZ"
+    name: "Coronel Izaltino"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.11283
+    center_longitude: -49.40824
+    elevation: 606
+    city: "bd237654-1d8e-482a-9033-8990c1b5e183"
+    build_year: 1908
+    other_names: "Coronel Isaltino,Morungava,Morungaba"
+    is_verified: false
+
+- model: "api.Location"
+  pk: "23eb4ae9-5690-47ea-b396-838582504dd4"
+  fields:
+    abbrev: "LSG"
+    name: "Sengés"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.11635
+    center_longitude: -49.46702
+    elevation: 586
+    city: "bd237654-1d8e-482a-9033-8990c1b5e183"
+    build_year: 1908
+    is_verified: true
+
+- model: "api.Location"
+  pk: "a04ac4db-3ae4-4a23-8962-61f91f7c39a4"
+  fields:
+    name: "Tucunduva"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.11461
+    center_longitude: -49.50373
+    city: "bd237654-1d8e-482a-9033-8990c1b5e183"
+    build_year: 1926
+    is_verified: false
+
+- model: "api.Location"
+  pk: "79b61f03-e922-435b-ad8a-f1383c2e1c56"
+  fields:
+    name: "Rio do Bugre"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.13374
+    center_longitude: -49.54699
+    city: "bd237654-1d8e-482a-9033-8990c1b5e183"
+    build_year: 1917
+    is_verified: false
+
+- model: "api.Location"
+  pk: "67112393-8a2f-491d-aaa3-6a4c12252a0a"
+  fields:
+    name: "Fábio Rego"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.180285
+    center_longitude: -49.571494
+    elevation: 865
+    city: "bd237654-1d8e-482a-9033-8990c1b5e183"
+    build_year: 1908
+    is_verified: false
+
+- model: "api.Location"
+  pk: "aa13a88c-8a3a-4695-ad73-b2d7e5ce67f8"
+  fields:
+    name: "Eng. Schamber"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.21301
+    center_longitude: -49.605
+    elevation: 942.586
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    build_year: 1926
+    is_verified: true
+
+- model: "api.Location"
+  pk: "3bb45fd3-dd97-44bf-8d36-971a0c427803"
+  fields:
+    name: "Rio das Mortes"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.23375
+    center_longitude: -49.63099
+    elevation: 867
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    build_year: 1913
+    is_verified: false
+
+- model: "api.Location"
+  pk: "44f40cec-8292-47bd-a4b2-c656c8625d46"
+  fields:
+    name: "Samambaia (Nova)"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.21134
+    center_longitude: -49.66199
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    build_year: 1964
+    is_verified: false
+
+- model: "api.Location"
+  pk: "aa1728b2-77be-4c3f-898d-c2ab78c1956c"
+  fields:
+    name: "Samambaia"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.2556
+    center_longitude: -49.66942
+    elevation: 894
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    build_year: 1926
+    is_verified: false
+
+- model: "api.Location"
+  pk: "2a3c1e8b-d07b-4ef1-b0d7-23494859b852"
+  fields:
+    abbrev: "LIF"
+    name: "PISA S/A"
+    type: "TERMINAL"
+    status: "TRANSFORMED"
+    center_latitude: -24.233738
+    center_longitude: -49.683140
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    is_verified: true
+
+- model: "api.Location"
+  pk: "dd8c8ddb-8755-4936-9c96-740b4fd52402"
+  fields:
+    abbrev: "LJR"
+    name: "Jaguariaíva"
+    type: "STATION"
+    status: "TRANSFORMED"
+    center_latitude: -24.25605
+    center_longitude: -49.71308
+    elevation: 840
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    build_year: 1905
+    is_verified: true
+
+- model: "api.Location"
+  pk: "d247651d-3c44-493e-a84f-e2b58edc8598"
+  fields:
+    name: "Posto KM 106"
+    type: "STOP"
+    status: "DEMOLISHED"
+    center_latitude: -24.26819
+    center_longitude: -49.7564
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    is_verified: true
+
+- model: "api.Location"
+  pk: "bd85374a-7334-4bec-bec7-f5ca873ae998"
+  fields:
+    name: "Cilada"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.3116
+    center_longitude: -49.79874
+    elevation: 1092
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    build_year: 1926
+    is_verified: false
+
+- model: "api.Location"
+  pk: "487f114e-7e98-4dad-8916-d5bfb1bee04e"
+  fields:
+    name: "Diamante"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.32855
+    center_longitude: -49.81113
+    elevation: 1130
+    city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
+    build_year: 1947
+    is_verified: false
+
+- model: "api.Location"
+  pk: "6f8a5b8b-da18-4bc6-84ef-76fca1a9ed31"
+  fields:
+    name: "Presidente Castilhos"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.3523
+    center_longitude: -49.83807
+    elevation: 1117
+    city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
+    build_year: 1905
+    is_verified: true
+
+- model: "api.Location"
+  pk: "6ebdf7c8-298e-41b1-93db-137e74b5b277"
+  fields:
+    abbrev: "LMU"
+    name: "Raul Mesquita (Nova)"
+    type: "STATION"
+    status: "ABANDONED"
+    center_latitude: -24.38845
+    center_longitude: -49.87949
+    city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
+    build_year: 1963
+    other_names: "Joaquim Murtinho, Raul Soares"
+    is_verified: true
+
+- model: "api.Location"
+  pk: "285c2326-c2c4-4b84-a8b7-8738fbfb350f"
+  fields:
+    abbrev: "LPE"
+    name: "Pedreira"
+    type: "STATION"
+    status: "ABANDONED"
+    center_latitude: -24.42101
+    center_longitude: -49.85545
+    elevation: 1088
+    city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
+    build_year: 1965
+    is_verified: false
+
+- model: "api.Location"
+  pk: "daaa6fe7-3642-4266-be36-57acdac62c88"
+  fields:
+    name: "Espalha-Brasas"
+    type: "STATION"
+    status: "DEMOLISHED"
+    center_latitude: -24.4683
+    center_longitude: -49.87372
+    elevation: 1041.728
+    city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
+    build_year: 1917
+    is_verified: false
+
+- model: "api.Location"
+  pk: "db9a8c37-3bbd-4dbd-93d8-340b688ef778"
+  fields:
+    abbrev: "LPY"
+    name: "Piraí do Sul"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_year:
+      - is_verified: false
+
+- model: "api.Location"
+  pk: "ed64acf1-de03-426a-af78-d945b78cf842"
+  fields:
+    abbrev: "ZRJ"
+    name: "Tijuco Preto"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "12aaf3f6-fada-4d98-94bf-39c0e6eb1b50"
+  fields:
+    abbrev: "LCX"
+    name: "Caxambu"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "fd8bc899-d91d-4d29-b22b-9cadd1e4a6b0"
+  fields:
+    abbrev: ""
+    name: "Iapó"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "755305bb-1d19-4e64-9fba-f8065e740417"
+  fields:
+    abbrev: "LCA"
+    name: "Castro"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "57db4ebd-4bab-4ddb-9cae-e9d3e77762a4"
+  fields:
+    abbrev: "LTC"
+    name: "Tronco"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "462e87ee-588e-4730-b5eb-ccfc84115708"
+  fields:
+    abbrev: "LCB"
+    name: "Carambeí (Caranbey)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "2b8775e9-ccc1-4b7f-960d-d86eb33727be"
+  fields:
+    abbrev: "LBQ"
+    name: "Boqueirão"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "9dd2b39f-4709-4aae-b541-2a656eb45855"
+  fields:
+    abbrev: "LRD"
+    name: "Rio Verde"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "4f610524-cfda-494a-b560-a7a61f4a50ee"
+  fields:
+    abbrev: ""
+    name: "Ponta Grossa"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "d727c313-30bf-4202-a952-6976c223a414"
+  fields:
+    abbrev: "LOF"
+    name: "Oficinas"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "a140595c-9b4a-46a4-b9d4-0145d304d30b"
+  fields:
+    abbrev: ""
+    name: "Rio Tibagi"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "68d9309b-1267-457c-bf25-09160f97fd26"
+  fields:
+    abbrev: "LRR"
+    name: "Roxo Roiz"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "3bbf2439-5692-4ee5-b7d0-dcff17f9e390"
+  fields:
+    abbrev: "LER"
+    name: "Guaragi (Entre Rios)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "409b5df0-243f-4143-b609-b7f3272f719f"
+  fields:
+    abbrev: "LGU"
+    name: "Valinhos do Sul (Guaraúna)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "1ae58062-1a4b-427b-9acd-5e0ef888416f"
+  fields:
+    abbrev: ""
+    name: "Rio das Almas"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "0fe54da8-296f-46db-a42f-6b0b39077feb"
+  fields:
+    abbrev: "LTS"
+    name: "Teixeira Soares"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "bc483d86-007f-4c9f-8fb1-50e50f739ddd"
+  fields:
+    abbrev: ""
+    name: "Diamantina"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "a379a00f-f5aa-4d3d-b984-271929be1965"
+  fields:
+    abbrev: "LFP"
+    name: "Fernandes Pinheiro"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "f986164f-0b9c-4123-9dfe-cd6a748b6ed8"
+  fields:
+    abbrev: "LFL"
+    name: "Florestal"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "6ac00e45-6481-4033-a0c9-9010eda7f479"
+  fields:
+    abbrev: "LIT"
+    name: "Irati"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "93c438b6-7d0e-45b4-bfe1-3774a569706b"
+  fields:
+    abbrev: "LGZ"
+    name: "Eng. Gutierrez (Riozinho)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "7eb436b6-b425-447d-84b3-f4cb119da1d8"
+  fields:
+    abbrev: "LRB"
+    name: "Rebouças"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "3ff42222-716b-4dc9-9b99-fc20e85a6899"
+  fields:
+    abbrev: ""
+    name: "Roberto Helling"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "0e1d82fc-fd02-43e0-bf65-3543219ba718"
+  fields:
+    abbrev: "LRZ"
+    name: "Rio Azul"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "fbe8d181-dba4-430a-817d-2f79ccac43c3"
+  fields:
+    abbrev: ""
+    name: "Minduí (Vera Cruz)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "b836d54a-b5ff-401e-97ce-5527e3be7c8d"
+  fields:
+    abbrev: "LML"
+    name: "Mallet"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "856a7c53-da05-4e67-8e48-955644838c7a"
+  fields:
+    abbrev: "LDZ"
+    name: "Dorizon"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "57484e18-b3d5-45c3-81cc-69b249d47c54"
+  fields:
+    abbrev: "LFN"
+    name: "Paulo de Frontin"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "e995c098-9ac7-4edd-81ef-503a7e85e97f"
+  fields:
+    abbrev: "LVD"
+    name: "Vargem Grande"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "ab0f2228-556b-4030-bcb1-deb831d7f4dd"
+  fields:
+    abbrev: "LFS"
+    name: "Paula Freitas"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "f8f28cdc-7bb9-4f72-a3b3-f2d8aee464e3"
+  fields:
+    abbrev: "LUN"
+    name: "Porto União da Vitória"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "0212c414-ff10-4cdb-b4eb-a28ef8c95c84"
+  fields:
+    abbrev: "LEM"
+    name: "Eng. Eugênio de Mello (Legru)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "b8e10468-c3d8-4761-98c7-e70a1ed36f54"
+  fields:
+    abbrev: "LAS"
+    name: "Achilles Stenghel"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "a9ed0810-4d36-43c6-95cd-61ea826aa271"
+  fields:
+    abbrev: "LNG"
+    name: "Nova Galícia"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "17cf4f23-5465-4a0f-af2a-db007b87faeb"
+  fields:
+    abbrev: "LSO"
+    name: "Cerro Pelado"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "b86b6dd5-911d-4da1-b489-1d9fce5d1926"
+  fields:
+    abbrev: "LMC"
+    name: "Matos Costa"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "425a9f86-d8d7-4f53-b4d6-ed38905e1b2e"
+  fields:
+    abbrev: ""
+    name: "General Dutra"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "ac5dc26e-8cb8-4790-8a1d-3f3de078baa7"
+  fields:
+    abbrev: "LOM"
+    name: "Calmon"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "d35cbf85-f4e1-45cf-b48b-f5653d47aace"
+  fields:
+    abbrev: ""
+    name: "Anhangüera"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "d7bdb193-10a3-4600-a731-d3895a4ebb45"
+  fields:
+    abbrev: "LPP"
+    name: "Presidente Penna"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "25de8d27-cab8-49d5-af07-526b0084e858"
+  fields:
+    abbrev: ""
+    name: "Adolfo Konder"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "0058363f-bfdc-4661-9cb7-ef8344cdfafd"
+  fields:
+    abbrev: "LRC"
+    name: "Caçador"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "1af48f53-14ae-4b6a-9091-22c75f0f2df5"
+  fields:
+    abbrev: ""
+    name: "Engenheiro Leite Ribeiro"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "4ec498eb-41b7-438d-8892-954c3997c068"
+  fields:
+    abbrev: ""
+    name: "Coronel Tiburcio Cavalcanti"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "54bf66d4-622a-40a6-9eee-66635f3086ef"
+  fields:
+    abbrev: "LAN"
+    name: "Rio das Antas (Campos Novos)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "9dbc7b92-d362-4a52-96de-af5c87bf73fe"
+  fields:
+    abbrev: ""
+    name: "Ipoméia (Princesa Isabel)"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "95724047-c8bb-4061-a759-aca4ec409eba"
+  fields:
+    abbrev: "LGM"
+    name: "Gramado"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "36bd39b7-b675-4bdd-b060-4d68350a8314"
+  fields:
+    abbrev: "LVI"
+    name: "Videira"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "a0c369d2-16f9-4251-be09-5e6b5cdc1ca3"
+  fields:
+    abbrev: "LPN"
+    name: "Pinheiro Preto"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "f074185e-e921-46a8-a24a-709593d1c218"
+  fields:
+    abbrev: "LBI"
+    name: "Tangará"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "d0239ddc-4138-4164-ae2b-d3b2cb1369b7"
+  fields:
+    abbrev: ""
+    name: "General Goes"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "5948140e-b644-4332-bceb-152e71ec955b"
+  fields:
+    abbrev: "LIU"
+    name: "Ibicaré"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "b9e05c6d-3ece-4abc-bb29-822182f0eecf"
+  fields:
+    abbrev: ""
+    name: "Luzerna"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "d306376d-e808-4c33-8800-8bc221713965"
+  fields:
+    abbrev: "LHL"
+    name: "Herval D\'Oeste"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "0bd1a978-0f77-4be2-946c-54fc6f17da19"
+  fields:
+    abbrev: ""
+    name: "Itororó"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "73f247a1-554d-447b-bb32-5d72990a3543"
+  fields:
+    abbrev: ""
+    name: "Barra Fria"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "5d23c1f3-3692-4479-be94-ec0a25ce5183"
+  fields:
+    abbrev: ""
+    name: "Leão"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "802b01ba-a187-4ed6-8f40-6c09c0f33b70"
+  fields:
+    abbrev: "LCZ"
+    name: "Capinzal"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "83534d9e-dfd5-43e8-9535-dbd2772be135"
+  fields:
+    abbrev: ""
+    name: "Avaí"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "8b45abe8-1095-44eb-b490-6fcf96d370ec"
+  fields:
+    abbrev: ""
+    name: "Barra do Pinheiro"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "322aeb3a-4d67-46fe-94ad-fab11c3622cf"
+  fields:
+    abbrev: "LPX"
+    name: "Piratuba"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "2968d7d9-8912-4ac3-a8d2-f317d2a98bf4"
+  fields:
+    abbrev: "LUG"
+    name: "Rio Uruguai"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "24cc34b0-c579-4dca-82d0-e9ace4f8b697"
+  fields:
+    abbrev: ""
+    name: "Volta Grande"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_yea  is_verified: false
+
+- model: "api.Location"
+  pk: "e3649ebc-9e2b-4dd7-8b8e-db7f0d2734fa"
+  fields:
+    abbrev: "NRM"
+    name: "Marcelino Ramos"
+    type: "STATION"
+    status: ""
+    center_latitude:
+    center_longitude:
+    elevation:
+    city:
+    build_year:
+
+
+###
+# Itararé-Uruguai
+# Variante Jaguariaíva - Fábio Rego (1964)
+###
+batch_create_route_location(
+    route_name='Itararé-Uruguai',
+    sub_route_name='Variante Jaguariaíva - Fábio Rego',
+    sub_route_year=1909,
+    locations=[
+        {
+            'name': 'Fábio Rego',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 55.966,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Samambaia (nova)',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 88.820,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LJR',
+            'name': 'Jaguariaíva',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 97.929,
+            'kilometer_year': 1935,
+        },
+    ],
+)
+
+###
+# Curitiba - Paranaguá
+# Linha Tronco (1885)
+###
+batch_create_route_location(
+    route_name='Curitiba - Paranaguá',
+    sub_route_name='Linha Tronco',
+    sub_route_year=1885,
+    locations=[
+        {
+            'abbrev': 'LPG',
+            'name': 'Paranaguá',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 0,
+            'kilometer_year': 1935,
+        },
+        {
+            'abbrev': 'LDP',
+            'name': 'Porto Dom Pedro II',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 2.300,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LAX',
+            'name': 'Alexandra',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 16.800,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LSQ',
+            'name': 'Saquarema',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 24.000,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LMR',
+            'name': 'Morretes',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 24.000,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LPC',
+            'name': 'Porto de Cima',
+            'gauges': [1.00],
+            'route_position': 6,
+            'kilometer': 50.600,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LEL',
+            'name': 'Eng. Lange (Volta Grande)',
+            'gauges': [1.00],
+            'route_position': 7,
+            'kilometer': 55.900,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LMY',
+            'name': 'Marumbi',
+            'gauges': [1.00],
+            'route_position': 8,
+            'kilometer': 59.643,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Cadeado',
+            'gauges': [1.00],
+            'route_position': 9,
+            'kilometer': 63.500,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LVN',
+            'name': 'Véu da Noiva (Ypiranga)',
+            'gauges': [1.00],
+            'route_position': 10,
+            'kilometer': 66.800,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LBH',
+            'name': 'Banhado',
+            'gauges': [1.00],
+            'route_position': 11,
+            'kilometer': 73.400,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LRN',
+            'name': 'Roça Nova',
+            'gauges': [1.00],
+            'route_position': 12,
+            'kilometer': 80.500,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LPQ',
+            'name': 'Piraquara',
+            'gauges': [1.00],
+            'route_position': 13,
+            'kilometer': 87.350,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Leprosário (São Roque)',
+            'gauges': [1.00],
+            'route_position': 14,
+        },
+        {
+            'abbrev': 'LNH',
+            'name': 'Pinhais',
+            'gauges': [1.00],
+            'route_position': 15,
+            'kilometer': 102.100,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Curitiba',
+            'gauges': [1.00],
+            'route_position': 16,
+            'kilometer': 110.390,
+            'kilometer_year': 1936,
+        },
+    ],
+)
+
+###
+# Curitiba - Paranaguá
+# Nova estação de Curitiba (1972)
+###
+batch_create_route_location(
+    route_name='Curitiba - Paranaguá',
+    sub_route_name='Nova estação de Curitiba',
+    sub_route_year=1972,
+    locations=[
+        {
+            'abbrev': 'LNH',
+            'name': 'Pinhais',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 102.100,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LCO',
+            'name': 'Curitiba (nova)',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 109.436,
+            'kilometer_year': 2000,
+        },
+        {
+            'name': 'Curitiba',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 110.390,
+            'kilometer_year': 1936,
+        },
+    ],
+)
+
+###
+# Curitiba - Paranaguá
+# Modificações entre Curitiba e Paranaguá (1986)
+###
+batch_create_route_location(
+    route_name='Curitiba - Paranaguá',
+    sub_route_name='Modificações entre Curitiba e Paranaguá',
+    sub_route_year=1986,
+    locations=[
+        {
+            'abbrev': 'LPG',
+            'name': 'Paranaguá',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 0,
+            'kilometer_year': 1935,
+        },
+        {
+            'abbrev': 'LDP',
+            'name': 'Porto Dom Pedro II',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 2.310,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LID',
+            'name': 'Quilômetro 5 (KM5)',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 6.634,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LAX',
+            'name': 'Alexandra',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 16.168,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LSQ',
+            'name': 'Saquarema',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 23.989,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LMR',
+            'name': 'Morretes',
+            'gauges': [1.00],
+            'route_position': 6,
+            'kilometer': 40.756,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LOT',
+            'name': 'Eng. Roberto Costa',
+            'gauges': [1.00],
+            'route_position': 7,
+            'kilometer': 44.583,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LPC',
+            'name': 'Porto de Cima',
+            'gauges': [1.00],
+            'route_position': 8,
+            'kilometer': 50.753,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LEL',
+            'name': 'Eng. Lange (Volta Grande)',
+            'gauges': [1.00],
+            'route_position': 9,
+            'kilometer': 56.027,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LMY',
+            'name': 'Marumbi (Marumby)',
+            'gauges': [1.00],
+            'route_position': 10,
+            'kilometer': 59.975,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LVN',
+            'name': 'Véu da Noiva (Ypiranga)',
+            'gauges': [1.00],
+            'route_position': 11,
+            'kilometer': 66.891,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LKS',
+            'name': 'Quilômetro 70 (KM70)',
+            'gauges': [1.00],
+            'route_position': 12,
+            'kilometer': 69.998,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LBH',
+            'name': 'Banhado',
+            'gauges': [1.00],
+            'route_position': 13,
+            'kilometer': 74.427,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LRN',
+            'name': 'Roça Nova',
+            'gauges': [1.00],
+            'route_position': 14,
+            'kilometer': 80.610,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LPQ',
+            'name': 'Piraquara',
+            'gauges': [1.00],
+            'route_position': 15,
+            'kilometer': 87.486,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LUZ',
+            'name': 'Eng. Coral',
+            'gauges': [1.00],
+            'route_position': 16,
+            'kilometer': 92.860,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LNH',
+            'name': 'Pinhais',
+            'gauges': [1.00],
+            'route_position': 17,
+            'kilometer': 102.235,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LKP',
+            'name': 'Quilômetro 103 (KM103)',
+            'gauges': [1.00],
+            'route_position': 18,
+            'kilometer': 103.698,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LTE',
+            'name': 'Eng. Theodoro Stresser',
+            'gauges': [1.00],
+            'route_position': 19,
+            'kilometer': 105.160,
+            'kilometer_year': 2000,
+        },
+        {
+            'abbrev': 'LCO',
+            'name': 'Curitiba (nova)',
+            'gauges': [1.00],
+            'route_position': 20,
+            'kilometer': 109.644,
+            'kilometer_year': 2000,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Linha Tronco (1894)
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name='Linha Tronco',
+    sub_route_year=1894,
+    locations=[
+        {
+            'name': 'Curitiba',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 110.390,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Portão',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 118.465,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Barigüi',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 124.770,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Araucária',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 134.828,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Passaúna',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 139.644,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Guajuvira',
+            'gauges': [1.00],
+            'route_position': 6,
+            'kilometer': 152.371,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Balsa Nova',
+            'gauges': [1.00],
+            'route_position': 7,
+            'kilometer': 168.941,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Serrinha',
+            'gauges': [1.00],
+            'route_position': 8,
+            'kilometer': 181.646,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Tamandua',
+            'gauges': [1.00],
+            'route_position': 9,
+        },
+        {
+            'name': 'Restinga Seca',
+            'gauges': [1.00],
+            'route_position': 10,
+            'kilometer': 181.646,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Palmeira',
+            'gauges': [1.00],
+            'route_position': 11,
+            'kilometer': 240.618,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Lago',
+            'gauges': [1.00],
+            'route_position': 12,
+            'kilometer': 258.775,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Desvio Ribas',
+            'gauges': [1.00],
+            'route_position': 13,
+            'kilometer': 271.970,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Ponta Grossa',
+            'gauges': [1.00],
+            'route_position': 14,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Ramal de Porto Amazonas (1892)
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name='Ramal de Porto Amazonas',
+    sub_route_year=1892,
+    locations=[
+        {
+            'name': 'Restinga Seca',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 181.646,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Porto Amazonas',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 212.506,
+            'kilometer_year': 1935,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Ramal de Rio Negro (1895)
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name='Ramal de Rio Negro',
+    sub_route_year=1895,
+    locations=[
+        {
+            'name': 'Serrinha',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 0.0,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Lapa',
+            'gauges': [1.00],
+            'route_position': 2,
+        },
+        {
+            'name': 'Lavrinhas',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 41.000,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Rio da Varzea',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 53.515,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Campo do Tenente',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 61.498,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Roseira',
+            'gauges': [1.00],
+            'route_position': 6,
+            'kilometer': 75,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Rio Negro',
+            'gauges': [1.00],
+            'route_position': 7,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Modificação entre Serrinha e Palmeira (1914)
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name='Modificação entre Serrinha e Palmeira',
+    sub_route_year=1914,
+    locations=[
+        {
+            'name': 'Serrinha',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 181.646,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Nova Capivary',
+            'gauges': [1.00],
+            'route_position': 2,
+        },
+        {
+            'name': 'Caiacanga',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 181.646,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Porto Amazonas',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 212.506,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Nova Restinga',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 226.298,
+            'kilometer_year': 1935,
+        },
+        {
+            'name': 'Palmeira',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 240.618,
+            'kilometer_year': 1935,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Variante de Capivari (1934)
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name='Variante de Capivari',
+    sub_route_year=1934,
+    locations=[
+        {
+            'abbrev': 'LEB',
+            'name': 'Eng. Bley (Nova Capivari)',
+            'gauges': [1.00],
+            'route_position': 1,
+        },
+        {
+            'name': 'Lapa',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 30.070,
+            'kilometer_year': 1935,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Variante de Rio Negro - 1964
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name='Variante de Rio Negro',
+    sub_route_year=1964,
+    locations=[
+        {
+            'abbrev': 'LEB',
+            'name': 'Eng. Bley (Nova Capivari)',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 0.0,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LLA',
+            'name': 'Lapa (nova)',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 18.049,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LLV',
+            'name': 'Lavrinhas (nova)',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 29.049,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LVZ',
+            'name': 'Rio da Varzea (nova)',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 39.280,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LDR',
+            'name': 'Parada Diretor',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 50.280,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LRO',
+            'name': 'Rio Negro (nova)',
+            'gauges': [1.00],
+            'route_position': 6,
+            'kilometer': 61.350,
+            'kilometer_year': 2014,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Variante Curitiba (nova) - Engenheiro Bley (1977)
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name='Variante Curitiba (nova) - Engenheiro Bley',
+    sub_route_year=1977,
+    locations=[
+        {
+            'abbrev': 'LCO',
+            'name': 'Curitiba (nova)',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 109.644,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LTE',
+            'name': 'Eng. Theodoro Stresser',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 105.160,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LKP',
+            'name': 'Quilômetro 103 (KM103)',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 103.698,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LKM',
+            'name': 'Quilômetro 108 (KM108)',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 107.588,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LIC',
+            'name': 'Iguaçu',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 114.060,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LAW',
+            'name': 'Araucária Terminal',
+            'gauges': [1.00],
+            'route_position': 6,
+            'kilometer': 127.300,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LAR',
+            'name': 'Araucária Carga',
+            'gauges': [1.00],
+            'route_position': 7,
+            'kilometer': 132.200,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LAB',
+            'name': 'Quilômetro 141 (KM141)',
+            'gauges': [1.00],
+            'route_position': 8,
+            'kilometer': 140.846,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LAB',
+            'name': 'General Lúcio',
+            'gauges': [1.00],
+            'route_position': 9,
+            'kilometer': 151.513,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LBN',
+            'name': 'Balsa Nova (nova)',
+            'gauges': [1.00],
+            'route_position': 10,
+            'kilometer': 159.346,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LEB',
+            'name': 'Eng. Bley (Nova Capivari)',
+            'gauges': [1.00],
+            'route_position': 11,
+            'kilometer': 170.371,
+            'kilometer_year': 2014,
+        },
+    ],
+)
+
+###
+# Curitiba - Ponta Grossa
+# Variante Engenheiro Bley - Ponta Grossa (1969)
+###
+batch_create_route_location(
+    route_name='Curitiba - Ponta Grossa',
+    sub_route_name=' Variante Eng. Bley - Ponta Grossa',
+    sub_route_year=1969,
+    locations=[
+        {
+            'abbrev': 'LEB',
+            'name': 'Eng. Bley (Nova Capivari)',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 170.371,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LOZ',
+            'name': 'Ozório de Almeida',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 180.150,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LWV',
+            'name': 'Walter Scott Veloso',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 185.960,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LMO',
+            'name': 'Machado da Costa',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 196.325,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LLP',
+            'name': 'Ângelo Lopes',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 209.330,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LLY',
+            'name': 'Eng. Lineu do Amaral',
+            'gauges': [1.00],
+            'route_position': 6,
+            'kilometer': 222.742,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LDV',
+            'name': 'Desvio Ribas (nova)',
+            'gauges': [1.00],
+            'route_position': 7,
+            'kilometer': 232.457,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LVV',
+            'name': 'Vila Velha',
+            'gauges': [1.00],
+            'route_position': 8,
+            'kilometer': 240.100,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LUS',
+            'name': 'Uvaranas',
+            'gauges': [1.00],
+            'route_position': 9,
+            'kilometer': 250.050,
+            'kilometer_year': 2014,
+        },
+    ],
+)
+
+###
+# Curitiba - Rio Branco do Sul
+# Ramal de Rio Branco do Sul (1909)
+###
+batch_create_route_location(
+    route_name='Curitiba - Rio Branco do Sul',
+    sub_route_name='Ramal de Rio Branco do Sul',
+    sub_route_year=1909,
+    locations=[
+        {
+            'name': 'Curitiba',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 0,
+            'kilometer_year': 1936,
+        },
+        {
+            'name': 'Colônia Argelina',
+            'gauges': [1.00],
+            'route_position': 2,
+        },
+        {
+            'name': 'Ahu',
+            'gauges': [1.00],
+            'route_position': 3,
+        },
+        {
+            'abbrev': 'LCH',
+            'name': 'Cachoeira',
+            'gauges': [1.00],
+            'route_position': 4,
+        },
+        {
+            'abbrev': 'LTD',
+            'name': 'Almirante Tamandaré',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 20.335,
+            'kilometer_year': 1936,
+        },
+        {
+            'abbrev': 'LTR',
+            'name': 'Tranqueira',
+            'gauges': [1.00],
+            'route_position': 5,
+            'kilometer': 27.680,
+            'kilometer_year': 1935,
+        },
+        {
+            'abbrev': 'LIP',
+            'name': 'Itaperussu',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 35.535,
+            'kilometer_year': 1935,
+        },
+        {
+            'abbrev': 'LBR',
+            'name': 'Rio Branco do Sul',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 42.835,
+            'kilometer_year': 1935,
+        },
+    ],
+)
+
+###
+# Curitiba - Rio Branco do Sul
+# Modificações no Ramal de Rio Branco do Sul (1970)
+###
+batch_create_route_location(
+    route_name='Curitiba - Rio Branco do Sul',
+    sub_route_name='Modificações no Ramal de Rio Branco do Sul',
+    sub_route_year=1970,
+    locations=[
+        {
+            'abbrev': 'LCO',
+            'name': 'Curitiba (nova)',
+            'gauges': [1.00],
+            'route_position': 1,
+            'kilometer': 0,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LCH',
+            'name': 'Cachoeira',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 12.769,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LTD',
+            'name': 'Almirante Tamandaré',
+            'gauges': [1.00],
+            'route_position': 3,
+            'kilometer': 20.268,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LTR',
+            'name': 'Tranqueira',
+            'gauges': [1.00],
+            'route_position': 4,
+            'kilometer': 27.649,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LIP',
+            'name': 'Itaperussu',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 35.446,
+            'kilometer_year': 2014,
+        },
+        {
+            'abbrev': 'LBR',
+            'name': 'Rio Branco do Sul',
+            'gauges': [1.00],
+            'route_position': 2,
+            'kilometer': 43.309,
+            'kilometer_year': 2014,
+        },
+    ],
+)

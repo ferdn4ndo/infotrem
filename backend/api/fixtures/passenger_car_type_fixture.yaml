@@ -1,0 +1,19 @@
+
+- model: "api.PassengerCarType"
+  pk: ""
+  fields:
+    letter: ""
+    name: ""
+
+RollingStockPassengerCarType.objects.get_or_create(letter='A', name="Administração")
+RollingStockPassengerCarType.objects.get_or_create(letter='B', name="Bagagem e/ou Correio")
+RollingStockPassengerCarType.objects.get_or_create(letter='D', name="Dormitório com cabines")
+RollingStockPassengerCarType.objects.get_or_create(letter='E', name="Pulmann(com poltronas especiais)")
+RollingStockPassengerCarType.objects.get_or_create(letter='F', name="Buffet (com poltronas e bar)")
+RollingStockPassengerCarType.objects.get_or_create(letter='L', name="Poltronas - leito")
+RollingStockPassengerCarType.objects.get_or_create(letter='P', name="Poltronas de primeira classe")
+RollingStockPassengerCarType.objects.get_or_create(letter='Q', name="Qualquer / outros")
+RollingStockPassengerCarType.objects.get_or_create(letter='R', name="Restaurante")
+RollingStockPassengerCarType.objects.get_or_create(letter='S', name="Segunda classe")
+RollingStockPassengerCarType.objects.get_or_create(letter='T', name="Classe turística")
+RollingStockPassengerCarType.objects.get_or_create(letter='U', name="Suburbano")

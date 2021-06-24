@@ -3,7 +3,7 @@ import Vuex from "vuex";
 import VueRouter from "vue-router";
 
 import Comment from "../../src/components/Comment.vue";
-import DateFilter from "../../src/common/date.filter";
+import DateFilter from "@/filters/date.filter";
 
 const localVue = createLocalVue();
 localVue.filter("date", DateFilter);
@@ -17,16 +17,16 @@ describe("Comment", () => {
         {
           name: "profile",
           path: "/profile",
-          component: null
-        }
-      ]
+          component: null,
+        },
+      ],
     });
     let store = new Vuex.Store({
       getters: {
         currentUser: () => ({
-          username: "user-3518518"
-        })
-      }
+          username: "user-3518518",
+        }),
+      },
     });
 
     const wrapper = mount(Comment, {
@@ -39,12 +39,12 @@ describe("Comment", () => {
           body: "body of comment",
           author: {
             image: "https://vuejs.org/images/logo.png",
-            username: "user-3518518"
+            username: "user-3518518",
           },
           createdAt: "",
-          id: 1245781274
-        }
-      }
+          id: 1245781274,
+        },
+      },
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });

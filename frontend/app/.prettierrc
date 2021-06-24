@@ -1,5 +1,10 @@
 {
   "singleQuote": false,
-  "trailingComma": "none",
-  "vueIndentScriptAndStyle": true
+  "trailingComma": "es5",
+  "vueIndentScriptAndStyle": true,
+  "printWidth": 80,
+  "quoteProps": "consistent",
+  "arrowParens": "always",
+  "jsxBracketSameLine": false,
+  "endOfLine": "lf"
 }

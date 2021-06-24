@@ -9,8 +9,8 @@ const createWrapper = () => {
     localVue,
     router,
     propsData: {
-      name: "Foo"
-    }
+      name: "Foo",
+    },
   });
 };
 

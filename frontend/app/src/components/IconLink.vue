@@ -1,11 +1,19 @@
 <template>
-  <a class="icon-link" :href="this.url" target="_blank" :title="this.title">
-    <an-icon :icon="this.icon" size="20pt"></an-icon>
+  <a
+    :href="url"
+    :title="title"
+    class="icon-link"
+    target="_blank"
+  >
+    <an-icon
+      :icon="icon"
+      size="20pt"
+    />
   </a>
 </template>
 
 <style lang="scss" scoped>
-  @import "@/styles/_variables.scss";
+  @import "~@/styles/_variables.scss";
 
   .icon-link {
     text-decoration: none;
@@ -14,11 +22,11 @@
 
 <script>
   import ICON_CLASS_MAP from "../common/icons";
-  import AnIcon from "@/components/AnIcon";
+  import AnIcon from "@/components/TheIcon";
 
   export default {
     components: {
-      AnIcon
+      AnIcon,
     },
 
     props: {
@@ -28,18 +36,18 @@
         validator: function(value) {
           // The value must match one of the mapped icons
           return value in ICON_CLASS_MAP;
-        }
+        },
       },
 
       url: {
         type: String,
-        default: "#"
+        default: "#",
       },
 
       title: {
         type: String,
-        required: true
-      }
-    }
+        required: true,
+      },
+    },
   };
 </script>

@@ -1,0 +1,337 @@
+
+- model: "api.Information"
+  pk: "3acd5de8-7b3a-4507-812b-b749cddacf43"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content:  "Vagões Particulares"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "32279d8b-7c43-4abf-942e-667278ac092d"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Vagões originários da CVRD"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "0211bed3-7f87-4e57-9ccf-6ce2dac8d8c7"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Vagões originários da Fepasa"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "46e2d76d-e810-41ad-b104-f2859e6ed0db"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Vagões originários da RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "9a2696ec-a00f-4293-90a8-fb462097a634"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Vagões originários da ENFE"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "954859b5-c4e2-4b90-981a-9798b85d5c13"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas originárias da RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "1215c977-1395-4173-98e2-3d868bf8afea"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas originárias da CVRD"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "737841b8-1ba7-49d2-b987-40a18e494784"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas originárias da Fepasa"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "abac85fb-b2c1-4c03-8d03-9c601ade7d1b"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas originárias da ENFE"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "76a07427-f59d-401a-8ecf-cc30391bce16"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas Particulares"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "d84ce574-e470-4490-872c-875134eb3a50"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Carros originários da RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "3995909a-037a-4bca-b778-64b8b36348db"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Carros originários da CVRD"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "b0f027ba-55d6-4bbf-81f9-15494765b23c"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Carros originários da ENFE"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "50a033e2-a210-48e5-aa9a-e1488b2aed59"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Carros originários da Fepasa"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "6805f363-ee5a-4817-b73a-d1074c776325"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Automotrizes de bitola larga originárias da RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "a8d2b657-fc3a-4e9b-8797-0f62f9efdf9d"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUDH (carro motor) de bitola larga originários da RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "2527fddb-3749-4bf2-be47-0daf1a826e65"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUDH (carro reboque) de bitola larga originários da RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "2a9f1cd0-5226-4370-8036-b6b50448db71"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUE (carro motor) de bitola larga originados da RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "431a2974-764f-4980-8fa9-fecd6c46dfc3"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUE (carro reboque) de bitola larga originados RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "91be251d-6b1f-441e-ae90-676fe390e8d1"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Automotrizes bitola métrica RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "ff69f625-e07b-4e89-b541-40e1936b92a0"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUDH (carro motor) bitola métrica RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "be167a99-79a9-4f6c-97f0-52efb73fb87a"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUDH (carro reboque) bitola métrica RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "2a3f8590-4ad8-4fbf-93d1-2edf3410f09a"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUE (carro motor) bitola métrica RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "da36271f-9201-4730-a07e-80b1e6e3c5bf"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "TUE (carro reboque) bitola métrica RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "cdf2f828-35c3-4c3b-b5da-bd92b3c66823"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Equipamento de Via Permanente RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "4772a841-3b9c-4dea-9751-5f9b77876149"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Equipamento de Eletrotécnica RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "2f42b97e-95e0-4c1a-8d9c-34018cef92dd"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Guindastes RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "97513e6b-c5cf-421f-9758-11dea1001e58"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Equipamento de Socorro RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "a61e9610-1c29-4971-b124-c24d77a09348"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Autos de Linha RFFSA"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "13cebf84-59c5-40ac-8021-5480304b17ac"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a vapor originárias da RFFSA com bitola de 0,76m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "648da03e-16b7-40d3-bb9f-2992aae8f50b"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a vapor originárias da RFFSA com bitola de 1,00m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "46cac1a7-e08f-4c30-b910-8e52074f1d9f"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a vapor originárias da RFFSA com bitola de 1,60m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "b24b5668-ae9b-4ce1-91f1-c6405cf7e2f9"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA de fabricantes diversos com bitola de 1,00m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "fed9f49e-5615-4876-a506-280ce6a135e6"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA de fabricantes diversos com bitola de 1,60m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "11b4aff3-1793-41cb-9f2f-b63357e87a9c"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA fabricados pela GE com bitola de 1,00m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "46f14185-6f08-4f10-aefa-41b3ed79ff9f"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA fabricadas pela GE com bitola de 1,60m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "83792e48-97d2-47ce-bebd-4e38734ac000"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA fabricados pela GM com bitola de 1,00m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "88cde1bd-ae60-48b0-8982-e3302d39fa21"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA fabricadas pela GM com bitola de 1,60m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "1b678c7b-a566-4bfb-9a62-8dd5cb13768b"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA fabricados pela ALCO com bitola de 1,00m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "2f0a3ea7-3743-479a-bde2-e936190cfd50"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas a diesel originárias da RFFSA fabricadas pela ALCO com bitola de 1,60m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "1bb92d6f-e36d-464e-847c-099056bc1f17"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas elétricas originárias da RFFSA de fabricantes diversos com bitola de 1,00m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+
+- model: "api.Information"
+  pk: "40c96ffe-f6cc-440c-99ee-83a83db64860"
+  fields:
+    type: "OFFICIAL_DOCUMENT"
+    content: "Locomotivas elétricas originárias da RFFSA de fabricantes diversos com bitola de 1,60m"
+    status: "APPROVED"
+    references: "http://vfco.brazilia.jor.br/ferrovias/ef/codVeiculos.shtml"
+

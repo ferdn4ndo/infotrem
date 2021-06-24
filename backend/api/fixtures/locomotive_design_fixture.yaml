@@ -1,0 +1,2083 @@
+# ALCO DL212
+- model: "api.LocomotiveDesign"
+  pk: "a4f12704-0095-42f6-855c-a813a03edd70"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_FA-1"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    name: "DL212"
+    first_unit_year: 1948
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 1016.0000
+    wheelbase: 8280.0000
+    length: 15697.0000
+    width: 2330.0000
+    height: 4503.0000
+    weight: 108200.0000
+    weight_per_axle: 27050.0000
+    weight_adherent: 108200.0000
+    fuel_capacity: 4540
+    motor_builder: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    primary_motor: "ALCO 244"
+    generator: "GE 564 C1"
+    traction_motors: "GE 752 E1"
+    cylinders_size: "230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)"
+    allow_multiple_units: true
+    velocity_max: 104.0000
+    horsepower_available: 1500
+    minimum_track_radius: 84.000
+    brake_system: "24RL"
+    nickname: "Biriba"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+
+# ALCO PA-2
+- model: "api.LocomotiveDesign"
+  pk: "cb41dea2-139d-4def-acd5-146a2e385d34"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_PA-2"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    name: "PA-2 (DL304D)"
+    first_unit_year: 1953
+    aar_wheel_arrangement: "A1A-A1A"
+    motor_builder: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+
+# ALCO RS-3
+- model: "api.LocomotiveDesign"
+  pk: "31ae7e18-101f-4e73-a071-12b9ce709c3d"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RS-3"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    name: "RS-3 (E1662)"
+    first_unit_year: 1952
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 1016.0000
+    wheelbase: 2.0000
+    length: 18.0000
+    height: 4.0000
+    weight: 109.9600
+    weight_per_axle: 27.4900
+    weight_adherent: 109.9600
+    motor_builder: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    motor_type: "ALCO 244"
+    generator: "GE GT-581"
+    cylinders_size: "230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)"
+    allow_multiple_units: true
+    velocity_max: 105.0000
+    horsepower_available: 1500
+    traction_effort: 23
+    minimum_track_radius: 45.120
+    nickname: "Canadenses e Rabo Quente"
+
+# ALCO RSC-1
+- model: "api.LocomotiveDesign"
+  pk: "326a3392-e0e2-4eba-bbc0-4fbbbbb71395"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RSC-1"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    name: "RSC-1 (E1647)"
+    first_unit_year: 1946
+    aar_wheel_arrangement: "A1A-A1A"
+    motor_builder: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+
+
+# ALCO RSC-3
+- model: api.LocomotiveDesign
+  pk: "0717881b-66c0-43e5-bba9-cf751f76557f"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RSC-3"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    name: "RSC-3"
+    aar_wheel_arrangement: "A1A-A1A"
+    fuel_capacity: 3028
+    motor_builder: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    primary_motor: "ALCO 244"
+    motor_type: "V-12"
+    velocity_max: 105.0000
+    sigo_numeric_range: "6551-6562"
+
+
+# ALCO RSD-8
+- model: api.LocomotiveDesign
+  pk: "2e12388d-0956-4fbb-b149-7c0e0b8973e5"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RSD-8"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    name: "RSD-8"
+    first_unit_year: 1958
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "C-C"
+    weight: 62000.0000
+    motor_builder: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    allow_multiple_units: true
+    horsepower_total: 900
+
+# Baldwin AS616
+- model: "api.LocomotiveDesign"
+  pk: "e3056227-ffff-461f-8bd5-29dae008b547"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin_AS616E"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "45758307-d82f-4da3-89f9-80cbe9988d8d"
+    name: "AS616"
+    first_unit_year: 1952
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "AS616: Trimount Type Normal AS616E: Trimount Type & Floating Bolster"
+    wheel_diameter: 1067.0000
+    length: 17.0000
+    width: 2.0000
+    motor_builder: "45758307-d82f-4da3-89f9-80cbe9988d8d"
+    primary_motor: "Baldwin 608A"
+    rpm_limit: 1
+    generator: "Westinghouse 471 BZ"
+    traction_motors: "6x Westinghouse AS616: 563A AS616E: 370 DEZ"
+    cylinders_size: "323,85 mm (12 3/4 in) x 393,70 mm (15 1/2 in)"
+    allow_multiple_units: true
+    velocity_max: 65.0000
+    horsepower_total: 1650
+    horsepower_available: 1600
+    brake_system: "6SL"
+    nickname: "Baldwin, Papo Amarelo"
+
+# Baldwin AS616E
+- model: "api.LocomotiveDesign"
+  pk: "b0d0d46e-92fd-49fc-8904-696ee21297d3"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin_AS616E"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "45758307-d82f-4da3-89f9-80cbe9988d8d"
+    name: "AS616E"
+    first_unit_year: 1952
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "AS616: Trimount Type Normal AS616E: Trimount Type & Floating Bolster"
+    wheel_diameter: 1067.0000
+    length: 17.0000
+    width: 2.0000
+    motor_builder: "45758307-d82f-4da3-89f9-80cbe9988d8d"
+    primary_motor: "Baldwin 608A"
+    rpm_limit: 1
+    generator: "Westinghouse 471 BZ"
+    traction_motors: "6x Westinghouse AS616: 563A AS616E: 370 DEZ"
+    cylinders_size: "323,85 mm (12 3/4 in) x 393,70 mm (15 1/2 in)"
+    allow_multiple_units: true
+    velocity_max: 65.0000
+    horsepower_total: 1650
+    horsepower_available: 1600
+    brake_system: "6SL"
+    nickname: "Baldwin, Papo Amarelo"
+
+# Baldwin-Westinghouse 1-B+B-1
+- model: "api.LocomotiveDesign"
+  pk: "04395398-8351-48aa-81d4-877da8bbdb87"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_1-B%2BB-1"
+    prime_mover_type: "ELECTRIC"
+    name: "1-B+B-1"
+    manufacturer: "5c43dcdf-4707-4a94-94de-c473bcbb8386"
+    first_unit_year: 1921
+    aar_wheel_arrangement: "1-B+B-1"
+    wheel_diameter: 1600.0000
+    length: 16129.0000
+    height: 3834.0000
+    weight: 128000.0000
+    weight_per_axle: 21300.0000
+    weight_adherent: 93440.0000
+    allow_multiple_units: true
+    velocity_max: 105.0000
+    horsepower_total: 1800
+    horsepower_available: 1627
+    sigo_numeric_range: "6311 - 6313"
+
+# Baldwin-Westinghouse C+C
+- model: "api.LocomotiveDesign"
+  pk: "b2d6132f-e001-4612-9695-dea3e9a66a1d"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_C%2BC"
+    name: "C+C"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "5c43dcdf-4707-4a94-94de-c473bcbb8386"
+    first_unit_year: 1921
+    aar_wheel_arrangement: "C+C"
+    wheel_diameter: 1016.0000
+    length: 15291.0000
+    height: 3834.0000
+    weight: 106000.0000
+    weight_per_axle: 17700.0000
+    allow_multiple_units: true
+    velocity_max: 65.0000
+    horsepower_total: 1350
+    sigo_numeric_range: "6411 - 6418"
+    nickname: "Cristaleira"
+
+# English Electric VFFLB
+- model: "api.LocomotiveDesign"
+  pk: "7af1e15b-bd92-4734-ad1d-2982c94572b1"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EE_VFFLB"
+    name: "VFFLB"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "12ae94d7-93ed-4249-a63f-fbb6347e45c8"
+    first_unit_year: 1938
+    aar_wheel_arrangement: "1-B-B-1"
+    width: 2670.0000
+    height: 3730.0000
+    weight: 54500.0000
+    weight_per_axle: 10000.0000
+    weight_adherent: 38500.0000
+    motor_builder: "English-Electric"
+    primary_motor: "EE 8K"
+    motor_type: "Aspirado"
+    velocity_max: 75.5000
+    horsepower_total: 450
+
+# English Electric RFN
+- model: "api.LocomotiveDesign"
+  pk: "40615251-f149-40ee-9c67-1f8df59e3d63"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EE_RFN"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "12ae94d7-93ed-4249-a63f-fbb6347e45c8"
+    name: "RFN (LD453)"
+    first_unit_year: 1954
+    aar_wheel_arrangement: "A1A-A1A"
+    trucks_type: "Chapas rebitadas"
+    wheel_diameter: 940.0000
+    wheelbase: 1.0000
+    length: 15.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 72.7680
+    weight_adherent: 49.4550
+    fuel_capacity: 2160
+    motor_builder: "English-Electric"
+    primary_motor: "8SRKT"
+    rpm_limit: 850
+    motor_type: "8 cilindros em linha, superalimentado, 4 tempos"
+    cylinders_size: "254,0 mm (10 in) x 304,8 mm (12 in)"
+    allow_multiple_units: true
+    velocity_max: 100.0000
+    adhesion_factor: 0.2500
+    minimum_track_radius: 80.000
+    sigo_numeric_range: "701-713"
+
+# English Electric EFSJ
+- model: "api.LocomotiveDesign"
+  pk: "b338a836-c051-4c90-825a-939dee17b06e"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EE_EFSJ"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "12ae94d7-93ed-4249-a63f-fbb6347e45c8"
+    name: "EFSJ"
+    first_unit_year: 1949
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 1219.0000
+    wheelbase: 10.0000
+    length: 20.0000
+    width: 2.0000
+    height: 4.0000
+    weight: 127.1700
+    weight_per_axle: 21.1950
+    rpm_limit: 1
+    traction_motors: "EE-514-A"
+    velocity_max: 100.0000
+    horsepower_total: 3000
+    minimum_track_radius: 160.000
+    nickname: "Pimentinha"
+
+# EMAQ MX620
+- model: "api.LocomotiveDesign"
+  pk: "7f3f07be-8dd1-453d-acff-526d057739c9"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMAQ_MX620"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "fd7da0cf-88b1-426d-832e-edf3ba9a8d84"
+    name: "MX620"
+    first_unit_year: 1980
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "C-C"
+    motor_builder: "Bombardier"
+    primary_motor: "251"
+    horsepower_total: 2200
+    horsepower_available: 2000
+    sigo_numeric_range: "6101-6174"
+    nickname: "MX"
+
+# EMD B12
+- model: "api.LocomotiveDesign"
+  pk: "ecdff9b5-754c-4b6f-b9ad-f67d1bca7eaf"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_B12"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "B12"
+    first_unit_year: 1953
+    aar_wheel_arrangement: "B-B"
+    trucks_type: "Flexcoil"
+    wheel_diameter: 1016.0000
+    wheelbase: 2.0000
+    length: 13.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 68.0000
+    weight_per_axle: 17.0000
+    weight_adherent: 68.0000
+    fuel_capacity: 4540
+    lubricant_oil_capacity: 625
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 12-567B"
+    rpm_limit: 800
+    motor_capacity: "9.290cc³ x 12"
+    generator: "D15-E"
+    traction_motors: "D19"
+    cylinders_size: "215,9 mm (8 1/2 in) x 254,0mm (10 in)"
+    allow_multiple_units: true
+    velocity_max: 97.0000
+    velocity_min: 16.0000
+    horsepower_available: 1015
+    traction_effort: 14
+    adhesion_factor: 0.2500
+    minimum_track_radius: 58.820
+    brake_system: "6SL"
+    sigo_numeric_range: "4091 a 4099"
+
+# EMD BB40-2
+- model: "api.LocomotiveDesign"
+  pk: "b3aedf7e-7200-477d-9930-b766e81a8550"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_BB40-2"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "BB40-2"
+    aar_wheel_arrangement: "B+B-B+B"
+    length: 20980.0000
+    width: 3127.0000
+    height: 4753.0000
+    fuel_capacity: 15000
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 16-645-E3"
+    traction_motors: "6x GM D31"
+
+# EMD BB45-2
+- model: "api.LocomotiveDesign"
+  pk: "d2e1c213-533e-4c9c-b484-9cee0618cb54"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_BB45-2"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "BB45-2"
+    aar_wheel_arrangement: "B+B-B+B"
+    length: 20980.0000
+    width: 3127.0000
+    height: 4753.0000
+    fuel_capacity: 15000
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 16-645-E3"
+    traction_motors: "6x GM D31"
+
+# EMD DDM45
+- model: "api.LocomotiveDesign"
+  pk: "b8bd07d9-22e1-4f76-8e2f-1e575f675e8a"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_DDM45"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "DDM45"
+    first_unit_year: 1970
+    aar_wheel_arrangement: "D-D"
+    trucks_type: "Flexcoil D"
+    wheel_diameter: 1016.0000
+    length: 22.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 162.0000
+    weight_per_axle: 20.2500
+    weight_adherent: 162.0000
+    fuel_capacity: 10333
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 20-645E3 Turbo"
+    rpm_limit: 900
+    motor_type: "20 cilindros em V"
+    motor_capacity: "10.560cc³ x 20"
+    generator: "AR-10B3"
+    traction_motors: "D-29"
+    cylinders_size: "230,2 mm (9 1/16 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    velocity_max: 84.9000
+    velocity_min: 19.8000
+    horsepower_total: 3900
+    horsepower_available: 3600
+    adhesion_factor: 0.2500
+    minimum_track_radius: 83.000
+
+# EMD G12
+- model: "api.LocomotiveDesign"
+  pk: "51c3326d-5895-44a8-8e49-43ab9bf0c489"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G12"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "G12"
+    aar_wheel_arrangement: "Brasil: B-B; A1A-A1A Austrália: C-C"
+    trucks_type: "Brasil: Flexi-coil B (L-136), Flexi-coil A1A  Mundo: Flexi-coil C, Bloomberg"
+    wheel_diameter: 1016.0000
+    length: 14.0000
+    height: 3.0000
+    lubricant_oil_capacity: 625
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "12-567C Modernizadas: 12-645E"
+    motor_type: "12 cilindros em V Aspirado"
+    generator: "D12F / D32F"
+    traction_motors: "Bitola 1.000mm: D19 e D29, Modernizadas: D31, Bitola 1.600mm: D47B"
+    cylinders_size: "215,9 mm (8 1/2 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    velocity_min: 18.0000
+    horsepower_total: 1425
+    horsepower_available: 1310
+    minimum_track_radius: 58.820
+    brake_system: "6SL/26L"
+    sigo_numeric_range: "B-B RFFSA: (90)4101 a (90)4269, A1A RFFSA: (90)4281 a (90)4290, Fepasa ex-CMEF: (91)3651 a(91)3680, Fepasa ex-CPEF: (91)7051 a (91)7068"
+    nickname: "EMD: General Motors  GMDD: Canadenses"
+
+# EMD G16
+- model: "api.LocomotiveDesign"
+  pk: "fd579fe9-ffda-4605-ba03-a93919b09c65"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G16"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "G16U"
+    first_unit_year: 1963
+    aar_wheel_arrangement: "C-C"
+    weight_per_axle: 16.8000
+    fuel_capacity: 4800
+    primary_motor: "EMD 645E V16"
+    traction_motors: "GM - D29"
+    velocity_max: 100.0000
+    horsepower_total: 1950
+
+# EMD G22CU
+- model: "api.LocomotiveDesign"
+  pk: "84366d54-0506-479e-8242-3bfb0dce2c24"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G22CU"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "6d2e4585-c11a-4845-8ac6-cc4c3cf1ff53"
+    name: "G22CU"
+    first_unit_year: 1970
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "Flexicoil C"
+    wheel_diameter: 1016.0000
+    length: 15.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 92.0000
+    weight_per_axle: 15.3330
+    weight_adherent: 92.0000
+    fuel_capacity: 4000
+    lubricant_oil_capacity: 625
+    cooling_fluid_capacity: 681
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "12-645E"
+    rpm_limit: 900
+    motor_type: "12 cilindros em V  Aspirado"
+    motor_capacity: "10.560cc³ x 12"
+    generator: "D32T"
+    traction_motors: "D29 ou D31"
+    cylinders_size: "230,2 mm (9 1/16 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    velocity_max: 97.0000
+    velocity_min: 14.0000
+    horsepower_total: 1650
+    horsepower_available: 1500
+    traction_effort: 21
+    adhesion_factor: 0.2500
+    minimum_track_radius: 59.000
+    brake_system: "26L"
+    sigo_numeric_range: "4451-4474"
+    nickname: "Gaúchas"
+
+# EMD G22U
+- model: "api.LocomotiveDesign"
+  pk: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G22U"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "6d2e4585-c11a-4845-8ac6-cc4c3cf1ff53"
+    name: "G22U"
+    first_unit_year: 1971
+    aar_wheel_arrangement: "B-B"
+    trucks_type: "Flexicoil B"
+    wheel_diameter: 1016.0000
+    wheelbase: 2.0000
+    length: 15.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 73.0000
+    weight_per_axle: 18.2500
+    weight_adherent: 73.0000
+    fuel_capacity: 4000
+    lubricant_oil_capacity: 625
+    cooling_fluid_capacity: 681
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "12-645E"
+    rpm_limit: 900
+    motor_type: "12 cilindros em V Aspirado"
+    motor_capacity: "10.560cc³ x 12"
+    generator: "D32T"
+    traction_motors: "D29 ou D31"
+    cylinders_size: "230,2 mm (9 1/16 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    velocity_max: 97.0000
+    velocity_min: 21.7000
+    horsepower_total: 1650
+    horsepower_available: 1500
+    traction_effort: 15
+    adhesion_factor: 0.2500
+    minimum_track_radius: 59.000
+    brake_system: "26L"
+    sigo_numeric_range: "4301-4429"
+    nickname: "Macosas"
+
+# EMD G26CU
+- model: "api.LocomotiveDesign"
+  pk: "faafe650-bb9e-4d64-bc62-eb744e366275"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G26CU"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "G26CU"
+    first_unit_year: 1974
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "Flexicoil GC"
+    wheel_diameter: 1016.0000
+    length: 17.0000
+    width: 2.0000
+    height: 3.0000
+    lubricant_oil_capacity: 737
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "16-645E"
+    rpm_limit: 900
+    motor_type: "16 cilindros em V Aspirado"
+    motor_capacity: "10.560cc³ x 16"
+    generator: "D32T"
+    traction_motors: "D29  MP: D31"
+    cylinders_size: "230,2 mm (9 1/16 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    horsepower_total: 2200
+    horsepower_available: 2000
+    adhesion_factor: 0.2500
+    minimum_track_radius: 85.000
+    brake_system: "26L/28-LAV-1"
+    sigo_numeric_range: "4501-4535 MP: 4507, 4509, 4511, 4515, 4516, 4521, 4524, 4525, 4529, 4531"
+
+# EMD G8
+- model: "api.LocomotiveDesign"
+  pk: "51cf7135-6106-4f8d-9686-e34025796817"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G8"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "G8"
+    aar_wheel_arrangement: "B-B; A1A-A1A"
+    trucks_type: "Flexi-coil B (L-136), Flexi-coil A1A"
+    wheel_diameter: 1016.0000
+    length: 14.0000
+    height: 3.0000
+    lubricant_oil_capacity: 625
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "8-567C"
+    rpm_limit: 835
+    motor_type: "8 cilindros em V Aspirado"
+    motor_capacity: "9.287cc³ x 8"
+    generator: "D12F"
+    traction_motors: "D19 e D29"
+    cylinders_size: "215,9 mm (8 1/2 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    velocity_max: 100.0000
+    velocity_min: 18.0000
+    horsepower_total: 950
+    horsepower_available: 875
+    minimum_track_radius: 58.820
+    brake_system: "6SL"
+
+# EMD GL8
+- model: "api.LocomotiveDesign"
+  pk: "efec11f5-5527-4315-8768-e09774d6d8ad"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GL8"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "GL8"
+    first_unit_year: 1960
+    aar_wheel_arrangement: "B-B"
+    trucks_type: "Flexicoil"
+    wheel_diameter: 1016.0000
+    wheelbase: 2.0000
+    length: 11.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 62.0000
+    weight_per_axle: 15.5000
+    weight_adherent: 62.0000
+    fuel_capacity: 1893
+    lubricant_oil_capacity: 492
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 8-567CR"
+    rpm_limit: 835
+    motor_capacity: "9.290cc³ x 8"
+    generator: "D25-E"
+    traction_motors: "D-29"
+    cylinders_size: "215,9 mm (8 1/2 in) x 254,0mm (10 in)"
+    allow_multiple_units: true
+    velocity_max: 100.0000
+    velocity_min: 16.0000
+    horsepower_total: 950
+    horsepower_available: 875
+    traction_effort: 15
+    adhesion_factor: 0.2500
+    minimum_track_radius: 58.820
+    brake_system: "26LA"
+    sigo_numeric_range: "Série 4000 a 4050 (RFFSA) e 3600 a 3650 (Fepasa)"
+
+# EMD GP9
+- model: "api.LocomotiveDesign"
+  pk: "7021cd83-d52e-4ae6-a1dc-9755f63b4376"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GP9"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "GP9L"
+    first_unit_year: 1954
+    aar_wheel_arrangement: "B-B"
+    length: 17120.0000
+    width: 3124.0000
+    height: 4420.0000
+    weight: 112944.0000
+    primary_motor: "EMD 567C V16"
+    traction_motors: "GM D31"
+
+# EMD GT18MC
+- model: "api.LocomotiveDesign"
+  pk: "73f45a6a-ead9-48c6-9899-df5ff38b0358"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT18MC"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "GT18MC"
+    first_unit_year: 1974
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "SCAW - GLC"
+    wheel_diameter: 915.0000
+    wheelbase: 9.0000
+    length: 16.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 82.7200
+    weight_per_axle: 13.7200
+    fuel_capacity: 6000
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 8-645 E3"
+    rpm_limit: 900
+    motor_type: "8V - Turbo"
+    allow_multiple_units: true
+    velocity_max: 100.0000
+    velocity_min: 19.0000
+    horsepower_available: 1450
+    traction_effort: 20
+    minimum_track_radius: 85.000
+
+# EMD GT22CUM-1
+- model: "api.LocomotiveDesign"
+  pk: "45de7de0-09aa-4e81-9ce8-d62d6c24e3f3"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT22CUM-1"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "18d3f03a-1d43-49cb-8477-dcc450e4cd6e"
+    name: "GT22CUM-1"
+    first_unit_year: 1982
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "HTC"
+    wheel_diameter: 1016.0000
+    wheelbase: 9.0000
+    length: 17.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 108.0000
+    weight_per_axle: 18.0000
+    fuel_capacity: 7000
+    sand_capacity: 0.5100
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 12-645 E3B"
+    rpm_limit: 900
+    motor_type: "Turbo Diesel 12V"
+    allow_multiple_units: true
+    velocity_max: 105.0000
+    velocity_min: 20.0000
+    horsepower_available: 2250
+    traction_effort: 23
+    minimum_track_radius: 71.930
+    sigo_numeric_range: "4601 a 4652"
+    nickname: "Villares"
+
+# EMD GT22CUM-2
+- model: "api.LocomotiveDesign"
+  pk: "099dd801-da1a-41cb-b3c1-e8851645271a"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT22CUM-2"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "18d3f03a-1d43-49cb-8477-dcc450e4cd6e"
+    name: "GT22CUM-2"
+    first_unit_year: 1986
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "HTC"
+    wheel_diameter: 1016.0000
+    wheelbase: 9.0000
+    length: 17.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 120.0000
+    weight_per_axle: 20.0000
+    fuel_capacity: 7000
+    sand_capacity: 0.5100
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 12-645 E3B"
+    rpm_limit: 900
+    motor_type: "12V - Turbo"
+    allow_multiple_units: true
+    velocity_max: 80.0000
+    velocity_min: 18.3000
+    horsepower_available: 2250
+    traction_effort: 28
+    minimum_track_radius: 70.000
+    sigo_numeric_range: "4653 a 4662"
+
+# EMD GT26CUM
+- model: "api.LocomotiveDesign"
+  pk: "bd763918-1af8-4809-b6f0-2f340d0033b9"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT26CUM"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "18d3f03a-1d43-49cb-8477-dcc450e4cd6e"
+    name: "GT26CU-2 (GT26CUM)"
+    first_unit_year: 1972
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "Flexcoil C"
+    wheel_diameter: 1016.0000
+    length: 20.0000
+    width: 3.0000
+    height: 4.0000
+    fuel_capacity: 10870
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "16-645E3"
+    rpm_limit: 900
+    motor_type: "2 tempos 16 cilindros em V(45º) Turbo Alimentado"
+    motor_capacity: "10.560cc³ x 16"
+    generator: "AR-10-F"
+    traction_motors: "901 a 934: D29, 935 a 940: D31"
+    cylinders_size: "230,2 mm (9 1/16 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    velocity_min: 20.0000
+    adhesion_factor: 0.2500
+    brake_system: "26L"
+    nickname: "GT, GT26"
+
+# EMD GT26MC
+- model: "api.LocomotiveDesign"
+  pk: "2dd6a611-d96c-4847-82f8-d86e261bfdf9"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT26MC"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "GT26MC"
+    first_unit_year: 1974
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "SCAW - GLC"
+    wheel_diameter: 915.0000
+    wheelbase: 9.0000
+    length: 19.0000
+    width: 2.0000
+    height: 3.0000
+    weight_per_axle: 18.5830
+    fuel_capacity: 6100
+    lubricant_oil_capacity: 945
+    cooling_fluid_capacity: 1045
+    sand_capacity: 0.3400
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 16-645 E3"
+    rpm_limit: 900
+    motor_type: "V16 Turbo"
+    allow_multiple_units: true
+    velocity_max: 100.0000
+    velocity_min: 19.0000
+    traction_effort: 27
+    minimum_track_radius: 84.000
+
+# EMD SD18
+- model: "api.LocomotiveDesign"
+  pk: "8498bd63-6264-4fd8-b93d-53b8a8ce9883"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD18"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "SD18"
+    first_unit_year: 1961
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 1016.0000
+    wheelbase: 2.0000
+    length: 16.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 163.0100
+    weight_per_axle: 27.1680
+    weight_adherent: 163.0100
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 567D1"
+    rpm_limit: 935
+    motor_type: "16 cilindros em V"
+    generator: "D22"
+    traction_motors: "D47"
+    allow_multiple_units: true
+    velocity_max: 104.0000
+    horsepower_available: 1800
+    minimum_track_radius: 75.400
+    sigo_numeric_range: "5101-5145 (1 baixa)"
+    nickname: "Cinquentinha, GMinhas, Cascudinhas."
+
+# EMD SD38-2
+- model: "api.LocomotiveDesign"
+  pk: "8857e7c7-0d87-498f-9795-fe7763ae3262"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD38-2"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "SD38-2"
+    first_unit_year: 1978
+    aar_wheel_arrangement: "C-C"
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 16-645E"
+    rpm_limit: 900
+    motor_type: "16V"
+
+# EMD SD38M
+- model: "api.LocomotiveDesign"
+  pk: "90f7905b-a90e-47eb-9542-e51e0d4909e5"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD38M"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "SD38M"
+    first_unit_year: 1967
+    aar_wheel_arrangement: "C-C"
+    wheelbase: 2.0000
+    length: 17.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 163.0100
+    weight_adherent: 163.0100
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 645E Aspirado(Sem turbo)"
+    motor_type: "16 cilindros em 45º V (V16)"
+    generator: "D32"
+    traction_motors: "D77"
+    cylinders_size: "230,2 mm (9 1/16 in) x 254,0 mm (10 in)"
+    allow_multiple_units: true
+    velocity_max: 96.8000
+    minimum_track_radius: 23.500
+    sigo_numeric_range: "5101-5144"
+
+# EMD SD40-2
+- model: "api.LocomotiveDesign"
+  pk: "30b62ea1-1e21-43f6-bc03-ff6017b85ebf"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD40-2"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "SD40-2"
+    first_unit_year: 1972
+    aar_wheel_arrangement: "C-C"
+    length: 20980.0000
+    width: 3130.0000
+    height: 4750.0000
+    fuel_capacity: 15000
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 16-645-E3"
+    traction_motors: "6x D77/78 DC"
+
+# EMD SD70
+- model: "api.LocomotiveDesign"
+  pk: "695f68eb-6e50-4158-8c37-3d03666b886c"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD70"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "SD70M"
+    first_unit_year: 1992
+    aar_wheel_arrangement: "C-C"
+    motor_builder: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    primary_motor: "EMD 16-710-G3"
+    motor_type: "V16"
+
+# EMD SW1200
+- model: "api.LocomotiveDesign"
+  pk: "1dbaf821-7ae2-4c50-aa77-4361519c9233"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SW"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "SW1200"
+    first_unit_year: 1954
+    aar_wheel_arrangement: "B-B"
+    weight: 112000.0000
+    weight_per_axle: 28000.0000
+    primary_motor: "EMD 567C V12"
+    traction_motors: "GM - D77"
+    velocity_max: 100.0000
+    horsepower_total: 1350
+
+# GE 1-C+C-1 CPEF
+- model: "api.LocomotiveDesign"
+  pk: "80241bde-c12a-4b12-a6b8-629a3291f823"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(CPEF)"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "1-C+C-1 CPEF"
+    first_unit_year: 1928
+    aar_wheel_arrangement: "1-C+C-1"
+    trucks_type: "914 mm"
+    wheel_diameter: 1138.0000
+    length: 18.0000
+    weight: 133.0000
+    allow_multiple_units: true
+    horsepower_total: 2500
+    horsepower_available: 2170
+    nickname: "Quadradona"
+
+# GE 1-C+C-1 EFS
+- model: "api.LocomotiveDesign"
+  pk: "6f3b96ae-3005-4c87-b707-14922b374a55"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(EFS)"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "1-C+C-1 EFS"
+    first_unit_year: 1943
+    aar_wheel_arrangement: "1-C+C-1"
+    trucks_type: "Barras Soldadas"
+    wheel_diameter: 1118.0000
+    length: 18.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 130.0000
+    weight_adherent: 108.0000
+    sand_capacity: 0.6600
+    generator: "GE 5GMG-136B1 / YX32A"
+    traction_motors: "GE:5 GE 734A1 Westinghouse: 374A"
+    allow_multiple_units: true
+    horsepower_available: 2000
+    minimum_track_radius: 80.000
+    brake_system: "14EL"
+    nickname: "Loba e Westinghouse (para as desse fabricante)"
+
+# GE 100T
+- model: "api.LocomotiveDesign"
+  pk: "89bac613-03cd-43ff-8cb2-c6cd61d93da7"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_100T"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "100T"
+    first_unit_year: 1952
+    aar_wheel_arrangement: "B-B"
+    motor_builder: "66ce71d5-4d96-4990-a094-f8d85f460ccf"
+    primary_motor: "NT855L4"
+    generator: "GE 5GT-558"
+    traction_motors: "GE 5GE 763"
+    horsepower_total: 670
+    horsepower_available: 600
+
+# GE 2-B+B-2
+- model: "api.LocomotiveDesign"
+  pk: "3981b63b-3aa5-42d5-a31c-11471029cf99"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_2-B%2BB-2"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "2-B+B-2"
+    first_unit_year: 1921
+    aar_wheel_arrangement: "2-B+B-2"
+    wheel_diameter: 1067.0000
+    length: 16.0000
+    weight: 107.0000
+    horsepower_available: 1450
+    sigo_numeric_range: "6301 a 6304"
+    nickname: "Quadradinha"
+
+# GE 2-C+C-2
+- model: "api.LocomotiveDesign"
+  pk: "7e2842e3-f1c0-4787-a2e8-220370057d40"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_2-C%2BC-2"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "2-C+C-2"
+    first_unit_year: 1940
+    aar_wheel_arrangement: "2-C+C-2"
+    trucks_type: "Barras soldadas"
+    length: 23101.0000
+    width: 3010.0000
+    height: 4343.0000
+    motor_builder: "47eee6a9-aa3a-4e8c-878b-58628a58d16d"
+    allow_multiple_units: true
+    velocity_min: 20.0000
+    horsepower_total: 3870
+    minimum_track_radius: 87.000
+    nickname: "V8 ou Escandalosa"
+
+# GE 2-D+D-2
+- model: "api.LocomotiveDesign"
+  pk: "ccdcf956-d94e-4ce1-ac84-045f3887abd5"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_2-D%2BD-2"
+    name: "2-D+D-2"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    aar_wheel_arrangement: "2-D+D-2"
+    length: 27080.0000
+    width: 4390.0000
+    height: 3230.0000
+    weight: 247500.0000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    motor_type: "GE750 (8)"
+    velocity_max: 109.0000
+    nickname: "Little Joe (Milwaukee), 800s (South Shore) e Russa (CPEF)"
+
+# GE 110T (GE-244)
+- model: "api.LocomotiveDesign"
+  pk: "ee788401-bf05-4cc7-976e-2a25b3ca13af"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_244"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "110T (GE-244)"
+    first_unit_year: 1953
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 914.4000
+    length: 15951.0000
+    width: 2718.0000
+    height: 3962.0000
+    weight: 97000.0000
+    weight_per_axle: 16200.0000
+    fuel_capacity: 5300
+    motor_builder: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
+    primary_motor: "244 E"
+    motor_type: "12 cilindros em V"
+    traction_motors: "GE-561"
+    allow_multiple_units: true
+    velocity_max: 96.0000
+    horsepower_total: 1750
+    horsepower_available: 1600
+    adhesion_factor: 0.2500
+    minimum_track_radius: 70.000
+    brake_system: "6SL"
+    sigo_numeric_range: "2487-2499"
+    nickname: "Híbridas"
+
+# GE 25T
+- model: "api.LocomotiveDesign"
+  pk: "2c7606ee-e349-4c03-8e4c-7de9cd308f43"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_25T"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "25T"
+    first_unit_year: 1946
+    aar_wheel_arrangement: "B"
+    wheel_diameter: 838.2000
+    wheelbase: 1.0000
+    length: 5.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 23.1000
+    weight_per_axle: 11.5500
+    fuel_capacity: 284
+    lubricant_oil_capacity: 32
+    cooling_fluid_capacity: 64
+    motor_builder: "66ce71d5-4d96-4990-a094-f8d85f460ccf"
+    primary_motor: "H81-600 / ALFA ROMEU Série 180 / Cummins"
+    rpm_limit: 1850
+    generator: "GT-1503-X1"
+    traction_motors: "GE 733 - FI"
+    cylinders_size: "125,0 mm x 150,0 mm"
+    allow_multiple_units: false
+    velocity_max: 32.0000
+    traction_effort: 6
+    adhesion_factor: 0.2500
+    minimum_track_radius: 12.200
+    brake_system: "AS-2"
+    sigo_numeric_range: "0505-0510 (RFFSA)"
+    nickname: "Bitruca / Bitruquinha"
+
+# GE 47T
+- model: "api.LocomotiveDesign"
+  pk: "8b918592-b810-459d-aeae-7e3db2ff3167"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_47T"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "47T"
+    first_unit_year: 1947
+    aar_wheel_arrangement: "B-B"
+    motor_builder: "66ce71d5-4d96-4990-a094-f8d85f460ccf"
+    primary_motor: "Cu D17000"
+    horsepower_total: 380
+
+# GE 70T
+- model: "api.LocomotiveDesign"
+  pk: "3c04a48f-fe18-4f7d-b141-847d856242c2"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_70T"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "70T"
+    first_unit_year: 1947
+    aar_wheel_arrangement: "B-B (1,6m) ou C-C (1,0m)"
+    motor_builder: "cf7f0e1c-1189-420e-a002-44444348b876"
+    primary_motor: "FWL 6T"
+    horsepower_total: 600
+
+# GT 88T
+- model: "api.LocomotiveDesign"
+  pk: "54439093-7b7a-4012-b0b2-9ab5b0c66c14"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_88T"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "88T"
+    first_unit_year: 1956
+    aar_wheel_arrangement: "B-B"
+
+# GE AC44i
+- model: "api.LocomotiveDesign"
+  pk: "ee6fd052-8c75-442f-88ae-12c00bff05ec"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_AC44i"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "AC44i"
+    first_unit_year: 2008
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "Hi-AD C-C (corrente alternada)"
+    length: 22.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 198.0000
+    weight_per_axle: 33.0000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    allow_multiple_units: true
+    velocity_max: 113.0000
+    horsepower_total: 4500
+    horsepower_available: 4380
+
+# GE B+B
+- model: "api.LocomotiveDesign"
+  pk: "7fdbb70d-47cb-48c5-98a3-0282c95f4b59"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_B%2BB_(CPEF)"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "GE B+B"
+    first_unit_year: 1921
+    aar_wheel_arrangement: "B+B"
+    wheel_diameter: 1066.0000
+    length: 11.0000
+    weight: 88.9000
+    horsepower_available: 1450
+    sigo_numeric_range: "6401 a 6408"
+    nickname: "Quadradinha"
+
+# GE B-B
+- model: "api.LocomotiveDesign"
+  pk: "9a50bd2d-73c2-4be0-9069-f6c170440725"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_B-B_(CPEF_-_Baratinha)"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "B-B"
+    first_unit_year: 1924
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 1016.0000
+    weight: 55.5000
+    horsepower_total: 662
+    horsepower_available: 460
+    sigo_numeric_range: "6501-6518"
+    nickname: "Baratinha (1ª série) Baratona (2ª série)"
+
+# GE 2100
+- model: "api.LocomotiveDesign"
+  pk: "e7268b03-43bb-4c7e-bad7-6c7eb7da41b3"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_B-B_(EFS)"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "2100"
+    first_unit_year: 1964
+    wheel_diameter: 1118.0000
+    wheelbase: 6501.0000
+    length: 13942.0000
+    width: 3047.0000
+    height: 4254.0000
+    weight: 72800.0000
+    weight_per_axle: 18200.0000
+    weight_adherent: 72800.0000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    velocity_max: 90.0000
+    minimum_track_radius: 85.000
+    brake_system: "F-4"
+    sigo_numeric_range: "9121xx"
+    nickname: "Mini-Saia"
+
+# GE BB33-7MP
+- model: "api.LocomotiveDesign"
+  pk: "1842cf65-662e-4687-b742-84844ae5ade3"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_BB33"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "BB33-7MP"
+    first_unit_year: 1981
+    aar_wheel_arrangement: "B-B+B-B"
+    weight: 180.0000
+    weight_per_axle: 22.5000
+    primary_motor: "16-FDL7B"
+    traction_motors: "ELETROFAN EF570"
+    velocity_max: 80.0000
+    horsepower_total: 3500
+
+# GE BB40-9M
+- model: "api.LocomotiveDesign"
+  pk: "aae465dc-aa70-45ab-ae1b-53d4aeff2bfb"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_BB40-9M"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "BB40-9M (Dash 9-40BB)"
+    first_unit_year: 1995
+    aar_wheel_arrangement: "B-B+B-B"
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "FDL 16"
+    horsepower_total: 4000
+
+# GE BB40-9WM
+- model: "api.LocomotiveDesign"
+  pk: "29e3d697-17b0-4b14-9c35-1f1610bed098"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_BB40-9WM"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "BB40-9WM (Dash 9-40BBW)"
+    first_unit_year: 1997
+    aar_wheel_arrangement: "B+B-B+B"
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "FDL 16"
+    horsepower_total: 4000
+    sigo_numeric_range: "EFVM: 1113-1311 a partir de 2009: VLI: 6020-6191 e 8667-8684 ALL: 8300-8315 Brado: 9577-9579"
+
+# GE C-C (CPEF)
+- model: "api.LocomotiveDesign"
+  pk: "892a897c-10c9-4cac-845d-b441318ab2e2"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C-C_(CPEF)"
+    prime_mover_type: "ELECTRIC"
+    name: "C-C (CPEF)"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    first_unit_year: 1964
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 1.0000
+    wheelbase: 2.0000
+    length: 18.0000
+    width: 2997.0000
+    height: 4388.0000
+    weight: 144.0000
+    weight_per_axle: 24.0000
+    weight_adherent: 144.0000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    generator: "2x GMG136"
+    traction_motors: "6x GE729"
+    allow_multiple_units: true
+    velocity_max: 134.0000
+    horsepower_total: 5250
+    horsepower_available: 4450
+    traction_effort: 22
+    sigo_numeric_range: "6351-6360"
+    nickname: "Vandeca, Vanderleia"
+
+# GE C-C (RFFSA)
+- model: "api.LocomotiveDesign"
+  pk: "82da0201-9170-45a3-a68b-4f18bb17f27f"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C-C_(RFFSA)"
+    prime_mover_type: "ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "C-C (RFFSA)"
+    first_unit_year: 1962
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 1168.4000
+    wheelbase: 2.0000
+    length: 15.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 123.0000
+    weight_per_axle: 20.5000
+    weight_adherent: 123.0000
+    rpm_limit: 859
+    traction_motors: "GE729"
+    allow_multiple_units: true
+    velocity_max: 117.0000
+    horsepower_available: 4400
+    minimum_track_radius: 100.000
+    brake_system: "26L"
+    sigo_numeric_range: "2151-2156 / 9080-9085"
+    nickname: "Charutão ou Carioquinha"
+
+# GE C22-7i
+- model: "api.LocomotiveDesign"
+  pk: "e6486b35-7c5d-4b56-8753-4e248d93abca"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C22-7i"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "C22-7i"
+    first_unit_year: 1999
+    aar_wheel_arrangement: "C-C"
+    length: 18.0000
+    weight: 117.6000
+    weight_per_axle: 19.6000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "7FDL12"
+    rpm_limit: 1000
+    cylinders_size: "228,6 mm x 266,7 mm"
+    allow_multiple_units: true
+    horsepower_total: 2400
+    traction_effort: 36
+
+# GE C30-7
+- model: "api.LocomotiveDesign"
+  pk: "d85ba748-62b1-412d-9745-d695a7d90861"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C30-7"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "C30-7"
+    first_unit_year: 1976
+    aar_wheel_arrangement: "C-C"
+    length: 20.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 172.0000
+    weight_per_axle: 28.6600
+    fuel_capacity: 15000
+    primary_motor: "16-FDL7B / 12-FDL7B"
+    traction_motors: "GM - EMD D-31"
+    velocity_max: 113.0000
+    horsepower_total: 3350
+    horsepower_available: 3000
+
+# GE C32-8
+- model: "api.LocomotiveDesign"
+  pk: "1689f488-c375-42d4-92c8-f7976cddf74c"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C32-8"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "C32-8"
+    first_unit_year: 1984
+    aar_wheel_arrangement: "C-C"
+    primary_motor: "GE 7FDL-12"
+
+# GE C36ME
+- model: "api.LocomotiveDesign"
+  pk: "6a81575f-17c4-4529-bc5c-42364b1b0f7d"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C36ME"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "C36ME"
+    first_unit_year: 1977
+    aar_wheel_arrangement: "C-C"
+    length: 20.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 180.0000
+    weight_per_axle: 30.0000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    motor_type: "7FDL"
+    horsepower_total: 3600
+    sigo_numeric_range: "3801-3809 e 3860-3885"
+    nickname: "Rayovac"
+
+# GE C40-8
+- model: "api.LocomotiveDesign"
+  pk: "bd2a4422-e7a3-4af1-90f2-ad601b0f4dbf"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C40-8"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "C40-8"
+    first_unit_year: 1989
+    aar_wheel_arrangement: "C-C"
+    length: 21539.0000
+    width: 3137.0000
+    height: 4686.0000
+    weight: 177600.0000
+    weight_per_axle: 29600.0000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "7 FDL 16"
+    velocity_max: 112.0000
+    horsepower_total: 4000
+
+# GE C44-9WM
+- model: "api.LocomotiveDesign"
+  pk: "38522642-fef0-467a-810c-e1c2ccb65413"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C44-9WM"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "C44-9WM (Dash 9-44W)"
+    first_unit_year: 1998
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "HiAd"
+    wheel_diameter: 1.0000
+    length: 22.0000
+    width: 3.0000
+    height: 4.0000
+    weight: 193.0000
+    weight_per_axle: 32.5000
+    weight_adherent: 193.0000
+    fuel_capacity: 18900
+    primary_motor: "GE 7FDL-16"
+    generator: "5GMG-197"
+    traction_motors: "5GE – 752"
+    horsepower_total: 4500
+    horsepower_available: 4380
+    sigo_numeric_range: "Série 800 EFC, Série 9000 ALL"
+    nickname: "Dash 9, Dash Nine"
+
+# GE ES43BBi
+- model: "api.LocomotiveDesign"
+  pk: "66965953-4de0-4f65-809d-a902bcbaf85f"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_ES43BBi"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "ES43BBi"
+    first_unit_year: 2015
+    aar_wheel_arrangement: "B+B-B+B"
+    trucks_type: "AC (corrente alternada)"
+    length: 24700.0000
+    weight: 196.0000
+    fuel_capacity: 14400
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "GEVO-12"
+    allow_multiple_units: true
+    velocity_max: 113.0000
+    horsepower_total: 4300
+
+# GE ES58ACi
+- model: "api.LocomotiveDesign"
+  pk: "fe268cae-4be9-42be-b0a7-36fbff8b981f"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_ES58ACi"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "ES58ACi"
+    first_unit_year: 2009
+    aar_wheel_arrangement: "C-C"
+    primary_motor: "GEVO"
+    horsepower_total: 6000
+
+# GE SL100
+- model: "api.LocomotiveDesign"
+  pk: "4c6b9d6c-baa7-46c6-9cde-2c6435c9f39d"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_SL100"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "SL100"
+    first_unit_year: 1998
+    aar_wheel_arrangement: "B-B"
+    motor_builder: "66ce71d5-4d96-4990-a094-f8d85f460ccf"
+    primary_motor: "CumKTA 1150L"
+    horsepower_total: 1000
+
+# GE SL65T
+- model: "api.LocomotiveDesign"
+  pk: "2f9691cb-444d-4f15-8904-167a3ddd18cd"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_SL65T"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "SL65T"
+    first_unit_year: 1998
+    aar_wheel_arrangement: "B-B"
+    motor_builder: "66ce71d5-4d96-4990-a094-f8d85f460ccf"
+    primary_motor: "Cum. NT 855L4"
+    horsepower_total: 600
+
+# GE U12B
+- model: "api.LocomotiveDesign"
+  pk: "ce99e0b4-45f4-45aa-8fd2-3653d5949150"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U12B"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U12B"
+    first_unit_year: 1957
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 914.4000
+    wheelbase: 2.0000
+    length: 14.0000
+    width: 2.0000
+    height: 3.0000
+    motor_builder: "cf7f0e1c-1189-420e-a002-44444348b876"
+    primary_motor: "FVBL-8T"
+    generator: "5GT-581-C3"
+    traction_motors: "5GE-761-A3"
+    allow_multiple_units: true
+    horsepower_total: 1320
+    horsepower_available: 1200
+    brake_system: "6SL"
+
+# GE U12C
+- model: "api.LocomotiveDesign"
+  pk: "46c05c9e-5efc-4c72-9334-f5200c23fc16"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U12C"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U12C"
+    first_unit_year: 1956
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 914.4000
+    wheelbase: 2.0000
+    length: 14.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 70000.0000
+    motor_builder: "cf7f0e1c-1189-420e-a002-44444348b876"
+    primary_motor: "FVBL-8T"
+    generator: "5GT-581-C3"
+    traction_motors: "5GE-761-A3"
+    allow_multiple_units: true
+    horsepower_total: 1320
+    horsepower_available: 1200
+    brake_system: "6SL"
+
+# GE U13B
+- model: "api.LocomotiveDesign"
+  pk: "734f7fa5-ee61-40e7-8958-bfb029235106"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U13B"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U13B"
+    first_unit_year: 1959
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 914.4000
+    length: 15144.0000
+    width: 2743.0000
+    height: 3664.0000
+    weight: 70000.0000
+    weight_per_axle: 17500.0000
+    weight_adherent: 17500.0000
+    fuel_capacity: 3028
+    motor_builder: "cf7f0e1c-1189-420e-a002-44444348b876"
+    primary_motor: "7 FDL 8"
+    motor_type: "V"
+    generator: "5GT-581-C3"
+    traction_motors: "5GE-761-A3"
+    allow_multiple_units: true
+    velocity_max: 97.0000
+    horsepower_total: 1420
+    horsepower_available: 1300
+    brake_system: "6SL"
+    sigo_numeric_range: "2401-2445"
+
+# GE U18C
+- model: "api.LocomotiveDesign"
+  pk: "3fab0c9e-3e4f-40c2-a439-0abbbc904604"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U18C"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U18C"
+    first_unit_year: 1958
+    aar_wheel_arrangement: "C-CA1A-A1A1-C-C-1"
+    weight: 92500.0000
+    weight_per_axle: 15400.0000
+    fuel_capacity: 3407
+    motor_builder: "cf7f0e1c-1189-420e-a002-44444348b876"
+    primary_motor: "FVBL 12T"
+    motor_type: "12 cilindros em V"
+    allow_multiple_units: true
+    horsepower_total: 1980
+    horsepower_available: 1800
+    brake_system: "6-SL-AV-1"
+
+# GE U20C
+- model: "api.LocomotiveDesign"
+  pk: "ce0e2114-a605-460d-a5d9-989542e93471"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U20C"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U20C"
+    first_unit_year: 1968
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "AAR"
+    wheel_diameter: 914.4000
+    length: 15.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 94.4940
+    weight_per_axle: 15.7500
+    weight_adherent: 94.4940
+    fuel_capacity: 6000
+    lubricant_oil_capacity: 1044
+    cooling_fluid_capacity: 851
+    sand_capacity: 0.5100
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "7FDL12"
+    rpm_limit: 1000
+    traction_motors: "5GE761 A6"
+    cylinders_size: "228,6 mm x 266,7 mm"
+    allow_multiple_units: true
+    velocity_max: 120.0000
+    velocity_min: 20.0000
+    horsepower_total: 2150
+    horsepower_available: 1990
+    traction_effort: 22
+    adhesion_factor: 0.2500
+    minimum_track_radius: 95.000
+    brake_system: "28L-AV-1"
+
+# GE U20C-1
+- model: "api.LocomotiveDesign"
+  pk: "ce0e2114-a605-460d-a5d9-989542e93471"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U20C"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U20C"
+    first_unit_year: 1968
+    aar_wheel_arrangement: "C-C"
+    trucks_type: "AAR"
+    wheel_diameter: 914.4000
+    length: 15.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 94.4940
+    weight_per_axle: 15.7490
+    weight_adherent: 94.4940
+    fuel_capacity: 6000
+    lubricant_oil_capacity: 1044
+    cooling_fluid_capacity: 851
+    sand_capacity: 0.5100
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "7FDL12"
+    rpm_limit: 1000
+    traction_motors: "5GE761 A6"
+    cylinders_size: "228,6 mm x 266,7 mm"
+    allow_multiple_units: true
+    velocity_max: 100.0000
+    velocity_min: 20.0000
+    horsepower_total: 2150
+    horsepower_available: 1990
+    traction_effort: 22.731
+    adhesion_factor: 0.2500
+    minimum_track_radius: 95.000
+    brake_system: "28L-AV-1"
+    nickname: "Namíbia, Namibiana, Cachorrona"
+    sigo_numeric_range: "ALL: 2661-2680"
+
+# GE U22C
+- model: "api.LocomotiveDesign"
+  pk: "3b344f78-29f3-40cc-a8c1-4a4e45bd2e11"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U22C"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U22C"
+    first_unit_year: 1985
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 914.4000
+    length: 17983.0000
+    width: 2795.0000
+    weight: 120000.0000
+    weight_per_axle: 20000.0000
+    fuel_capacity: 6770
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "7FDL12"
+    motor_type: "12 cilindros em V"
+    traction_motors: "5GE-761-A20"
+    allow_multiple_units: true
+    horsepower_total: 2408
+    horsepower_available: 2200
+    adhesion_factor: 0.2500
+    minimum_track_radius: 63.000
+    brake_system: "26L"
+    sigo_numeric_range: "2801-2810"
+
+# GE U23C
+- model: "api.LocomotiveDesign"
+  pk: "70c728b5-1ded-431b-be73-fe93a8a03e7d"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U23C"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U23C"
+    first_unit_year: 1972
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 1016.0000
+    length: 20.0000
+    width: 3.0000
+    height: 4.0000
+    fuel_capacity: 15000
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "7FDL12 TURBO"
+    rpm_limit: 1050
+    generator: "GT596 CC"
+    traction_motors: "752B"
+    cylinders_size: "230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)"
+    allow_multiple_units: true
+    velocity_max: 103.0000
+    horsepower_total: 2475
+    horsepower_available: 2250
+    traction_effort: 38
+    adhesion_factor: 0.2500
+    brake_system: "26L"
+
+# GE U26C
+- model: "api.LocomotiveDesign"
+  pk: "133a1d2f-cff7-4044-95b9-1f3354a6b6fa"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U26C"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U26C"
+    first_unit_year: 1981
+    aar_wheel_arrangement: "C-C"
+    wheel_diameter: 914.4000
+    length: 16.0000
+    width: 3.0000
+    height: 3.0000
+    weight: 120.0000
+    weight_per_axle: 20.0000
+    weight_adherent: 120.0000
+    fuel_capacity: 7500
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    primary_motor: "7FDL12 TURBO"
+    rpm_limit: 1050
+    traction_motors: "761A17"
+    cylinders_size: "230,2 mm (9 1/16 in) x 266,7 mm (10 1/2 in)"
+    allow_multiple_units: true
+    velocity_max: 103.0000
+    velocity_min: 20.0000
+    horsepower_total: 2850
+    horsepower_available: 2700
+    traction_effort: 24
+    adhesion_factor: 0.2500
+    minimum_track_radius: 72.000
+    brake_system: "26L"
+
+# GE U50
+- model: "api.LocomotiveDesign"
+  pk: "2d5b6d70-5146-429c-9f11-cd7a00ee4f3a"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U50"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U50"
+    first_unit_year: 1963
+    aar_wheel_arrangement: "B+B-B+B"
+    trucks_type: "B"
+    motor_builder: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    motor_type: "2x GE FDL-16"
+    horsepower_total: 5000
+    nickname: "Baby Hueys"
+
+# GE U5B
+- model: "api.LocomotiveDesign"
+  pk: "7aeb622e-0b4f-44f6-be9b-c71878a6f320"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U5B"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U5B"
+    first_unit_year: 1961
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 914.4000
+    wheelbase: 2.0000
+    length: 11.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 49.8950
+    weight_per_axle: 12.4700
+    weight_adherent: 49.8950
+    fuel_capacity: 1514
+    lubricant_oil_capacity: 272
+    sand_capacity: 0.3400
+    motor_builder: "02dc4427-df23-4ba5-b47f-b0365d1b9e0b"
+    primary_motor: "D-379"
+    rpm_limit: 1300
+    generator: "GE 5GMG-146E1"
+    traction_motors: "5GE - 761 A1"
+    cylinders_size: "158,8 mm (6 1/4 in) x 203,2 mm (8 in)"
+    allow_multiple_units: false
+    velocity_max: 64.0000
+    velocity_min: 20.0000
+    horsepower_total: 600
+    horsepower_available: 540
+    traction_effort: 9
+    adhesion_factor: 0.2500
+    minimum_track_radius: 22.900
+    brake_system: "6SL"
+    sigo_numeric_range: "Série 2000 (2001-2088) e 3000 (3001-3020)"
+
+# GE U6B
+- model: "api.LocomotiveDesign"
+  pk: "5e6648c6-6cfe-43d1-9c77-34ae7228b2b5"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U6B"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U6B"
+    first_unit_year: 1961
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 914.4000
+    wheelbase: 2.0000
+    length: 11.0000
+    width: 2.0000
+    height: 3.0000
+    weight: 53.1000
+    weight_per_axle: 18.8350
+    weight_adherent: 53.1000
+    fuel_capacity: 1514
+    motor_builder: "02dc4427-df23-4ba5-b47f-b0365d1b9e0b"
+    primary_motor: "Cat D 379"
+    generator: "GT601"
+    traction_motors: "7G1A5"
+    cylinders_size: "158,8 mm (6 1/4 in) x 203,2 mm (8 in)"
+    velocity_max: 64.0000
+    horsepower_total: 700
+    traction_effort: 15
+    minimum_track_radius: 22.900
+    nickname: "Caterpillar"
+
+# GE U8B
+- model: "api.LocomotiveDesign"
+  pk: "e9b4e27b-f019-45cf-9eec-34426074a2f9"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U8B"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "GE U8B"
+    first_unit_year: 1960
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 914.4000
+    length: 11380.0000
+    width: 2743.0000
+    height: 3658.0000
+    weight: 54500.0000
+    weight_per_axle: 13625.0000
+    fuel_capacity: 1514
+    motor_builder: "02dc4427-df23-4ba5-b47f-b0365d1b9e0b"
+    primary_motor: "D398"
+    motor_type: "V Superalimentado"
+    generator: "5GT-601-A1"
+    traction_motors: "5GE-761-A1"
+    allow_multiple_units: true
+    velocity_max: 96.0000
+    horsepower_total: 900
+    horsepower_available: 810
+    brake_system: "6SL"
+    sigo_numeric_range: "2131-2190"
+
+# GE U9B
+- model: "api.LocomotiveDesign"
+  pk: "fbe4e260-93aa-4ec8-9288-2673a40207d3"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U9B"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "U9"
+    first_unit_year: 1957
+    aar_wheel_arrangement: "B-B (Brasil) ou C-C (Chile)"
+    motor_builder: "cf7f0e1c-1189-420e-a002-44444348b876"
+    primary_motor: "CB. FWL 6T"
+    horsepower_total: 1060
+    sigo_numeric_range: "RFFSA 2197 a 2199"
+
+# GE UM10B
+- model: "api.LocomotiveDesign"
+  pk: "c8c3e2a2-8dd9-4bcc-bcb1-21b57320243e"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GE_UM10B"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
+    name: "UM10B"
+    first_unit_year: 1961
+    aar_wheel_arrangement: "B-B"
+    wheel_diameter: 1.0000
+    motor_builder: "02dc4427-df23-4ba5-b47f-b0365d1b9e0b"
+    primary_motor: "Cat D 398"
+    generator: "5GT-601"
+    traction_motors: "5GE 752"
+    horsepower_total: 1050
+    horsepower_available: 950
+
+# GMD GMDH-1
+- model: "api.LocomotiveDesign"
+  pk: "035e4539-536e-47c2-a0d3-393c651d4d01"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/GMD_GMDH-1"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
+    name: "GMDH-1"
+    first_unit_year: 1956
+    aar_wheel_arrangement: "B-B"
+    weight: 54400.0000
+    weight_per_axle: 13600.0000
+    fuel_capacity: 1590
+    primary_motor: "Detroid Diesel modelo 60 e 71"
+    velocity_max: 64.0000
+
+# LEW DE-I-PA
+- model: "api.LocomotiveDesign"
+  pk: "e679868e-a157-4810-a797-45b3f2564caa"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/LEW_DE_I_PA"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "77942cc0-2182-4d82-8940-c8ac25442d2a"
+    name: "DE-I-PA"
+    first_unit_year: 1967
+    aar_wheel_arrangement: "B-B"
+    trucks_type: "Apoio Elástico"
+    wheel_diameter: 1050.0000
+    wheelbase: 7700.0000
+    length: 14660.0000
+    width: 3000.0000
+    height: 3900.0000
+    weight: 74000.0000
+    weight_per_axle: 18500.0000
+    fuel_capacity: 2900
+    lubricant_oil_capacity: 130
+    cooling_fluid_capacity: 620
+    motor_builder: "34fd06a3-7ccf-44f1-a096-1fdfd21a3017"
+    primary_motor: "MGO V12 BSHR"
+    rpm_limit: 1500
+    motor_type: "12 cilindros em V"
+    generator: "GBG 0609-150A"
+    traction_motors: "GMFB 0609-41"
+    cylinders_size: "175 mm x 180 mm"
+    allow_multiple_units: true
+    horsepower_total: 1050
+    minimum_track_radius: 90.000
+    sigo_numeric_range: "7761 a 7796"
+    nickname: "Alemãzinha"
+
+# LEW DE-II-S
+- model: "api.LocomotiveDesign"
+  pk: "0a07aae3-9e49-472c-8296-cf303c69caf8"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/LEW_DE_II_S"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "77942cc0-2182-4d82-8940-c8ac25442d2a"
+    name: "DE-II-S"
+    first_unit_year: 1968
+    aar_wheel_arrangement: "B-B"
+    trucks_type: "Soldado"
+    wheel_diameter: 1050.0000
+    wheelbase: 7700.0000
+    length: 14500.0000
+    width: 3000.0000
+    height: 3900.0000
+    weight: 70000.0000
+    weight_per_axle: 17500.0000
+    fuel_capacity: 2900
+    lubricant_oil_capacity: 130
+    cooling_fluid_capacity: 620
+    motor_builder: "34fd06a3-7ccf-44f1-a096-1fdfd21a3017"
+    primary_motor: "MGO V12 BSHR"
+    rpm_limit: 1500
+    motor_type: "12 cilindros em V"
+    generator: "GBG 0909-150A"
+    traction_motors: "GMFB 0609-41"
+    cylinders_size: "175 mm x 180 mm"
+    allow_multiple_units: true
+    horsepower_total: 1050
+    minimum_track_radius: 90.000
+    sigo_numeric_range: "3701 a 3730"
+    nickname: "LEW, Alemãzinha"
+
+# LEW DE-III-M
+- model: "api.LocomotiveDesign"
+  pk: "3c37c1c2-6e89-4c18-a2a8-0f7e1d20d660"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/LEW_DE_III_M"
+    prime_mover_type: "DIESEL_ELECTRIC"
+    manufacturer: "77942cc0-2182-4d82-8940-c8ac25442d2a"
+    name: "DE-III-M"
+    first_unit_year: 1968
+    aar_wheel_arrangement: "B-B"
+    trucks_type: "Soldado"
+    wheel_diameter: 1050.0000
+    wheelbase: 7700.0000
+    length: 14500.0000
+    width: 3000.0000
+    height: 3900.0000
+    weight: 70000.0000
+    weight_per_axle: 17500.0000
+    fuel_capacity: 2900
+    lubricant_oil_capacity: 160
+    cooling_fluid_capacity: 720
+    motor_builder: "34fd06a3-7ccf-44f1-a096-1fdfd21a3017"
+    primary_motor: "MGO V16 BSHR"
+    rpm_limit: 1500
+    motor_type: "16 cilindros em V"
+    generator: "GBG 0609-150A"
+    traction_motors: "GMFB 0609-41"
+    cylinders_size: "175 mm x 180 mm"
+    allow_multiple_units: true
+    horsepower_total: 1400
+    minimum_track_radius: 90.000
+    sigo_numeric_range: "3751 a 3767"
+    nickname: "LEW, Alemãzinha"
+
+# Winterthur BBC 1-D-1
+- model: "api.LocomotiveDesign"
+  pk: "a8502a99-b96b-4ec9-bf60-ef10aac0cb23"
+  fields:
+    wikipedia_url: "https://pt.wikipedia.org/wiki/Winterthur-BBC_1-D-1"
+    prime_mover_type: "ELECTRIC"
+    name: "BBC 1-D-1"
+    manufacturer: "19a9bf44-3fd0-474e-b8ad-cf8acb15a539"
+    first_unit_year: 1929
+    aar_wheel_arrangement: "1-D-1"
+    wheel_diameter: 1600.0000
+    length: 16192.0000
+    weight: 123400.0000
+    velocity_max: 105.0000
+    horsepower_available: 2520

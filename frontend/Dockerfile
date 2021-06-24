@@ -2,10 +2,12 @@
 FROM node:lts-alpine
 WORKDIR /code
 COPY app/package.json ./
-RUN npm cache clean --force && npm install -g npm && npm install --save-dev --loglevel verbose
+RUN npm cache clean --force && npm install -g npm && npm install --production=false
 ENV PATH /code/node_modules/.bin:$PATH
 
-WORKDIR /code/app/
+WORKDIR /code/app
 
-EXPOSE 9906
+#RUN npm cache clean --force && npm install -g npm && npm install
+
+EXPOSE 8080
 CMD ["/bin/sh", "entrypoint.sh"]

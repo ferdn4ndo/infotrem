@@ -1,10 +1,10 @@
 #!/bin/sh
 
-if [ "${ENV_MODE}" = "prod" ]; then
+if [ "${ENV_MODE}" = "production" ]; then
   echo "Starting in production mode..."
   yarn run build
-  serve --host 0.0.0.0 -l 9906 -s dist
+  yarn run prod
 else
   echo "Starting in development mode..."
-  cross-env BABEL_ENV=dev vue-cli-service serve --port=9906 --disable-host-check
+  yarn run dev
 fi

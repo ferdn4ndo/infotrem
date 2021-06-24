@@ -1,0 +1,189 @@
+
+- model: "api.LocationState",
+  pk: "7022d385-6dbc-4323-9aa2-3825c9fbabe4",
+  fields:
+    abbrev: "RO"
+    name: "Rondônia"
+    ibge_id: 11
+
+- model: "api.LocationState",
+  pk: "bb1afee0-7463-4389-86e2-7c2571dcf6d0",
+  fields:
+    abbrev: "AC"
+    name: "Acre"
+    ibge_id: 12
+
+- model: "api.LocationState",
+  pk: "ac83ecec-0dba-4dda-b8c8-1dc7a3807539",
+  fields:
+    abbrev: "AM"
+    name: "Amazonas"
+    ibge_id: 13
+
+- model: "api.LocationState",
+  pk: "dd552115-f43c-43d6-b2a5-ba2989216241",
+  fields:
+    abbrev: "RR"
+    name: "Roraima"
+    ibge_id: 14
+
+- model: "api.LocationState",
+  pk: "736c0d88-018c-42b2-8816-0ae53488ec62",
+  fields:
+    abbrev: "PA"
+    name: "Pará"
+    ibge_id: 15
+
+- model: "api.LocationState",
+  pk: "6e59ead9-634b-43b3-b28c-a664eeb586d4",
+  fields:
+    abbrev: "AP"
+    name: "Amapá"
+    ibge_id: 16
+
+- model: "api.LocationState",
+  pk: "e042100e-949a-438e-a973-f3df8309e2c9",
+  fields:
+    abbrev: "TO"
+    name: "Tocantins"
+    ibge_id: 17
+
+- model: "api.LocationState",
+  pk: "461e888a-bd05-471d-b98f-5c58efc62fba",
+  fields:
+    abbrev: "MA"
+    name: "Maranhão"
+    ibge_id: 21
+
+- model: "api.LocationState",
+  pk: "f492d453-fecc-4ba8-bd4c-cf119473a6d2",
+  fields:
+    abbrev: "PI"
+    name: "Piauí"
+    ibge_id: 22
+
+- model: "api.LocationState",
+  pk: "77872199-f66b-4729-b81c-d4d15bfe377c",
+  fields:
+    abbrev: "CE"
+    name: "Ceará"
+    ibge_id: 23
+
+- model: "api.LocationState",
+  pk: "165aa1f3-64cb-4608-b356-cf1cadd63376",
+  fields:
+    abbrev: "RN"
+    name: "Rio Grande do Norte"
+    ibge_id: 24
+
+- model: "api.LocationState",
+  pk: "17d82267-b480-45bd-b852-912f9ae47566",
+  fields:
+    abbrev: "PB"
+    name: "Paraíba"
+    ibge_id: 25
+
+- model: "api.LocationState",
+  pk: "2eef0328-5468-43e3-b012-8535b8c161f6",
+  fields:
+    abbrev: "PE"
+    name: "Pernambuco"
+    ibge_id: 26
+
+- model: "api.LocationState",
+  pk: "62bc9ac1-4eaf-443d-b63a-319b4ea0435d",
+  fields:
+    abbrev: "AL"
+    name: "Alagoas"
+    ibge_id: 27
+
+- model: "api.LocationState",
+  pk: "782f773d-4ac6-45b6-abe0-9725f15c356c",
+  fields:
+    abbrev: "SE"
+    name: "Sergipe"
+    ibge_id: 28
+
+- model: "api.LocationState",
+  pk: "16b1e580-1233-4a54-bbdf-b1023b0eb90b",
+  fields:
+    abbrev: "BA"
+    name: "Bahia"
+    ibge_id: 29
+
+- model: "api.LocationState",
+  pk: "e17548d7-4e48-47bd-af48-f5e2788ce773",
+  fields:
+    abbrev: "MG"
+    name: "Minas Gerais"
+    ibge_id: 31
+
+- model: "api.LocationState",
+  pk: "6cdf19a6-d32d-42ca-a68d-29ba68459572",
+  fields:
+    abbrev: "ES"
+    name: "Espírito Santo"
+    ibge_id: 32
+
+- model: "api.LocationState",
+  pk: "c859b86f-458b-47ed-a339-23e82ddf9106",
+  fields:
+    abbrev: "RJ"
+    name: "Rio de Janeiro"
+    ibge_id: 33
+
+- model: "api.LocationState",
+  pk: "de4bd4e4-bd40-4ccc-bbe7-f18d92e90685",
+  fields:
+    abbrev: "SP"
+    name: "São Paulo"
+    ibge_id: 35
+
+- model: "api.LocationState",
+  pk: "d7ec443d-8828-45af-bd51-1b2f4b889869",
+  fields:
+    abbrev: "PR"
+    name: "Paraná"
+    ibge_id: 41
+
+- model: "api.LocationState",
+  pk: "81b6be81-257d-49e6-a3d1-143800047810",
+  fields:
+    abbrev: "SC"
+    name: "Santa Catarina"
+    ibge_id: 42
+
+- model: "api.LocationState",
+  pk: "50c60eab-9059-4532-9345-4303d2a1bb40",
+  fields:
+    abbrev: "RS"
+    name: "Rio Grande do Sul"
+    ibge_id: 43
+
+- model: "api.LocationState",
+  pk: "4cda55c5-125b-4a64-973d-801850d723aa",
+  fields:
+    abbrev: "MS"
+    name: "Mato Grosso do Sul"
+    ibge_id: 50
+
+- model: "api.LocationState",
+  pk: "0c5807e2-da0d-4025-9cff-60c01155785e",
+  fields:
+    abbrev: "MT"
+    name: "Mato Grosso"
+    ibge_id: 51
+
+- model: "api.LocationState",
+  pk: "889acd7f-bfe0-4f75-b952-0a814e4c43c7",
+  fields:
+    abbrev: "GO"
+    name: "Goiás"
+    ibge_id: 52
+
+- model: "api.LocationState",
+  pk: "b8cff4b6-11a5-429d-a843-d8e5140b2846",
+  fields:
+    abbrev: "DF"
+    name: "Distrito Federal"
+    ibge_id: 53

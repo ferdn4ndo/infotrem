@@ -1,74 +1,65 @@
 import ApiService from "@/common/api.service";
+import { FETCH_USER, UPDATE_PROFILE } from "./actions.type";
 import {
-  FETCH_PROFILE,
-  FETCH_PROFILE_FOLLOW,
-  FETCH_PROFILE_UNFOLLOW
-} from "./actions.type";
-import { SET_PROFILE } from "./mutations.type";
+  SET_ERROR,
+  SET_USER,
+  SET_LOADING,
+  RESET_LOADING,
+} from "./mutations.type";
 
 const state = {
   errors: {},
-  profile: {}
+  profile: {},
 };
 
 const getters = {
   profile(state) {
     return state.profile;
-  }
+  },
 };
 
 const actions = {
-  [FETCH_PROFILE](context, payload) {
-    const { username } = payload;
-    return ApiService.get("profiles", username)
-      .then(({ data }) => {
-        context.commit(SET_PROFILE, data.profile);
-        return data;
-      })
-      .catch(() => {
-        // #todo SET_ERROR cannot work in multiple states
-        // context.commit(SET_ERROR, response.data.errors)
-      });
+  [FETCH_USER](context) {
+    return new Promise((resolve, reject) => {
+      context.commit(SET_LOADING, "fetch_user");
+      ApiService.get("me")
+        .then(({ data }) => {
+          context.commit(SET_USER, data);
+          context.commit(RESET_LOADING, "fetch_user");
+          resolve(data);
+        })
+        .catch((response) => {
+          context.commit(RESET_LOADING, "fetch_user");
+          reject(response);
+        });
+    });
   },
-  [FETCH_PROFILE_FOLLOW](context, payload) {
-    const { username } = payload;
-    return ApiService.post(`profiles/${username}/follow`)
-      .then(({ data }) => {
-        context.commit(SET_PROFILE, data.profile);
-        return data;
-      })
-      .catch(() => {
-        // #todo SET_ERROR cannot work in multiple states
-        // context.commit(SET_ERROR, response.data.errors)
-      });
+  [UPDATE_PROFILE](context, payload) {
+    return new Promise((resolve, reject) => {
+      context.commit(SET_LOADING, "update_user");
+      ApiService.patch("me", payload)
+        .then((response) => {
+          context.commit(RESET_LOADING, "update_user");
+          context.commit(SET_USER, response.data);
+          resolve(response);
+        })
+        .catch((response) => {
+          context.commit(RESET_LOADING, "fetch_user");
+          reject(response);
+        });
+    });
   },
-  [FETCH_PROFILE_UNFOLLOW](context, payload) {
-    const { username } = payload;
-    return ApiService.delete(`profiles/${username}/follow`)
-      .then(({ data }) => {
-        context.commit(SET_PROFILE, data.profile);
-        return data;
-      })
-      .catch(() => {
-        // #todo SET_ERROR cannot work in multiple states
-        // context.commit(SET_ERROR, response.data.errors)
-      });
-  }
 };
 
 const mutations = {
-  // [SET_ERROR] (state, error) {
-  //   state.errors = error
-  // },
-  [SET_PROFILE](state, profile) {
-    state.profile = profile;
-    state.errors = {};
-  }
+  [SET_ERROR](state, error) {
+    state.errors = error;
+  },
 };
 
 export default {
   state,
   actions,
   mutations,
-  getters
+  getters,
 };

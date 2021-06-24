@@ -1,0 +1,35 @@
+from rest_framework import serializers
+
+
+class RegisterSerializer(serializers.Serializer):
+    email = serializers.EmailField(required=True, max_length=64)
+    password = serializers.CharField(required=True, max_length=64)
+    name = serializers.CharField(required=False, allow_null=True)
+    rg = serializers.CharField(max_length=20, required=False, allow_null=True)
+    cpf = serializers.IntegerField(required=False, allow_null=True, min_value=0, max_value=99999999999)
+    birth_date = serializers.DateField(required=False, allow_null=True)
+    address = serializers.CharField(required=False, allow_null=True, max_length=255)
+    number = serializers.IntegerField(required=False, allow_null=True, min_value=1)
+    complement = serializers.CharField(required=False, allow_null=True)
+    city_id = serializers.UUIDField(required=False, write_only=True)
+    state_id = serializers.UUIDField(required=False, write_only=True)
+    zipcode = serializers.IntegerField(required=False, allow_null=True, min_value=10000000, max_value=99999999)
+    phone = serializers.IntegerField(required=False, allow_null=True, min_value=10000000, max_value=99999999999)
+    special_needs = serializers.BooleanField(default=False)
+
+    has_auditive_disability = serializers.BooleanField(required=False, allow_null=True)
+    has_physical_disability = serializers.BooleanField(required=False, allow_null=True)
+    has_mental_disability = serializers.BooleanField(required=False, allow_null=True)
+    has_motor_disability = serializers.BooleanField(required=False, allow_null=True)
+    has_visual_disability = serializers.BooleanField(required=False, allow_null=True)
+    has_other_disability = serializers.BooleanField(required=False, allow_null=True)
+    other_disability_detail = serializers.CharField(required=False, allow_null=True)
+
+    disease_id = serializers.CharField(required=False, allow_null=True)
+    doctor_name = serializers.CharField(required=False, allow_null=True)
+    needs_accommodation = serializers.CharField(required=False, allow_null=True)
+    needs_reader = serializers.CharField(required=False, allow_null=True)
+    needs_enlarged_exam = serializers.CharField(required=False, allow_null=True)
+    needs_typist = serializers.CharField(required=False, allow_null=True)
+    needs_other = serializers.CharField(required=False, allow_null=True)
+    other_needs_detail = serializers.CharField(required=False, allow_null=True)

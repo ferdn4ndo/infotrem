@@ -1,112 +1,136 @@
 <template>
-  <div class="profile-page">
-    <div class="user-info">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-10 offset-md-1">
-            <img :src="profile.image" class="user-img" />
-            <h4>{{ profile.username }}</h4>
-            <p>{{ profile.bio }}</p>
-            <div v-if="isCurrentUser()">
-              <router-link
-                class="btn btn-sm btn-outline-secondary action-btn"
-                :to="{ name: 'settings' }"
-              >
-                <i class="ion-gear-a"></i> Edit Profile Settings
-              </router-link>
-            </div>
-            <div v-else>
-              <button
-                class="btn btn-sm btn-secondary action-btn"
-                v-if="profile.following"
-                @click.prevent="unfollow()"
-              >
-                <i class="ion-plus-round"></i> &nbsp;Unfollow
-                {{ profile.username }}
-              </button>
-              <button
-                class="btn btn-sm btn-outline-secondary action-btn"
-                v-if="!profile.following"
-                @click.prevent="follow()"
-              >
-                <i class="ion-plus-round"></i> &nbsp;Follow
-                {{ profile.username }}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <section class="Profile">
+    <header-background
+      :image-src="headerImageSrc"
+      :height="300"
+      class="Profile-Banner"
+      title="Meu Perfil"
+    />
 
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-10 offset-md-1">
-          <div class="articles-toggle">
-            <ul class="nav nav-pills outline-active">
-              <li class="nav-item">
-                <router-link
-                  class="nav-link"
-                  active-class="active"
-                  exact
-                  :to="{ name: 'profile' }"
-                >
-                  My Articles
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <router-link
-                  class="nav-link"
-                  active-class="active"
-                  exact
-                  :to="{ name: 'profile-favorites' }"
-                >
-                  Favorited Articles
-                </router-link>
-              </li>
-            </ul>
-          </div>
-          <router-view></router-view>
-        </div>
-      </div>
-    </div>
-  </div>
+    <nav class="Profile-DataSelection">
+      <the-button
+        :disabled="form === 'basic'"
+        width="auto"
+        class="Profile-Button"
+        @click="setForm('basic')"
+      >
+        <the-icon 
+          icon="basic_data" 
+          class="Profile-ButtonIcon"
+        />
+
+        <h1 class="Profile-ButtonTitle">Dados Básicos</h1>
+      </the-button>
+
+      <the-button
+        :disabled="form === 'socioeconomic'"
+        width="auto"
+        class="Profile-Button"
+        @click="setForm('socioeconomic')"
+      >
+        <the-icon 
+          icon="socioeconomic" 
+          class="Profile-ButtonIcon"
+        />
+
+        <h1 class="Profile-ButtonTitle">Dados Socioeconômicos</h1>
+      </the-button>
+    </nav>
+
+    <profile-form
+      v-if="form === 'basic'"
+      class="Profile-Form"
+      @error="handleError"
+      @success="handleSuccess"
+    />
+
+    <socioeconomical-form
+      v-if="form === 'socioeconomic'"
+      class="Profile-Form"
+      @error="handleError"
+      @success="handleSuccess"
+    />
+  </section>
 </template>
 
-<script>
-import { mapGetters } from "vuex";
-import {
-  FETCH_PROFILE,
-  FETCH_PROFILE_FOLLOW,
-  FETCH_PROFILE_UNFOLLOW
-} from "@/store/actions.type";
-
-export default {
-  name: "RwvProfile",
-  mounted() {
-    this.$store.dispatch(FETCH_PROFILE, this.$route.params);
-  },
-  computed: {
-    ...mapGetters(["currentUser", "profile", "isAuthenticated"])
-  },
-  methods: {
-    isCurrentUser() {
-      if (this.currentUser.username && this.profile.username) {
-        return this.currentUser.username === this.profile.username;
-      }
-      return false;
-    },
-    follow() {
-      if (!this.isAuthenticated) return;
-      this.$store.dispatch(FETCH_PROFILE_FOLLOW, this.$route.params);
-    },
-    unfollow() {
-      this.$store.dispatch(FETCH_PROFILE_UNFOLLOW, this.$route.params);
+<style lang="scss" scoped>
+  .Profile {
+    &-DataSelection {
+      display: flex;
+      flex-wrap: wrap;
     }
-  },
-  watch: {
-    $route(to) {
-      this.$store.dispatch(FETCH_PROFILE, to.params);
+
+    &-Button {
+      flex: 1 1 40%;
+      margin: 10px;
+      min-width: 250px;
+
+      &--centered {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    &-ButtonIcon {
+      font-size: 26px;
+    }
+
+    &-ButtonTitle {
+      display: inline-block;
+      font-size: 26px;
+      margin: 10px 10px;
+    }
+
+    &-Banner {
+      width: 100%;
+    }
+
+    &-Form {
+      box-sizing: border-box;
+      margin: 10px;
     }
   }
-};
+</style>
+
+<script>
+  import HeaderBackground from "@/components/HeaderBackground";
+  import EventsList from "@/components/EventsList";
+  import ProfileForm from "@/components/forms/ProfileForm";
+  import TheButton from "@/components/TheButton";
+  import TheIcon from "@/components/TheIcon";
+  import SocioeconomicalForm from "@/components/forms/SocioeconomicalForm";
+
+  export default {
+    name: "ViewProfile",
+
+    components: {
+      SocioeconomicalForm,
+      TheIcon,
+      TheButton,
+      ProfileForm,
+      HeaderBackground,
+      EventsList,
+    },
+
+    data() {
+      return {
+        form: "basic",
+        headerImageSrc: "/img/backgrounds/csc-03.jpg",
+      };
+    },
+
+    methods: {
+      setForm(newForm) {
+        this.form = newForm;
+      },
+
+      handleError(msg) {
+        this.$emit("alert", { text: msg, style: "error", expSecs: 10 });
+      },
+
+      handleSuccess(msg) {
+        this.$emit("alert", { text: msg, style: "success", expSecs: 10 });
+      },
+    },
+  };
 </script>

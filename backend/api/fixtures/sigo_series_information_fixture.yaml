@@ -1,0 +1,294 @@
+
+- model: "api.SigoSeriesInformation"
+  pk: "66d54b71-d455-49d8-85d6-51f903d1401e"
+  fields:
+    sigo_start_number: 0
+    sigo_end_number: 99999
+    information: "3acd5de8-7b3a-4507-812b-b749cddacf43"
+
+- model: "api.SigoSeriesInformation"
+  pk: "fb7a4df1-6435-4429-977a-7324b1a8fa99"
+  fields:
+    sigo_start_number: 100000
+    sigo_end_number: 299999
+    information: "32279d8b-7c43-4abf-942e-667278ac092d"
+
+- model: "api.SigoSeriesInformation"
+  pk: "3e980886-25fc-4d19-8d63-c1212e51c46d"
+  fields:
+    sigo_start_number: 300000
+    sigo_end_number: 599999
+    information: "0211bed3-7f87-4e57-9ccf-6ce2dac8d8c7"
+
+- model: "api.SigoSeriesInformation"
+  pk: "223f6e4f-db27-4264-9682-f3351969c900"
+  fields:
+    sigo_start_number: 600000
+    sigo_end_number: 799999
+    information: "46e2d76d-e810-41ad-b104-f2859e6ed0db"
+
+- model: "api.SigoSeriesInformation"
+  pk: "c2d5be37-a446-4486-88a3-f0353ffdea55"
+  fields:
+    sigo_start_number: 800000
+    sigo_end_number: 839999
+    information: "9a2696ec-a00f-4293-90a8-fb462097a634"
+
+- model: "api.SigoSeriesInformation"
+  pk: "d0a93e02-90c6-4bbc-b7a7-8c69b28034f9"
+  fields:
+    sigo_start_number: 900000
+    sigo_end_number: 909999
+    information: "954859b5-c4e2-4b90-981a-9798b85d5c13"
+
+- model: "api.SigoSeriesInformation"
+  pk: "a0944fc1-d2f5-4eb6-ab51-5fc00d416c76"
+  fields:
+    sigo_start_number: 910000
+    sigo_end_number: 911999
+    information: "1215c977-1395-4173-98e2-3d868bf8afea"
+
+- model: "api.SigoSeriesInformation"
+  pk: "8330d2b0-a2bb-471c-93b8-bad2ef6d554c"
+  fields:
+    sigo_start_number: 912000
+    sigo_end_number: 917999
+    information: "737841b8-1ba7-49d2-b987-40a18e494784"
+
+- model: "api.SigoSeriesInformation"
+  pk: "6a3712f3-1bbb-4d4b-aee9-a3516e0f1ec5"
+  fields:
+    sigo_start_number: 918000
+    sigo_end_number: 918099
+    information: "abac85fb-b2c1-4c03-8d03-9c601ade7d1b"
+
+- model: "api.SigoSeriesInformation"
+  pk: "aa0c5858-9301-492c-b772-be985eb84d84"
+  fields:
+    sigo_start_number: 918100
+    sigo_end_number: 919999
+    information: "76a07427-f59d-401a-8ecf-cc30391bce16"
+
+- model: "api.SigoSeriesInformation"
+  pk: "e4d0100c-086a-48f4-9431-9ce5eee8fd7d"
+  fields:
+    sigo_start_number: 920000
+    sigo_end_number: 929999
+    information: "d84ce574-e470-4490-872c-875134eb3a50"
+
+- model: "api.SigoSeriesInformation"
+  pk: "93b3fafe-8ad0-4d1a-88db-b1424e9d366e"
+  fields:
+    sigo_start_number: 930000
+    sigo_end_number: 930999
+    information: "3995909a-037a-4bca-b778-64b8b36348db"
+
+- model: "api.SigoSeriesInformation"
+  pk: "e7c8d53b-ec0d-4a76-8205-19694bc43390"
+  fields:
+    sigo_start_number: 931000
+    sigo_end_number: 931999
+    information: "b0f027ba-55d6-4bbf-81f9-15494765b23c"
+
+- model: "api.SigoSeriesInformation"
+  pk: "1e7c4f43-47ad-4c55-9262-0db2006136a9"
+  fields:
+    sigo_start_number: 933000
+    sigo_end_number: 937999
+    information: "50a033e2-a210-48e5-aa9a-e1488b2aed59"
+
+- model: "api.SigoSeriesInformation"
+  pk: "8d01c69c-6c5f-41fa-b5ad-e48d01a0f59b"
+  fields:
+    sigo_start_number: 946000
+    sigo_end_number: 946199
+    information: "6805f363-ee5a-4817-b73a-d1074c776325"
+
+- model: "api.SigoSeriesInformation"
+  pk: "c245fe54-51ce-47ed-8a7a-3d30f171e7cc"
+  fields:
+    sigo_start_number: 946200
+    sigo_end_number: 946299
+    information: "a8d2b657-fc3a-4e9b-8797-0f62f9efdf9d"
+
+- model: "api.SigoSeriesInformation"
+  pk: "98257c93-9cd4-4261-972f-64269a5920da"
+  fields:
+    sigo_start_number: 946300
+    sigo_end_number: 946399
+    information: "2527fddb-3749-4bf2-be47-0daf1a826e65"
+
+- model: "api.SigoSeriesInformation"
+  pk: "7db5c380-09bf-46ed-8249-9bd06429941f"
+  fields:
+    sigo_start_number: 946400
+    sigo_end_number: 946599
+    information: "2a9f1cd0-5226-4370-8036-b6b50448db71"
+
+- model: "api.SigoSeriesInformation"
+  pk: "87f2ee8b-80ab-443d-ad30-e8997ec71041"
+  fields:
+    sigo_start_number: 946600
+    sigo_end_number: 946699
+    information: "431a2974-764f-4980-8fa9-fecd6c46dfc3"
+
+- model: "api.SigoSeriesInformation"
+  pk: "c8b27fe0-b48d-44ce-b9f3-0ab5bf993c5f"
+  fields:
+    sigo_start_number: 947000
+    sigo_end_number: 947199
+    information: "91be251d-6b1f-441e-ae90-676fe390e8d1"
+
+- model: "api.SigoSeriesInformation"
+  pk: "dedfa21d-32c4-4a5a-aa07-13334acf4f36"
+  fields:
+    sigo_start_number: 947200
+    sigo_end_number: 947299
+    information: "ff69f625-e07b-4e89-b541-40e1936b92a0"
+
+- model: "api.SigoSeriesInformation"
+  pk: "61185496-faca-46c0-950c-1edc4590b85e"
+  fields:
+    sigo_start_number: 947300
+    sigo_end_number: 947399
+    information: "be167a99-79a9-4f6c-97f0-52efb73fb87a"
+
+- model: "api.SigoSeriesInformation"
+  pk: "55d6b6f8-446b-4bd4-9e2b-e74f3b743acc"
+  fields:
+    sigo_start_number: 947400
+    sigo_end_number: 947599
+    information: "2a3f8590-4ad8-4fbf-93d1-2edf3410f09a"
+
+- model: "api.SigoSeriesInformation"
+  pk: "834c17b1-b51f-4a20-a0e2-862d8d7ef847"
+  fields:
+    sigo_start_number: 947600
+    sigo_end_number: 947699
+    information: "da36271f-9201-4730-a07e-80b1e6e3c5bf"
+
+- model: "api.SigoSeriesInformation"
+  pk: "fd5a7b4f-67ac-41fe-871e-911b5df1667a"
+  fields:
+    sigo_start_number: 950000
+    sigo_end_number: 959999
+    information: "cdf2f828-35c3-4c3b-b5da-bd92b3c66823"
+
+- model: "api.SigoSeriesInformation"
+  pk: "50ad53d3-973b-41b3-8706-8af1c7e0f7ef"
+  fields:
+    sigo_start_number: 960000
+    sigo_end_number: 969999
+    information: "4772a841-3b9c-4dea-9751-5f9b77876149"
+
+- model: "api.SigoSeriesInformation"
+  pk: "0d549ee4-1830-47ae-a07a-1953671ae418"
+  fields:
+    sigo_start_number: 970000
+    sigo_end_number: 970499
+    information: "2f42b97e-95e0-4c1a-8d9c-34018cef92dd"
+
+- model: "api.SigoSeriesInformation"
+  pk: "9a3a8832-9369-434b-935f-e6f4c0ac0968"
+  fields:
+    sigo_start_number: 970500
+    sigo_end_number: 974999
+    information: "97513e6b-c5cf-421f-9758-11dea1001e58"
+
+- model: "api.SigoSeriesInformation"
+  pk: "da8d1815-e4ca-46e4-81a7-712e3b1a22cc"
+  fields:
+    sigo_start_number: 975000
+    sigo_end_number: 979999
+    information: "a61e9610-1c29-4971-b124-c24d77a09348"
+
+- model: "api.SigoSeriesInformation"
+  pk: "96092e98-e4bb-4605-9fa5-9d02b47afb9a"
+  fields:
+    sigo_start_number: 900001
+    sigo_end_number: 900100
+    information: "13cebf84-59c5-40ac-8021-5480304b17ac"
+
+- model: "api.SigoSeriesInformation"
+  pk: "ec9c9177-2a10-4b6f-9d77-ad64715ca6c8"
+  fields:
+    sigo_start_number: 900101
+    sigo_end_number: 900400
+    information: "648da03e-16b7-40d3-bb9f-2992aae8f50b"
+
+- model: "api.SigoSeriesInformation"
+  pk: "37a0cfaa-288c-4a43-a0a9-19a9be11488a"
+  fields:
+    sigo_start_number: 900401
+    sigo_end_number: 900500
+    information: "46cac1a7-e08f-4c30-b910-8e52074f1d9f"
+
+- model: "api.SigoSeriesInformation"
+  pk: "38a72be1-f402-4629-831e-1a33f4d6b896"
+  fields:
+    sigo_start_number: 900501
+    sigo_end_number: 900750
+    information: "b24b5668-ae9b-4ce1-91f1-c6405cf7e2f9"
+
+- model: "api.SigoSeriesInformation"
+  pk: "397105f1-c8f8-414d-8651-a9210dd41278"
+  fields:
+    sigo_start_number: 900751
+    sigo_end_number: 900100
+    information: "fed9f49e-5615-4876-a506-280ce6a135e6"
+
+- model: "api.SigoSeriesInformation"
+  pk: "d01b0184-2daf-4a36-a707-3b2b46d0994a"
+  fields:
+    sigo_start_number: 902001
+    sigo_end_number: 903000
+    information: "11b4aff3-1793-41cb-9f2f-b63357e87a9c"
+
+- model: "api.SigoSeriesInformation"
+  pk: "cc4ab661-df57-407f-9b2d-90987e21b7a1"
+  fields:
+    sigo_start_number: 903001
+    sigo_end_number: 904000
+    information: "46f14185-6f08-4f10-aefa-41b3ed79ff9f"
+
+- model: "api.SigoSeriesInformation"
+  pk: "a91f4bbe-a174-4a50-ac50-f4a3e32df9ff"
+  fields:
+    sigo_start_number: 904001
+    sigo_end_number: 905000
+    information: "83792e48-97d2-47ce-bebd-4e38734ac000"
+
+- model: "api.SigoSeriesInformation"
+  pk: "719f988a-e47b-4dff-876b-f238baeca45d"
+  fields:
+    sigo_start_number: 905001
+    sigo_end_number: 906000
+    information: "88cde1bd-ae60-48b0-8982-e3302d39fa21"
+
+- model: "api.SigoSeriesInformation"
+  pk: "4f904ea7-c645-4be9-993a-86be97a6b93f"
+  fields:
+    sigo_start_number: 906001
+    sigo_end_number: 907000
+    information: "1b678c7b-a566-4bfb-9a62-8dd5cb13768b"
+
+- model: "api.SigoSeriesInformation"
+  pk: "ff0748cc-d5af-4943-8ac7-5a3f10f0bfd0"
+  fields:
+    sigo_start_number: 907001
+    sigo_end_number: 908000
+    information: "2f0a3ea7-3743-479a-bde2-e936190cfd50"
+
+- model: "api.SigoSeriesInformation"
+  pk: "f9e115bc-1954-4128-800d-2e2cfc2fd623"
+  fields:
+    sigo_start_number: 900801
+    sigo_end_number: 909000
+    information: "1bb92d6f-e36d-464e-847c-099056bc1f17"
+
+- model: "api.SigoSeriesInformation"
+  pk: "73fe611e-43f7-43d2-9cfa-65194c845476"
+  fields:
+    sigo_start_number: 900901
+    sigo_end_number: 909999
+    information: "40c96ffe-f6cc-440c-99ee-83a83db64860"

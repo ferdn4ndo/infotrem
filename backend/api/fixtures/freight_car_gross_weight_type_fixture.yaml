@@ -1,0 +1,92 @@
+# Freight cars gross weight type
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "A"
+    max_gross_tons: 30.0
+    gauge: "3446d83d-2546-4abe-958b-94d3f4e6b34c"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "B"
+    max_gross_tons: 47.0
+    gauge: "3446d83d-2546-4abe-958b-94d3f4e6b34c"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "C"
+    max_gross_tons: 64.0
+    gauge: "3446d83d-2546-4abe-958b-94d3f4e6b34c"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "D"
+    max_gross_tons: 80.0
+    gauge: "3446d83d-2546-4abe-958b-94d3f4e6b34c"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "E"
+    max_gross_tons: 100.0
+    gauge: "3446d83d-2546-4abe-958b-94d3f4e6b34c"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "F"
+    max_gross_tons: 119.0
+    gauge: "3446d83d-2546-4abe-958b-94d3f4e6b34c"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "G"
+    max_gross_tons: 143.0
+    gauge: "3446d83d-2546-4abe-958b-94d3f4e6b34c"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "P"
+    max_gross_tons: 47.0
+    gauge: "9582a011-36c5-4273-a816-7e6ac02b3304"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "Q"
+    max_gross_tons: 64.0
+    gauge: "9582a011-36c5-4273-a816-7e6ac02b3304"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "R"
+    max_gross_tons: 80.0
+    gauge: "9582a011-36c5-4273-a816-7e6ac02b3304"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "S"
+    max_gross_tons: 100.0
+    gauge: "9582a011-36c5-4273-a816-7e6ac02b3304"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "T"
+    max_gross_tons: 119.0
+    gauge: "9582a011-36c5-4273-a816-7e6ac02b3304"
+
+- model: "api.FreightCarGrossWeightType"
+  pk: ""
+  fields:
+    letter: "U"
+    max_gross_tons: 143.0
+    gauge: "9582a011-36c5-4273-a816-7e6ac02b3304"
