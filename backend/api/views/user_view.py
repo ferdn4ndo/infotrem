@@ -7,7 +7,7 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 
-from api.serializers import UserSerializer
+from api.serializers.user_serializer import UserSerializer
 from api.services import policy
 
 

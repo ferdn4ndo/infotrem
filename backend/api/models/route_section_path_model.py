@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.path_model import Path
-from api.models.route_section_model import RouteSection
+from .generic_audited_model import GenericAuditedModel
+from .path_model import Path
+from .route_section_model import RouteSection
 
 
 class RouteSectionPath(GenericAuditedModel):

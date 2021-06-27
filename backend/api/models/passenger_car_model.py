@@ -1,10 +1,10 @@
 from django.contrib import admin
 from django.db import models
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.rolling_stock_model import RollingStock
-from api.models.passenger_car_material_model import PassengerCarMaterial
-from api.models.passenger_car_type_model import PassengerCarType
+from .generic_audited_model import GenericAuditedModel
+from .rolling_stock_model import RollingStock
+from .passenger_car_material_model import PassengerCarMaterial
+from .passenger_car_type_model import PassengerCarType
 
 
 class PassengerCar(GenericAuditedModel):

@@ -2,7 +2,7 @@ from django.utils import timezone
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from api.serializers import MeSerializer
+from api.serializers.me_serializer import MeSerializer
 from api.services import policy
 
 

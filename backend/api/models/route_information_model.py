@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.db import models
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.information_model import Information
-from api.models.route_model import Route
+from .generic_audited_model import GenericAuditedModel
+from .information_model import Information
+from .route_model import Route
 
 
 class RouteInformation(GenericAuditedModel):

@@ -7,14 +7,74 @@ echo "Migrating..."
 python manage.py migrate --run-syncdb
 
 # Import of data fixtures
-echo "Importing Event fixture..."
-python manage.py loaddata /code/api/fixtures/event_fixture.yaml
-echo "Importing EventVacancyType fixture..."
-python manage.py loaddata /code/api/fixtures/event_vacancy_type_fixture.yaml
-echo "Importing EventVacancy fixture..."
-python manage.py loaddata /code/api/fixtures/event_vacancy_fixture.yaml
-#echo "Importing User fixture..."
-#python manage.py loaddata /code/api/fixtures/custom_user_fixture.yaml
+echo "Importing Company fixture..."
+python manage.py loaddata /code/api/fixtures/company_fixture.yaml
+
+echo "Importing Track Gauge fixture..."
+python manage.py loaddata /code/api/fixtures/track_gauge_fixture.yaml
+
+echo "Importing Manufacturer fixture..."
+python manage.py loaddata /code/api/fixtures/track_gauge_fixture.yaml
+
+echo "Importing Rolling Stock fixture..."
+python manage.py loaddata /code/api/fixtures/rolling_stock_fixture.yaml
+
+echo "Importing Freight Car Category fixture..."
+python manage.py loaddata /code/api/fixtures/freight_car_category_fixture.yaml
+
+echo "Importing Freight Car Type fixture..."
+python manage.py loaddata /code/api/fixtures/freight_car_type_fixture.yaml
+
+echo "Importing Freight Car Gross Weight Type fixture..."
+python manage.py loaddata /code/api/fixtures/freight_car_gross_weight_type_fixture.yaml
+
+echo "Importing Locomotive Design fixture..."
+python manage.py loaddata /code/api/fixtures/locomotive_design_fixture.yaml
+
+echo "Importing Locomotive fixture..."
+python manage.py loaddata /code/api/fixtures/locomotive_fixture.yaml
+
+echo "Importing Non Revenue Car Type fixture..."
+python manage.py loaddata /code/api/fixtures/non_revenue_car_type_fixture.yaml
+
+echo "Importing Passenger Car Type fixture..."
+python manage.py loaddata /code/api/fixtures/passenger_car_type_fixture.yaml
+
+echo "Importing Passenger Car Material fixture..."
+python manage.py loaddata /code/api/fixtures/passenger_car_material_fixture.yaml
+
+echo "Importing Location State fixture..."
+python manage.py loaddata /code/api/fixtures/location_state_fixture.yaml
+
+echo "Importing Location City fixture..."
+python manage.py loaddata /code/api/fixtures/location_city_fixture.yaml
+
+echo "Importing Location fixture..."
+python manage.py loaddata /code/api/fixtures/location_fixture.yaml
+
+echo "Importing Path fixture..."
+python manage.py loaddata /code/api/fixtures/path_fixture.yaml
+
+echo "Importing Path Point fixture..."
+python manage.py loaddata /code/api/fixtures/path_point_fixture.yaml
+
+echo "Importing Location Path fixture..."
+python manage.py loaddata /code/api/fixtures/location_path_fixture.yaml
+
+echo "Importing Route fixture..."
+python manage.py loaddata /code/api/fixtures/route_fixture.yaml
+
+echo "Importing Route Section fixture..."
+python manage.py loaddata /code/api/fixtures/route_section_fixture.yaml
+
+echo "Importing Information fixture..."
+python manage.py loaddata /code/api/fixtures/information_fixture.yaml
+
+echo "Importing Sigo Series Information fixture..."
+python manage.py loaddata /code/api/fixtures/sigo_series_information_fixture.yaml
+
+echo "Importing Sigo Regional fixture..."
+python manage.py loaddata /code/api/fixtures/sigo_regional_fixture.yaml
 
 echo "Collecting static files"
 python manage.py collectstatic --noinput
@@ -73,9 +133,6 @@ echo "${login_resp}"
 echo "Creating superuser"
 #export DJANGO_SUPERUSER_PASSWORD=${USERVER_AUTH_PASSWORD}
 python manage.py createsuperuser --noinput --id="${DJANGO_SUPERUSER_ID}"
-
-echo "Updating IBGE states and cities"
-python manage.py update_locations_from_ibge
 
 echo "SETUP COMPLETED!"
 exit 0

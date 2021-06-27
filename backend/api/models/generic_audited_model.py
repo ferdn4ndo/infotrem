@@ -1,8 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from api.models.generic_model import GenericModel
-from api.models.user_model import User
+from .generic_model import GenericModel
+from .user_model import User
 
 
 class GenericAuditedModel(GenericModel):

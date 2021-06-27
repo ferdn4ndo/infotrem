@@ -1,5 +1,5 @@
 from api.models import LocationCity, LocationState, get_object_or_404
-from api.serializers import LocationCitySerializer
+from api.serializers.location_city_serializer import LocationCitySerializer
 from api.services import pagination, policy
 from .generic_model_view import FullCRUDListModelViewSet
 

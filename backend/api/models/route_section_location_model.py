@@ -2,10 +2,10 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.location_model import Location
-from api.models.route_model import Route
-from api.models.route_section_model import RouteSection
+from .generic_audited_model import GenericAuditedModel
+from .location_model import Location
+from .route_model import Route
+from .route_section_model import RouteSection
 
 
 class RouteSectionLocation(GenericAuditedModel):

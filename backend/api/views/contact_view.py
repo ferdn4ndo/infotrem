@@ -4,7 +4,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from api.serializers import ContactSerializer
+from api.serializers.contact_serializer import ContactSerializer
 from api.services import policy, throttling
 from api.services.mailer import Mailer
 

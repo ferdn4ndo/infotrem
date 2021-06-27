@@ -6,8 +6,8 @@ from django.db import models
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
-from api.models.location_city_model import LocationCity
-from api.models.location_state_model import LocationState
+from .location_state_model import LocationState
+from .location_city_model import LocationCity
 
 
 class UserManager(BaseUserManager):

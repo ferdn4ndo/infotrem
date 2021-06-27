@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.information_model import Information
-from api.models.rolling_stock_model import RollingStock
+from .generic_audited_model import GenericAuditedModel
+from .information_model import Information
+from .rolling_stock_model import RollingStock
 
 
 class RollingStockInformation(GenericAuditedModel):

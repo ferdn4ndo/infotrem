@@ -1,12 +1,11 @@
 from __future__ import annotations
 
 import json
-import shutil
-
 import requests
+import shutil
 from typing import Dict, Any, Optional
 
-from api.errors import PreconditionFailedException
+from api.errors.precondition_failed_exception import PreconditionFailedException
 
 
 class WebRequest:

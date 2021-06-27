@@ -2,11 +2,10 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.manufacturer_model import Manufacturer
-from api.models.locomotive_design_model import LocomotiveDesign
-from api.models.rolling_stock_model import RollingStock
-from api.models.track_gauge_model import TrackGauge
+from .generic_audited_model import GenericAuditedModel
+from .manufacturer_model import Manufacturer
+from .locomotive_design_model import LocomotiveDesign
+from .rolling_stock_model import RollingStock
 
 
 class Locomotive(GenericAuditedModel):

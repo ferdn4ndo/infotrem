@@ -4,7 +4,7 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from api.models.user_model import User
+from .user_model import User
 
 
 class UserToken(models.Model):

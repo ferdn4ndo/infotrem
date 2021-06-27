@@ -9,7 +9,7 @@ from typing import List
 
 from django.utils import timezone
 
-from api.mails import ContactFromCompany, ContactMail
+from api.mails.contact_mail import ContactMail
 from api.models.contact_model import Contact
 from api.models.mail_model import Mail
 
@@ -70,18 +70,13 @@ class Mailer:
 
     def send_from_contact(self, contact: Contact):
         mail = Mail()
+        mail.to = os.environ['EMAIL_ADDRESS_CONTACT']
+        mail.subject = "Contato via website"
 
-        if contact.type == contact.ContactType.PF:
-            mail_template = ContactMail(contact)
-            mail.to = os.environ['EMAIL_ADDRESS_CANDIDATE']
-            mail.subject = "Contato de candidato via website"
-        else:
-            mail_template = ContactFromCompany(contact)
-            mail.to = os.environ['EMAIL_ADDRESS_COMPANY']
-            mail.subject = "Contato de empresa via website"
-
+        mail_template = ContactMail(contact)
         mail.message_html = mail_template.parse_html()
         mail.message_text = mail_template.parse_raw()
+
         mail.reply_to = contact.email
         mail.save()
 

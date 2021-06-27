@@ -3,7 +3,7 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 
-from api.serializers import LoginSerializer
+from api.serializers.login_serializer import LoginSerializer
 from api.services import auth, policy, throttling
 
 

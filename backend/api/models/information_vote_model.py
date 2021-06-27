@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.information_model import Information
-from api.models.user_model import User
+from .generic_audited_model import GenericAuditedModel
+from .information_model import Information
+from .user_model import User
 
 
 class InformationVote(GenericAuditedModel):
@@ -25,3 +25,10 @@ class InformationVote(GenericAuditedModel):
     information = models.ForeignKey(to=Information, related_name='votes', on_delete=models.CASCADE, editable=False)
     value = models.SmallIntegerField(default=0, verbose_name=_('Vote value'))
     voter = models.ForeignKey(to=User, null=True, related_name='user_voter+', on_delete=models.CASCADE, editable=False)
+
+
+class InformationVoteAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(InformationVote, InformationVoteAdmin)

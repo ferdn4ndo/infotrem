@@ -3,8 +3,8 @@ from django.contrib.auth.models import User
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.location_model import Location
+from .generic_audited_model import GenericAuditedModel
+from .location_model import Location
 
 
 class Media(GenericAuditedModel):

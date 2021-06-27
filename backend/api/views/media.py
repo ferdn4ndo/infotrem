@@ -14,13 +14,13 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from infotrem.errors import InvalidFileMimeType
-from infotrem.models.media import MediaItemRollingStock, MediaItem
-from infotrem.models.storage import StorageFile
-from infotrem.serializers.media import MediaItemRollingStockSerializer, MediaItemSerializer, \
+from api.errors.precondition_failed_exception import InvalidFileMimeType
+from api.models.media import MediaItemRollingStock, MediaItem
+from api.models.storage import StorageFile
+from api.serializers.media import MediaItemRollingStockSerializer, MediaItemSerializer, \
     MediaItemRollingStockFromNameSerializer
-from infotrem.services.file import get_random_file_temp_path, save_from_memory
-from infotrem.services.policy import DefaultUserThrottle
+from api.services.file import get_random_file_temp_path, save_from_memory
+from api.services.policy import DefaultUserThrottle
 
 
 def index(request):
@@ -58,16 +58,10 @@ class UploadMedia(APIView):
         if 'file' not in request.FILES:
             return JsonResponse({'message': 'Missing file field in form data'}, status=400)
 
+        # ToDo: fix this
         print(request.POST)
         return JsonResponse([])
-
-        temp_file = request.FILES['file']
-        try:
-            media_item = MediaItem.create_from_request_file(temp_file, request.user)
-        except InvalidFileMimeType:
-            return JsonResponse({'message': 'Only image and video files are allowed'}, status=400)
-
-        return JsonResponse(MediaItemSerializer(media_item).data)
+        #return JsonResponse(MediaItemSerializer(media_item).data)
 
 
 class MediaItemListView(generics.ListAPIView):

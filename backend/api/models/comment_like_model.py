@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.comment_model import Comment
-from api.models.generic_model import GenericModel
-from api.models.user_model import User
+from .comment_model import Comment
+from .generic_model import GenericModel
+from .user_model import User
 
 
 class CommentLike(GenericModel):

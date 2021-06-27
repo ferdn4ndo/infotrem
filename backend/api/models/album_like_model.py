@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.album_model import Album
-from api.models.generic_model import GenericModel
-from api.models.user_model import User
+from .album_model import Album
+from .generic_model import GenericModel
+from .user_model import User
 
 
 class AlbumLike(GenericModel):

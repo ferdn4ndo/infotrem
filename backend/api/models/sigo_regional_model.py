@@ -2,8 +2,8 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from api.models.generic_model import GenericModel
-from api.models.company_model import Company
+from .generic_model import GenericModel
+from .company_model import Company
 
 
 class SigoRegional(GenericModel):

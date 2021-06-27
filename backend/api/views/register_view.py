@@ -3,9 +3,9 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 
-from api.errors import ConflictException
+from api.errors.conflict_exception import ConflictException
 from api.models import User, LocationState, get_object_or_404, LocationCity
-from api.serializers import RegisterSerializer
+from api.serializers.register_serializer import RegisterSerializer
 from api.services import auth, policy, throttling, translation
 from api.services.email_validation_service import EmailValidationService
 from api.services.logger import get_logger

@@ -2,8 +2,8 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.user_model import User
+from .generic_audited_model import GenericAuditedModel
+from .user_model import User
 
 
 class Information(GenericAuditedModel):
@@ -25,3 +25,10 @@ class Information(GenericAuditedModel):
     content = models.TextField(max_length=65535)
     status = models.CharField(max_length=10, choices=InformationStatus.choices, default=InformationStatus.ANALYSIS)
     references = models.TextField(max_length=1024, null=True)
+
+
+class InformationAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(Information, InformationAdmin)

@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.db import models
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.locomotive_design_model import LocomotiveDesign
-from api.models.track_gauge_model import TrackGauge
+from .generic_audited_model import GenericAuditedModel
+from .locomotive_design_model import LocomotiveDesign
+from .track_gauge_model import TrackGauge
 
 
 class LocomotiveDesignGauge(GenericAuditedModel):

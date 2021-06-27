@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from api.models.album_model import Album
-from api.models.comment_model import Comment
-from api.models.generic_audited_model import GenericAuditedModel
+from .album_model import Album
+from .comment_model import Comment
+from .generic_audited_model import GenericAuditedModel
 
 
 class AlbumComment(GenericAuditedModel):

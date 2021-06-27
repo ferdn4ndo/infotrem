@@ -3,8 +3,8 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from api.models.generic_audited_model import GenericAuditedModel
-from api.models.information_model import Information
+from .generic_audited_model import GenericAuditedModel
+from .information_model import Information
 
 
 class SigoSeriesInformation(GenericAuditedModel):
