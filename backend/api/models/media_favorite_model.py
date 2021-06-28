@@ -12,7 +12,7 @@ class MediaFavorite(GenericModel):
     media = models.ForeignKey(to=Media, on_delete=models.CASCADE, editable=False)
     favorited_by = models.ForeignKey(
         to=User,
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         editable=False,
         null=False,
         blank=False,

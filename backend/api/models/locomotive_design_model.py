@@ -13,7 +13,12 @@ class LocomotiveDesign(GenericAuditedModel):
     name = models.CharField(max_length=100, unique=True)
     gauge = models.ForeignKey(to=TrackGauge, on_delete=models.PROTECT, null=True)
     prime_mover = models.CharField(max_length=100, choices=RollingStock.RollingStockPrimeMover.choices, null=True)
-    manufacturer = models.ForeignKey(to=Manufacturer, on_delete=models.SET_NULL, null=True)
+    manufacturer = models.ForeignKey(
+        to=Manufacturer,
+        related_name='locomotive_design_manufacturer',
+        on_delete=models.SET_NULL,
+        null=True
+    )
     first_unit_year = models.IntegerField(null=True, verbose_name=_("Year when the first unit was produced"))
     adhesion_factor = models.FloatField(null=True, verbose_name=_("Adhesion factor of the locomotive (0 to 1)"))
     allow_multiple_units = models.BooleanField(null=True, verbose_name=_("If allows multiple traction units connected"))
@@ -28,7 +33,13 @@ class LocomotiveDesign(GenericAuditedModel):
     length = models.FloatField(null=True, verbose_name=_("Length of the locomotive in meters"))
     lubricant_oil_capacity = models.FloatField(null=True, verbose_name=_("Capacity (in liters) of the lubricant oil"))
     minimum_track_radius = models.FloatField(null=True, verbose_name=_("Minimum track curve radius in meters"))
-    motor_builder = models.ForeignKey(to=Manufacturer, on_delete=models.SET_NULL, null=True)
+    motor_builder = models.ForeignKey(
+        to=Manufacturer,
+        on_delete=models.SET_NULL,
+        related_name='locomotive_design_motor_builder',
+        null=True,
+        verbose_name=_("The manufacturer of the locomotive's motor")
+    )
     motor_capacity = models.CharField(max_length=200, null=True, verbose_name=_("Motor Capacity"))
     motor_type = models.CharField(max_length=200, null=True, verbose_name=_("Motor Type"))
     nickname = models.CharField(max_length=200, null=True, verbose_name=_("Nickname of the model"))

@@ -8,7 +8,7 @@ from .freight_car_category_model import FreightCarCategory
 
 class FreightCarType(GenericModel):
 
-    letters = models.CharField(max_length=2, primary_key=True, unique=True, db_index=True, blank=False, null=False)
+    letters = models.CharField(max_length=2, unique=True, db_index=True, blank=False, null=False)
     description = models.CharField(max_length=100, verbose_name=_("Description of the freight car gross weight type"))
     category = models.ForeignKey(to=FreightCarCategory, on_delete=models.PROTECT)
 

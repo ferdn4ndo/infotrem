@@ -8,9 +8,9 @@ from .media_model import Media
 
 class MediaImageSized(GenericAuditedModel):
 
-    media_item = models.OneToOneField(to=Media, on_delete=models.CASCADE, primary_key=True, editable=False)
+    media_item = models.OneToOneField(to=Media, on_delete=models.CASCADE, editable=False)
     filemgr_uuid = models.UUIDField(verbose_name=_("UUID of the file at FileMgr storage service"))
-    size_tag = models.CharField(max_length=10, choices=Media.MediaSizeTag.choices, null=True)
+    size_tag = models.CharField(max_length=64, choices=Media.MediaSizeTag.choices, null=True)
     raw_height = models.PositiveIntegerField(verbose_name=_("Height of the sized media item"), null=True)
     raw_width = models.PositiveIntegerField(verbose_name=_("Width of the sized media item"), null=True)
 

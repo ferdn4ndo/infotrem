@@ -8,10 +8,10 @@ from .company_model import Company
 
 class SigoRegional(GenericModel):
 
-    letter = models.CharField(max_length=1, primary_key=True)
+    letter = models.CharField(max_length=1)
     original_company = models.ForeignKey(to=Company, on_delete=models.SET_NULL, null=True)
-    name = models.CharField(max_length=255, verbose_name=_("Nome da regional"))
-    abbrev = models.CharField(max_length=20, null=True, verbose_name=_("Sigla da regional"))
+    name = models.CharField(max_length=255, verbose_name=_("Name of the regional"))
+    abbrev = models.CharField(max_length=20, null=True, verbose_name=_("Abbreviation of the regional"))
 
 
 class SigoRegionalAdmin(admin.ModelAdmin):

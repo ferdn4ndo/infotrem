@@ -10,13 +10,13 @@ from .user_model import User
 class MediaLike(GenericModel):
 
     item = models.ForeignKey(to=Media, on_delete=models.CASCADE, editable=False)
-    liked_by = models.ForeignKey(
+    liked_by = models.OneToOneField(
         to=User,
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         editable=False,
         null=False,
         blank=False,
-        related_name='media_favorite_creator',
+        related_name='media_like_creator',
         verbose_name=_("User who liked the media"),
     )
     liked_at = models.DateTimeField(

@@ -15,9 +15,8 @@ class AlbumLike(GenericModel):
         editable=False,
         verbose_name=_("The album that was liked"),
     )
-    liked_by = models.ForeignKey(
+    liked_by = models.OneToOneField(
         to=User,
-        unique=True,
         on_delete=models.CASCADE,
         editable=False,
         null=False,

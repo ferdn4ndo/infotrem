@@ -7,7 +7,7 @@ from .generic_model import GenericModel
 
 class FreightCarCategory(GenericModel):
 
-    letter = models.CharField(max_length=1, primary_key=True, unique=True, db_index=True, blank=False, null=False)
+    letter = models.CharField(max_length=1, unique=True, db_index=True, blank=False, null=False)
     name = models.CharField(max_length=100, verbose_name=_("Name of the freight car category"))
 
 
