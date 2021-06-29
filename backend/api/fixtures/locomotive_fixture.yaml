@@ -3,771 +3,1029 @@
   fields:
     rolling_stock: "a3d7b074-0649-4019-93f3-d35a90946761"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "fd75108f-d6a9-47a8-8781-c6199f2d4bea"
   fields:
     rolling_stock: "47ea9870-313b-44d4-a74f-555efbfb5f0f"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "10d8b774-29d3-4457-b5ff-c6862f0857b4"
   fields:
     rolling_stock: "b7d151fb-f861-47e5-8caf-df9f9e2bdb17"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "467de684-37e3-47c1-a423-20e88d8a655c"
   fields:
     rolling_stock: "9717f391-a16f-4b92-a247-492eb04dea38"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "265f9ec6-8a64-45af-9fdb-ada8ea55d048"
   fields:
     rolling_stock: "2f23bc84-52f7-49aa-a91f-11a91ec43e88"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "602645b4-0fec-4e62-8bfe-dc84395a65a8"
   fields:
     rolling_stock: "8e1f0151-80e1-4369-9635-1b4390430e80"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c4f0876f-dc61-408e-bd5f-fc3b5cb07e40"
   fields:
     rolling_stock: "785483e5-eea3-460a-a530-f832f774ec26"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "d5796853-1d69-47d2-a1e1-1e0b5bfa9858"
   fields:
     rolling_stock: "d667b67b-bd93-4709-8cb7-59da21a5d43b"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "095270e0-ebfd-4a51-92e2-e05d27324a27"
   fields:
     rolling_stock: "f88efcf4-bd84-4f6f-ac8e-f4126e6ae9bc"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "9f51e457-a476-462b-b066-1f78408c1696"
   fields:
     rolling_stock: "7d930d61-351e-4cf7-9f44-cd4a7171a1b4"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "904e9108-d0a5-4078-bdab-fdde2d669f2e"
   fields:
     rolling_stock: "6e629aaa-33a9-41da-8e1d-aac469af297e"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c7d49f12-f8c6-4167-b2ed-e29c681c13d1"
   fields:
     rolling_stock: "92e737b0-3056-4c03-a8cd-a47839038b74"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e0c22103-ac93-4318-9d21-777fd097362b"
   fields:
     rolling_stock: "c4d1a5c8-f798-4375-8068-4d288463c609"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "d8e70efc-ef95-43a3-beaf-b02a07ca580f"
   fields:
     rolling_stock: "27e9406c-fc92-46a3-a4cb-615436df1f07"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "42241198-8c34-4f41-97eb-69b97edb8468"
   fields:
     rolling_stock: "6d9c039f-ed9a-4059-a720-c4b03f7326c8"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "2b6f05e8-43ee-43dd-8019-a87a026bbfb1"
   fields:
     rolling_stock: "a20e6162-675d-4916-af0b-411f341553a4"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "43cd0d4d-755a-4108-b1ba-071655074932"
   fields:
     rolling_stock: "17cba2b1-91b1-4999-8312-e7ecfd148db9"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e2ee66a7-85d3-4125-8b78-478c2f474575"
   fields:
     rolling_stock: "977044da-8ce4-4e5c-9489-bf9d83834f2d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "59d08780-d8e7-4dad-8111-44e8db8bff67"
   fields:
     rolling_stock: "37f7ac07-d37e-4021-a254-63c67fa447a9"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "684a11f4-31de-494a-a0ae-81c0f7903bac"
   fields:
     rolling_stock: "5d9fa744-d159-49b9-80f8-8cc7b0b1d9d0"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "7b789c97-a05f-4d68-8c15-1eda9335f268"
   fields:
     rolling_stock: "135e93ae-4983-4ffe-be9f-902fd9eb64ec"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c88e771a-3ece-4a6d-9eca-34e28ab90dec"
   fields:
     rolling_stock: "6ca4611d-3870-4cef-8fe0-3f2256803b50"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "539c898b-67ef-453f-8a75-0747c395410f"
   fields:
     rolling_stock: "24f2d1fc-1551-41fb-8463-4e8b577f2d44"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "59e91ad0-475f-471d-9685-b7f3694858c2"
   fields:
     rolling_stock: "3f854829-3ed4-4584-b468-51237fbb0eaa"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "2daa96ee-f10a-463e-82c5-fed641fc43f1"
   fields:
     rolling_stock: "dd149482-2454-4780-9214-e5253248e774"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "faa223ed-b68d-4ebb-a48f-7ac80cb4744f"
   fields:
     rolling_stock: "d5c5bd56-a95a-4a65-886c-8273fa479c83"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "23695ca0-8738-4e5e-b0ae-5c787b343749"
   fields:
     rolling_stock: "7baa6137-08ba-4180-b06a-649cf8d84ece"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c117d6f2-99af-42c8-9143-600654c7df64"
   fields:
     rolling_stock: "109ae76a-9e89-4be9-a02f-a86895190bbe"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "0be3dcde-4efe-443b-b52e-343d47220f65"
   fields:
     rolling_stock: "4e3a2b7d-4c3c-4735-a119-7b5c6d5fc479"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "7314cdc2-036c-40ee-abc9-e1ad8358414f"
   fields:
     rolling_stock: "8cdb7132-0694-4f1a-9706-8b55cb324b4d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "2bb7d5a0-8dda-44d7-9fd8-1078d3cb8a9b"
   fields:
     rolling_stock: "eb8e5921-a388-42a3-a2ed-61165d895097"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "d8603b98-a47d-483c-9dd8-d7811e076e91"
   fields:
     rolling_stock: "d726bf52-e7be-42ab-9800-4f288bd07a34"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "369ff97e-bfce-4183-81d6-a8c805d5a3db"
   fields:
     rolling_stock: "ee5e86ae-ee71-4fcd-b251-4d6f535c3d3c"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "a8064a19-f74d-40f8-b4ea-6d985218e787"
   fields:
     rolling_stock: "c548228d-560a-41b5-a98d-03fcf619a7ab"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "4f416318-caf5-4180-8779-271252eabdfa"
   fields:
     rolling_stock: "1d00e4b9-d9ef-4777-8494-7ce0779aef92"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "336b9e2e-c032-46e9-9a10-4db7fd3f39b3"
   fields:
     rolling_stock: "83e45e44-7c92-41b2-8591-88e726bb566e"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c0bc6ddf-1f57-46a7-8c32-1c3351c51d50"
   fields:
     rolling_stock: "3368aad2-059d-45c3-823c-b2588d43ace6"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e8541936-642a-45d0-8cca-b175a92bb293"
   fields:
     rolling_stock: "714e4b15-d1ac-4e19-a2f7-373556a2b4ab"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "2d04ecb3-c962-47f1-8609-d078ff47d2c0"
   fields:
     rolling_stock: "6fe6ae8d-0f41-4b79-bf85-6fb95a783c2d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "158d6db9-1019-4f84-895c-984007978fcc"
   fields:
     rolling_stock: "07f1644e-1c81-468b-aacf-aae93c75d87e"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "88cd6f39-105b-424a-8f6a-5f6b681272e6"
   fields:
     rolling_stock: "a611c1df-a435-48a0-8b63-38132e996f2b"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "808a1d6d-fb6e-4eff-b465-2fd60e85b01a"
   fields:
     rolling_stock: "bcb74583-4061-495f-a11c-5fa4e34b9ba9"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "60a60df6-df34-43ab-9883-7fdb2a240b8d"
   fields:
     rolling_stock: "2bf6eb0d-b5a9-4694-8a03-1b239b438011"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "8eb6b6bf-46ca-4768-85c5-0bb095ef14d3"
   fields:
     rolling_stock: "d80354ce-ca9d-4d3f-b450-7f8889ea22f8"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "cae538d2-dc8b-44af-b042-9ad435d8b22b"
   fields:
     rolling_stock: "762e8724-0551-43bf-893a-cd46ba7f7301"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "d944e39e-b821-4ae7-aa4e-521eea62184e"
   fields:
     rolling_stock: "6a85253c-0e99-4aee-9961-857214da82ca"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "40cb488e-e158-46dc-a586-a873278fb7b3"
   fields:
     rolling_stock: "cfeac8bd-1e28-4d48-a4bb-c63dc97e29d1"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "288e546e-1f8a-41c7-b9bf-b7db387aadd5"
   fields:
     rolling_stock: "a7e3c592-f985-4789-9884-550e94a92bda"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "56664fb8-19a3-42e5-b0e3-01d748ab8cdc"
   fields:
     rolling_stock: "cb229f1e-5212-4579-a59d-4745c92243d5"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "ec8d412c-a86b-4535-a150-ebcebb176d2f"
   fields:
     rolling_stock: "cb0ec1ef-dc92-40f7-91b0-ba7107b25369"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e2d76919-d12a-4bce-8860-3fe9885623cf"
   fields:
     rolling_stock: "5f51c474-ff08-4ab9-8141-8879177f58dc"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "70d5b0ec-d01a-477a-9fc9-3f754b10ffba"
   fields:
     rolling_stock: "8e1649d2-ebb9-49fd-b5c5-75c80c83cfbb"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e7495c9d-9119-4ce9-8d32-9acf251ed1dd"
   fields:
     rolling_stock: "65675c0d-83b0-4a3d-9a3f-5205b98f83d7"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "77477e31-bfbc-4f2a-abfe-e0b4db26a7d4"
   fields:
     rolling_stock: "76b28ddc-e055-4ea8-bf91-2872df73f92d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "180c2df2-60a1-4afb-b78d-dc0addec808e"
   fields:
     rolling_stock: "cbdc698d-4769-441b-bac4-6145c1adfb3b"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "fd82818a-ebbe-415c-a6c6-6aa1c78a55d2"
   fields:
     rolling_stock: "c602970d-8da3-48eb-8e52-a4c5a6cd38e1"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "3631420b-89bc-4577-948f-8f0cb64fa527"
   fields:
     rolling_stock: "d64c1c0e-706a-44e9-b676-0015c5ee096e"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "95d5c712-bf0f-426d-ac53-8e8c19bf04f1"
   fields:
     rolling_stock: "d16e3c94-6654-449a-b180-b3bff69b2a8f"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "dba73e88-5cbb-4aa9-808a-da51c2b82a4b"
   fields:
     rolling_stock: "2fbc3c68-bef6-4bd5-9c05-a4c7152b876a"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "fce2a1cf-46b7-4b08-8863-76a7f0da3224"
   fields:
     rolling_stock: "59f41b11-6ceb-4ab3-8205-17096ddd5c53"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "f1c37bf1-dced-42f8-bc87-4124066da087"
   fields:
     rolling_stock: "38693f76-523b-4afd-93e7-16af9d6b49a8"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "67c696ae-1639-47db-9301-374cf4252d7d"
   fields:
     rolling_stock: "8860d471-42bd-4c9b-bb96-63bd144218d5"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "bd065af0-7ab7-4db9-8a99-67775dfcbf49"
   fields:
     rolling_stock: "ca03ff7d-84d4-4716-b872-539a1baf677d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "d90702c0-8f03-43f7-a82d-ec1ca50e3a94"
   fields:
     rolling_stock: "b1eeaa53-dcb2-42ae-8302-4060a3b98c85"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "5f3866ad-5c30-4c69-ba0f-5ed51c691694"
   fields:
     rolling_stock: "0a1f815e-5a3e-4e8d-a61f-c6b41562cf39"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "a1698b25-1f3a-4a8d-b99b-f617e5171b3b"
   fields:
     rolling_stock: "8a6dd00e-1f15-4731-b02d-3e546407f45f"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "ffb93fa2-8a71-4a25-95e9-0f026256e1d3"
   fields:
     rolling_stock: "bf86e8ce-1ee9-48df-b101-d036d3f38842"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "52adf8b9-59fb-4cea-a010-c8d239f5bac0"
   fields:
     rolling_stock: "46d6b673-8d5f-42c6-807b-28d85daf5c31"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "619859ec-7d47-4843-811e-7e79b9d769b6"
   fields:
     rolling_stock: "9baf5db2-9fdf-4be1-b2f5-2da5c4021296"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "5316f17b-9d0d-4a8c-af10-7f7deae049a0"
   fields:
     rolling_stock: "2878f2d7-e5d2-4301-810e-fb46082262a0"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "d0ed9a2b-7e8c-47bf-b0a1-5b86105b2e5e"
   fields:
     rolling_stock: "7f52dec5-40e5-4379-b842-aedf783c652a"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "8261da08-ef46-4300-ae5d-45a1a0112af5"
   fields:
     rolling_stock: "44e23475-99a0-411e-a5d4-b1a757feca15"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "2ce79cc5-c1b4-425b-bf83-63c4d05ada3f"
   fields:
     rolling_stock: "9240dedb-94cb-41c6-9fd0-702106e21200"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "3ca48e25-0363-4389-a910-3601222dae17"
   fields:
     rolling_stock: "38218b82-f41a-422e-90e6-3939927ecd3e"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "47f282ae-e841-49ea-89ad-0462772f3f4f"
   fields:
     rolling_stock: "a294cda7-499b-40de-b169-fb4c6bb071ab"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c870af2e-665a-4d82-8cfa-4aed7a53e668"
   fields:
     rolling_stock: "a23540db-ad73-427f-94c9-0e343a9f0084"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "2a1a2b20-8bbe-4725-b92e-c40f290c5fb7"
   fields:
     rolling_stock: "f4cd60f4-fea0-4eda-aab9-5be00116c862"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "ef43e06b-5c51-47cb-9019-f65da5381118"
   fields:
     rolling_stock: "dc6d6b54-e792-448e-80ef-a7843c30092d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c26ee32e-62db-47d5-8465-211b9b3480cc"
   fields:
     rolling_stock: "208cacff-3623-48ad-a033-ef6b26f78a4c"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "cf34438a-83d4-4727-8ecf-e33f78882d6c"
   fields:
     rolling_stock: "f9bb731c-f3fe-4044-8b71-07b65711d6b3"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "90dd17a0-9da3-4971-8fa2-b6eddfe89c9a"
   fields:
     rolling_stock: "082d6076-7392-457b-93b6-02f2fcf7cf42"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "984d1872-2100-4a82-b245-d032d2f7caf6"
   fields:
     rolling_stock: "451e79de-eb1e-44d3-af21-4cf9a7afbfb2"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "3b536375-8f3b-4830-857b-892cc21112b2"
   fields:
     rolling_stock: "5204a69e-7773-4353-bb15-d3d2722ad885"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "15f09fcd-4511-47db-a565-16c115cd51b2"
   fields:
     rolling_stock: "c0c2ee9e-7fea-443c-a4ff-9cea6113f4b2"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "01e07f4e-eadf-4bdf-8eff-377e0bfee3fb"
   fields:
     rolling_stock: "3aa608d1-5112-489f-9654-53dcf5590ade"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "963c93ab-5520-48b9-a9e1-6540db0b9fe5"
   fields:
     rolling_stock: "1f724a82-7a66-4c0f-9eff-ff2ab51861c8"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "ee557c01-f84e-4770-91bb-a02e83329e13"
   fields:
     rolling_stock: "91eb0019-905b-4c2a-b71e-16e972dbf24f"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "f5960c82-1264-4e4c-a18e-d9cc68943fc9"
   fields:
     rolling_stock: "5f3425e5-e783-4547-b9a3-c364ada9be3d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "7fc0592a-9f2c-4279-b8e9-97c6c4901ab6"
   fields:
     rolling_stock: "3968e830-b68e-414a-bb6c-c88022ecde33"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "d15e13ba-c280-4fe4-bfe2-4ffc66b18ba7"
   fields:
     rolling_stock: "8be79d7b-e185-4092-acc3-1de1b5cfa1e9"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c6bfc541-96c2-4eb9-9572-d0c09b5f6e35"
   fields:
     rolling_stock: "bc4cf309-d3cc-4722-9888-cc86496e202b"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "0f2ba632-afda-416a-b675-4ca104f0d767"
   fields:
     rolling_stock: "2d1f9fe1-9dad-4528-8c59-f99b7c893e56"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "9b781f45-3511-449c-a1cb-42044454ede9"
   fields:
     rolling_stock: "9c38b520-0fda-491e-8f30-9c551192f98d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "bd2502b4-f415-4386-bf90-6391de0f2afc"
   fields:
     rolling_stock: "0ef2678b-9949-4fe7-8e02-e09bf179c97f"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "4ee06a67-d918-47cc-b6c4-3f2f8d6cd580"
   fields:
     rolling_stock: "1089d61d-3c95-4c74-a263-2e332c06e273"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "4c5de92a-6f13-4109-b385-242c5bb1fb84"
   fields:
     rolling_stock: "21d4b56c-a127-462a-8268-8b3c6f15efdb"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "34976341-9611-4ec6-aa7d-985bd99935c2"
   fields:
     rolling_stock: "ba9adf8d-fea5-47eb-8bf9-64a241ccf089"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e140d9c7-d5d3-46c0-95eb-edb1e87ad014"
   fields:
     rolling_stock: "51482619-907b-45ec-aa29-c39fd3169736"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "cb0b0077-e748-431d-82f9-e3e9bcbcf6ad"
   fields:
     rolling_stock: "df628054-697d-451e-97e8-8acbce74dbad"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "b8fcaca7-95ca-46b1-92d8-7f215f4eb424"
   fields:
     rolling_stock: "3be6eb52-7b98-405c-96d8-dd9507ea36ba"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "94614616-29a8-4292-9490-fb6799f1f3ff"
   fields:
     rolling_stock: "47443c0c-a9c4-4df2-89ce-853d1871d075"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "9133a130-1bb3-4671-9aff-f92048312b3b"
   fields:
     rolling_stock: "b1448323-cae6-4278-b4e3-d6807268e15f"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "6020efaf-ba4a-4066-b3d5-d6881f2d8a98"
   fields:
     rolling_stock: "1e9dbcfb-7c10-4c08-b4ac-93b95b57a5f3"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "39375fcb-f4a1-4c1d-a364-80e2a2a114bf"
   fields:
     rolling_stock: "1cec837a-b0b5-4b14-a65f-1cbdfbe45ccc"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "97b7c954-8067-45cf-ba47-f5a7c2a994c5"
   fields:
     rolling_stock: "c5c89ceb-444d-4755-8c5d-668e453e3d30"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "cebe73ad-8fa0-48f0-b1cc-d96e7d009462"
   fields:
     rolling_stock: "788ee492-8976-4471-ad83-3eacd3af2e29"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "efc27043-016d-41cc-8c54-8c7e571d4da9"
   fields:
     rolling_stock: "5a1347d3-1bd6-4141-9456-a6e0221b7585"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "ebfa73f2-4741-47c2-8fcb-4837e4d42aa4"
   fields:
     rolling_stock: "bce0ef54-5fbe-4f96-9409-b4e9d155c763"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "bf0ac002-5a40-4368-b51e-8a8e346e1c02"
   fields:
     rolling_stock: "a60e9ed4-3c87-4108-81aa-eedb13f6ed60"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "b50cc13a-ffa8-4723-9f75-61e8fa03be2a"
   fields:
     rolling_stock: "2e1e2b73-d39a-478b-ba83-5c8017ddab22"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "061b0912-dfc2-44fd-8949-2da09ceca65a"
   fields:
     rolling_stock: "da46fe6c-8fa2-4cc8-aa21-77ae76166026"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "63fec229-6f57-4123-9986-068d9af6b254"
   fields:
     rolling_stock: "69dc62af-3e2b-487e-80fe-6a59e865dff8"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "eb8bdc60-e50f-41b5-9b73-72ed35589f51"
   fields:
     rolling_stock: "4281f24c-6216-4fd8-a88a-b9d0860a0abf"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "c5fa02f9-b011-41a6-8893-df500bdcfc5b"
   fields:
     rolling_stock: "3e8ef560-436a-4768-8779-74439d617849"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "fdbf4aee-e041-4d14-88e4-0b69174c9ac0"
   fields:
     rolling_stock: "9695c783-0eb7-44a6-b37b-8959b8bc5833"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "9ae3c86e-e217-4632-945b-fd3d52c57ea3"
   fields:
     rolling_stock: "69c2f83a-f504-457d-8508-b4802bd91dbe"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "a882fe69-e6e5-42f7-8c91-50e85db5464b"
   fields:
     rolling_stock: "f7241cf4-71bb-43dc-8275-5de6d1ea2cf6"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "557b9910-752a-4ec9-9dc8-2afedb67c7b0"
   fields:
     rolling_stock: "46031441-87ce-4da8-8ad2-2d6f8980715a"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "f29e7600-a374-49d5-ae59-8d07f9b685cc"
   fields:
     rolling_stock: "b61df510-2014-4c01-a661-40b1a3e5e334"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e8f5ac08-cbbc-4b30-b5fb-2e2dcbecc2ad"
   fields:
     rolling_stock: "5212f108-7e4c-45bc-b216-166f8af4aba3"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "991f254f-2b89-4590-87ef-eb9fd8bd4636"
   fields:
     rolling_stock: "dda2049b-11dc-4ed7-ac42-ee777ea672c3"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "e0c77604-be7f-4cf8-be1c-b4c3c9c306e0"
   fields:
     rolling_stock: "586c94c2-bf7a-4d5e-ab45-7fe981989ee0"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "6e1dee28-52a4-4608-89ef-34cfc081685e"
   fields:
     rolling_stock: "722eb7d3-5668-47ca-a054-56fa486984f3"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "64be8370-0913-46df-b068-3bb1e64355c1"
   fields:
     rolling_stock: "d5559ebd-8bf0-4fed-b86f-ba46f5ebda3d"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "8470ba7d-92d5-41e1-b095-2368d2747853"
   fields:
     rolling_stock: "05e3abe0-d125-488e-ab9c-9f72c929e344"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "fadc6d7c-3e0f-4ef4-b1d7-1add49dd45e8"
   fields:
     rolling_stock: "a136664d-ee19-4dce-825c-39a30e48d083"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "b7bd29f9-9ac1-42ea-8af1-cfdf64e00344"
   fields:
     rolling_stock: "4b3e120a-3018-48e4-b4d9-ecffa9ca5413"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "0c99714c-80d6-4c61-91ce-11af0f7da2a4"
   fields:
     rolling_stock: "1349c70b-c3dd-4ec5-b1b2-9b47214c4b14"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Locomotive"
   pk: "370ac0e4-078f-4179-979c-b009368e89b1"
   fields:
     rolling_stock: "4e54c527-0bc7-44e8-8db8-844c6df41e14"
     design: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"

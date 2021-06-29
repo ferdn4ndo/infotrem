@@ -1,0 +1,11 @@
+
+- model: "api.User"
+  pk: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+  fields:
+    email: "system@infotrem.com.br"
+    email_validated: true
+    name: "Sistema InfoTrem"
+    is_admin: true
+    is_staff: true
+    is_active: true
+    registered_at: "2021-04-20T04:20:00+0000"

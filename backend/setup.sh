@@ -7,6 +7,10 @@ echo "Migrating..."
 python manage.py migrate --run-syncdb
 
 # Import of data fixtures
+echo "Importing User fixture..."
+python manage.py loaddata /code/api/fixtures/user_fixture.yaml
+
+# Import of data fixtures
 echo "Importing Company fixture..."
 python manage.py loaddata /code/api/fixtures/company_fixture.yaml
 
@@ -14,7 +18,7 @@ echo "Importing Track Gauge fixture..."
 python manage.py loaddata /code/api/fixtures/track_gauge_fixture.yaml
 
 echo "Importing Manufacturer fixture..."
-python manage.py loaddata /code/api/fixtures/track_gauge_fixture.yaml
+python manage.py loaddata /code/api/fixtures/manufacturer_fixture.yaml
 
 echo "Importing Rolling Stock fixture..."
 python manage.py loaddata /code/api/fixtures/rolling_stock_fixture.yaml

@@ -1,5 +1,4 @@
 
-
 - model: "api.RollingStock"
   pk: "a3d7b074-0649-4019-93f3-d35a90946761"
   fields:
@@ -11,6 +10,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1292"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "47ea9870-313b-44d4-a74f-555efbfb5f0f"
@@ -23,6 +24,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1293"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "b7d151fb-f861-47e5-8caf-df9f9e2bdb17"
@@ -35,6 +38,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1294"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "9717f391-a16f-4b92-a247-492eb04dea38"
@@ -47,6 +52,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1295"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "2f23bc84-52f7-49aa-a91f-11a91ec43e88"
@@ -59,6 +66,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1296"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "8e1f0151-80e1-4369-9635-1b4390430e80"
@@ -71,6 +80,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1297"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "785483e5-eea3-460a-a530-f832f774ec26"
@@ -83,6 +94,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1298"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "d667b67b-bd93-4709-8cb7-59da21a5d43b"
@@ -95,6 +108,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1299"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "f88efcf4-bd84-4f6f-ac8e-f4126e6ae9bc"
@@ -107,6 +122,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1300"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "7d930d61-351e-4cf7-9f44-cd4a7171a1b4"
@@ -119,6 +136,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1301"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "6e629aaa-33a9-41da-8e1d-aac469af297e"
@@ -131,6 +150,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1302"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "92e737b0-3056-4c03-a8cd-a47839038b74"
@@ -143,6 +164,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1303"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "c4d1a5c8-f798-4375-8068-4d288463c609"
@@ -155,6 +178,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1304"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "27e9406c-fc92-46a3-a4cb-615436df1f07"
@@ -167,6 +192,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1305"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "6d9c039f-ed9a-4059-a720-c4b03f7326c8"
@@ -179,6 +206,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1306"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "a20e6162-675d-4916-af0b-411f341553a4"
@@ -191,6 +220,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1307"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "17cba2b1-91b1-4999-8312-e7ecfd148db9"
@@ -203,6 +234,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1308"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "977044da-8ce4-4e5c-9489-bf9d83834f2d"
@@ -215,6 +248,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1309"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "37f7ac07-d37e-4021-a254-63c67fa447a9"
@@ -227,6 +262,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1310"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "5d9fa744-d159-49b9-80f8-8cc7b0b1d9d0"
@@ -239,6 +276,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1311"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "135e93ae-4983-4ffe-be9f-902fd9eb64ec"
@@ -251,6 +290,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1312"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "6ca4611d-3870-4cef-8fe0-3f2256803b50"
@@ -263,6 +304,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1313"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "24f2d1fc-1551-41fb-8463-4e8b577f2d44"
@@ -275,6 +318,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1314"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "3f854829-3ed4-4584-b468-51237fbb0eaa"
@@ -287,6 +332,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1315"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "dd149482-2454-4780-9214-e5253248e774"
@@ -299,6 +346,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1316"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "d5c5bd56-a95a-4a65-886c-8273fa479c83"
@@ -311,6 +360,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1317"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "7baa6137-08ba-4180-b06a-649cf8d84ece"
@@ -323,6 +374,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1318"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "109ae76a-9e89-4be9-a02f-a86895190bbe"
@@ -335,6 +388,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1319"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "4e3a2b7d-4c3c-4735-a119-7b5c6d5fc479"
@@ -347,6 +402,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1320"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "8cdb7132-0694-4f1a-9706-8b55cb324b4d"
@@ -359,6 +416,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1321"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "eb8e5921-a388-42a3-a2ed-61165d895097"
@@ -371,6 +430,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1322"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "d726bf52-e7be-42ab-9800-4f288bd07a34"
@@ -383,6 +444,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1323"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "ee5e86ae-ee71-4fcd-b251-4d6f535c3d3c"
@@ -395,6 +458,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1324"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "c548228d-560a-41b5-a98d-03fcf619a7ab"
@@ -407,6 +472,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1325"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "1d00e4b9-d9ef-4777-8494-7ce0779aef92"
@@ -419,6 +486,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1326"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "83e45e44-7c92-41b2-8591-88e726bb566e"
@@ -431,6 +500,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1327"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "3368aad2-059d-45c3-823c-b2588d43ace6"
@@ -443,6 +514,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1328"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "714e4b15-d1ac-4e19-a2f7-373556a2b4ab"
@@ -455,6 +528,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1329"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "6fe6ae8d-0f41-4b79-bf85-6fb95a783c2d"
@@ -467,6 +542,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1330"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "07f1644e-1c81-468b-aacf-aae93c75d87e"
@@ -479,6 +556,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1331"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "a611c1df-a435-48a0-8b63-38132e996f2b"
@@ -491,6 +570,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1332"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "bcb74583-4061-495f-a11c-5fa4e34b9ba9"
@@ -503,6 +584,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1333"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "2bf6eb0d-b5a9-4694-8a03-1b239b438011"
@@ -515,6 +598,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1334"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "d80354ce-ca9d-4d3f-b450-7f8889ea22f8"
@@ -527,6 +612,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1335"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "762e8724-0551-43bf-893a-cd46ba7f7301"
@@ -539,6 +626,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1336"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "6a85253c-0e99-4aee-9961-857214da82ca"
@@ -551,6 +640,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1337"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "cfeac8bd-1e28-4d48-a4bb-c63dc97e29d1"
@@ -563,6 +654,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1338"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "a7e3c592-f985-4789-9884-550e94a92bda"
@@ -575,6 +668,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1339"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "cb229f1e-5212-4579-a59d-4745c92243d5"
@@ -587,6 +682,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1340"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "cb0ec1ef-dc92-40f7-91b0-ba7107b25369"
@@ -599,6 +696,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1341"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "5f51c474-ff08-4ab9-8141-8879177f58dc"
@@ -611,6 +710,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1342"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "8e1649d2-ebb9-49fd-b5c5-75c80c83cfbb"
@@ -623,6 +724,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1343"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "65675c0d-83b0-4a3d-9a3f-5205b98f83d7"
@@ -635,6 +738,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1344"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "76b28ddc-e055-4ea8-bf91-2872df73f92d"
@@ -647,6 +752,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1345"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "cbdc698d-4769-441b-bac4-6145c1adfb3b"
@@ -659,6 +766,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1346"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "c602970d-8da3-48eb-8e52-a4c5a6cd38e1"
@@ -671,6 +780,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1347"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "d64c1c0e-706a-44e9-b676-0015c5ee096e"
@@ -683,6 +794,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1348"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "d16e3c94-6654-449a-b180-b3bff69b2a8f"
@@ -695,6 +808,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1349"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "2fbc3c68-bef6-4bd5-9c05-a4c7152b876a"
@@ -707,6 +822,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1350"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "59f41b11-6ceb-4ab3-8205-17096ddd5c53"
@@ -719,6 +836,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1351"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "38693f76-523b-4afd-93e7-16af9d6b49a8"
@@ -731,6 +850,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1352"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "8860d471-42bd-4c9b-bb96-63bd144218d5"
@@ -743,6 +864,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1353"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "ca03ff7d-84d4-4716-b872-539a1baf677d"
@@ -755,6 +878,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1354"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "b1eeaa53-dcb2-42ae-8302-4060a3b98c85"
@@ -767,6 +892,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1355"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "0a1f815e-5a3e-4e8d-a61f-c6b41562cf39"
@@ -779,6 +906,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1356"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "8a6dd00e-1f15-4731-b02d-3e546407f45f"
@@ -791,6 +920,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1357"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "bf86e8ce-1ee9-48df-b101-d036d3f38842"
@@ -803,6 +934,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1358"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "46d6b673-8d5f-42c6-807b-28d85daf5c31"
@@ -815,6 +948,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1359"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "9baf5db2-9fdf-4be1-b2f5-2da5c4021296"
@@ -827,6 +962,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1360"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "2878f2d7-e5d2-4301-810e-fb46082262a0"
@@ -839,6 +976,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1361"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "7f52dec5-40e5-4379-b842-aedf783c652a"
@@ -851,6 +990,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1362"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "44e23475-99a0-411e-a5d4-b1a757feca15"
@@ -863,6 +1004,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1363"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "9240dedb-94cb-41c6-9fd0-702106e21200"
@@ -875,6 +1018,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1364"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "38218b82-f41a-422e-90e6-3939927ecd3e"
@@ -887,6 +1032,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1365"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "a294cda7-499b-40de-b169-fb4c6bb071ab"
@@ -899,6 +1046,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1366"
     build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "a23540db-ad73-427f-94c9-0e343a9f0084"
@@ -911,6 +1060,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1390"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "f4cd60f4-fea0-4eda-aab9-5be00116c862"
@@ -923,6 +1074,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1391"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "dc6d6b54-e792-448e-80ef-a7843c30092d"
@@ -935,6 +1088,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1392"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "208cacff-3623-48ad-a033-ef6b26f78a4c"
@@ -947,6 +1102,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1393"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "f9bb731c-f3fe-4044-8b71-07b65711d6b3"
@@ -959,6 +1116,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1394"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "082d6076-7392-457b-93b6-02f2fcf7cf42"
@@ -971,6 +1130,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1395"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "451e79de-eb1e-44d3-af21-4cf9a7afbfb2"
@@ -983,6 +1144,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1396"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "5204a69e-7773-4353-bb15-d3d2722ad885"
@@ -995,6 +1158,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1397"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "c0c2ee9e-7fea-443c-a4ff-9cea6113f4b2"
@@ -1007,6 +1172,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1398"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "3aa608d1-5112-489f-9654-53dcf5590ade"
@@ -1019,6 +1186,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1399"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "1f724a82-7a66-4c0f-9eff-ff2ab51861c8"
@@ -1031,6 +1200,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1400"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "91eb0019-905b-4c2a-b71e-16e972dbf24f"
@@ -1043,6 +1214,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1401"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "5f3425e5-e783-4547-b9a3-c364ada9be3d"
@@ -1055,6 +1228,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1402"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "3968e830-b68e-414a-bb6c-c88022ecde33"
@@ -1067,6 +1242,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1403"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "8be79d7b-e185-4092-acc3-1de1b5cfa1e9"
@@ -1079,6 +1256,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1404"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "bc4cf309-d3cc-4722-9888-cc86496e202b"
@@ -1091,6 +1270,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1405"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "2d1f9fe1-9dad-4528-8c59-f99b7c893e56"
@@ -1103,6 +1284,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1406"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "9c38b520-0fda-491e-8f30-9c551192f98d"
@@ -1115,6 +1298,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1407"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "0ef2678b-9949-4fe7-8e02-e09bf179c97f"
@@ -1127,6 +1312,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1408"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "1089d61d-3c95-4c74-a263-2e332c06e273"
@@ -1139,6 +1326,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1409"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "21d4b56c-a127-462a-8268-8b3c6f15efdb"
@@ -1151,6 +1340,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1410"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "ba9adf8d-fea5-47eb-8bf9-64a241ccf089"
@@ -1163,6 +1354,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1411"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "51482619-907b-45ec-aa29-c39fd3169736"
@@ -1175,6 +1368,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1412"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "df628054-697d-451e-97e8-8acbce74dbad"
@@ -1187,6 +1382,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1413"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "3be6eb52-7b98-405c-96d8-dd9507ea36ba"
@@ -1199,6 +1396,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1414"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "47443c0c-a9c4-4df2-89ce-853d1871d075"
@@ -1211,6 +1410,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1415"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "b1448323-cae6-4278-b4e3-d6807268e15f"
@@ -1223,6 +1424,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1416"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "1e9dbcfb-7c10-4c08-b4ac-93b95b57a5f3"
@@ -1235,6 +1438,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1417"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "1cec837a-b0b5-4b14-a65f-1cbdfbe45ccc"
@@ -1247,6 +1452,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1418"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "c5c89ceb-444d-4755-8c5d-668e453e3d30"
@@ -1259,6 +1466,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1419"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "788ee492-8976-4471-ad83-3eacd3af2e29"
@@ -1271,6 +1480,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1420"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "5a1347d3-1bd6-4141-9456-a6e0221b7585"
@@ -1283,6 +1494,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1421"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "bce0ef54-5fbe-4f96-9409-b4e9d155c763"
@@ -1295,6 +1508,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1422"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "a60e9ed4-3c87-4108-81aa-eedb13f6ed60"
@@ -1307,6 +1522,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1423"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "2e1e2b73-d39a-478b-ba83-5c8017ddab22"
@@ -1319,6 +1536,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1424"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "da46fe6c-8fa2-4cc8-aa21-77ae76166026"
@@ -1331,6 +1550,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1425"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "69dc62af-3e2b-487e-80fe-6a59e865dff8"
@@ -1343,6 +1564,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1426"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "4281f24c-6216-4fd8-a88a-b9d0860a0abf"
@@ -1355,6 +1578,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1427"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "3e8ef560-436a-4768-8779-74439d617849"
@@ -1367,6 +1592,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1428"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "9695c783-0eb7-44a6-b37b-8959b8bc5833"
@@ -1379,6 +1606,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1429"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "69c2f83a-f504-457d-8508-b4802bd91dbe"
@@ -1391,6 +1620,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1430"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "f7241cf4-71bb-43dc-8275-5de6d1ea2cf6"
@@ -1403,6 +1634,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1431"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "46031441-87ce-4da8-8ad2-2d6f8980715a"
@@ -1415,6 +1648,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1432"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "b61df510-2014-4c01-a661-40b1a3e5e334"
@@ -1427,6 +1662,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1433"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "5212f108-7e4c-45bc-b216-166f8af4aba3"
@@ -1439,6 +1676,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1434"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "dda2049b-11dc-4ed7-ac42-ee777ea672c3"
@@ -1451,6 +1690,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1435"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "586c94c2-bf7a-4d5e-ab45-7fe981989ee0"
@@ -1463,6 +1704,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1436"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "722eb7d3-5668-47ca-a054-56fa486984f3"
@@ -1475,6 +1718,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1437"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "d5559ebd-8bf0-4fed-b86f-ba46f5ebda3d"
@@ -1487,6 +1732,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1438"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "05e3abe0-d125-488e-ab9c-9f72c929e344"
@@ -1499,6 +1746,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1439"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "a136664d-ee19-4dce-825c-39a30e48d083"
@@ -1511,6 +1760,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1440"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "4b3e120a-3018-48e4-b4d9-ecffa9ca5413"
@@ -1523,6 +1774,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1441"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "1349c70b-c3dd-4ec5-b1b2-9b47214c4b14"
@@ -1535,6 +1788,8 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1442"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.RollingStock"
   pk: "4e54c527-0bc7-44e8-8db8-844c6df41e14"
@@ -1547,3 +1802,5 @@
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
     serial_number: "1443"
     build_year: 1973
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"

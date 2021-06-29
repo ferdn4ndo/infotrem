@@ -2,6 +2,8 @@
 - model: "api.LocomotiveDesign"
   pk: "a4f12704-0095-42f6-855c-a813a03edd70"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_FA-1"
     prime_mover_type: "DIESEL_ELECTRIC"
     name: "DL212"
@@ -33,6 +35,8 @@
 - model: "api.LocomotiveDesign"
   pk: "cb41dea2-139d-4def-acd5-146a2e385d34"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_PA-2"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
@@ -45,6 +49,8 @@
 - model: "api.LocomotiveDesign"
   pk: "31ae7e18-101f-4e73-a071-12b9ce709c3d"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RS-3"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
@@ -73,6 +79,8 @@
 - model: "api.LocomotiveDesign"
   pk: "326a3392-e0e2-4eba-bbc0-4fbbbbb71395"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RSC-1"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
@@ -86,6 +94,8 @@
 - model: api.LocomotiveDesign
   pk: "0717881b-66c0-43e5-bba9-cf751f76557f"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RSC-3"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
@@ -103,6 +113,8 @@
 - model: api.LocomotiveDesign
   pk: "2e12388d-0956-4fbb-b149-7c0e0b8973e5"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/ALCO_RSD-8"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "5bf4da7f-5e08-4705-9d45-2acb8ec8d2ca"
@@ -119,6 +131,8 @@
 - model: "api.LocomotiveDesign"
   pk: "e3056227-ffff-461f-8bd5-29dae008b547"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin_AS616E"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "45758307-d82f-4da3-89f9-80cbe9988d8d"
@@ -146,6 +160,8 @@
 - model: "api.LocomotiveDesign"
   pk: "b0d0d46e-92fd-49fc-8904-696ee21297d3"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin_AS616E"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "45758307-d82f-4da3-89f9-80cbe9988d8d"
@@ -173,6 +189,8 @@
 - model: "api.LocomotiveDesign"
   pk: "04395398-8351-48aa-81d4-877da8bbdb87"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_1-B%2BB-1"
     prime_mover_type: "ELECTRIC"
     name: "1-B+B-1"
@@ -195,6 +213,8 @@
 - model: "api.LocomotiveDesign"
   pk: "b2d6132f-e001-4612-9695-dea3e9a66a1d"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/Baldwin-Westinghouse_C%2BC"
     name: "C+C"
     prime_mover_type: "ELECTRIC"
@@ -216,6 +236,8 @@
 - model: "api.LocomotiveDesign"
   pk: "7af1e15b-bd92-4734-ad1d-2982c94572b1"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EE_VFFLB"
     name: "VFFLB"
     prime_mover_type: "DIESEL_ELECTRIC"
@@ -237,6 +259,8 @@
 - model: "api.LocomotiveDesign"
   pk: "40615251-f149-40ee-9c67-1f8df59e3d63"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EE_RFN"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "12ae94d7-93ed-4249-a63f-fbb6347e45c8"
@@ -267,6 +291,8 @@
 - model: "api.LocomotiveDesign"
   pk: "b338a836-c051-4c90-825a-939dee17b06e"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EE_EFSJ"
     prime_mover_type: "ELECTRIC"
     manufacturer: "12ae94d7-93ed-4249-a63f-fbb6347e45c8"
@@ -291,6 +317,8 @@
 - model: "api.LocomotiveDesign"
   pk: "7f3f07be-8dd1-453d-acff-526d057739c9"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMAQ_MX620"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "fd7da0cf-88b1-426d-832e-edf3ba9a8d84"
@@ -309,6 +337,8 @@
 - model: "api.LocomotiveDesign"
   pk: "ecdff9b5-754c-4b6f-b9ad-f67d1bca7eaf"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_B12"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -348,6 +378,8 @@
 - model: "api.LocomotiveDesign"
   pk: "b3aedf7e-7200-477d-9930-b766e81a8550"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_BB40-2"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -365,6 +397,8 @@
 - model: "api.LocomotiveDesign"
   pk: "d2e1c213-533e-4c9c-b484-9cee0618cb54"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_BB45-2"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -382,6 +416,8 @@
 - model: "api.LocomotiveDesign"
   pk: "b8bd07d9-22e1-4f76-8e2f-1e575f675e8a"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_DDM45"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -417,6 +453,8 @@
 - model: "api.LocomotiveDesign"
   pk: "51c3326d-5895-44a8-8e49-43ab9bf0c489"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G12"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -447,6 +485,8 @@
 - model: "api.LocomotiveDesign"
   pk: "fd579fe9-ffda-4605-ba03-a93919b09c65"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G16"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -464,6 +504,8 @@
 - model: "api.LocomotiveDesign"
   pk: "84366d54-0506-479e-8242-3bfb0dce2c24"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G22CU"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "6d2e4585-c11a-4845-8ac6-cc4c3cf1ff53"
@@ -506,6 +548,8 @@
 - model: "api.LocomotiveDesign"
   pk: "f8979cd3-5f06-4b37-b400-38f861d71dcf"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G22U"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "6d2e4585-c11a-4845-8ac6-cc4c3cf1ff53"
@@ -549,6 +593,8 @@
 - model: "api.LocomotiveDesign"
   pk: "faafe650-bb9e-4d64-bc62-eb744e366275"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G26CU"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -582,6 +628,8 @@
 - model: "api.LocomotiveDesign"
   pk: "51cf7135-6106-4f8d-9686-e34025796817"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_G8"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -613,6 +661,8 @@
 - model: "api.LocomotiveDesign"
   pk: "efec11f5-5527-4315-8768-e09774d6d8ad"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GL8"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -653,6 +703,8 @@
 - model: "api.LocomotiveDesign"
   pk: "7021cd83-d52e-4ae6-a1dc-9755f63b4376"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GP9"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -670,6 +722,8 @@
 - model: "api.LocomotiveDesign"
   pk: "73f45a6a-ead9-48c6-9899-df5ff38b0358"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT18MC"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -701,6 +755,8 @@
 - model: "api.LocomotiveDesign"
   pk: "45de7de0-09aa-4e81-9ce8-d62d6c24e3f3"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT22CUM-1"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "18d3f03a-1d43-49cb-8477-dcc450e4cd6e"
@@ -734,6 +790,8 @@
 - model: "api.LocomotiveDesign"
   pk: "099dd801-da1a-41cb-b3c1-e8851645271a"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT22CUM-2"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "18d3f03a-1d43-49cb-8477-dcc450e4cd6e"
@@ -766,6 +824,8 @@
 - model: "api.LocomotiveDesign"
   pk: "bd763918-1af8-4809-b6f0-2f340d0033b9"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT26CUM"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "18d3f03a-1d43-49cb-8477-dcc450e4cd6e"
@@ -797,6 +857,8 @@
 - model: "api.LocomotiveDesign"
   pk: "2dd6a611-d96c-4847-82f8-d86e261bfdf9"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_GT26MC"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -828,6 +890,8 @@
 - model: "api.LocomotiveDesign"
   pk: "8498bd63-6264-4fd8-b93d-53b8a8ce9883"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD18"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -859,6 +923,8 @@
 - model: "api.LocomotiveDesign"
   pk: "8857e7c7-0d87-498f-9795-fe7763ae3262"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD38-2"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -874,6 +940,8 @@
 - model: "api.LocomotiveDesign"
   pk: "90f7905b-a90e-47eb-9542-e51e0d4909e5"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD38M"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -901,6 +969,8 @@
 - model: "api.LocomotiveDesign"
   pk: "30b62ea1-1e21-43f6-bc03-ff6017b85ebf"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD40-2"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -919,6 +989,8 @@
 - model: "api.LocomotiveDesign"
   pk: "695f68eb-6e50-4158-8c37-3d03666b886c"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SD70"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -933,6 +1005,8 @@
 - model: "api.LocomotiveDesign"
   pk: "1dbaf821-7ae2-4c50-aa77-4361519c9233"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/EMD_SW"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -950,6 +1024,8 @@
 - model: "api.LocomotiveDesign"
   pk: "80241bde-c12a-4b12-a6b8-629a3291f823"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(CPEF)"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -969,6 +1045,8 @@
 - model: "api.LocomotiveDesign"
   pk: "6f3b96ae-3005-4c87-b707-14922b374a55"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_1-C%2BC-1_(EFS)"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -995,6 +1073,8 @@
 - model: "api.LocomotiveDesign"
   pk: "89bac613-03cd-43ff-8cb2-c6cd61d93da7"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_100T"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1012,6 +1092,8 @@
 - model: "api.LocomotiveDesign"
   pk: "3981b63b-3aa5-42d5-a31c-11471029cf99"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_2-B%2BB-2"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1029,6 +1111,8 @@
 - model: "api.LocomotiveDesign"
   pk: "7e2842e3-f1c0-4787-a2e8-220370057d40"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_2-C%2BC-2"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1050,6 +1134,8 @@
 - model: "api.LocomotiveDesign"
   pk: "ccdcf956-d94e-4ce1-ac84-045f3887abd5"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_2-D%2BD-2"
     name: "2-D+D-2"
     prime_mover_type: "ELECTRIC"
@@ -1068,6 +1154,8 @@
 - model: "api.LocomotiveDesign"
   pk: "ee788401-bf05-4cc7-976e-2a25b3ca13af"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_244"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1099,6 +1187,8 @@
 - model: "api.LocomotiveDesign"
   pk: "2c7606ee-e349-4c03-8e4c-7de9cd308f43"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_25T"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1134,6 +1224,8 @@
 - model: "api.LocomotiveDesign"
   pk: "8b918592-b810-459d-aeae-7e3db2ff3167"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_47T"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1148,6 +1240,8 @@
 - model: "api.LocomotiveDesign"
   pk: "3c04a48f-fe18-4f7d-b141-847d856242c2"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_70T"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1162,6 +1256,8 @@
 - model: "api.LocomotiveDesign"
   pk: "54439093-7b7a-4012-b0b2-9ab5b0c66c14"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_88T"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1173,6 +1269,8 @@
 - model: "api.LocomotiveDesign"
   pk: "ee6fd052-8c75-442f-88ae-12c00bff05ec"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_AC44i"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1195,6 +1293,8 @@
 - model: "api.LocomotiveDesign"
   pk: "7fdbb70d-47cb-48c5-98a3-0282c95f4b59"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_B%2BB_(CPEF)"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1212,6 +1312,8 @@
 - model: "api.LocomotiveDesign"
   pk: "9a50bd2d-73c2-4be0-9069-f6c170440725"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_B-B_(CPEF_-_Baratinha)"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1229,6 +1331,8 @@
 - model: "api.LocomotiveDesign"
   pk: "e7268b03-43bb-4c7e-bad7-6c7eb7da41b3"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_B-B_(EFS)"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1253,6 +1357,8 @@
 - model: "api.LocomotiveDesign"
   pk: "1842cf65-662e-4687-b742-84844ae5ade3"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_BB33"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1270,6 +1376,8 @@
 - model: "api.LocomotiveDesign"
   pk: "aae465dc-aa70-45ab-ae1b-53d4aeff2bfb"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_BB40-9M"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1284,6 +1392,8 @@
 - model: "api.LocomotiveDesign"
   pk: "29e3d697-17b0-4b14-9c35-1f1610bed098"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_BB40-9WM"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1299,6 +1409,8 @@
 - model: "api.LocomotiveDesign"
   pk: "892a897c-10c9-4cac-845d-b441318ab2e2"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C-C_(CPEF)"
     prime_mover_type: "ELECTRIC"
     name: "C-C (CPEF)"
@@ -1328,6 +1440,8 @@
 - model: "api.LocomotiveDesign"
   pk: "82da0201-9170-45a3-a68b-4f18bb17f27f"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C-C_(RFFSA)"
     prime_mover_type: "ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1356,6 +1470,8 @@
 - model: "api.LocomotiveDesign"
   pk: "e6486b35-7c5d-4b56-8753-4e248d93abca"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C22-7i"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1377,6 +1493,8 @@
 - model: "api.LocomotiveDesign"
   pk: "d85ba748-62b1-412d-9745-d695a7d90861"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C30-7"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1399,6 +1517,8 @@
 - model: "api.LocomotiveDesign"
   pk: "1689f488-c375-42d4-92c8-f7976cddf74c"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C32-8"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1411,6 +1531,8 @@
 - model: "api.LocomotiveDesign"
   pk: "6a81575f-17c4-4529-bc5c-42364b1b0f7d"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C36ME"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1432,6 +1554,8 @@
 - model: "api.LocomotiveDesign"
   pk: "bd2a4422-e7a3-4af1-90f2-ad601b0f4dbf"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C40-8"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1452,6 +1576,8 @@
 - model: "api.LocomotiveDesign"
   pk: "38522642-fef0-467a-810c-e1c2ccb65413"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_C44-9WM"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1479,6 +1605,8 @@
 - model: "api.LocomotiveDesign"
   pk: "66965953-4de0-4f65-809d-a902bcbaf85f"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_ES43BBi"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1499,6 +1627,8 @@
 - model: "api.LocomotiveDesign"
   pk: "fe268cae-4be9-42be-b0a7-36fbff8b981f"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_ES58ACi"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1512,6 +1642,8 @@
 - model: "api.LocomotiveDesign"
   pk: "4c6b9d6c-baa7-46c6-9cde-2c6435c9f39d"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_SL100"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1526,6 +1658,8 @@
 - model: "api.LocomotiveDesign"
   pk: "2f9691cb-444d-4f15-8904-167a3ddd18cd"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_SL65T"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1540,6 +1674,8 @@
 - model: "api.LocomotiveDesign"
   pk: "ce99e0b4-45f4-45aa-8fd2-3653d5949150"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U12B"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1564,6 +1700,8 @@
 - model: "api.LocomotiveDesign"
   pk: "46c05c9e-5efc-4c72-9334-f5200c23fc16"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U12C"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1589,6 +1727,8 @@
 - model: "api.LocomotiveDesign"
   pk: "734f7fa5-ee61-40e7-8958-bfb029235106"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U13B"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1619,6 +1759,8 @@
 - model: "api.LocomotiveDesign"
   pk: "3fab0c9e-3e4f-40c2-a439-0abbbc904604"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U18C"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1640,6 +1782,8 @@
 - model: "api.LocomotiveDesign"
   pk: "ce0e2114-a605-460d-a5d9-989542e93471"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U20C"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1677,6 +1821,8 @@
 - model: "api.LocomotiveDesign"
   pk: "ce0e2114-a605-460d-a5d9-989542e93471"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U20C"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1716,6 +1862,8 @@
 - model: "api.LocomotiveDesign"
   pk: "3b344f78-29f3-40cc-a8c1-4a4e45bd2e11"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U22C"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1744,6 +1892,8 @@
 - model: "api.LocomotiveDesign"
   pk: "70c728b5-1ded-431b-be73-fe93a8a03e7d"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U23C"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1773,6 +1923,8 @@
 - model: "api.LocomotiveDesign"
   pk: "133a1d2f-cff7-4044-95b9-1f3354a6b6fa"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U26C"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1806,6 +1958,8 @@
 - model: "api.LocomotiveDesign"
   pk: "2d5b6d70-5146-429c-9f11-cd7a00ee4f3a"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U50"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1822,6 +1976,8 @@
 - model: "api.LocomotiveDesign"
   pk: "7aeb622e-0b4f-44f6-be9b-c71878a6f320"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U5B"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1860,6 +2016,8 @@
 - model: "api.LocomotiveDesign"
   pk: "5e6648c6-6cfe-43d1-9c77-34ae7228b2b5"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U6B"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1890,6 +2048,8 @@
 - model: "api.LocomotiveDesign"
   pk: "e9b4e27b-f019-45cf-9eec-34426074a2f9"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U8B"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1919,6 +2079,8 @@
 - model: "api.LocomotiveDesign"
   pk: "fbe4e260-93aa-4ec8-9288-2673a40207d3"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_U9B"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1934,6 +2096,8 @@
 - model: "api.LocomotiveDesign"
   pk: "c8c3e2a2-8dd9-4bcc-bcb1-21b57320243e"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GE_UM10B"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "cab61993-a6dc-4d1c-b51a-161fc9177217"
@@ -1952,6 +2116,8 @@
 - model: "api.LocomotiveDesign"
   pk: "035e4539-536e-47c2-a0d3-393c651d4d01"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/GMD_GMDH-1"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "c53c1e8c-aad0-4548-9d92-7cb4cb173f5b"
@@ -1968,6 +2134,8 @@
 - model: "api.LocomotiveDesign"
   pk: "e679868e-a157-4810-a797-45b3f2564caa"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/LEW_DE_I_PA"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "77942cc0-2182-4d82-8940-c8ac25442d2a"
@@ -2002,6 +2170,8 @@
 - model: "api.LocomotiveDesign"
   pk: "0a07aae3-9e49-472c-8296-cf303c69caf8"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/LEW_DE_II_S"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "77942cc0-2182-4d82-8940-c8ac25442d2a"
@@ -2036,6 +2206,8 @@
 - model: "api.LocomotiveDesign"
   pk: "3c37c1c2-6e89-4c18-a2a8-0f7e1d20d660"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/LEW_DE_III_M"
     prime_mover_type: "DIESEL_ELECTRIC"
     manufacturer: "77942cc0-2182-4d82-8940-c8ac25442d2a"
@@ -2070,6 +2242,8 @@
 - model: "api.LocomotiveDesign"
   pk: "a8502a99-b96b-4ec9-bf60-ef10aac0cb23"
   fields:
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     wikipedia_url: "https://pt.wikipedia.org/wiki/Winterthur-BBC_1-D-1"
     prime_mover_type: "ELECTRIC"
     name: "BBC 1-D-1"

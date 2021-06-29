@@ -15,6 +15,8 @@
     city: "8bd3e32e-373a-4432-86f2-4145877ddb9c"
     build_year: 1908
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "449e1cbf-47c3-49e5-93a8-642a18c73d3e"
@@ -30,6 +32,8 @@
     build_year: 1908
     other_names: "Coronel Isaltino,Morungava,Morungaba"
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "23eb4ae9-5690-47ea-b396-838582504dd4"
@@ -44,6 +48,8 @@
     city: "bd237654-1d8e-482a-9033-8990c1b5e183"
     build_year: 1908
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "a04ac4db-3ae4-4a23-8962-61f91f7c39a4"
@@ -56,6 +62,8 @@
     city: "bd237654-1d8e-482a-9033-8990c1b5e183"
     build_year: 1926
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "79b61f03-e922-435b-ad8a-f1383c2e1c56"
@@ -68,6 +76,8 @@
     city: "bd237654-1d8e-482a-9033-8990c1b5e183"
     build_year: 1917
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "67112393-8a2f-491d-aaa3-6a4c12252a0a"
@@ -81,6 +91,8 @@
     city: "bd237654-1d8e-482a-9033-8990c1b5e183"
     build_year: 1908
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "aa13a88c-8a3a-4695-ad73-b2d7e5ce67f8"
@@ -94,6 +106,8 @@
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     build_year: 1926
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "3bb45fd3-dd97-44bf-8d36-971a0c427803"
@@ -107,6 +121,8 @@
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     build_year: 1913
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "44f40cec-8292-47bd-a4b2-c656c8625d46"
@@ -119,6 +135,8 @@
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     build_year: 1964
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "aa1728b2-77be-4c3f-898d-c2ab78c1956c"
@@ -132,6 +150,8 @@
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     build_year: 1926
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "2a3c1e8b-d07b-4ef1-b0d7-23494859b852"
@@ -144,6 +164,8 @@
     center_longitude: -49.683140
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "dd8c8ddb-8755-4936-9c96-740b4fd52402"
@@ -158,6 +180,8 @@
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     build_year: 1905
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 ########################################################################################################################
 # EFSPRG | Jaguariaíva - Joaquim Murtinho
@@ -173,6 +197,8 @@
     center_longitude: -49.7564
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "bd85374a-7334-4bec-bec7-f5ca873ae998"
@@ -186,6 +212,8 @@
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     build_year: 1926
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "487f114e-7e98-4dad-8916-d5bfb1bee04e"
@@ -199,6 +227,8 @@
     city: "065dcf21-cdfd-40aa-b99b-7668e0629b53"
     build_year: 1947
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "6f8a5b8b-da18-4bc6-84ef-76fca1a9ed31"
@@ -212,6 +242,8 @@
     city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
     build_year: 1905
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
     other_names: "Júlio de Castilhos"
 
 - model: "api.Location"
@@ -227,6 +259,8 @@
     build_year: 1963
     other_names: "Joaquim Murtinho, Raul Soares"
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 ########################################################################################################################
 # EFSPRG | Joaquim Murtinho - Ponta Grossa
@@ -245,6 +279,8 @@
     city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
     build_year: 1965
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "daaa6fe7-3642-4266-be36-57acdac62c88"
@@ -258,6 +294,8 @@
     city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
     build_year: 1917
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "db9a8c37-3bbd-4dbd-93d8-340b688ef778"
@@ -272,6 +310,8 @@
     city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
     build_year: 1900
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "ed64acf1-de03-426a-af78-d945b78cf842"
@@ -286,6 +326,8 @@
     city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
     build_year: 1925
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "12aaf3f6-fada-4d98-94bf-39c0e6eb1b50"
@@ -300,6 +342,8 @@
     city: "16f4bf4d-6eba-4c3d-8397-af7b96bbb5c5"
     build_year: 1900
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "fd8bc899-d91d-4d29-b22b-9cadd1e4a6b0"
@@ -313,6 +357,8 @@
     city: "413adf8c-ddfb-4eb5-aabe-007e9eae903a"
     build_year: 1927
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "755305bb-1d19-4e64-9fba-f8065e740417"
@@ -327,6 +373,8 @@
     city: "413adf8c-ddfb-4eb5-aabe-007e9eae903a"
     build_year: 1900
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "57db4ebd-4bab-4ddb-9cae-e9d3e77762a4"
@@ -341,6 +389,8 @@
     city: "413adf8c-ddfb-4eb5-aabe-007e9eae903a"
     build_year: 1900
     is_verified: true
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "462e87ee-588e-4730-b5eb-ccfc84115708"
@@ -356,6 +406,8 @@
     build_year: 1900
     is_verified: true
     other_names: "Caranbey,Carambey,Carambehy"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "2b8775e9-ccc1-4b7f-960d-d86eb33727be"
@@ -370,6 +422,8 @@
     city: "132f074f-f1b1-4e97-9ab7-3701a27e6310"
     build_year: 1925
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "9dd2b39f-4709-4aae-b541-2a656eb45855"
@@ -382,6 +436,8 @@
     city: "a52b9086-b906-41c0-bb17-4beb6c9d26f7"
     build_year: 1917
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "aea120a2-e19f-4bd7-9c18-780f621979c6"
@@ -396,6 +452,8 @@
     build_year: 1960
     is_verified: false
     other_names: "Estribo do Rio Verde"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "3c96bf4f-b596-447c-9b81-3ebe7f7fc544"
@@ -409,6 +467,8 @@
     city: "a52b9086-b906-41c0-bb17-4beb6c9d26f7"
     build_year: 1900
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 ########################################################################################################################
 # EFP | Curitiba - Ponta Grossa
@@ -426,6 +486,8 @@
     city: "a52b9086-b906-41c0-bb17-4beb6c9d26f7"
     build_year: 1894
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Location"
   pk: "d727c313-30bf-4202-a952-6976c223a414"
@@ -440,6 +502,8 @@
     city: "a52b9086-b906-41c0-bb17-4beb6c9d26f7"
     build_year: 1970
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 ########################################################################################################################
 # EFSPRG | Ponta Grossa - Teixeira Soares
@@ -457,6 +521,8 @@
     city: "a52b9086-b906-41c0-bb17-4beb6c9d26f7"
     build_year: 1900
     is_verified: false
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 #
 #- model: "api.Location"
 #  pk: "a140595c-9b4a-46a4-b9d4-0145d304d30b"
