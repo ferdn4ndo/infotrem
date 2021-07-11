@@ -43,12 +43,12 @@ class LocomotiveDesign(GenericAuditedModel):
     motor_capacity = models.CharField(max_length=200, null=True, verbose_name=_("Motor Capacity"))
     motor_type = models.CharField(max_length=200, null=True, verbose_name=_("Motor Type"))
     nickname = models.CharField(max_length=200, null=True, verbose_name=_("Nickname of the model"))
-    primary_motor = models.CharField(max_length=50, null=True, verbose_name=_("Primary motor (eg: 12-645E)"))
+    primary_motor = models.CharField(max_length=200, null=True, verbose_name=_("Primary motor (eg: 12-645E)"))
     rpm_limit = models.IntegerField(null=True, verbose_name=_("RMP limit of the motor"))
     sand_capacity = models.FloatField(null=True, verbose_name=_("Total sand capacity in cubic meters"))
     serial_number_range = models.CharField(max_length=200, null=True, verbose_name=_("Serial number range"))
     traction_effort = models.FloatField(null=True, verbose_name=_("Traction effort in kgf"))
-    traction_motor = models.CharField(max_length=50, null=True, verbose_name=_("Traction motor (eg: D29)"))
+    traction_motor = models.CharField(max_length=200, null=True, verbose_name=_("Traction motor (eg: D29)"))
     truck_type = models.CharField(max_length=200, null=True, verbose_name=_("Truck type"))
     velocity_max = models.FloatField(
         null=True,
