@@ -1,7 +1,8 @@
 from rest_framework import serializers
 
+from api.models import ManufacturerInformation
 from api.models.information_model import Information
-from api.models.manufacturer_model import Manufacturer, ManufacturerInformation
+from api.models.manufacturer_model import Manufacturer
 from api.serializers.information_serializer import InformationSerializer
 
 

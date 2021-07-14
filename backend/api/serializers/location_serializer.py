@@ -1,14 +1,11 @@
 from rest_framework import serializers
 
+from api.models import LocationInformation, Location, LocationTrackGauge, RouteSectionLocation
 from api.models.information_model import Information
-from api.models.location_model import Location, LocationTrackGauge, LocationInformation
-from api.models.route_model import RailroadRouteSection, RailroadRouteSectionLocation, \
-    RailroadRouteSectionLocationKilometer, Route
 from api.models.track_gauge_model import TrackGauge
 from api.serializers.information_serializer import InformationSerializer
-from api.serializers.railroad_route_serializer import RailroadRouteSectionLocationSerializer, \
-    RailroadRouteSerializer, RailroadRouteSectionSerializer, RailroadRouteSectionLocationKilometerSerializer, \
-    RailroadRouteSectionSmallSerializer
+from api.serializers.railroad_route_serializer import RouteSerializer, RouteSectionSmallSerializer, \
+    RouteSectionLocationKilometerSerializer, RouteSectionLocationSerializer
 from api.serializers.track_gauge_serializer import TrackGaugeSerializer
 
 
@@ -59,12 +56,12 @@ class LocationTrackGaugeSerializer(serializers.ModelSerializer):
 
 
 class LocationRailroadRouteSectionSerializer(serializers.ModelSerializer):
-    railroad_route = RailroadRouteSerializer()
-    railroad_route_section = RailroadRouteSectionSmallSerializer()
-    kilometers = RailroadRouteSectionLocationKilometerSerializer(many=True)
+    railroad_route = RouteSerializer()
+    railroad_route_section = RouteSectionSmallSerializer()
+    kilometers = RouteSectionLocationKilometerSerializer(many=True)
 
     class Meta:
-        model = RailroadRouteSectionLocation
+        model = RouteSectionLocation
         fields = [
             'id',
             'railroad_route',
@@ -150,7 +147,7 @@ class LocationSerializer(serializers.ModelSerializer):
             for item in information_dict.values():
                 item.delete()
 
-        route_sections_dict = dict((i.id, i) for i in RailroadRouteSectionLocation.objects.filter(location=instance))
+        route_sections_dict = dict((i.id, i) for i in RouteSectionLocation.objects.filter(location=instance))
         for section_data in route_sections:
             if 'id' in section_data and section_data['id'] in route_sections_dict:
                 route_section = route_sections_dict.pop(section_data['id'])
@@ -159,7 +156,7 @@ class LocationSerializer(serializers.ModelSerializer):
                     setattr(route_section, key, section_data[key])
                 route_section.save()
             else:
-                section_serializer = RailroadRouteSectionLocationSerializer(data=section_data)
+                section_serializer = RouteSectionLocationSerializer(data=section_data)
                 section_serializer.save()
         if len(route_sections_dict) > 0:
             for item in route_sections_dict.values():

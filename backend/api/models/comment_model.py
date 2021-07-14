@@ -11,6 +11,7 @@ class Comment(GenericAuditedModel):
         'self',
         null=True,
         verbose_name=_("The comment which this one is replying to"),
+        related_name='replies',
         on_delete=models.CASCADE
     )
     text = models.TextField(max_length=1024)

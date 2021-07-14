@@ -9,6 +9,11 @@ from .user_model import User
 
 class Media(GenericAuditedModel):
 
+    class MediaType(models.TextChoices):
+        IMAGE = 'DRAFT', _("Draft (not ready for processing yet)")
+        VIDEO = 'QUEUE', _("In the queue (waiting for processing)")
+        DOCUMENT = 'PROCESSING', _("Being processed by a worker")
+
     class MediaStatus(models.TextChoices):
         DRAFT = 'DRAFT', _("Draft (not ready for processing yet)")
         QUEUE = 'QUEUE', _("In the queue (waiting for processing)")
@@ -30,17 +35,14 @@ class Media(GenericAuditedModel):
         SIZE_THUMB_SMALL = 'SIZE_THUMB_SMALL', _("Small Thumbnail (240x160 px)")  # HQVGA
 
     title = models.CharField(max_length=255, null=True)
+    type = models.CharField(
+        max_length=64,
+        choices=MediaType.choices,
+        verbose_name=_("The type of the media item")
+    )
     description = models.TextField(max_length=65535, null=True)
     thumbnail_filemgr_uuid = models.UUIDField(verbose_name=_("UUID of the file at FileMgr storage service"))
     status = models.CharField(max_length=32, choices=MediaStatus.choices, default=MediaStatus.DRAFT)
-    size_tag = models.CharField(
-        max_length=64,
-        null=True,
-        choices=MediaSizeTag.choices,
-        verbose_name=_("Biggest size tag of the media item")
-    )
-    raw_height = models.PositiveIntegerField(verbose_name="Height of the raw media item", null=True)
-    raw_width = models.PositiveIntegerField(verbose_name="Width of the raw media item", null=True)
     location = models.ForeignKey(to=Location, on_delete=models.SET_NULL, null=True)
     known_author = models.BooleanField(default=False, verbose_name="If the author is known")
     author_confirmed = models.BooleanField(default=False, verbose_name="If the author is in the system and confirmed")

@@ -1,25 +1,24 @@
 from rest_framework import serializers
 
+from api.models import CompanyInformation, CompanyPaintSchemeInformation, CompanyPaintScheme
 from api.models.information_model import Information
-from api.models.company_model import RailroadCompanyInformation, RailroadCompanyPaintSchemeInformation, \
-    RailroadCompanyPaintScheme
 from api.models.route_model import Company
 from api.serializers.information_serializer import InformationSerializer
 
 
-class RailroadCompanyInformationSerializer(serializers.ModelSerializer):
+class CompanyInformationSerializer(serializers.ModelSerializer):
     company_id = serializers.CharField(required=True, write_only=True)
     information = InformationSerializer()
 
     class Meta:
-        model = RailroadCompanyInformation
+        model = CompanyInformation
         fields = ['id', 'railroad_id', 'information']
 
     def create(self, validated_data):
         information_data = validated_data.pop('information')
         information = Information.objects.create(**information_data)
         railroad = Company.objects.get(id=validated_data['railroad_id'])
-        return RailroadCompanyInformation.objects.create(railroad=railroad, information=information)
+        return CompanyInformation.objects.create(railroad=railroad, information=information)
 
     def update(self, instance, validated_data):
         information_data = validated_data.pop('information')
@@ -31,27 +30,27 @@ class RailroadCompanyInformationSerializer(serializers.ModelSerializer):
         return instance
 
 
-class RailroadCompanySerializer(serializers.ModelSerializer):
-    company_information = RailroadCompanyInformationSerializer(many=True)
+class CompanySerializer(serializers.ModelSerializer):
+    company_information = CompanyInformationSerializer(many=True)
 
     class Meta:
         model = Company
         fields = ['id', 'abbrev', 'name', 'company_information']
 
 
-class RailroadCompanyPaintSchemeInformationSerializer(serializers.ModelSerializer):
+class CompanyPaintSchemeInformationSerializer(serializers.ModelSerializer):
     paint_scheme_id = serializers.CharField(required=True, write_only=True)
     information = InformationSerializer()
 
     class Meta:
-        model = RailroadCompanyPaintSchemeInformation
+        model = CompanyPaintSchemeInformation
         fields = ['id', 'paint_scheme_id', 'information']
 
     def create(self, validated_data):
         information_data = validated_data.pop('information')
         information = Information.objects.create(**information_data)
-        paint_scheme = RailroadCompanyPaintScheme.objects.get(id=validated_data['paint_scheme_id'])
-        return RailroadCompanyPaintSchemeInformation.objects.create(paint_scheme=paint_scheme, information=information)
+        paint_scheme = CompanyPaintScheme.objects.get(id=validated_data['paint_scheme_id'])
+        return CompanyPaintSchemeInformation.objects.create(paint_scheme=paint_scheme, information=information)
 
     def update(self, instance, validated_data):
         information_data = validated_data.pop('information')
@@ -63,10 +62,10 @@ class RailroadCompanyPaintSchemeInformationSerializer(serializers.ModelSerialize
         return instance
 
 
-class RailroadCompanyPaintSchemeSerializer(serializers.ModelSerializer):
-    railroad = RailroadCompanySerializer()
-    railroad_information = RailroadCompanyPaintSchemeInformationSerializer(many=True)
+class CompanyPaintSchemeSerializer(serializers.ModelSerializer):
+    railroad = CompanySerializer()
+    railroad_information = CompanyPaintSchemeInformationSerializer(many=True)
 
     class Meta:
-        model = RailroadCompanyPaintScheme
+        model = CompanyPaintScheme
         fields = ['id', 'name', 'railroad', 'start_date', 'end_date', 'railroad_information']
