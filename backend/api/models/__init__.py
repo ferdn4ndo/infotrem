@@ -34,6 +34,7 @@ from .mail_model import Mail
 from .manufacturer_information_model import ManufacturerInformation
 from .manufacturer_model import Manufacturer
 from .media_comment_model import MediaComment
+from .media_document_model import MediaDocument
 from .media_favorite_model import MediaFavorite
 from .media_image_model import MediaImage
 from .media_image_sized_model import MediaImageSized

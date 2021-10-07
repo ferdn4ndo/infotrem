@@ -10,7 +10,7 @@ from .rolling_stock_model import RollingStock
 
 class MediaRollingStock(GenericAuditedModel):
 
-    media_item = models.ForeignKey(to=Media, on_delete=models.CASCADE)
+    media = models.ForeignKey(to=Media, on_delete=models.CASCADE)
     rolling_stock = models.ForeignKey(to=RollingStock, on_delete=models.CASCADE)
     paint_scheme = models.ForeignKey(
         to=CompanyPaintScheme,

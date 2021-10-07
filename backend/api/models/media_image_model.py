@@ -15,7 +15,7 @@ from .media_model import Media
 
 class MediaImage(GenericAuditedModel):
 
-    media_item = models.OneToOneField(to=Media, on_delete=models.CASCADE, editable=False)
+    media = models.OneToOneField(to=Media, on_delete=models.CASCADE, editable=False)
     focal_length = models.FloatField(null=True, verbose_name=_("Focal length of the lenses in millimeters"))
     aperture = models.CharField(max_length=255, null=True)
     flash_fired = models.BooleanField(null=True)
@@ -28,6 +28,14 @@ class MediaImage(GenericAuditedModel):
     camera_model = models.CharField(max_length=255, null=True)
     exif_image_height = models.IntegerField(null=True)
     exif_image_width = models.IntegerField(null=True)
+    size_tag = models.CharField(
+        max_length=64,
+        null=True,
+        choices=Media.MediaSizeTag.choices,
+        verbose_name=_("Biggest size tag of the media item")
+    )
+    raw_height = models.PositiveIntegerField(verbose_name="Height of the raw media item", null=True)
+    raw_width = models.PositiveIntegerField(verbose_name="Width of the raw media item", null=True)
 
     def update_data_from_path(self, file_path: str):
         data = get_image_information(file_path)

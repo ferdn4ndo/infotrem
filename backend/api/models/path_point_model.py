@@ -16,6 +16,7 @@ class PathPoint(GenericAuditedModel):
     latitude = models.DecimalField(max_digits=9, decimal_places=6, null=True)
     longitude = models.DecimalField(max_digits=9, decimal_places=6, null=True)
     elevation = models.FloatField(null=True, verbose_name=_("Elevation (in meters) of the point"))
+    order = models.FloatField(verbose_name=_("Value used to sort the points"))
 
 
 class PathPointAdmin(admin.ModelAdmin):

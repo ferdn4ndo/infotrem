@@ -25,3 +25,5 @@ class Messages:
     MSG_NOT_FOUND = _("The request resource wasn't found. Please double-check the identifiers.")
     MSG_ONE_OR_MORE_ERRORS_OCCURRED = _("One or more validation error occurred while handling the supplied data.")
     MSG_SUBSCRIPTION_NOT_ELIGIBLE = _("You don't have all the required conditions to subscribe.")
+    MSG_INTERNAL_ERROR = _("An internal error occurred on your system while processing your request. Please try again "
+                           "later.")

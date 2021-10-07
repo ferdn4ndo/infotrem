@@ -61,8 +61,8 @@
     letter: "H"
     original_company: "034287cc-1565-49dd-b6bb-99d79893e94f"
     name: "Superintendência de Trens Urbanos RJ"
-    abbrev:
-"STU-RJ", ),
+    abbrev: "STU-RJ"
+
 - model: "api.SigoRegional"
   pk: "2c9a8231-5373-40be-b312-da8817e09abc"
   fields:
@@ -116,7 +116,7 @@
   fields:
     letter: "O"
     original_company: "034287cc-1565-49dd-b6bb-99d79893e94f"
-    name: "Superintendência de Trens Urbanos SP"
+    name: "Superintendência de Trens Urbanos - SP"
     abbrev: "STU-SP"
 
 - model: "api.SigoRegional"
@@ -170,7 +170,7 @@
   fields:
     letter: "W"
     original_company: "034287cc-1565-49dd-b6bb-99d79893e94f"
-    name: "Superintendência de Trens Urbanos Fortaleza"
+    name: "Superintendência de Trens Urbanos - Fortaleza"
 
 - model: "api.SigoRegional"
   pk: "e97c5c09-555e-4f8a-9700-98a9b9de66d6"
@@ -184,11 +184,11 @@
   fields:
     letter: "Y"
     original_company: "034287cc-1565-49dd-b6bb-99d79893e94f"
-    name: "Superintendência de Trens Urbanos Recife"
+    name: "Superintendência de Trens Urbanos - Recife"
 
 - model: "api.SigoRegional"
   pk: "11192da8-d65e-4549-9e34-4acb93608a85"
   fields:
     letter: "Z"
     original_company: "7db82336-ed48-4785-89d0-c25bc6696d69"
-    name: "Material oriundo da Ferrovia Paulista S/A"
+    name: "Material oriundo da FEPASA"

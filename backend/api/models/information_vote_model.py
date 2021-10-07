@@ -23,7 +23,7 @@ class InformationVote(GenericAuditedModel):
         ]
 
     information = models.ForeignKey(to=Information, related_name='votes', on_delete=models.CASCADE, editable=False)
-    value = models.SmallIntegerField(default=0, verbose_name=_('Vote value'))
+    value = models.SmallIntegerField(default=0, verbose_name=_("Vote value"))
     voter = models.ForeignKey(to=User, null=True, related_name='user_voter+', on_delete=models.CASCADE, editable=False)
 
 

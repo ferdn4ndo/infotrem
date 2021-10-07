@@ -4,21 +4,29 @@
   fields:
     name: "Itararé - Uruguai"
     builder_railroad: "9f4e1f84-66ba-41e9-8d9c-0091a187aeea"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Route"
   pk: "1c1893a7-3de3-418d-9237-103e6a28b02d"
   fields:
     name: "Curitiba - Paranaguá"
     builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Route"
   pk: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
   fields:
     name: "Curitiba - Ponta Grossa"
     builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
 
 - model: "api.Route"
   pk: "7ed1cd71-f1ab-4d5c-b3ec-ecbdd24f7ea7"
   fields:
     name: "Curitiba - Rio Branco do Sul"
     builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"

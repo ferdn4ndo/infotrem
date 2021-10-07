@@ -3,15 +3,16 @@ from typing import Optional
 
 from rest_framework import serializers
 
+from api.models import RollingStockInformation
 from api.models.freight_car_model import FreightCar
 from api.models.locomotive_model import Locomotive
 from api.models.non_revenue_car_model import NonRevenueCar
 from api.models.passenger_car_model import PassengerCar
-from api.models.rolling_stock_model import SigoRegional, RollingStock, RollingStockInformation
+from api.models.rolling_stock_model import SigoRegional, RollingStock
 from api.models.track_gauge_model import TrackGauge
 from api.serializers.information_serializer import InformationSerializer
 from api.serializers.manufacturer_serializer import ManufacturerSerializer
-from api.serializers.railroad_route_serializer import RailroadCompanySerializer
+from api.serializers.railroad_company_serializer import CompanySerializer
 from api.serializers.rolling_stock_freight_car import RollingStockFreightCarSerializer
 from api.serializers.rolling_stock_locomotive import RollingStockLocomotiveSerializer
 from api.serializers.rolling_stock_non_revenue_car import RollingStockNonRevenueCarSerializer
@@ -22,7 +23,7 @@ from api.services.strings import break_string_into_words
 
 class RollingStockSigoRegionalSerializer(serializers.ModelSerializer):
     """Serializer for the SigoRegional model"""
-    original_company = RailroadCompanySerializer(required=False)
+    original_company = CompanySerializer(required=False)
 
     class Meta:
         model = SigoRegional

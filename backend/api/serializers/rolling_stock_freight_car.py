@@ -3,8 +3,8 @@ from typing import Optional, Tuple
 
 from rest_framework import serializers
 
+from api.models import FreightCarCategory
 from api.models.freight_car_model import \
-    RollingStockFreightCarCategory, \
     FreightCarGrossWeightType, \
     FreightCarType,\
     FreightCar
@@ -17,7 +17,7 @@ class RollingStockFreightCarCategorySerializer(serializers.ModelSerializer):
     """Serializer for the FreightCarCategory model"""
 
     class Meta:
-        model = RollingStockFreightCarCategory
+        model = FreightCarCategory
         fields = '__all__'
 
 
