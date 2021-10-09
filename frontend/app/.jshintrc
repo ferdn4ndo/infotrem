@@ -88,6 +88,7 @@
 
     // Custom Globals
     "globals"       : {
-      "process": false
+      "process": false,
+      "module": false
     }
 }

@@ -1,13 +1,13 @@
-# build stage
 FROM node:lts-alpine
-WORKDIR /code
-COPY app/package.json ./
-RUN npm cache clean --force && npm install -g npm && npm install --production=false
-ENV PATH /code/node_modules/.bin:$PATH
-
 WORKDIR /code/app
+COPY app/package.json ./
+RUN apk update && \
+    apk upgrade && \
+    apk --no-cache add curl bash && \
+    rm -rf /var/cache/apk/*
+RUN curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+ENV PATH "$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+RUN npm cache clean --force && yarn install && yarn audit
+ENV PATH "/code/app/node_modules/.bin:$PATH"
 
-#RUN npm cache clean --force && npm install -g npm && npm install
-
-EXPOSE 8080
-CMD ["/bin/sh", "entrypoint.sh"]
+CMD ["/bin/sh", "-f", "entrypoint.sh"]

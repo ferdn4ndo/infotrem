@@ -11,10 +11,8 @@ LABEL maintaner="Fernando Constantino <const.fernando@gmail.com>"
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 
-RUN mkdir /code/
 WORKDIR /code/
 
-# Copy in your requirements file
 ADD requirements.txt /code/requirements.txt
 
 ENV LIBRARY_PATH=/lib:/usr/lib

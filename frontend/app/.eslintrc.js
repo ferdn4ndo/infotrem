@@ -1,9 +1,18 @@
 module.exports = {
-  root: true,
   env: {
-    node: true,
+    browser: true,
+    es2021: true
   },
-  extends: ["plugin:vue/recommended"],
+  extends: [
+    'plugin:vue/vue3-recommended',
+  ],
+  parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module'
+  },
+  plugins: [
+    'vue'
+  ],
   rules: {
     "comma-dangle": [2, "always-multiline"],
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
@@ -12,8 +21,5 @@ module.exports = {
       "singleline": "never",
       "multiline": "always",
     }],
-  },
-  parserOptions: {
-    parser: "babel-eslint",
-  },
+  }
 };
