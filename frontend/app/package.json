@@ -18,7 +18,7 @@
     "app"
   ],
   "author": "Fernando Constantino <const.fernando@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ferdn4ndo/infotrem/issues"
   },
