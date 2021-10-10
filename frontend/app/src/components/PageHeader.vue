@@ -18,9 +18,19 @@ defineProps({
   <header class="PageHeader">
     <img
       class="PageHeader-Logo"
-      :src="user.avatarUrl"
+      src="../assets/logo_white.png"
       alt="Logo da InfoTrem"
     >
+    <div class="PageHeader-Search">
+      Pesquisar
+    </div>
+    <div class="PageHeader-Profile">
+      <img
+        class="PageHeader-Logo"
+        :src="user.avatarUrl"
+        alt="Logo da InfoTrem"
+      >
+    </div>
   </header>
 </template>
 
