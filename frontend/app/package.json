@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ferdn4ndo/infotrem#readme",
   "dependencies": {
+    "maska": "^1.4.6",
     "vue": "^3.2.16"
   },
   "devDependencies": {

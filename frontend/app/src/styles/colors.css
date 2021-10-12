@@ -1,0 +1,14 @@
+:root {
+    /* Text */
+    --text-color-primary-light: #003366ff;
+    --text-color-secondary-light: #0c0b0dff;
+    --text-color-primary-dark: #f3f2f5ff;
+    --text-color-secondary-dark: #bdc9e6ff;
+
+    /* Borders */
+    --border-color-secondary: #222326ff;
+
+    /* Background */
+    --background-color-light: #f3f2f5ff;
+    --background-color-dark: #222326ff;
+}
