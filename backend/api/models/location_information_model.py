@@ -11,7 +11,7 @@ class LocationInformation(GenericAuditedModel):
 
     location = models.ForeignKey(
         to=Location,
-        related_name='location_information',
+        related_name='information',
         on_delete=models.CASCADE,
         verbose_name=_("Location which holds the information"),
     )

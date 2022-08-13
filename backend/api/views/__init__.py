@@ -3,6 +3,7 @@ from .cronjob_view import CronJobView
 from .doc_view import SchemaView
 from .email_validation_check_view import EmailValidationCheckView
 from .email_validation_resend_view import EmailValidationResendView
+from .health_view import HealthViewSet
 from .location_city_view import LocationCityViewSet
 from .location_state_view import LocationStateViewSet
 from .me_view import MeView

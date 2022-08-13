@@ -3,7 +3,6 @@ from .contact_serializer import ContactSerializer
 from .information_effect_serializer import InformationEffectSerializer
 from .information_serializer import InformationSerializer
 from .location_city_serializer import LocationCitySerializer
-from .location_serializer import LocationSerializer
 from .location_state_serializer import LocationStateSerializer
 from .login_serializer import LoginSerializer
 from .manufacturer_serializer import ManufacturerSerializer

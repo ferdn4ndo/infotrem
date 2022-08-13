@@ -7,7 +7,7 @@ from api.serializers.information_serializer import InformationSerializer
 
 
 class CompanyInformationSerializer(serializers.ModelSerializer):
-    company_id = serializers.CharField(required=True, write_only=True)
+    railroad_id = serializers.CharField(required=True, write_only=True)
     information = InformationSerializer()
 
     class Meta:

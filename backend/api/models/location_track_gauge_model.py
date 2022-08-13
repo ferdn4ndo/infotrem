@@ -11,7 +11,7 @@ class LocationTrackGauge(GenericAuditedModel):
 
     location = models.ForeignKey(
         to=Location,
-        related_name='location_track_gauge',
+        related_name='track_gauges',
         on_delete=models.CASCADE,
         verbose_name=_("Location which has the track gauge"),
     )

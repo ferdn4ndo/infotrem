@@ -9,6 +9,8 @@ from api.routers import \
     cronjob_router,\
     doc_router,\
     email_validation_router,\
+    health_router,\
+    location_router,\
     login_router,\
     me_router,\
     register_router,\
@@ -24,7 +26,9 @@ urlpatterns = [
     url(r'^contact', include(contact_router.urlpatterns)),
     url(r'^docs/', include(doc_router.urlpatterns)),
     url(r'^email-validation/', include(email_validation_router.urlpatterns)),
+    url(r'^health', include(health_router.urlpatterns)),
     url(r'^login', include(login_router.urlpatterns)),
+    url(r'^locations/', include(location_router.urlpatterns)),
     url(r'^me', include(me_router.urlpatterns)),
     url(r'^register', include(register_router.urlpatterns)),
     url(r'^states/', include(state_router.urlpatterns)),

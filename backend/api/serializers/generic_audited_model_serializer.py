@@ -7,11 +7,11 @@ from .generic_model_serializer import GenericModelSerializer
 
 class GenericAuditedModelSerializer(GenericModelSerializer):
     created_by = serializers.PrimaryKeyRelatedField(
-        queryset=User.objects.all(),
         required=False,
         allow_null=True,
+        read_only=True,
     )
-    created_at = serializers.DateTimeField()
+    created_at = serializers.DateTimeField(read_only=True)
     updated_by = serializers.PrimaryKeyRelatedField(
         queryset=User.objects.all(),
         required=False,
