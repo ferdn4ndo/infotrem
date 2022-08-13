@@ -1,13 +1,24 @@
 FROM node:lts-alpine
-WORKDIR /code/app
-COPY app/package.json ./
+
+WORKDIR /code/
+
+COPY package.json ./
+COPY package-lock.json ./
+
 RUN apk update && \
     apk upgrade && \
-    apk --no-cache add curl bash && \
+    apk --no-cache add curl bash git openssh && \
     rm -rf /var/cache/apk/*
-RUN curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
-ENV PATH "$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-RUN npm cache clean --force && yarn install && yarn audit
-ENV PATH "/code/app/node_modules/.bin:$PATH"
 
-CMD ["/bin/sh", "-f", "entrypoint.sh"]
+#ENV PATH "$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+RUN npm cache clean --force && npm install
+## && npm audit fix --force
+
+ENV PATH "/code/node_modules/.bin:$PATH"
+
+COPY entrypoint.sh ./
+
+WORKDIR /code/app
+
+CMD ["/bin/sh", "-f", "/code/entrypoint.sh"]
