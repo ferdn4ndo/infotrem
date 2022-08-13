@@ -38,3 +38,14 @@ class IsAdminOrReadOnly(BasePermission):
             return True
 
         return request.user and type(request.user) is not AnonymousUser and request.user.is_admin
+
+
+class IsStaffOrReadOnly(BasePermission):
+    """ Object-level permission to only allow everybody to read an object, but only staff can update it. """
+    def has_permission(self, request, view):
+        # Read permissions are allowed to any request,
+        # so we'll always allow GET, HEAD or OPTIONS requests.
+        if request.method in SAFE_METHODS:
+            return True
+
+        return request.user and type(request.user) is not AnonymousUser and request.user.is_staff

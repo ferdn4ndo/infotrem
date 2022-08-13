@@ -45,7 +45,7 @@ class EmailValidationService:
         mail.subject = "Confirme seu e-mail no InfoTrem"
         mail.message_html = mail_template.parse_html()
         mail.message_text = mail_template.parse_raw()
-        mail.reply_to = os.environ['EMAIL_ADDRESS_CANDIDATE']
+        mail.reply_to = os.environ['EMAIL_SMTP_USER']
         mail.save()
 
         return mail

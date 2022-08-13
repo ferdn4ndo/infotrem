@@ -63,3 +63,7 @@ class ContactRateThrottle(BaseRateThrottle):
 
 class EmailValidationRateThrottle(BaseRateThrottle):
     scope = 'emailValidation'
+
+
+class HealthCheckRateThrottle(BaseRateThrottle):
+    scope = 'healthCheck'

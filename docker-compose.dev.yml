@@ -11,6 +11,8 @@ services:
       - ./backend/.env
     volumes:
       - ./backend:/code/
+    ports:
+      - "5000:5000"
     expose:
       - 5000
 
@@ -24,6 +26,8 @@ services:
       - ./frontend/.env
     volumes:
       - ./frontend/:/code/app:delegated
+    ports:
+      - "3000:3000"
     expose:
       - 3000
 

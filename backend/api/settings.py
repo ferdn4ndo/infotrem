@@ -137,6 +137,7 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'loginAttempts': '2/min',
         'emailValidation': '5/min',
+        'healthCheck': '60/min',
         'contact': '1/min',
         'user': '1000/min',
     },
