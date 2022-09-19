@@ -1,8 +1,8 @@
-from api.models.location_model import Location
 from api.serializers.location.location_serializer import LocationSerializer
-from api.services.policy import IsLoggedIn, IsStaffOrReadOnly
+from api.services.policy import IsStaffOrReadOnly
 from api.services.pagination import LargeResultsSetPagination
 from api.views.generic_model_view import FullCRUDListModelViewSet
+from core.models.location.location_model import Location
 
 
 class LocationViewSet(FullCRUDListModelViewSet):

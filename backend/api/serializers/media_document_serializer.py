@@ -1,6 +1,5 @@
-from api.models import MediaDocument
-
-from .generic_audited_model_serializer import GenericAuditedModelSerializer
+from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
+from core.models.media.media_document_model import MediaDocument
 
 
 class MediaDocumentSerializer(GenericAuditedModelSerializer):

@@ -1,0 +1,165 @@
+
+# Itararé - Uruguai | Linha Tronco (1909)
+- model: "core.RouteSection"
+  pk: "d8ed6128-570f-4b3a-b735-f1060dd59581"
+  fields:
+    railroad_route: "21844733-e6fd-4af4-b690-aa3f38613068"
+    name: "Linha Tronco"
+    builder_railroad: "9f4e1f84-66ba-41e9-8d9c-0091a187aeea"
+    build_year: 1909
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Itararé - Uruguai | Variante Jaguariaíva - Fábio Rego (1964)
+- model: "core.RouteSection"
+  pk: "c59ef617-42be-4f5f-8f82-eeff3dc483c2"
+  fields:
+    railroad_route: "21844733-e6fd-4af4-b690-aa3f38613068"
+    name: "Variante Jaguariaíva - Fábio Rego"
+    builder_railroad: "a3fe654b-d0fd-496b-8cd8-c1c3cfeac6bb"
+    build_year: 1964
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Paranaguá | Linha Tronco (1885)
+- model: "core.RouteSection"
+  pk: "bf4f1c15-4891-417f-87b0-495f38636b13"
+  fields:
+    railroad_route: "1c1893a7-3de3-418d-9237-103e6a28b02d"
+    name: "Linha Tronco"
+    builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    build_year: 1909
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Paranaguá | Nova estação de Curitiba (1972)
+- model: "core.RouteSection"
+  pk: "586ba67b-5fd4-456d-b5b9-950bac2d6e06"
+  fields:
+    railroad_route: "1c1893a7-3de3-418d-9237-103e6a28b02d"
+    name: "Nova estação de Curitiba"
+    builder_railroad: "a3fe654b-d0fd-496b-8cd8-c1c3cfeac6bb"
+    build_year: 1972
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Paranaguá | Modificações entre Curitiba e Paranaguá (1986)
+- model: "core.RouteSection"
+  pk: "9301d27a-211d-468a-9233-2d3192a8975b"
+  fields:
+    railroad_route: "1c1893a7-3de3-418d-9237-103e6a28b02d"
+    name: "Modificações entre Curitiba e Paranaguá"
+    builder_railroad: "8c7d1fa3-6fec-4cee-b4cd-c2aaf96b9bfe"
+    build_year: 1986
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Linha Tronco (1894)
+- model: "core.RouteSection"
+  pk: "d3f4bb3f-6f26-4d80-81a6-f64118de9345"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Linha Tronco"
+    builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    build_year: 1894
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Ramal de Porto Amazonas (1892)
+- model: "core.RouteSection"
+  pk: "03449e1e-46d6-46ff-be2d-9ba2694ba980"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Ramal de Porto Amazonas"
+    builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    build_year: 1892
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Ramal de Rio Negro (1895)
+- model: "core.RouteSection"
+  pk: "c0e1881f-8018-48d5-b146-7bb0054e44af"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Ramal de Rio Negro"
+    builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    build_year: 1895
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Modificação entre Serrinha e Palmeira (1914)
+- model: "core.RouteSection"
+  pk: "14acbd56-2253-46fb-a767-b4c86b6bf83d"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Modificação entre Serrinha e Palmeira"
+    builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    build_year: 1914
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Variante de Capivari (1934)
+- model: "core.RouteSection"
+  pk: "e7bae1ea-941e-46a2-a5b0-a014d678f37a"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Variante de Capivari"
+    builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    build_year: 1934
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Variante de Rio Negro (1964)
+- model: "core.RouteSection"
+  pk: "d911b072-12e2-4ddc-aafa-96b26f5a59b0"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Variante de Rio Negro"
+    builder_railroad: "a3fe654b-d0fd-496b-8cd8-c1c3cfeac6bb"
+    build_year: 1964
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Variante Engenheiro Bley - Ponta Grossa (1969)
+- model: "core.RouteSection"
+  pk: "dfe8c9d5-b1e4-450e-9554-b2c3ffe8b63f"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Variante Engenheiro Bley - Ponta Grossa"
+    builder_railroad: "a3fe654b-d0fd-496b-8cd8-c1c3cfeac6bb"
+    build_year: 1969
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Ponta Grossa | Variante Curitiba (nova) - Engenheiro Bley (1977)
+- model: "core.RouteSection"
+  pk: "bfcbaf71-2527-49ad-9a6e-6b35e3e8225a"
+  fields:
+    railroad_route: "d9e7aebd-4d0b-44ff-bffc-64596e560722"
+    name: "Variante Curitiba (nova) - Engenheiro Bley"
+    builder_railroad: "8c7d1fa3-6fec-4cee-b4cd-c2aaf96b9bfe"
+    build_year: 1977
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Rio Branco do Sul | Ramal de Rio Branco do Sul (1909)
+- model: "core.RouteSection"
+  pk: "680fbda2-1ff6-4e6d-86c8-30213e632208"
+  fields:
+    railroad_route: "7ed1cd71-f1ab-4d5c-b3ec-ecbdd24f7ea7"
+    name: "Ramal de Rio Branco do Sul"
+    builder_railroad: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+    build_year: 1909
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+# Curitiba - Rio Branco do Sul | Modificações no Ramal de Rio Branco do Sul (1970)
+- model: "core.RouteSection"
+  pk: "128b8565-df6b-468f-a707-a607ab3ac5c9"
+  fields:
+    railroad_route: "7ed1cd71-f1ab-4d5c-b3ec-ecbdd24f7ea7"
+    name: "Modificações no Ramal de Rio Branco do Sul"
+    builder_railroad: "a3fe654b-d0fd-496b-8cd8-c1c3cfeac6bb"
+    build_year: 1970
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"

@@ -1,7 +1,8 @@
 from rest_framework import serializers
 
-from api.models import RollingStock, MediaRollingStock, Media
-
+from core.models.media.media_model import Media
+from core.models.media.media_rolling_stock_model import MediaRollingStock
+from core.models.rolling_stock.rolling_stock_model import RollingStock
 from .media_serializer import MediaSerializer
 from .generic_audited_model_serializer import GenericAuditedModelSerializer
 from .rolling_stock_serializer import RollingStockSerializer
@@ -56,4 +57,3 @@ class MediaItemRollingStockFromNameSerializer(GenericAuditedModelSerializer):
             media_rolling_stock = MediaRollingStock.objects.filter(media=media, rolling_stock=rolling_stock).first()
 
         return media_rolling_stock
-

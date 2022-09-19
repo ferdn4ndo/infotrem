@@ -1,9 +1,10 @@
-from rest_framework import exceptions, status
+from rest_framework import status
 
+from api.errors.base_api_exception import BaseApiException
 from api.services import translation
 
 
-class BadRequestException(exceptions.APIException):
+class BadRequestException(BaseApiException):
     status_code = status.HTTP_400_BAD_REQUEST
     default_detail = translation.Messages.MSG_INVALID_INPUT_DATA
     default_code = 'invalid'

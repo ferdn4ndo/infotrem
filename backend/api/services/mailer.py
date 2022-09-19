@@ -10,8 +10,8 @@ from typing import List
 from django.utils import timezone
 
 from api.mails.contact_mail import ContactMail
-from api.models.contact_model import Contact
-from api.models.mail_model import Mail
+from core.models.contact.contact_model import Contact
+from core.models.mail.mail_model import Mail
 
 
 class Mailer:

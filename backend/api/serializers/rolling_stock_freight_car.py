@@ -3,14 +3,13 @@ from typing import Optional, Tuple
 
 from rest_framework import serializers
 
-from api.models import FreightCarCategory
-from api.models.freight_car_model import \
-    FreightCarGrossWeightType, \
-    FreightCarType,\
-    FreightCar
-from api.models.rolling_stock_model import RollingStock
-from api.models.track_gauge_model import TrackGauge
 from api.services.strings import break_string_into_words
+from core.models.freight_car.freight_car_category_model import FreightCarCategory
+from core.models.freight_car.freight_car_gross_weight_type_model import FreightCarGrossWeightType
+from core.models.freight_car.freight_car_model import FreightCar
+from core.models.freight_car.freight_car_type_model import FreightCarType
+from core.models.rolling_stock.rolling_stock_model import RollingStock
+from core.models.track_gauge.track_gauge_model import TrackGauge
 
 
 class RollingStockFreightCarCategorySerializer(serializers.ModelSerializer):

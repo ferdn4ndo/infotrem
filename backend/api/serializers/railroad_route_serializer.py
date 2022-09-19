@@ -1,11 +1,16 @@
 from rest_framework import serializers
 
-from api.models import RouteInformation, Route, RouteSectionLocationKilometer, RouteSectionLocation, RouteSection, \
-    PathPoint, Path
-from api.models.information_model import Information
-from api.models.location_model import Location
-from api.serializers.information_serializer import InformationSerializer
+from api.serializers.information.information_serializer import InformationSerializer
 from api.serializers.railroad_company_serializer import CompanySerializer
+from core.models.information.information_model import Information
+from core.models.location.location_model import Location
+from core.models.path.path_model import Path
+from core.models.path.path_point_model import PathPoint
+from core.models.route.route_information_model import RouteInformation
+from core.models.route.route_model import Route
+from core.models.route.route_section_location_kilometer_model import RouteSectionLocationKilometer
+from core.models.route.route_section_location_model import RouteSectionLocation
+from core.models.route.route_section_model import RouteSection
 
 
 class RouteInformationSerializer(serializers.ModelSerializer):

@@ -3,15 +3,8 @@ from typing import Optional
 
 from rest_framework import serializers
 
-from api.models import RollingStockInformation
-from api.models.freight_car_model import FreightCar
-from api.models.locomotive_model import Locomotive
-from api.models.non_revenue_car_model import NonRevenueCar
-from api.models.passenger_car_model import PassengerCar
-from api.models.rolling_stock_model import SigoRegional, RollingStock
-from api.models.track_gauge_model import TrackGauge
-from api.serializers.information_serializer import InformationSerializer
-from api.serializers.manufacturer_serializer import ManufacturerSerializer
+from api.serializers.information.information_serializer import InformationSerializer
+from api.serializers.manufacturer.manufacturer_serializer import ManufacturerSerializer
 from api.serializers.railroad_company_serializer import CompanySerializer
 from api.serializers.rolling_stock_freight_car import RollingStockFreightCarSerializer
 from api.serializers.rolling_stock_locomotive import RollingStockLocomotiveSerializer
@@ -19,6 +12,14 @@ from api.serializers.rolling_stock_non_revenue_car import RollingStockNonRevenue
 from api.serializers.rolling_stock_passenger_car import RollingStockPassengerCarSerializer
 from api.serializers.track_gauge_serializer import TrackGaugeSerializer
 from api.services.strings import break_string_into_words
+from core.models.freight_car.freight_car_model import FreightCar
+from core.models.locomotive.locomotive_model import Locomotive
+from core.models.non_revenue_car.non_revenue_car_model import NonRevenueCar
+from core.models.passenger_car.passenger_car_model import PassengerCar
+from core.models.rolling_stock.rolling_stock_information_model import RollingStockInformation
+from core.models.rolling_stock.rolling_stock_model import RollingStock
+from core.models.sigo.sigo_regional_model import SigoRegional
+from core.models.track_gauge.track_gauge_model import TrackGauge
 
 
 class RollingStockSigoRegionalSerializer(serializers.ModelSerializer):

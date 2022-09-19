@@ -1,4 +1,4 @@
-from api.models import MediaVideo
+from core.models.media.media_video_model import MediaVideo
 
 from .generic_audited_model_serializer import GenericAuditedModelSerializer
 

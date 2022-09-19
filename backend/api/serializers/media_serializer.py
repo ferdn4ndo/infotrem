@@ -1,7 +1,10 @@
 from rest_framework import serializers
 
 from api.errors.internal_server_exception import InternalServerException
-from api.models import Media, RollingStock, MediaImage, MediaVideo, MediaDocument
+from core.models.media.media_document_model import MediaDocument
+from core.models.media.media_image_model import MediaImage
+from core.models.media.media_model import Media
+from core.models.media.media_video_model import MediaVideo
 
 from .generic_audited_model_serializer import GenericAuditedModelSerializer
 from .media_document_serializer import MediaDocumentSerializer

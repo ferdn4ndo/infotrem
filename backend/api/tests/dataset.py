@@ -11,7 +11,10 @@ from typing import Dict, List
 from django.utils import timezone
 from django.utils.datetime_safe import datetime
 
-from api.models import Billet, BilletGateway, User, Event, LocationCity, LocationState
+from api.models import Billet, BilletGateway, Event
+from core.models.location.location_city_model import LocationCity
+from core.models.location.location_state_model import LocationState
+from core.models.user.user_model import User
 
 
 def create_request_url(endpoint: str = ''):
@@ -54,7 +57,6 @@ def create_user(email: str = None, is_admin=False) -> User:
         email_validation_sent=1,
         email_validation_hash=get_random_string(64),
         name=get_random_words(3).capitalize(),
-        rg=get_random_string(12),
         cpf=random.randint(9999999999, 99999999999),
         birth_date=get_random_datetime(),
         address=get_random_words(5),

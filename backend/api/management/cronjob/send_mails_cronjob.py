@@ -1,7 +1,7 @@
 from django_cron import CronJobBase, Schedule
 
-from api.models.mail_model import Mail
 from api.services.mailer import Mailer
+from core.models.mail.mail_model import Mail
 
 
 class SendMailsCronJob(CronJobBase):

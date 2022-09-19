@@ -4,11 +4,14 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 
 from api.errors.conflict_exception import ConflictException
-from api.models import User, LocationState, get_object_or_404, LocationCity
+from api.models import get_object_or_404
 from api.serializers.register_serializer import RegisterSerializer
 from api.services import auth, policy, throttling, translation
 from api.services.email_validation_service import EmailValidationService
 from api.services.logger import get_logger
+from core.models.location.location_city_model import LocationCity
+from core.models.location.location_state_model import LocationState
+from core.models.user.user_model import User
 
 
 class RegisterViewSet(ViewSet):

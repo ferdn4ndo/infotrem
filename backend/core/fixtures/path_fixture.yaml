@@ -1,0 +1,189 @@
+
+- model: "core.Path"
+  pk: "e3acfc9a-5fbd-4c30-981a-0e67ff617eaa"
+  fields:
+    name: "Trecho Itararé - Coronel Izaltino"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "df1830cd-8e2b-4079-b8c3-6c3a9e52d1ce"
+  fields:
+    name: "Trecho Coronel Izaltino - Sengés"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "fcddf5d8-5340-428b-be64-003ddb05299f"
+  fields:
+    name: "Trecho Sengés - Tucunduva"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "d78a083d-9909-4b09-84d5-dde6b259259b"
+  fields:
+    name: "Trecho Tucunduva - Rio do Bugre"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "e9b3cc38-8154-4ca8-9152-78666c95e175"
+  fields:
+    name: "Trecho Rio do Bugre - Fábio Rego (Original)"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "cff79151-01a7-429e-9712-557a17e6044e"
+  fields:
+    name: "Trecho Rio do Bugre - Fábio Rego (Variante)"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "ae92be0e-f55e-4874-948e-f8960b4b234b"
+  fields:
+    name: "Possível Ramal em Fábio Rego (Variante)"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "ba4de0db-1878-41a0-ab77-24dbbd846b43"
+  fields:
+    name: "Trecho Fábio Rego - Eng. Schamber"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "a74d3e69-b347-41b4-b259-4eca24d24a9f"
+  fields:
+    name: "Trecho Eng. Schamber - Rio das Mortes"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "6b560266-2f0d-4bb5-92d8-7aa33bf8f91a"
+  fields:
+    name: "Trecho Rio das Mortes - Samambaia"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "606396a7-0b48-4a97-9b6b-1a3154a71b9b"
+  fields:
+    name: "Trecho Samambaia - Jaguariaíva"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "0d2d041a-a2b7-48b2-80ea-59f2321d1a89"
+  fields:
+    name: "Trecho Fábio Rego - Samambaia (Nova)"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "db7e87f7-e22f-4c26-b0dc-99bbe479655b"
+  fields:
+    name: "Trecho Samambaia (Nova) - Jaguariaíva"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "611da407-7cef-4a42-89cc-a26d8cc4f9bd"
+  fields:
+    name: "PISA S/A - Terminal"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "3bb34675-b5df-4cff-b0d3-4ecf1a225bcb"
+  fields:
+    name: "PISA S/A - Desvio 1"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "07b8b87e-bb69-4ccb-9746-52b5f52a2c41"
+  fields:
+    name: "PISA S/A - Desvio 2"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "db2fe514-530c-4771-92c2-6990622ed90e"
+  fields:
+    name: "PISA S/A - Desvio 3"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "bdd31af3-44be-49fb-b159-8261da639c35"
+  fields:
+    name: "Possível Ramal em Jaguariaíva"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "0d6c3bbc-4861-4f63-8bb0-4cc0393f988d"
+  fields:
+    name: "Matarazzo - Terminal"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "d19852d5-1466-43b7-8088-0ec6d33feaa1"
+  fields:
+    name: "Matarazzo - Terminal 2"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Path"
+  pk: "29203170-bd7b-4fd7-9d28-614e2394f520"
+  fields:
+    name: "Matarazzo - Desvio 1"
+    type: "RAIL"
+    status: "ERADICATED"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"

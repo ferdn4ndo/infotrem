@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
-from api.models.non_revenue_car_model import NonRevenueCarType, NonRevenueCar
+from core.models.non_revenue_car.non_revenue_car_model import NonRevenueCar
+from core.models.non_revenue_car.non_revenue_car_type_model import NonRevenueCarType
 
 
 class RollingStockNonRevenueCarTypeSerializer(serializers.ModelSerializer):

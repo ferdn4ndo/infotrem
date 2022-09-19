@@ -1,0 +1,88 @@
+
+- model: "core.Company"
+  pk: "7db82336-ed48-4785-89d0-c25bc6696d69"
+  fields:
+    abbrev: "FEPASA"
+    name: "Ferrovias Paulistas S/A"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "8c7d1fa3-6fec-4cee-b4cd-c2aaf96b9bfe"
+  fields:
+    abbrev: "RFFSA"
+    name: "Rede Ferroviária Federal S/A"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "282e40ba-fca6-48ab-b9fa-b53a6f21c358"
+  fields:
+    abbrev: "EFS"
+    name: "Estrada de Ferro Sorocabana"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "034287cc-1565-49dd-b6bb-99d79893e94f"
+  fields:
+    abbrev: "CBTU"
+    name: "Companhia Brasileira de Trens Urbanos"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "2190595f-ddb5-45b5-bcc7-5d163d3f9094"
+  fields:
+    abbrev: "CVRD"
+    name: "Companhia Vale do Rio Doce"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "9c2537ae-22e3-4db8-bd07-b8cc1cd44b8d"
+  fields:
+    abbrev: "FA"
+    name: "Ferrocarriles Argentinos (Argentina)"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "237bffc0-0315-4e62-9290-179acc382025"
+  fields:
+    abbrev: "AFE"
+    name: "Administracion de los Ferrocarriles del Estado (Uruguai)"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "cfacbfcd-2f28-4ee1-ab52-fc286d5f4a33"
+  fields:
+    abbrev: "ENFE"
+    name: "Empresa Nacional de Ferrocarriles"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "9f4e1f84-66ba-41e9-8d9c-0091a187aeea"
+  fields:
+    abbrev: "EFSPRG"
+    name: "Companhia de Estrada de Ferro São Paulo-Rio Grande"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "ebe6a63b-68c7-496d-b426-22483d705c0e"
+  fields:
+    abbrev: "EFP"
+    name: "Estrada de Ferro Paraná"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"
+
+- model: "core.Company"
+  pk: "a3fe654b-d0fd-496b-8cd8-c1c3cfeac6bb"
+  fields:
+    abbrev: "RVPSC"
+    name: "Rede de Viação Paraná-Santa Catarina"
+    created_by: "9fc390d5-612e-4077-a3a4-07a47b23a7e9"
+    created_at: "2021-04-20T04:20:00+0000"

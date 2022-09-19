@@ -2,7 +2,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.forms import UserCreationForm as BaseUserCreationForm
 from django.contrib.auth.forms import UserChangeForm as BaseUserChangeForm
 
-from api.models.user_model import User
+from core.models.user.user_model import User
 
 
 class UserCreationForm(BaseUserCreationForm):
@@ -19,7 +19,7 @@ class UserChangeForm(BaseUserChangeForm):
         fields = ('email',)
 
 
-class UserAdmin(BaseUserAdmin):
+class UserAdminForm(BaseUserAdmin):
     add_form = UserCreationForm
     readonly_fields = ('id',)
     form = UserChangeForm

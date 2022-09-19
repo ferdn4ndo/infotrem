@@ -1,12 +1,8 @@
 from rest_framework import serializers
 
-from api.models.passenger_car_model import \
-    PassengerCarMaterial, \
-    PassengerCarType, \
-    PassengerCar
-
-from api.serializers.rolling_stock_freight_car import \
-    RollingStockFreightCarTypeSerializer
+from core.models.passenger_car.passenger_car_material_model import PassengerCarMaterial
+from core.models.passenger_car.passenger_car_model import PassengerCar
+from core.models.passenger_car.passenger_car_type_model import PassengerCarType
 
 
 class RollingStockPassengerCarMaterialSerializer(serializers.ModelSerializer):
@@ -27,8 +23,8 @@ class RollingStockPassengerCarTypeSerializer(serializers.ModelSerializer):
 
 class RollingStockPassengerCarSerializer(serializers.ModelSerializer):
     """Serializer for the PassengerCar model"""
-    material = RollingStockPassengerCarTypeSerializer()
-    type = RollingStockFreightCarTypeSerializer()
+    material = RollingStockPassengerCarMaterialSerializer()
+    type = RollingStockPassengerCarTypeSerializer()
 
     class Meta:
         model = PassengerCar

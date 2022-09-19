@@ -2,7 +2,7 @@ import os
 
 from django.core.management.base import BaseCommand
 
-from api.models.user_model import User
+from core.models.user.user_model import User
 
 
 class Command(BaseCommand):

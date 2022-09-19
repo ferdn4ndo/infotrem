@@ -3,10 +3,10 @@ import os
 
 from django.core.management.base import BaseCommand
 
-from api.models.information_model import Information
-from api.models.rolling_stock_information_model import RollingStockInformation
-from api.models.user_model import User
 from api.serializers.rolling_stock_serializer import RollingStockSerializer, RollingStockInformationSerializer
+from core.models.information.information_model import Information
+from core.models.rolling_stock.rolling_stock_information_model import RollingStockInformation
+from core.models.user.user_model import User
 
 
 class Command(BaseCommand):

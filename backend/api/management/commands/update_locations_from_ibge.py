@@ -2,9 +2,9 @@ from typing import Dict
 
 from django.core.management.base import BaseCommand
 
-from api.models.location_city_model import LocationCity
-from api.models.location_state_model import LocationState
 from api.services.web_request import WebRequest
+from core.models.location.location_city_model import LocationCity
+from core.models.location.location_state_model import LocationState
 
 
 class Command(BaseCommand):

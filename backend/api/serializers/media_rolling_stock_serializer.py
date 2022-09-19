@@ -1,9 +1,8 @@
-from api.models import MediaRollingStock
-
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
 from api.serializers.railroad_company_serializer import RailroadCompanyPaintSchemeSerializer
 from api.serializers.rolling_stock_serializer import RollingStockSerializer
 from api.serializers.user_serializer import UserSerializer
+from core.models.media.media_rolling_stock_model import MediaRollingStock
 
 
 class MediaRollingStockSerializer(GenericAuditedModelSerializer):

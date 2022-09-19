@@ -3,8 +3,9 @@ from typing import Optional
 
 from rest_framework import serializers
 
-from api.models.rolling_stock_model import RollingStock
-from api.models.locomotive_model import LocomotiveDesign, Locomotive
+from core.models.locomotive.locomotive_design_model import LocomotiveDesign
+from core.models.locomotive.locomotive_model import Locomotive
+from core.models.rolling_stock.rolling_stock_model import RollingStock
 
 
 class RollingStockLocomotiveModelSerializer(serializers.ModelSerializer):

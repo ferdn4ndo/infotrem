@@ -1,10 +1,10 @@
 from api.models import get_object_or_404
-from api.models.location_model import Location
-from api.models.location_track_gauge_model import LocationTrackGauge
 from api.serializers.location.location_track_gauge_serializer import LocationTrackGaugeSerializer
 from api.services.policy import IsStaffOrReadOnly
 from api.services.pagination import LargeResultsSetPagination
 from api.views.generic_model_view import FullCRUDListModelViewSet
+from core.models.location.location_model import Location
+from core.models.location.location_track_gauge_model import LocationTrackGauge
 
 
 class LocationTrackGaugeViewSet(FullCRUDListModelViewSet):

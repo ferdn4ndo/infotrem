@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'api',
+    'core',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -115,7 +116,7 @@ STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesSto
 
 APPEND_SLASH = False
 
-AUTH_USER_MODEL = 'api.User'
+AUTH_USER_MODEL = 'core.User'
 
 # from . import *  # noqa: F403
 

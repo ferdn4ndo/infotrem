@@ -10,10 +10,11 @@ from rest_framework import authentication
 from rest_framework import exceptions
 from rest_framework.authentication import get_authorization_header
 
-from api.models.user_model import User
-from api.models.user_token_model import UserToken
+
 from api.services.logger import get_logger
 from api.services.web_request import WebRequest
+from core.models.user.user_model import User
+from core.models.user.user_token_model import UserToken
 
 
 class UServerAuthentication(authentication.BaseAuthentication):

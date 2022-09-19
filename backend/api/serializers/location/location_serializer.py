@@ -1,10 +1,12 @@
-from api.models import LocationInformation, Location, LocationTrackGauge, RouteSectionLocation
+from api.serializers.location.location_information_serializer import LocationInformationSerializer
+from api.serializers.location.location_railroad_route_section_serializer import LocationRailroadRouteSectionSerializer
+from api.serializers.location.location_track_gauge_serializer import LocationTrackGaugeSerializer
 from api.serializers.railroad_route_serializer import RouteSectionLocationSerializer
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
-
-from .location_information_serializer import LocationInformationSerializer
-from .location_railroad_route_section_serializer import LocationRailroadRouteSectionSerializer
-from .location_track_gauge_serializer import LocationTrackGaugeSerializer
+from core.models.location.location_information_model import LocationInformation
+from core.models.location.location_model import Location
+from core.models.location.location_track_gauge_model import LocationTrackGauge
+from core.models.route.route_section_location_model import RouteSectionLocation
 
 
 class LocationSerializer(GenericAuditedModelSerializer):

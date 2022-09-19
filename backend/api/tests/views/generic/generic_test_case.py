@@ -7,10 +7,11 @@ from rest_framework import status, serializers
 from rest_framework.response import Response
 from rest_framework.test import APITestCase, APIRequestFactory
 
-from api.models import User
+
 from api.services.pagination import CustomPagination
 from api.tests import dataset
 from api.views.generic_model_view import GenericModelViewSet
+from core.models.user.user_model import User
 
 
 class GenericTestCase:

@@ -1,9 +1,10 @@
 from rest_framework import serializers
 
-from api.models import LocationInformation, Location
-from api.models.information_model import Information
-from api.serializers.information_serializer import InformationSerializer
+from api.serializers.information.information_serializer import InformationSerializer
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
+from core.models.information.information_model import Information
+from core.models.location.location_information_model import LocationInformation
+from core.models.location.location_model import Location
 
 
 class LocationInformationSerializer(GenericAuditedModelSerializer):
@@ -12,7 +13,15 @@ class LocationInformationSerializer(GenericAuditedModelSerializer):
 
     class Meta:
         model = LocationInformation
-        fields = ['id', 'location_id', 'information']
+        fields = [
+            'id',
+            'location_id',
+            'information',
+            'created_by',
+            'created_at',
+            'updated_by',
+            'updated_at',
+        ]
 
     def create(self, validated_data):
         information_data = validated_data.pop('information')

@@ -2,9 +2,9 @@ import os
 import secrets
 
 from api.mails.email_confirmation_mail import EmailConfirmation
-from api.models.mail_model import Mail
-from api.models.user_model import User
 from api.services.mailer import Mailer
+from core.models.mail.mail_model import Mail
+from core.models.user.user_model import User
 
 
 class EmailValidationService:

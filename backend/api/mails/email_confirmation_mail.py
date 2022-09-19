@@ -1,7 +1,7 @@
 import os
 
 from api.mails.generic_mail import GenericMail
-from api.models.user_model import User
+from core.models.user.user_model import User
 
 
 class EmailConfirmation(GenericMail):

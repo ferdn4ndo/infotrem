@@ -1,5 +1,5 @@
 from api.mails.generic_mail import GenericMail
-from api.models.contact_model import Contact
+from core.models.contact.contact_model import Contact
 
 
 class ContactMail(GenericMail):

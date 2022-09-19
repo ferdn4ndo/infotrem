@@ -1,9 +1,10 @@
 from django.utils import timezone
-from rest_framework import viewsets, mixins
+from rest_framework import viewsets, mixins, status
 from rest_framework.request import Request
 from rest_framework.response import Response
 
 from api.models import get_object_or_404
+from core.models.generic_model import GenericModel
 
 
 class GenericModelViewSet(viewsets.GenericViewSet):
@@ -36,20 +37,41 @@ class GenericModelViewSet(viewsets.GenericViewSet):
 
         return obj
 
+    def remove_instance_and_return_204(self, instance: GenericModel) -> Response:
+        instance.delete()
+
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 
 class GenericModelCreateMixin(mixins.CreateModelMixin):
 
     def create(self, request: Request, *args, **kwargs) -> Response:
+        if 'updated_at' in request.data:
+            del(request.data['updated_at'])
+
+        if 'updated_by' in request.data:
+            del(request.data['updated_by'])
+
         request.data['created_at'] = timezone.now()
         request.data['created_by'] = request.user.id
+
         return super(GenericModelCreateMixin, self).create(request=request, *args, **kwargs)
 
 
 class GenericModelUpdateMixin(mixins.UpdateModelMixin):
 
     def update(self, request: Request, *args, **kwargs) -> Response:
+        if 'created_at' in request.data:
+            del(request.data['created_at'])
+
+        if 'created_by' in request.data:
+            del(request.data['created_by'])
+
         request.data['updated_at'] = timezone.now()
         request.data['updated_by'] = request.user.id
+
+        print(request.data)
+
         return super(GenericModelUpdateMixin, self).update(request=request, *args, **kwargs)
 
 
@@ -86,4 +108,3 @@ class ReadModelViewSet(mixins.RetrieveModelMixin,
                        mixins.ListModelMixin,
                        GenericModelViewSet):
     pass
-

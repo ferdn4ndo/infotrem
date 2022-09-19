@@ -3,10 +3,11 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework import status
 from rest_framework.views import APIView
 
-from api.models import get_object_or_404, User
+from api.models import get_object_or_404
 from api.services import policy, throttling
 from api.services.email_validation_service import EmailValidationService
 from api.services.translation import Messages
+from core.models.user.user_model import User
 
 
 class EmailValidationCheckView(APIView):

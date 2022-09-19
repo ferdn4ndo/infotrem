@@ -1,9 +1,11 @@
 from rest_framework import serializers
 
-from api.models import CompanyInformation, CompanyPaintSchemeInformation, CompanyPaintScheme
-from api.models.information_model import Information
-from api.models.route_model import Company
-from api.serializers.information_serializer import InformationSerializer
+from api.serializers.information.information_serializer import InformationSerializer
+from core.models.company.company_information_model import CompanyInformation
+from core.models.company.company_model import Company
+from core.models.company.company_paint_scheme_information_model import CompanyPaintSchemeInformation
+from core.models.company.company_paint_scheme_model import CompanyPaintScheme
+from core.models.information.information_model import Information
 
 
 class CompanyInformationSerializer(serializers.ModelSerializer):
