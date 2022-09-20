@@ -2,16 +2,17 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 
 from api.models import get_object_or_404
+from api.policies.is_logged_in_or_read_only_policy import IsLoggedInOrReadOnlyPolicy
 from api.serializers.information.information_effect_serializer import InformationEffectSerializer
-from api.services.policy import IsLoggedInOrReadOnly, ensure_object_owner_or_deny
-from api.services.pagination import LargeResultsSetPagination
+from api.services.policy import ensure_object_owner_or_deny
+from api.pagination.large_results_set_pagination import LargeResultsSetPagination
 from api.views.generic_model_view import FullCRUDListModelViewSet
 from core.models.information.information_effect_model import InformationEffect
 from core.models.information.information_model import Information
 
 
 class InformationEffectViewSet(FullCRUDListModelViewSet):
-    permission_classes = [IsLoggedInOrReadOnly]
+    permission_classes = [IsLoggedInOrReadOnlyPolicy]
     serializer_class = InformationEffectSerializer
     pagination_class = LargeResultsSetPagination
 

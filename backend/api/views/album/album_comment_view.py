@@ -2,16 +2,17 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 
 from api.models import get_object_or_404
+from api.policies.is_logged_in_or_read_only_policy import IsLoggedInOrReadOnlyPolicy
 from api.serializers.album.album_comment_serializer import AlbumCommentSerializer
-from api.services.pagination import LargeResultsSetPagination
-from api.services.policy import IsLoggedInOrReadOnly, ensure_object_owner_or_deny
+from api.pagination.large_results_set_pagination import LargeResultsSetPagination
+from api.services.policy import ensure_object_owner_or_deny
 from api.views.generic_model_view import FullCRUDListModelViewSet
 from core.models.album.album_comment_model import AlbumComment
 from core.models.album.album_model import Album
 
 
 class AlbumCommentViewSet(FullCRUDListModelViewSet):
-    permission_classes = [IsLoggedInOrReadOnly]
+    permission_classes = [IsLoggedInOrReadOnlyPolicy]
     serializer_class = AlbumCommentSerializer
     pagination_class = LargeResultsSetPagination
 

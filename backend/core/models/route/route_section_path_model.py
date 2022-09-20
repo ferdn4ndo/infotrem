@@ -4,6 +4,7 @@ from django.utils.translation import gettext_lazy as _
 
 from core.models.generic_audited_model import GenericAuditedModel
 from core.models.path.path_model import Path
+from core.models.route.route.route_section_path_view import RouteSectionPathAdmin
 from core.models.route.route_section_model import RouteSection
 
 
@@ -19,10 +20,6 @@ class RouteSectionPath(GenericAuditedModel):
         on_delete=models.CASCADE,
         verbose_name=_("The path associated with the route section")
     )
-
-
-class RouteSectionPathAdmin(admin.ModelAdmin):
-    pass
 
 
 admin.site.register(RouteSectionPath, RouteSectionPathAdmin)

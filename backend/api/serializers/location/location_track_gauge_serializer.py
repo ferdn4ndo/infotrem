@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
-from api.serializers.track_gauge_serializer import TrackGaugeSerializer
+from api.serializers.track_gauge.track_gauge_serializer import TrackGaugeSerializer
 from core.models.information.information_model import Information
 from core.models.location.location_model import Location
 from core.models.location.location_track_gauge_model import LocationTrackGauge

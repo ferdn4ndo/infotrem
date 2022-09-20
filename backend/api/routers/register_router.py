@@ -1,7 +1,7 @@
 from rest_framework import routers
 
 from api.routers.route_names import RouteNames
-from api.views.register_view import RegisterViewSet
+from api.views.register.register_view import RegisterViewSet
 
 router = routers.SimpleRouter()
 

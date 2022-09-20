@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'api.services.cors.CorsMiddleware',
+    'api.services.cors.cors_middleware_service.CorsMiddlewareService',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -130,7 +130,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ),
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'api.services.auth.UServerAuthentication',
+        'core.services.auth.u_server_authentication_service.UServerAuthenticationService',
     ),
     'DEFAULT_THROTTLE_CLASSES': (
         'rest_framework.throttling.UserRateThrottle',
@@ -143,7 +143,7 @@ REST_FRAMEWORK = {
         'user': '1000/min',
     },
     'EXCEPTION_HANDLER': 'api.errors.exception_handler.custom_exception_handler',
-    'DEFAULT_PAGINATION_CLASS': 'api.services.pagination.StandardResultsSetPagination',
+    'DEFAULT_PAGINATION_CLASS': 'api.pagination.standard_results_set_pagination.StandardResultsSetPagination',
     'PAGE_SIZE': 10,
 }
 

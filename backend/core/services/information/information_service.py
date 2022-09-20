@@ -1,36 +1,40 @@
 from typing import Dict
 
-from api.serializers.information.information_serializer import InformationSerializer
-from core.models import InformationVote, Information, User, get_object_or_error
 from core.services.information.information_effect_service import InformationEffectService
+from core.models import Information
 
 
 class InformationService:
-    information: Information
-
-    def __init__(self, information: Information):
-        self.information = information
-
-    def has_user_voted(self, user: User) -> bool:
-        return InformationVote.objects.filter(information=self.information, created_by=user).exists()
 
     @staticmethod
-    def create_information_from_data(information_data: Dict, user: User) -> Information:
-        if not user.is_staff and not user.is_admin:
-            information_data['status'] = Information.InformationStatus.DISCUSSION
+    def create_information_from_data(information_data: Dict, created_by: str) -> Information:
+        effects_data = information_data.pop('effects')
+        information_data['created_by'] = created_by
 
-        # Check if author exists
-        if 'author_id' in information_data:
-            get_object_or_error(queryset=User.objects.all(), pk=information_data['author_id'])
+        information = Information()
+        information.update_from_dict(input_data=information_data)
+        information.save()
 
-        effects_data = information_data['effects'] if 'effects' in information_data else []
-        information_data['effects'] = []
+        InformationEffectService.create_effects_from_data(
+            effects_data=effects_data,
+            information=information,
+            created_by=created_by,
+        )
 
-        information_serializer = InformationSerializer(data=information_data)
-        information_serializer.is_valid(raise_exception=True)
-        information = information_serializer.save()
+        return information
 
-        information_effect_service = InformationEffectService(information=information)
-        information_effect_service.create_effects_from_data(effects_data=effects_data, user_id=user.id)
+    @staticmethod
+    def update_information_from_data(information_data: Dict, information: Information, updated_by: str) -> Information:
+        effects_data = information_data.pop('effects')
+        information_data['updated_by'] = updated_by
+
+        information.update_from_dict(input_data=information_data)
+        information.save()
+
+        InformationEffectService.update_effects_from_data(
+            effects_data=effects_data,
+            information=information,
+            updated_by=updated_by,
+        )
 
         return information

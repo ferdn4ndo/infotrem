@@ -2,12 +2,12 @@ from django.utils import timezone
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+import api.policies.is_logged_in_policy
 from api.serializers.me.me_serializer import MeSerializer
-from api.services import policy
 
 
 class MeView(APIView):
-    permission_classes = [policy.IsLoggedIn]
+    permission_classes = [api.policies.is_logged_in_policy.IsLoggedInPolicy]
 
     def get(self, request, format=None):
         serializer = MeSerializer(request.user)

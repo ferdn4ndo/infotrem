@@ -8,7 +8,7 @@ from rest_framework.response import Response
 from rest_framework.test import APITestCase, APIRequestFactory
 
 
-from api.services.pagination import CustomPagination
+from api.pagination.base_pagination import BasePagination
 from api.tests import dataset
 from api.views.generic_model_view import GenericModelViewSet
 from core.models.user.user_model import User
@@ -85,9 +85,9 @@ class GenericTestCase:
                 expected_count: int,
                 id_field: str = 'id'
         ) -> None:
-            self.assertIn(CustomPagination.KEY_COUNT, response_data)
-            self.assertEqual(response_data[CustomPagination.KEY_COUNT], expected_count)
+            self.assertIn(BasePagination.KEY_COUNT, response_data)
+            self.assertEqual(response_data[BasePagination.KEY_COUNT], expected_count)
 
-            self.assertIn(CustomPagination.KEY_ITEMS, response_data)
-            for item_data in response_data[CustomPagination.KEY_ITEMS]:
+            self.assertIn(BasePagination.KEY_ITEMS, response_data)
+            for item_data in response_data[BasePagination.KEY_ITEMS]:
                 self.check_single_resource_response(request=request, response_data=item_data, id_field=id_field)

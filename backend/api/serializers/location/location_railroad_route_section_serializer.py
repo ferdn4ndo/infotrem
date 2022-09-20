@@ -1,5 +1,6 @@
-from api.serializers.railroad_route_serializer import RouteSerializer, RouteSectionSmallSerializer, \
-    RouteSectionLocationKilometerSerializer
+from api.serializers.route.route_section_location_kilometer_serializer import RouteSectionLocationKilometerSerializer
+from api.serializers.route.route_section_small_serializer import RouteSectionSmallSerializer
+from api.serializers.route.route_serializer import RouteSerializer
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
 from core.models.route.route_section_location_model import RouteSectionLocation
 

@@ -4,7 +4,7 @@ from urllib.parse import urlparse
 
 import requests
 
-from api.services.file import get_random_file_temp_path
+from core.services.file.file_service import get_random_file_temp_path
 
 INFOTREM_USER_AGENT = 'InfoTrem-CrawlerAgent/1.0.0'
 

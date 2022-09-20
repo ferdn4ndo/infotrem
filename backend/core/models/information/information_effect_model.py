@@ -24,6 +24,7 @@ class InformationEffect(GenericAuditedModel):
     )
     new_value = models.TextField(
         max_length=1024,
+        null=True,
         verbose_name=_("The new value of the field (after the information is accepted)"),
     )
 

@@ -1,13 +1,11 @@
-from typing import List
-
 from django.db.models import Sum
-from django.utils import timezone
 from rest_framework import serializers
 
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
 from api.serializers.information.information_effect_serializer import InformationEffectSerializer
 from api.serializers.user.user_basic_info_serializer import UserBasicInfoSerializer
-from core.models import InformationEffect, User
+from core.services.information.information_service import InformationService
+from core.models import User
 from core.models.information.information_model import Information
 from core.models.information.information_vote_model import InformationVote
 
@@ -50,40 +48,17 @@ class InformationSerializer(GenericAuditedModelSerializer):
         ]
 
     def create(self, validated_data):
-        effects_data = validated_data.pop('effects')
-        information = Information.objects.create(**validated_data)
-
-        self._create_effects_from_data(
-            effects_data=effects_data,
-            information=information,
-            created_by=validated_data['created_by'].id
+        return InformationService.create_information_from_data(
+            information_data=validated_data,
+            created_by=validated_data['created_by']
         )
-
-        return information
 
     def update(self, instance: Information, validated_data):
-        existing_effects = InformationEffect.objects.filter(information=instance)
-        for existing_effect in existing_effects:
-            existing_effect.delete()
-
-        effects_data = validated_data.pop('effects')
-        self._create_effects_from_data(
-            effects_data=effects_data,
+        return InformationService.update_information_from_data(
+            information_data=validated_data,
             information=instance,
-            created_by=validated_data['updated_by'].id
+            updated_by=validated_data['updated_by']
         )
-
-        return super(InformationSerializer, self).update(instance=instance, validated_data=validated_data)
-
-    def _create_effects_from_data(self, effects_data: List, information: Information, created_by: str):
-        for effect_data in effects_data:
-            effect_data['information_id'] = str(information.id)
-            effect_data['created_at'] = timezone.now()
-            effect_data['created_by'] = created_by
-
-            effect_serializer = InformationEffectSerializer(data=effect_data)
-            effect_serializer.is_valid(raise_exception=True)
-            effect_serializer.save()
 
     # Called on create/update operations
     def to_internal_value(self, data):

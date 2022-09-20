@@ -1,14 +1,14 @@
 from rest_framework import serializers
 
-
+from api.fields.serializers.serializer_recursive_field import SerializerRecursiveField
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
-from api.serializers.recursive_field_serializer import RecursiveField
+
 from core.models.comment.comment_like_model import CommentLike
 from core.models.comment.comment_model import Comment
 
 
 class CommentSerializer(GenericAuditedModelSerializer):
-    replies = RecursiveField(many=True, read_only=True)
+    replies = SerializerRecursiveField(many=True, read_only=True)
     total_likes = serializers.SerializerMethodField()
 
     class Meta:

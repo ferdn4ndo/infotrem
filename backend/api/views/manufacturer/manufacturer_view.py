@@ -1,12 +1,12 @@
 from api.serializers.manufacturer.manufacturer_serializer import ManufacturerSerializer
-from api.services.policy import IsStaffOrReadOnly
-from api.services.pagination import LargeResultsSetPagination
+from api.policies.is_staff_or_read_only_policy import IsStaffOrReadOnlyPolicy
+from api.pagination.large_results_set_pagination import LargeResultsSetPagination
 from api.views.generic_model_view import FullCRUDListModelViewSet
 from core.models.manufacturer.manufacturer_model import Manufacturer
 
 
 class ManufacturerViewSet(FullCRUDListModelViewSet):
-    permission_classes = [IsStaffOrReadOnly]
+    permission_classes = [IsStaffOrReadOnlyPolicy]
     serializer_class = ManufacturerSerializer
     pagination_class = LargeResultsSetPagination
 

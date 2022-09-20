@@ -7,8 +7,1189 @@
 	},
 	"item": [
 		{
+			"name": "Album",
+			"item": [
+				{
+					"name": "Album Comment",
+					"item": [
+						{
+							"name": "List Album Comments",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/albums/{{album_id}}/comments/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"albums",
+										"{{album_id}}",
+										"comments",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Album Comment",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"var jsonData = pm.response.json();\r",
+											"pm.environment.set('album_comment_id', jsonData.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"comment\": {\r\n        \"replies_to\": \"af438349-2c29-4f40-88f1-f5ff6f6ad0e9\", \r\n        \"text\": \"My test comment 4\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/albums/{{album_id}}/comments/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"albums",
+										"{{album_id}}",
+										"comments",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read Album Comment",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/albums/{{album_id}}/comments/{{album_comment_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"albums",
+										"{{album_id}}",
+										"comments",
+										"{{album_comment_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Album Comment",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"comment\": {\r\n        \"text\": \"My test comment 2 updated\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/albums/{{album_id}}/comments/{{album_comment_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"albums",
+										"{{album_id}}",
+										"comments",
+										"{{album_comment_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Album Comment",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/albums/{{album_id}}/comments/{{album_comment_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"albums",
+										"{{album_id}}",
+										"comments",
+										"{{album_comment_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "List Albums",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/albums/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"albums",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Album",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var jsonData = pm.response.json();\r",
+									"pm.environment.set('album_id', jsonData.id)\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Test Album 1234\",\r\n    \"description\": \"Test album description 1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/albums/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"albums",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Album",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/albums/{{album_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"albums",
+								"{{album_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Album",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Test Album 1234\",\r\n    \"description\": \"Test album description 1234 after update\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/albums/{{album_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"albums",
+								"{{album_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Album",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/albums/{{album_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"albums",
+								"{{album_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "List Comments",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/comments/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"comments",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Comment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var jsonData = pm.response.json();\r",
+									"pm.environment.set('comment_id', jsonData.id)\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Comment text test!\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/comments/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"comments",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Comment",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/comments/{{comment_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"comments",
+								"{{comment_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Comment",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Updated comment text!!\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/comments/{{comment_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"comments",
+								"{{comment_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Comment",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/comments/{{comment_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"comments",
+								"{{comment_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Information",
+			"item": [
+				{
+					"name": "Information Effect",
+					"item": [
+						{
+							"name": "List Information Effects",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/effects/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"effects",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Information Effect",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"var jsonData = pm.response.json();\r",
+											"pm.environment.set('information_effect_id', jsonData.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"field_name\": \"Test field name 3\",\r\n    \"old_value\": \"test_old_value3\",\r\n    \"new_value\": \"test_new_value3\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/effects/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"effects",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read Information Effect",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/effects/{{information_effect_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"effects",
+										"{{information_effect_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Information Effect",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"field_name\": \"Test field name 3 Updated\",\r\n    \"old_value\": \"test_old_value3_updated\",\r\n    \"new_value\": \"test_new_value3_updated\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/effects/{{information_effect_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"effects",
+										"{{information_effect_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Information Effect",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/effects/{{information_effect_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"effects",
+										"{{information_effect_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Information Vote",
+					"item": [
+						{
+							"name": "List Information Votes",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/votes/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"votes",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Information Vote",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"\r",
+											"var jsonData = pm.response.json();\r",
+											"pm.environment.set('information_vote_id', jsonData.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"value\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/votes/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"votes",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read Information Vote",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/votes/{{information_vote_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"votes",
+										"{{information_vote_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Information Vote",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"value\": -1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/votes/{{information_vote_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"votes",
+										"{{information_vote_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Information Vote",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/information/{{information_id}}/votes/{{information_vote_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"information",
+										"{{information_id}}",
+										"votes",
+										"{{information_vote_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "List Information",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/information/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"information",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Information",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/information/{{information_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"information",
+								"{{information_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Information",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"author\": \"93ad5b10-33e2-488e-a423-a9cc01a1ece8\",\r\n    \"content\": \"Test information content.\",\r\n    \"effects\": [\r\n        {\r\n            \"field_name\": \"Test field name updated\",\r\n            \"old_value\": \"test_old_value\",\r\n            \"new_value\": \"test_new_value\"\r\n        }\r\n    ],\r\n    \"status\": \"DISCUSSION\",\r\n    \"references\": \"Google\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/information/{{information_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"information",
+								"{{information_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Information",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var jsonData = pm.response.json();\r",
+									"pm.environment.set('information_id', jsonData.id)\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"author\": \"93ad5b10-33e2-488e-a423-a9cc01a1ece8\",\r\n    \"content\": \"Test information content.\",\r\n    \"effects\": [\r\n        {\r\n            \"field_name\": \"Test field name\",\r\n            \"old_value\": \"test_old_value\",\r\n            \"new_value\": \"test_new_value\"\r\n        },\r\n        {\r\n            \"field_name\": \"Test field name 2\",\r\n            \"old_value\": \"test_old_value2\",\r\n            \"new_value\": \"test_new_value2\"\r\n        }\r\n    ],\r\n    \"status\": \"DISCUSSION\",\r\n    \"references\": \"Google\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/information/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"information",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Information",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/information/{{information_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"information",
+								"{{information_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Location",
 			"item": [
+				{
+					"name": "Location Information",
+					"item": [
+						{
+							"name": "List Location Information",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/locations/{{location_id}}/information/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"locations",
+										"{{location_id}}",
+										"information",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Location Information",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"\r",
+											"var jsonData = pm.response.json();\r",
+											"pm.environment.set('location_information_id', jsonData.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"information\": {\r\n        \"author\": \"93ad5b10-33e2-488e-a423-a9cc01a1ece8\",\r\n        \"content\": \"Test location information content.\",\r\n        \"effects\": [\r\n            {\r\n                \"field_name\": \"Test location information field name\",\r\n                \"old_value\": \"test_old_value1\",\r\n                \"new_value\": \"test_new_value1\"\r\n            },\r\n            {\r\n                \"field_name\": \"Test location information field name 2\",\r\n                \"old_value\": \"test_old_value2\",\r\n                \"new_value\": \"test_new_value2\"\r\n            }\r\n        ],\r\n        \"status\": \"DISCUSSION\",\r\n        \"references\": \"Google\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/locations/{{location_id}}/information/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"locations",
+										"{{location_id}}",
+										"information",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read Location Information",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/locations/{{location_id}}/information/{{location_information_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"locations",
+										"{{location_id}}",
+										"information",
+										"{{location_information_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Location Information",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"information\": {\r\n        \"author\": \"93ad5b10-33e2-488e-a423-a9cc01a1ece8\",\r\n        \"content\": \"Test location information content.\",\r\n        \"effects\": [\r\n            {\r\n                \"field_name\": \"Test location information field name\",\r\n                \"old_value\": \"test_old_value1\",\r\n                \"new_value\": \"test_new_value1\"\r\n            },\r\n            {\r\n                \"field_name\": \"Test location information field name 2\",\r\n                \"old_value\": \"test_old_value2\",\r\n                \"new_value\": \"test_new_value2\"\r\n            }\r\n        ],\r\n        \"status\": \"DISCUSSION\",\r\n        \"references\": \"Google\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/locations/{{location_id}}/information/{{location_information_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"locations",
+										"{{location_id}}",
+										"information",
+										"{{location_information_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Location Information",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/locations/{{location_id}}/information/{{location_information_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"locations",
+										"{{location_id}}",
+										"information",
+										"{{location_information_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
 				{
 					"name": "List Locations",
 					"request": {
@@ -122,7 +1303,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"abbrev\": \"XXX\",\r\n    \"name\": \"Teste 1234\",\r\n    \"type\": \"STATION\",\r\n    \"status\": \"TRANSFORMED\",\r\n    \"center_latitude\": \"-25.435832\",\r\n    \"center_longitude\": \"-49.250687\",\r\n    \"elevation\": 1000.0,\r\n    \"city\": \"132f074f-f1b1-4e97-9ab7-3701a27e6310\",\r\n    \"build_year\": 2022,\r\n    \"other_names\": \"Teste123\",\r\n    \"is_verified\": true,\r\n    \"information\": [],\r\n    \"track_gauges\": [],\r\n    \"route_sections\": []\r\n}",
+							"raw": "{\r\n    \"abbrev\": \"YYY\",\r\n    \"name\": \"Teste 1234\",\r\n    \"type\": \"STATION\",\r\n    \"status\": \"TRANSFORMED\",\r\n    \"center_latitude\": \"-25.435832\",\r\n    \"center_longitude\": \"-49.250687\",\r\n    \"elevation\": 1000.0,\r\n    \"city\": \"132f074f-f1b1-4e97-9ab7-3701a27e6310\",\r\n    \"build_year\": 2022,\r\n    \"other_names\": \"Teste123\",\r\n    \"is_verified\": true,\r\n    \"information\": [],\r\n    \"track_gauges\": [],\r\n    \"route_sections\": []\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -187,6 +1368,55 @@
 			"response": []
 		},
 		{
+			"name": "Contact",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json();\r",
+							"pm.environment.set('comment_id', jsonData.id)\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token {{access_token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"BUG\",\r\n    \"user\": \"3e5360b9-0b31-4f0b-856d-a553610cc4b8\",\r\n    \"name\": \"Fernando\",\r\n    \"email\": \"const.fernando@gmail.com\",\r\n    \"phone\": \"+5542998120619\",\r\n    \"message\": \"I've found a bug!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{domain}}/contact",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"contact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Login",
 			"event": [
 				{
@@ -228,6 +1458,29 @@
 					],
 					"path": [
 						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Me",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token {{access_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{domain}}/me",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"me"
 					]
 				}
 			},

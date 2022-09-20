@@ -21,11 +21,11 @@ def custom_exception_handler(exc: Exception, context):
     if isinstance(exc, Http404):
         exc = NotFoundException()
     elif isinstance(exc, ModelNotFoundException):
-        exc = NotFoundException()
+        exc = NotFoundException(exc.detail)
     elif isinstance(exc, exceptions.PermissionDenied):
-        exc = PermissionDeniedException()
+        exc = PermissionDeniedException(exc.detail)
     elif isinstance(exc, exceptions.NotAuthenticated):
-        exc = NotAuthenticatedException()
+        exc = NotAuthenticatedException(exc.detail)
     elif isinstance(exc, exceptions.AuthenticationFailed):
         exc = NotAuthenticatedException(exc.detail)
     elif isinstance(exc, exceptions.ValidationError):

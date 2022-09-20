@@ -4,13 +4,14 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+import api.policies.allow_all_policy
 from api.serializers.contact.contact_serializer import ContactSerializer
-from api.services import policy, throttling
-from api.services.mailer import Mailer
+from api.services import throttling
+from core.services.mailer.mailer_service import MailerService
 
 
 class ContactView(APIView):
-    permission_classes = [policy.AllowAll]
+    permission_classes = [api.policies.allow_all_policy.AllowAllPolicy]
     throttle_classes = (throttling.ContactRateThrottle,)
 
     @csrf_exempt
@@ -21,7 +22,7 @@ class ContactView(APIView):
         serializer.is_valid(raise_exception=True)
         contact = serializer.save()
 
-        mailer = Mailer()
+        mailer = MailerService()
         mailer.send_from_contact(contact)
 
         return Response(serializer.data, status=status.HTTP_201_CREATED)

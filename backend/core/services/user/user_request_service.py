@@ -12,15 +12,6 @@ class UserRequestService:
         self.request = request
         self.user = self.request.user
 
-    def is_admin_or_staff(self) -> bool:
-        if self.user is None:
-            return False
-
-        if self.user.is_staff or self.user.is_admin:
-            return True
-
-        return False
-
     def prepare_create_audit_fields(self):
         if 'updated_at' in self.request.data:
             del(self.request.data['updated_at'])
