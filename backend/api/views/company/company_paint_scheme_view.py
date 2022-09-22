@@ -1,40 +1,32 @@
-from rest_framework import viewsets
-from rest_framework.generics import get_object_or_404
+from rest_framework.request import Request
 from rest_framework.response import Response
 
-from api.serializers.company.company_paint_scheme_serializer import CompanyPaintSchemeSerializer
+from api.models import get_object_or_404
+from api.pagination.large_results_set_pagination import LargeResultsSetPagination
 from api.policies.is_staff_or_read_only_policy import IsStaffOrReadOnlyPolicy
+from api.serializers.company.company_paint_scheme_serializer import CompanyPaintSchemeSerializer
+from api.views.generic_model_view import FullCRUDListModelViewSet
 from core.models import Company, CompanyPaintScheme
 
 
-class CompanyPaintSchemeViewSet(viewsets.ViewSet):
+class CompanyPaintSchemeViewSet(FullCRUDListModelViewSet):
     permission_classes = [IsStaffOrReadOnlyPolicy]
+    serializer_class = CompanyPaintSchemeSerializer
+    pagination_class = LargeResultsSetPagination
 
-    def list(self, request, company_id=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyPaintScheme.objects.filter(railroad=company)
-        serializer = CompanyPaintSchemeSerializer(queryset, many=True)
-        return Response(serializer.data)
+    def get_queryset(self):
+        company = get_object_or_404(Company.objects.all(), id=self.kwargs['company_id'])
 
-    def retrieve(self, request, pk=None, company_id=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyPaintScheme.objects.filter(railroad=company)
-        company = get_object_or_404(queryset, pk=pk)
-        serializer = CompanyPaintSchemeSerializer(company)
-        return serializer.data
+        return CompanyPaintScheme.objects.filter(company=company)
 
-    def partial_update(self, request, pk=None, company_id=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyPaintScheme.objects.filter(railroad=company)
-        paint_scheme = get_object_or_404(queryset, pk=pk)
-        serializer = CompanyPaintSchemeSerializer(paint_scheme, data=request.data, partial=True)
-        serializer.is_valid(raise_exception=True)
-        serializer.save()
-        return Response(serializer.data)
+    def create(self, request: Request, *args, **kwargs) -> Response:
+        request.data['company_id'] = self.kwargs['company_id']
+        request.data['paint_scheme_id'] = self.kwargs['paint_scheme_id']
 
-    def destroy(self, request, pk=None, company_id=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyPaintScheme.objects.filter(railroad=company)
-        paint_scheme = get_object_or_404(queryset, pk=pk)
-        serializer = CompanyPaintSchemeSerializer(paint_scheme)
-        return Response(serializer.data)
+        return super(CompanyPaintSchemeViewSet, self).create(request=request, *args, **kwargs)
+
+    def update(self, request: Request, *args, **kwargs) -> Response:
+        request.data['company_id'] = self.kwargs['company_id']
+        request.data['paint_scheme_id'] = self.kwargs['paint_scheme_id']
+
+        return super(CompanyPaintSchemeViewSet, self).update(request=request, *args, **kwargs)

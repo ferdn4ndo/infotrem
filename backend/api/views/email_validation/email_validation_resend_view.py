@@ -4,14 +4,14 @@ from rest_framework import status
 from rest_framework.views import APIView
 
 import api.policies.is_logged_in_policy
-from api.services import throttling
+import api.throttling.email_validation_rate_throttle
 from core.services.email_validation.email_validation_service import EmailValidationService
-from api.services.translation import Messages
+from core.services.translation.translation_service import Messages
 
 
 class EmailValidationResendView(APIView):
     permission_classes = [api.policies.is_logged_in_policy.IsLoggedInPolicy]
-    throttle_classes = (throttling.EmailValidationRateThrottle,)
+    throttle_classes = (api.throttling.email_validation_rate_throttle.EmailValidationRateThrottle,)
 
     @csrf_exempt
     def post(self, request):

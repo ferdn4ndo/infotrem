@@ -4,16 +4,16 @@ from rest_framework import status
 from rest_framework.views import APIView
 
 import api.policies.allow_all_policy
+import api.throttling.email_validation_rate_throttle
 from api.models import get_object_or_404
-from api.services import throttling
-from core.services.email_validation.email_validation_service import EmailValidationService
-from api.services.translation import Messages
 from core.models.user.user_model import User
+from core.services.email_validation.email_validation_service import EmailValidationService
+from core.services.translation.translation_service import Messages
 
 
 class EmailValidationCheckView(APIView):
     permission_classes = [api.policies.allow_all_policy.AllowAllPolicy]
-    throttle_classes = (throttling.EmailValidationRateThrottle,)
+    throttle_classes = (api.throttling.email_validation_rate_throttle.EmailValidationRateThrottle,)
 
     @csrf_exempt
     def get(self, request, user_id: str, validation_hash: str):

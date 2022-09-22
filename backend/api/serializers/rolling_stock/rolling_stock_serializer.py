@@ -11,7 +11,6 @@ from api.serializers.rolling_stock.rolling_stock_non_revenue_car_serializer impo
 from api.serializers.rolling_stock.rolling_stock_passenger_car_serializer import RollingStockPassengerCarSerializer
 from api.serializers.rolling_stock.rolling_stock_sigo_regional_serializer import RollingStockSigoRegionalSerializer
 from api.serializers.track_gauge.track_gauge_serializer import TrackGaugeSerializer
-from api.services.strings import break_string_into_words
 from core.models.freight_car.freight_car_model import FreightCar
 from core.models.locomotive.locomotive_model import Locomotive
 from core.models.non_revenue_car.non_revenue_car_model import NonRevenueCar
@@ -19,6 +18,7 @@ from core.models.passenger_car.passenger_car_model import PassengerCar
 from core.models.rolling_stock.rolling_stock_model import RollingStock
 from core.models.sigo.sigo_regional_model import SigoRegional
 from core.models.track_gauge.track_gauge_model import TrackGauge
+from core.services.strings.strings_service import StringsService
 
 
 class RollingStockSerializer(serializers.ModelSerializer):
@@ -54,7 +54,7 @@ class RollingStockSerializer(serializers.ModelSerializer):
 
     @staticmethod
     def parse_gauge_from_freight_car(name: str) -> Optional[TrackGauge]:
-        name_parts = break_string_into_words(name)
+        name_parts = StringsService(input_string=name).break_string_into_words()
 
         for part in name_parts:
             if re.match(r"^[A-Z]{3}$", part):
@@ -66,7 +66,7 @@ class RollingStockSerializer(serializers.ModelSerializer):
 
     @staticmethod
     def get_sigo_number_from_name(name: str) -> Optional[int]:
-        name_parts = break_string_into_words(name)
+        name_parts = StringsService(input_string=name).break_string_into_words()
         sigo_number = None
 
         for part in name_parts:
@@ -79,7 +79,7 @@ class RollingStockSerializer(serializers.ModelSerializer):
 
     @staticmethod
     def get_regional(name: str) -> Optional[SigoRegional]:
-        name_parts = break_string_into_words(name)
+        name_parts = StringsService(input_string=name).break_string_into_words()
 
         for part in name_parts:
             if re.match(r"^\d{4:6}-\d[A-Z]?$", part):

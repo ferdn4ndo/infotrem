@@ -9,7 +9,7 @@ from core.models.information.information_model import Information
 
 class CompanyInformation(GenericAuditedModel):
 
-    railroad = models.ForeignKey(
+    company = models.ForeignKey(
         to=Company,
         related_name='company_information',
         on_delete=models.CASCADE,

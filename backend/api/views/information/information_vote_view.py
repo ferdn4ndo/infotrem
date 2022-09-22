@@ -4,10 +4,10 @@ from rest_framework.response import Response
 from api.errors.conflict_exception import ConflictException
 from api.models import get_object_or_404
 from api.serializers.information.information_vote_serializer import InformationVoteSerializer
-from api.services.policy import ensure_object_owner_or_deny
 from api.policies.is_logged_in_policy import IsLoggedInPolicy
 from api.pagination.large_results_set_pagination import LargeResultsSetPagination
 from api.views.generic_model_view import FullCRUDListModelViewSet
+from core.models import ensure_object_owner_or_deny
 from core.models.information.information_model import Information
 from core.models.information.information_vote_model import InformationVote
 from core.services.information.information_vote_service import InformationVoteService
@@ -39,7 +39,7 @@ class InformationVoteViewSet(FullCRUDListModelViewSet):
         return super(InformationVoteViewSet, self).create(request=request, *args, **kwargs)
 
     def update(self, request: Request, *args, **kwargs) -> Response:
-        ensure_object_owner_or_deny(request=request, model_type=InformationVote, pk=kwargs['pk'])
+        ensure_object_owner_or_deny(user=request.user, model_type=InformationVote, pk=kwargs['pk'])
 
         request.data['information_id'] = self.kwargs['information_id']
 

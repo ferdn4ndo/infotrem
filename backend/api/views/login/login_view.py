@@ -3,15 +3,15 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 
+import api.throttling.user_login_rate_throttle
 from api.policies.allow_all_policy import AllowAllPolicy
 from api.serializers.login.login_serializer import LoginSerializer
-from api.services import throttling
 from core.services.auth.u_server_authentication_service import UServerAuthenticationService
 
 
 class LoginViewSet(ViewSet):
     permission_classes = [AllowAllPolicy]
-    throttle_classes = (throttling.UserLoginRateThrottle,)
+    throttle_classes = (api.throttling.user_login_rate_throttle.UserLoginRateThrottle,)
 
     def create(self, request: Request):
         """

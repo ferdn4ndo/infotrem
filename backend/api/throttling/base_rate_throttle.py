@@ -1,4 +1,3 @@
-from django.contrib.auth.models import AnonymousUser
 from rest_framework.throttling import SimpleRateThrottle
 
 
@@ -51,19 +50,3 @@ class BaseRateThrottle(SimpleRateThrottle):
         self.history.insert(0, self.now)
         self.cache.set(self.key, self.history, self.duration)
         return True
-
-
-class UserLoginRateThrottle(BaseRateThrottle):
-    scope = 'loginAttempts'
-
-
-class ContactRateThrottle(BaseRateThrottle):
-    scope = 'contact'
-
-
-class EmailValidationRateThrottle(BaseRateThrottle):
-    scope = 'emailValidation'
-
-
-class HealthCheckRateThrottle(BaseRateThrottle):
-    scope = 'healthCheck'

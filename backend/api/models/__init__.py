@@ -10,4 +10,4 @@ def get_object_or_404(queryset: QuerySet, error_message: str = None, *args, **kw
     try:
         return get_object_or_error(queryset=queryset, error_message=error_message, *args, **kwargs)
     except ModelNotFoundException as exc:
-        raise NotFoundException(details=exc.detail)
+        raise NotFoundException(detail=exc.detail)

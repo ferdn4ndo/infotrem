@@ -9,7 +9,7 @@ class SendMailsCronJob(CronJobBase):
     MAX_EMAILS_PER_RUN = 6
 
     schedule = Schedule(run_every_mins=INTERVAL_MINUTES)
-    code = 'infotrem.api.cron.send_mail'  # a unique code
+    code = 'infotrem.core.cron.send_mail'  # a unique code
 
     def do(self):
         mails = Mail.objects.filter(sent=False)[:self.MAX_EMAILS_PER_RUN]

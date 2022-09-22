@@ -9,7 +9,7 @@ from core.services.album.album_comment_service import AlbumCommentService
 
 class AlbumCommentSerializer(GenericAuditedModelSerializer):
     comment = CommentSerializer(required=True)
-    album_id = serializers.PrimaryKeyRelatedField(queryset=Album.objects.all(), required=False)
+    album_id = serializers.PrimaryKeyRelatedField(queryset=Album.objects.all(), required=False, write_only=True)
 
     class Meta:
         model = AlbumComment

@@ -70,8 +70,6 @@ class GenericModelUpdateMixin(mixins.UpdateModelMixin):
         request.data['updated_at'] = timezone.now()
         request.data['updated_by'] = request.user.id
 
-        print(request.data)
-
         return super(GenericModelUpdateMixin, self).update(request=request, *args, **kwargs)
 
 

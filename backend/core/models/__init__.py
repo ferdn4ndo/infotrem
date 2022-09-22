@@ -1,6 +1,9 @@
+from typing import Type
+
 from django.db.models import QuerySet
 
 from core.exceptions.model_not_found_exception import ModelNotFoundException
+from core.exceptions.authorization_rule_exception import AuthorizationRuleException
 
 from .album.album_favorite_model import AlbumFavorite
 from .album.album_comment_model import AlbumComment
@@ -23,7 +26,10 @@ from .freight_car.freight_car_gross_weight_type_model import FreightCarGrossWeig
 from .freight_car.freight_car_model import FreightCar
 from .freight_car.freight_car_type_model import FreightCarType
 
+from .generic_audited_model import GenericAuditedModel
+
 from .information.information_effect_model import InformationEffect
+from .information.information_like_model import InformationLike
 from .information.information_model import Information
 from .information.information_vote_model import InformationVote
 
@@ -89,3 +95,15 @@ def get_object_or_error(queryset: QuerySet, error_message: str = "", *args, **kw
         return queryset.get(*args, **kwargs)
     except queryset.model.DoesNotExist:
         raise ModelNotFoundException(details=error_message)
+
+
+def ensure_object_owner_or_deny(
+        user: User,
+        model_type: Type[GenericAuditedModel],
+        pk: str,
+        owner_field: str = 'created_by',
+):
+    instance = get_object_or_error(model_type.objects.all(), pk=pk)
+
+    if not user.is_staff and not user.is_admin and getattr(instance, owner_field) != user:
+        raise AuthorizationRuleException("You don't have enough permissions to perform the requested operation.")

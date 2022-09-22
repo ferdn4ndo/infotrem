@@ -9,7 +9,7 @@ from core.models.generic_audited_model import GenericAuditedModel
 class CompanyPaintScheme(GenericAuditedModel):
 
     name = models.CharField(max_length=255)
-    railroad = models.ForeignKey(to=Company, on_delete=models.PROTECT)
+    company = models.ForeignKey(to=Company, on_delete=models.PROTECT, related_name='company_paint_schemes')
     start_date = models.DateField(verbose_name=_("Approximate date when the paint scheme has started"), null=True)
     end_date = models.DateField(verbose_name=_("Approximate date when the paint scheme has ended"), null=True)
 

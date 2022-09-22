@@ -2,30 +2,32 @@ from rest_framework import serializers
 
 from api.serializers.generic_audited_model_serializer import GenericAuditedModelSerializer
 from api.serializers.information.information_serializer import InformationSerializer
+from core.models import Company
 from core.models.company.company_information_model import CompanyInformation
-from core.models.company.company_model import Company
-from core.models.information.information_model import Information
+from core.services.company.company_information_service import CompanyInformationService
 
 
 class CompanyInformationSerializer(GenericAuditedModelSerializer):
-    railroad_id = serializers.CharField(required=True, write_only=True)
+    company_id = serializers.PrimaryKeyRelatedField(queryset=Company.objects.all(), required=True, write_only=True)
     information = InformationSerializer()
 
     class Meta:
         model = CompanyInformation
-        fields = ['id', 'railroad_id', 'information']
+        fields = [
+            'id',
+            'company_id',
+            'information',
+            'created_by',
+            'created_at',
+            'updated_by',
+            'updated_at',
+        ]
 
     def create(self, validated_data):
-        information_data = validated_data.pop('information')
-        information = Information.objects.create(**information_data)
-        railroad = Company.objects.get(id=validated_data['railroad_id'])
-        return CompanyInformation.objects.create(railroad=railroad, information=information)
+        return CompanyInformationService.create_company_information_from_data(validated_data=validated_data)
 
     def update(self, instance, validated_data):
-        information_data = validated_data.pop('information')
-        information = Information.objects.get(id=information_data['id'])
-        serializer = InformationSerializer(information, data=information_data)
-        serializer.save()
-        instance.information = information
-        instance.save()
-        return instance
+        return CompanyInformationService.update_company_information_from_data(
+            validated_data=validated_data,
+            company_information=instance,
+        )

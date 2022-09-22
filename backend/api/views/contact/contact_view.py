@@ -5,14 +5,14 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 import api.policies.allow_all_policy
+import api.throttling.contact_rate_throttle
 from api.serializers.contact.contact_serializer import ContactSerializer
-from api.services import throttling
 from core.services.mailer.mailer_service import MailerService
 
 
 class ContactView(APIView):
     permission_classes = [api.policies.allow_all_policy.AllowAllPolicy]
-    throttle_classes = (throttling.ContactRateThrottle,)
+    throttle_classes = (api.throttling.contact_rate_throttle.ContactRateThrottle,)
 
     @csrf_exempt
     def post(self, request, format=None):

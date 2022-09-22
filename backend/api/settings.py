@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'api.services.cors.cors_middleware_service.CorsMiddlewareService',
+    'core.services.cors.cors_middleware_service.CorsMiddlewareService',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -148,5 +148,5 @@ REST_FRAMEWORK = {
 }
 
 CRON_CLASSES = [
-    "api.management.cronjob.send_mails_cronjob.SendMailsCronJob",
+    "core.management.cronjob.send_mails_cronjob.SendMailsCronJob",
 ]

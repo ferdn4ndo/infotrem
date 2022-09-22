@@ -1,7 +1,7 @@
 from rest_framework import status
 from rest_framework.test import force_authenticate
 
-from api.services.translation import Messages
+from core.services.translation.translation_service import Messages
 from api.tests import dataset
 from api.views.generic_model_view import GenericModelViewSet
 from .generic_test_case import GenericTestCase

@@ -8,6 +8,7 @@ from api.routers import \
     album_router,\
     contact_router,\
     comment_router,\
+    company_router,\
     cronjob_router,\
     doc_router,\
     email_validation_router,\
@@ -32,6 +33,7 @@ urlpatterns = [
     url(r'^cronjob/', include(cronjob_router.urlpatterns)),
     url(r'^contact', include(contact_router.urlpatterns)),
     url(r'^comments/', include(comment_router.urlpatterns)),
+    url(r'^companies/', include(company_router.urlpatterns)),
     url(r'^docs/', include(doc_router.urlpatterns)),
     url(r'^email-validation/', include(email_validation_router.urlpatterns)),
     url(r'^health', include(health_router.urlpatterns)),

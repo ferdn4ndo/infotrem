@@ -13,6 +13,7 @@ class AlbumComment(GenericAuditedModel):
         to=Album,
         on_delete=models.CASCADE,
         editable=False,
+        related_name="album_comments",
         verbose_name=_("The album associated with the comment")
     )
     comment = models.ForeignKey(

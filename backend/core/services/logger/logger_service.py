@@ -1,6 +1,7 @@
 import logging
 import inspect
 import os
+import sys
 
 from datetime import datetime
 
@@ -16,8 +17,6 @@ def get_logger(name: str) -> logging.Logger:
     # be this function!!!
     func = inspect.currentframe().f_back.f_code
 
-    logger_handler = logging.FileHandler(filename=get_log_filename(name))
-    logger_handler.setLevel(log_level)
     logger_formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - {} ({}:{}) - %(message)s'.format(
             func.co_name,
@@ -25,21 +24,10 @@ def get_logger(name: str) -> logging.Logger:
             func.co_firstlineno
         )
     )
-    logger_handler.setFormatter(logger_formatter)
-    logger.addHandler(logger_handler)
+
+    logger_console_handler = logging.StreamHandler(sys.stdout)
+    logger_console_handler.setLevel(log_level)
+    logger_console_handler.setFormatter(logger_formatter)
+    logger.addHandler(logger_console_handler)
 
     return logger
-
-
-def get_log_filename(name: str) -> str:
-    today = datetime.today()
-    date = datetime(today.year, today.month, today.day)
-
-    log_filename = os.path.join(BASE_DIR, "logs", "{}_{:04d}-{:02d}-{:02d}.log".format(
-        name,
-        date.year,
-        date.month,
-        date.day
-    ))
-
-    return log_filename

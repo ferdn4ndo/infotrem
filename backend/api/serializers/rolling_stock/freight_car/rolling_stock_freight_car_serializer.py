@@ -6,8 +6,8 @@ from rest_framework import serializers
 from api.serializers.rolling_stock.freight_car.rolling_stock_freight_car_gross_weight_type_serializer import \
     RollingStockFreightCarGrossWeightTypeSerializer
 from api.serializers.rolling_stock.freight_car.rolling_stock_freight_car_type_serializer import RollingStockFreightCarTypeSerializer
-from api.services.strings import break_string_into_words
 from core.models import FreightCar, TrackGauge, FreightCarType, FreightCarGrossWeightType, RollingStock
+from core.services.strings.strings_service import StringsService
 
 
 class RollingStockFreightCarSerializer(serializers.ModelSerializer):
@@ -21,7 +21,7 @@ class RollingStockFreightCarSerializer(serializers.ModelSerializer):
 
     @staticmethod
     def parse_gauge_from_name(name: str) -> Optional[TrackGauge]:
-        name_parts = break_string_into_words(name)
+        name_parts = StringsService(input_string=name).break_string_into_words()
 
         for part in name_parts:
             if re.match(r"^[A-Z]{3}$", part):
@@ -33,7 +33,7 @@ class RollingStockFreightCarSerializer(serializers.ModelSerializer):
 
     @staticmethod
     def parse_model_from_name(name: str) -> Optional[Tuple]:
-        name_parts = break_string_into_words(name)
+        name_parts = StringsService(input_string=name).break_string_into_words()
 
         for part in name_parts:
             if re.match(r"^[A-Z]{3}$", part):

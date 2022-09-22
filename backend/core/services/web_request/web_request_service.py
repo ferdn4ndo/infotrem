@@ -5,6 +5,8 @@ import requests
 import shutil
 from typing import Dict, Any, Optional
 
+from rest_framework import status
+
 from api.errors.precondition_failed_exception import PreconditionFailedException
 
 
@@ -19,7 +21,7 @@ class WebRequestService:
         'OPTIONS'
     ]
 
-    USER_AGENT = 'Mozilla/5.0 (compatible; CSCrawler/2.1; +http://www.cscconsultoria.com.br/bot)'
+    USER_AGENT = 'Mozilla/5.0 (compatible; InfoTrem-CrawlerAgent/1.0.0; +https://www.infotrem.com.br/bot)'
 
     def __init__(
             self,
@@ -95,6 +97,13 @@ class WebRequestService:
         :return:
         """
         return None if self.object is None else int(self.object.status_code)
+
+    def is_downloadable(self) -> bool:
+        """
+        Determines whether the configured URL is downloadable (response is 200)
+        :return:
+        """
+        return self.get_status_code() == status.HTTP_200_OK
 
     def download_to(self, dest_filename: str) -> str:
         """

@@ -11,7 +11,7 @@ class CompanyPaintSchemeInformation(GenericAuditedModel):
 
     paint_scheme = models.ForeignKey(
         to=CompanyPaintScheme,
-        related_name='railroad_information',
+        related_name='company_paint_schemes_information',
         on_delete=models.CASCADE,
         verbose_name=_("Paint scheme which holds the information")
     )

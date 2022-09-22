@@ -3,7 +3,6 @@ import csv
 import logging
 import os
 import re
-from pprint import pprint
 from typing import List, Optional, Tuple, Dict
 
 import requests

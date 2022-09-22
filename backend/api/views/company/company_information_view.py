@@ -1,46 +1,36 @@
-from rest_framework import viewsets
-from rest_framework.generics import get_object_or_404
+from rest_framework.request import Request
 from rest_framework.response import Response
 
-from api.serializers.company.company_information_serializer import CompanyInformationSerializer
+from api.models import get_object_or_404
+from api.pagination.large_results_set_pagination import LargeResultsSetPagination
 from api.policies.is_staff_or_read_only_policy import IsStaffOrReadOnlyPolicy
-from core.models import Company, CompanyInformation
+from api.serializers.company.company_information_serializer import CompanyInformationSerializer
+from api.views.generic_model_view import FullCRUDListModelViewSet
+from core.models import Company, CompanyInformation, ensure_object_owner_or_deny
 
 
-class CompanyInformationViewSet(viewsets.ViewSet):
+class CompanyInformationViewSet(FullCRUDListModelViewSet):
     permission_classes = [IsStaffOrReadOnlyPolicy]
+    serializer_class = CompanyInformationSerializer
+    pagination_class = LargeResultsSetPagination
 
-    def list(self, request, company_id=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyInformation.objects.filter(company=company)
-        serializer = CompanyInformationSerializer(queryset, many=True)
-        return Response(serializer.data)
+    def get_queryset(self):
+        company = get_object_or_404(Company.objects.all(), id=self.kwargs['company_id'])
 
-    def create(self, request, company_id=None):
-        data = request.data
-        data['company_id'] = company_id
-        serializer = CompanyInformationSerializer(data=data)
-        serializer.is_valid(raise_exception=True)
-        serializer.save()
-        return Response(serializer.data)
+        return CompanyInformation.objects.filter(company=company)
 
-    def retrieve(self, request, company_id=None, pk=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyInformation.objects.filter(company=company)
-        information = get_object_or_404(queryset, pk=pk)
-        serializer = CompanyInformationSerializer(information)
-        return Response(serializer.data)
+    def create(self, request: Request, *args, **kwargs) -> Response:
+        request.data['company_id'] = self.kwargs['company_id']
 
-    def partial_update(self, request, company_id=None, pk=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyInformation.objects.filter(company=company)
-        information = get_object_or_404(queryset, pk=pk)
-        serializer = CompanyInformationSerializer(information)
-        return Response(serializer.data)
+        return super(CompanyInformationViewSet, self).create(request=request, *args, **kwargs)
 
-    def destroy(self, request, company_id=None, pk=None):
-        company = get_object_or_404(Company.objects.all(), pk=company_id)
-        queryset = CompanyInformation.objects.filter(company=company)
-        information = get_object_or_404(queryset, pk=pk)
-        serializer = CompanyInformationSerializer(information)
-        return Response(serializer.data)
+    def update(self, request: Request, *args, **kwargs) -> Response:
+        ensure_object_owner_or_deny(user=request.user, model_type=CompanyInformation, pk=kwargs['pk'])
+
+        instance = get_object_or_404(CompanyInformation.objects.all(), pk=kwargs['pk'])
+        if not request.user.is_staff and not request.user.is_admin:
+            request.data['status'] = instance.status
+
+        request.data['company_id'] = self.kwargs['company_id']
+
+        return super(CompanyInformationViewSet, self).update(request=request, *args, **kwargs)

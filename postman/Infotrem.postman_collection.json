@@ -68,7 +68,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"comment\": {\r\n        \"replies_to\": \"af438349-2c29-4f40-88f1-f5ff6f6ad0e9\", \r\n        \"text\": \"My test comment 4\"\r\n    }\r\n}",
+									"raw": "{\r\n    \"comment\": {\r\n        \"replies_to\": \"0b62d2b8-35f2-48c2-b1d6-6608e427b153\", \r\n        \"text\": \"My test comment 4\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -498,6 +498,721 @@
 								"comments",
 								"{{comment_id}}",
 								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "Company Information",
+					"item": [
+						{
+							"name": "List Company Information",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/information/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"information",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Company Information",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"\r",
+											"var jsonData = pm.response.json();\r",
+											"pm.environment.set('company_information_id', jsonData.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"information\": {\r\n        \"author\": \"{{user_id}}\",\r\n        \"content\": \"Test company information content.\",\r\n        \"effects\": [\r\n            {\r\n                \"field_name\": \"Test company information field name\",\r\n                \"old_value\": \"test_old_value1\",\r\n                \"new_value\": \"test_new_value1\"\r\n            },\r\n            {\r\n                \"field_name\": \"Test company information field name 2\",\r\n                \"old_value\": \"test_old_value2\",\r\n                \"new_value\": \"test_new_value2\"\r\n            }\r\n        ],\r\n        \"status\": \"DISCUSSION\",\r\n        \"references\": \"Google\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/information/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"information",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read Company Information",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/information/{{company_information_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"information",
+										"{{company_information_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Company Information",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"information\": {\r\n        \"author\": \"93ad5b10-33e2-488e-a423-a9cc01a1ece8\",\r\n        \"content\": \"Test location information content.\",\r\n        \"effects\": [\r\n            {\r\n                \"field_name\": \"Test location information field name\",\r\n                \"old_value\": \"test_old_value1\",\r\n                \"new_value\": \"test_new_value1\"\r\n            },\r\n            {\r\n                \"field_name\": \"Test location information field name 2\",\r\n                \"old_value\": \"test_old_value2\",\r\n                \"new_value\": \"test_new_value2\"\r\n            }\r\n        ],\r\n        \"status\": \"DISCUSSION\",\r\n        \"references\": \"Google\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/information/{{company_information_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"information",
+										"{{company_information_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Company Information",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/information/{{company_information_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"information",
+										"{{company_information_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Company Paint Scheme",
+					"item": [
+						{
+							"name": "Company Paint Scheme Information",
+							"item": [
+								{
+									"name": "List Company Paint Scheme Information",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Token {{access_token}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/information/",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"companies",
+												"{{company_id}}",
+												"paint-schemes",
+												"{{paint_scheme_id}}",
+												"information",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Create Company Paint Scheme Information",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"pm.test(\"Status code is 201\", function () {\r",
+													"    pm.response.to.have.status(201);\r",
+													"});\r",
+													"\r",
+													"var jsonData = pm.response.json();\r",
+													"pm.environment.set('paint_scheme_information_id', jsonData.id)\r",
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Token {{access_token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"information\": {\r\n        \"author\": \"{{user_id}}\",\r\n        \"content\": \"Test company paint scheme information content.\",\r\n        \"effects\": [\r\n            {\r\n                \"field_name\": \"Test company paint scheme information field name\",\r\n                \"old_value\": \"test_old_value1\",\r\n                \"new_value\": \"test_new_value1\"\r\n            },\r\n            {\r\n                \"field_name\": \"Test company paint scheme information field name 2\",\r\n                \"old_value\": \"test_old_value2\",\r\n                \"new_value\": \"test_new_value2\"\r\n            }\r\n        ],\r\n        \"status\": \"DISCUSSION\",\r\n        \"references\": \"Google\"\r\n    }\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/information/",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"companies",
+												"{{company_id}}",
+												"paint-schemes",
+												"{{paint_scheme_id}}",
+												"information",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Read Company Paint Scheme Information",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Token {{access_token}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/information/{{paint_scheme_information_id}}/",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"companies",
+												"{{company_id}}",
+												"paint-schemes",
+												"{{paint_scheme_id}}",
+												"information",
+												"{{paint_scheme_information_id}}",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Update Company Paint Scheme Information",
+									"request": {
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Token {{access_token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"information\": {\r\n        \"author\": \"{{user_id}}\",\r\n        \"content\": \"Test company paint scheme information content.\",\r\n        \"effects\": [\r\n            {\r\n                \"field_name\": \"Test company paint scheme information field name\",\r\n                \"old_value\": \"test_old_value1\",\r\n                \"new_value\": \"test_new_value1\"\r\n            },\r\n            {\r\n                \"field_name\": \"Test company paint scheme information field name 2\",\r\n                \"old_value\": \"test_old_value2\",\r\n                \"new_value\": \"test_new_value2\"\r\n            }\r\n        ],\r\n        \"status\": \"DISCUSSION\",\r\n        \"references\": \"Google\"\r\n    }\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/information/{{paint_scheme_information_id}}/",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"companies",
+												"{{company_id}}",
+												"paint-schemes",
+												"{{paint_scheme_id}}",
+												"information",
+												"{{paint_scheme_information_id}}",
+												""
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Delete Company Paint Scheme Information",
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Token {{access_token}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/information/{{paint_scheme_information_id}}/",
+											"host": [
+												"{{domain}}"
+											],
+											"path": [
+												"companies",
+												"{{company_id}}",
+												"paint-schemes",
+												"{{paint_scheme_id}}",
+												"information",
+												"{{paint_scheme_information_id}}",
+												""
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "List Company Paint Schemes",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"paint-schemes",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Company Paint Scheme",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"\r",
+											"var jsonData = pm.response.json();\r",
+											"pm.environment.set('paint_scheme_id', jsonData.id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Test Paint Scheme\",\r\n    \"start_date\": \"2000-01-01T00:00:00+00:00\",\r\n    \"end_date\": \"2022-02-02T22:22:22+00:00\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"paint-schemes",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Read Company Paint Scheme",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"paint-schemes",
+										"{{paint_scheme_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Company Paint Scheme",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"information\": {\r\n        \"author\": \"93ad5b10-33e2-488e-a423-a9cc01a1ece8\",\r\n        \"content\": \"Test location information content.\",\r\n        \"effects\": [\r\n            {\r\n                \"field_name\": \"Test location information field name\",\r\n                \"old_value\": \"test_old_value1\",\r\n                \"new_value\": \"test_new_value1\"\r\n            },\r\n            {\r\n                \"field_name\": \"Test location information field name 2\",\r\n                \"old_value\": \"test_old_value2\",\r\n                \"new_value\": \"test_new_value2\"\r\n            }\r\n        ],\r\n        \"status\": \"DISCUSSION\",\r\n        \"references\": \"Google\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"paint-schemes",
+										"{{paint_scheme_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Company Paint Scheme",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Token {{access_token}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{domain}}/companies/{{company_id}}/paint-schemes/{{paint_scheme_id}}/",
+									"host": [
+										"{{domain}}"
+									],
+									"path": [
+										"companies",
+										"{{company_id}}",
+										"paint-schemes",
+										"{{paint_scheme_id}}",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "List Companies",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/companies/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"companies",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Company",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var jsonData = pm.response.json();\r",
+									"pm.environment.set('company_id', jsonData.id)\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"abbrev\": \"YYY\",\r\n    \"name\": \"Teste Company\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/companies/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"companies",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Company",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/companies/{{company_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"companies",
+								"{{company_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Company",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"abbrev\": \"ZZZ\",\r\n    \"name\": \"Teste Company Updated\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/companies/{{company_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"companies",
+								"{{company_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Company",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token {{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/companies/{{company_id}}/",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"companies",
+								"{{company_id}}",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CronJob",
+			"item": [
+				{
+					"name": "Run CronJob",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/cronjob/run",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"cronjob",
+								"run"
 							]
 						}
 					},
@@ -967,7 +1682,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"author\": \"93ad5b10-33e2-488e-a423-a9cc01a1ece8\",\r\n    \"content\": \"Test information content.\",\r\n    \"effects\": [\r\n        {\r\n            \"field_name\": \"Test field name\",\r\n            \"old_value\": \"test_old_value\",\r\n            \"new_value\": \"test_new_value\"\r\n        },\r\n        {\r\n            \"field_name\": \"Test field name 2\",\r\n            \"old_value\": \"test_old_value2\",\r\n            \"new_value\": \"test_new_value2\"\r\n        }\r\n    ],\r\n    \"status\": \"DISCUSSION\",\r\n    \"references\": \"Google\"\r\n}",
+							"raw": "{\r\n    \"author\": \"{{user_id}}\",\r\n    \"content\": \"Test information content.\",\r\n    \"effects\": [\r\n        {\r\n            \"field_name\": \"Test field name\",\r\n            \"old_value\": \"test_old_value\",\r\n            \"new_value\": \"test_new_value\"\r\n        },\r\n        {\r\n            \"field_name\": \"Test field name 2\",\r\n            \"old_value\": \"test_old_value2\",\r\n            \"new_value\": \"test_new_value2\"\r\n        }\r\n    ],\r\n    \"status\": \"DISCUSSION\",\r\n    \"references\": \"Google\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1465,6 +2180,23 @@
 		},
 		{
 			"name": "Me",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json();\r",
+							"pm.environment.set('user_id', jsonData.id)\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [

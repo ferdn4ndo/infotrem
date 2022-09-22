@@ -10,7 +10,7 @@ from core.models.album.album_model import Album
 class AlbumSerializer(GenericAuditedModelSerializer):
     total_likes = serializers.SerializerMethodField()
     total_favorites = serializers.SerializerMethodField()
-    comments = AlbumCommentSerializer(many=True, read_only=True)
+    album_comments = AlbumCommentSerializer(many=True, read_only=True)
 
     class Meta:
         model = Album
@@ -24,7 +24,7 @@ class AlbumSerializer(GenericAuditedModelSerializer):
             'updated_at',
             'total_likes',
             'total_favorites',
-            'comments',
+            'album_comments',
         ]
 
     @staticmethod

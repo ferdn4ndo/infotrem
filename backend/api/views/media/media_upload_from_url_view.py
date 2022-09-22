@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 
-from api.services.web import check_if_url_is_downloadable
+from core.services.web_request.web_request_service import WebRequestService
 
 
 @api_view(["POST"])
@@ -9,7 +9,10 @@ def create_from_url(request):
         return JsonResponse({'message': "Missing the 'url' key in body"}, status=400)
 
     url = request.body['url']
-    if not check_if_url_is_downloadable(url):
+
+    service = WebRequestService(url=url)
+
+    if not service.is_downloadable():
         return JsonResponse({'message': "The given URL "}, status=400)
 
     file_uuid = get_new_unique_file_identifier('media')
