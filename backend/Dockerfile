@@ -17,7 +17,7 @@ ADD requirements.txt /code/requirements.txt
 
 ENV LIBRARY_PATH=/lib:/usr/lib
 
-# Install packages before requirements (both run and build ones)
+# Install system packages
 RUN set -ex \
   && apk add --no-cache --virtual .build-deps \
      gcc \
@@ -42,9 +42,14 @@ RUN set -ex \
       --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
       --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
       gdal \
+  && apk --purge del .build-deps
+
+# Install python packages
+RUN set -ex \
   && python -m pip install -U --force-reinstall pip \
-  && pip install --no-cache-dir -r /code/requirements.txt \
-  && apk --purge del .build-deps \
+  && pip install --upgrade pip setuptools \
+  && pip install --upgrade pip \
+  && pip install -v --no-cache-dir -r /code/requirements.txt \
   && rm -rf /tmp/requirements.txt
 
 CMD ["/bin/sh", "entrypoint.sh"]
