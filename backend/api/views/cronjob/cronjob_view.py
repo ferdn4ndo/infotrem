@@ -14,11 +14,11 @@ class CronJobView(APIView):
         cron_class_names = getattr(settings, 'CRON_CLASSES', [])
 
         try:
-            crons_to_run = [get_class(x) for x in cron_class_names]
+            jobs_to_run = [get_class(x) for x in cron_class_names]
         except Exception:
             return Response('Make sure the cron class names are valid', status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-        for cron_class in crons_to_run:
+        for cron_class in jobs_to_run:
             with CronJobManager(cron_class) as manager:
                 manager.run()
 

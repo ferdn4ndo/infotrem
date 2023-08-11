@@ -17,6 +17,10 @@ class ManufacturerInformationViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return ManufacturerInformation.objects.none()
+
         location = get_object_or_404(Manufacturer.objects.all(), id=self.kwargs['location_id'])
 
         return ManufacturerInformation.objects.filter(location=location)

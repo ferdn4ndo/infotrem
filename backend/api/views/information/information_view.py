@@ -15,8 +15,11 @@ class InformationViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
-        return Information.objects.all().order_by('-created_at')
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return Information.objects.none()
 
+        return Information.objects.all().order_by('-created_at')
 
     def create(self, request: Request, *args, **kwargs) -> Response:
         if not request.user.is_staff and not request.user.is_admin:

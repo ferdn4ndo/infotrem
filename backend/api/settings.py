@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_extensions',
     'django_cron',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -150,3 +151,23 @@ REST_FRAMEWORK = {
 CRON_CLASSES = [
     "core.management.cronjob.send_mails_cronjob.SendMailsCronJob",
 ]
+
+'''
+drf_yasg pacakge settings
+
+For more information check https://drf-yasg.readthedocs.io/en/stable/settings.html
+'''
+
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'basic': {
+            'type': 'basic'
+        }
+    },
+    'DEFAULT_GENERATOR_CLASS': 'core.services.docs_schema_generator.docs_schema_generator_service.DocsSchemaGeneratorService',
+    'DEFAULT_AUTO_SCHEMA_CLASS': 'core.services.docs_schema_generator.docs_swagger_auto_schema_service.DocsSwaggerAutoSchemaService',
+}
+
+REDOC_SETTINGS = {
+   'LAZY_RENDERING': False,
+}

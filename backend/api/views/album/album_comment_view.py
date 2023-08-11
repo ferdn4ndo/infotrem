@@ -18,6 +18,10 @@ class AlbumCommentViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return AlbumComment.objects.none()
+
         album = get_object_or_404(Album.objects.all(), id=self.kwargs['album_id'])
 
         return AlbumComment.objects.filter(album=album).order_by('-created_at')

@@ -13,6 +13,10 @@ class LocationTrackGaugeViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return LocationTrackGauge.objects.none()
+
         location = get_object_or_404(Location.objects.all(), id=self.kwargs['location_id'])
 
         return LocationTrackGauge.objects.filter(location=location)

@@ -17,6 +17,10 @@ class InformationEffectViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return InformationEffect.objects.none()
+
         information = get_object_or_404(Information.objects.all(), id=self.kwargs['information_id'])
 
         return InformationEffect.objects.filter(information=information)

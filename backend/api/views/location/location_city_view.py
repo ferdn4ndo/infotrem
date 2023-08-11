@@ -14,5 +14,10 @@ class LocationCityViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return LocationCity.objects.none()
+
         state = get_object_or_404(LocationState.objects.all(), id=self.kwargs['state_id'])
+
         return LocationCity.objects.filter(state=state).order_by('name')

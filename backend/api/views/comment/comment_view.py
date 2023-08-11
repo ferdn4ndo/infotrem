@@ -15,6 +15,10 @@ class CommentViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return Comment.objects.none()
+
         return Comment.objects.all().order_by('-created_at')
 
     def update(self, request: Request, *args, **kwargs) -> Response:

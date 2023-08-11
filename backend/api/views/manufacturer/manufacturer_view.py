@@ -11,4 +11,8 @@ class ManufacturerViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return Manufacturer.objects.none()
+
         return Manufacturer.objects.all().order_by('short_name', 'full_name')

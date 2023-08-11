@@ -1,23 +1,9 @@
-import os
+from django.urls import re_path
 
-from django.urls import path
-from django.views.generic import TemplateView
-from rest_framework.schemas import get_schema_view
-
-import api.policies.allow_all_policy
-from api.routers.route_names import RouteNames
+from api.views.doc.doc_view import docs_schema_view
 
 urlpatterns = [
-    path('openapi/', get_schema_view(
-        title='uServer api API',
-        description="File management API for multiple storages/users",
-        version="1.0.0",
-        url='{}/api/'.format(os.environ['VIRTUAL_HOST']),
-        permission_classes=[api.policies.allow_all_policy.AllowAllPolicy],
-        public=True,
-    ), name=RouteNames.ROUTE_DOC_OPENAPI),
-    path('redoc/', TemplateView.as_view(
-        template_name='redoc.html',
-        extra_context={'schema_url': RouteNames.ROUTE_DOC_OPENAPI}
-    ), name=RouteNames.ROUTE_DOC_REDOC),
+   re_path(r'^swagger(?P<format>\.json|\.yaml)$', docs_schema_view.without_ui(cache_timeout=0), name='schema-json'),
+   re_path(r'^swagger/$', docs_schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+   re_path(r'^redoc/$', docs_schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]

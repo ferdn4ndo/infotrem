@@ -1,5 +1,4 @@
 from api.views.cronjob.cronjob_view import CronJobView
-from api.views.doc.doc_view import SchemaView
 from api.views.email_validation.email_validation_check_view import EmailValidationCheckView
 from api.views.email_validation.email_validation_resend_view import EmailValidationResendView
 from api.views.health.health_view import HealthViewSet

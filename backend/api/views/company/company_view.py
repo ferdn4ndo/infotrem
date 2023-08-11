@@ -11,4 +11,8 @@ class CompanyViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return Company.objects.none()
+
         return Company.objects.all().order_by('-created_at')

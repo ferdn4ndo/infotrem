@@ -77,24 +77,27 @@ def prepare_error_response(exception: BaseApiException, context, debug: bool = F
 
 
 def prepare_debug_information(exception: BaseApiException, context) -> Dict:
+    view = context['view']
+    request = context['request']
+
     debug_info = {
         'exception': str(exception.__class__.__name__),
         'traceback': traceback.format_exc(),
         'view': {
-            'class': str(context['view'].__class__.__name__),
-            'action': str(context['view'].action),
-            'basename': str(context['view'].basename),
+            'class': str(view.__class__.__name__),
+            'action': getattr(view, 'action', ''),
+            'basename': getattr(view, 'basename', ''),
         },
         'args': context['args'],
         'kwargs': context['kwargs'],
-        'user': str(context['request'].user),
+        'user': str(request.user),
         'request': {
-            'url': context['request'].build_absolute_uri(),
-            'method': context['request'].method,
-            'headers': context['request'].headers,
-            'data': context['request'].data,
-            'query_params': context['request'].query_params,
-            'content_type': context['request'].content_type,
+            'url': request.build_absolute_uri(),
+            'method': request.method,
+            'headers': request.headers,
+            'data': request.data,
+            'query_params': request.query_params,
+            'content_type': request.content_type,
         },
     }
 

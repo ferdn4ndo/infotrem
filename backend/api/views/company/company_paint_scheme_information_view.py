@@ -15,6 +15,10 @@ class CompanyPaintSchemeInformationViewSet(FullCRUDListModelViewSet):
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return CompanyPaintSchemeInformation.objects.none()
+
         paint_scheme = get_object_or_404(CompanyPaintScheme.objects.all(), id=self.kwargs['paint_scheme_id'])
 
         return CompanyPaintSchemeInformation.objects.filter(paint_scheme=paint_scheme)

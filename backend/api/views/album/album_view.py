@@ -13,11 +13,25 @@ from core.services.album.album_service import AlbumService
 
 
 class AlbumViewSet(FullCRUDListModelViewSet):
+    """
+    retrieve:
+    Return the given album.
+
+    list:
+    Return a list of all the existing albums.
+
+    create:
+    Create a new album.
+    """
     permission_classes = [IsLoggedInOrReadOnlyPolicy]
     serializer_class = AlbumSerializer
     pagination_class = LargeResultsSetPagination
 
     def get_queryset(self):
+        if getattr(self, "swagger_fake_view", False):
+            # queryset just for schema generation metadata
+            return Album.objects.none()
+
         return Album.objects.all().order_by('title')
 
     def update(self, request: Request, *args, **kwargs) -> Response:
