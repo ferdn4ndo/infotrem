@@ -1,0 +1,19 @@
+---
+description: InfoTrem submodule ownership and PR workflow
+alwaysApply: true
+---
+
+# InfoTrem Submodule Ownership
+
+Agents may always analyze and propose changes for both application submodules:
+
+- `infotrem-web`
+- `infotrem-api`
+
+When implementing fixes, features, or improvements, agents may create branches
+and open pull requests in either or both submodule repositories when that is the
+right scope for the work.
+
+Keep root orchestration changes in the root `infotrem` repository. Keep
+frontend and backend implementation changes in their owning submodules unless
+the user explicitly asks for a different layout.

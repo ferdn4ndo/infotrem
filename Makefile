@@ -5,7 +5,7 @@ WEB_DIR := infotrem-web
 API_URL ?= http://localhost:8080
 WEB_URL ?= http://localhost:5173
 
-.PHONY: submodules env api-up api-down api-logs web-install web-dev dev integration-smoke
+.PHONY: submodules env api-up api-down api-logs web-install web-dev dev integration-smoke contract-smoke full-stack-smoke
 
 submodules:
 	git submodule update --init --recursive
@@ -34,3 +34,12 @@ dev: api-up
 
 integration-smoke:
 	API_URL="$(API_URL)" WEB_URL="$(WEB_URL)" ./scripts/integration-smoke.sh
+
+contract-smoke:
+	API_URL="$(API_URL)" node ./scripts/check-openapi-contract.js
+
+full-stack-smoke: api-up
+	./scripts/wait-url.sh "$(API_URL)/health"
+	$(MAKE) contract-smoke
+	yarn --cwd $(WEB_DIR) build
+	yarn --cwd $(WEB_DIR) test:e2e
