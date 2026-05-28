@@ -60,6 +60,7 @@ uServer ecosystem.
 - `docs/integration-testing.md`: smoke checks and test boundaries.
 - `docs/production.md`: production deployment contracts.
 - `docs/data-ingestion.md`: raw source files and future fixture ingestion.
+- `docs/frontend-backend-parity.md`: cross-repo backend-to-frontend feature roadmap.
 
 Submodule-specific guidance remains in:
 
