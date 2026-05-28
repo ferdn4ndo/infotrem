@@ -9,3 +9,6 @@
 # Environments
 **/.env
 **/venv/
+
+# Local safety backups created while converting nested app folders to submodules.
+.submodule-backups/

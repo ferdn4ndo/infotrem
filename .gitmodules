@@ -1,0 +1,6 @@
+[submodule "infotrem-api"]
+	path = infotrem-api
+	url = https://github.com/ferdn4ndo/infotrem-api
+[submodule "infotrem-web"]
+	path = infotrem-web
+	url = git@github.com:ferdn4ndo/infotrem-web.git
